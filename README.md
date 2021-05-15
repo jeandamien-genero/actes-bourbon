@@ -40,7 +40,7 @@ Cette application est développée par Jean-Damien Généro dans le cadre des en
     
     * Flask et lxml : ```pip3 install flask``` et ```pip3 install lxml``` ;
     
-    * SQLAlchemy : ```pip install flask_sqlalchemy==2.3.2``` ;
+    * SQLAlchemy : ```pip install flask_sqlalchemy``` ;
     
     * Vérifier que tout est installé : ```pip freeze``` ;
     
