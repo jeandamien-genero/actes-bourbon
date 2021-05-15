@@ -4,7 +4,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Actes de Charles Ier de Bourbon</title>
+            <title>Index des noms</title>
             <respStmt>
                <resp>Transcription, édition et encodage réalisés par</resp>
                <name>Jean-Damien Généro</name>
@@ -22,1610 +22,931 @@
             <p>Les transcriptions sont effectuées à partir de documents issus de divers fonds d'archives et de bibliothèques français, par Jean-Damien Généro.</p>
          </sourceDesc>
       </fileDesc>
-      <encodingDesc>
-         <projectDesc>
-            <p>Cette application est développée dans le cadre des enseignements du Master « Technologies numériques appliquées à l'histoire » de l'École nationale des chartes (XML-TEI, XSLT, HTML, CSS, SQL, Python). Il s'agit de présenter un échantillon des actes de Charles I<hi rend="sup">er</hi> de Bourbon sous la forme d'une édition diplomatique, et d'en tirer automatiquement un <hi rend="i">index locorum</hi> et un <hi rend="i">index nominum</hi>.</p>
-            <p> Les actes sont encodés dans un fichier XML-TEI auquel est appliqué une feuille de transformation XSL dynamique. Celle-ci transforme la section du fichier XML-TEI correspondante à l'id de l'acte demandé dans l'url grâce à la librairie lxml de Python. Le résultat de la transformation est ensuite placé dans un document HTML via des templates. Le contenu de ce document est enfin affiché dans le navigateur via le framework Flask. Les index (anthroponymique, toponymique et prosopographique) sont constitués suivant cette même méthode.</p>
-            <p>Les actes avaient été réunis, transcrits et édités dans le cadre d'un Master recherche dirigé par le Pr. Olivier Mattéoni et soutenu à l'École d'histoire de l'Université Paris I Panthéon-Sorbonne en 2018. Prenant appui sur ce travail d'édition, le mémoire proposait également une étude de la chancellerie ducale au milieu du XV<hi rend="sup">e</hi> siècle.</p>
-            <p>Depuis plusieurs années, les éditions de corpus d'actes princiers de la fin du Moyen Âge et les études des chancelleries qui les ont produits se multiplient et bénéficient d'un regain d'intérêt. Ce mouvement est notamment porté par deux programmes d'envergure, concernant les actes de Jean de Berry (1340-1416) et ceux des ducs et duchesses de Bourbon de la fin du XIII<hi rend="sup">e</hi> siècle au milieu du XV<hi rend="sup">e</hi> siècle. Le premier, mené dans le cadre d'un séminaire commun de l'École nationale des chartes et de l'Université Paris I Panthéon-Sorbonne, a donné lieu à l'organisation d'un colloque à Bourges les 16 et 17 juin 2016, dont les actes sont parus en 2019. Le second, dirigé par Olivier Mattéoni, s'est traduit par plusieurs articles et deux mémoires de recherche.</p>
-            <p>De nombreuses éditions similaires avaient été menées précédemment. Elles concernaient notamment les productions diplomatiques des ducs de Bretagne et de Bourgogne. Mais, chemin faisant, la diplomatique princière ne s'était que très partiellement saisie des outils développés par les humanités numériques. La publicatoin des actes du duc de Berry se distingue en cela par la présentation de quatorze actes sur le site des Archives départementales du Cher.</p>
-            <p>La présente application cherche à s'inscrire dans la suite de cette première expérience. L'ensemble du code est disponible sur GitHub.</p>
-         </projectDesc>
-         <samplingDecl>
-            <p>Échantillon des trente-deux premiers actes du corpus des actes de Charles Ier de Bourbon.</p>
-         </samplingDecl>
-         <editorialDecl>
-            <correction method="markup">
-               <p>La transcription est fidèle au texte d'origine. Les rares corrections sont signalées en notes.</p>
-            </correction>
-            <normalization method="silent">
-               <p>Toutes les abréviations ont été développées, mais aucun encodage ne le signale : ce document est basé sur un document texte où les abréviations ne sont pas signalées.</p>
-            </normalization>
-            <punctuation>
-               <p>La ponctuation a été normalisée, mais aucun encodage ne le signale : ce document est basé sur un document texte où les ajouts ne sont pas signalés.</p>
-            </punctuation>
-            <segmentation>
-               <p>Les textes sont segmentés selon les parties du discours diplomatiques.</p>
-            </segmentation>
-            <stdVals>
-               <p>La chancellerie du duc de Bourbon utilisait le style de Pâques. Les textes édités suivent le style du 1<hi rend="sup">er</hi> janvier. Tout changement est signalé par la mention <hi rend="i">(n. st.)</hi> (nouveau style).</p>
-            </stdVals>
-            <interpretation>
-               <p>Lorsque l'acte est analysé dans un inventaire, cette analyse a été reprise, modifiée et développée.</p>
-            </interpretation>
-         </editorialDecl>
-         <refsDecl>
-            <p>L'indication <hi rend="i">Titres de Bourbon</hi> renvoie à : <hi rend="i">Titres de l’ancienne maison ducale de Bourbon</hi>, 2, Alphonse Huillard-Bréholles, Albert Lecoy de La Marche (éd.), Paris, 1867-1874.</p>
-         </refsDecl>
-      </encodingDesc>
-      <profileDesc>
-         <langUsage>
-            <language ident="frm">Moyen français</language>
-         </langUsage>
-         <settingDesc>
-            <place xml:id="Albi">
-               <placeName>
-                  <name xml:lang="oci">Albi</name>
-                  <name xml:lang="fr">Albi</name>
-               </placeName>
-               <desc>Tarn</desc>
-               <location>
-                  <geo source="https://fr.wikipedia.org/wiki/Albi">43° 55′ 44″ nord, 2° 08′ 47″ est</geo>
-               </location>
-            </place>
-            <place xml:id="Moulins">
-               <placeName type="production_place">
-                  <name xml:lang="frm">Molins</name>
-                  <name xml:lang="fr">Moulins</name>
-               </placeName>
-               <desc>Allier</desc>
-               <location>
-                  <geo source="https://fr.wikipedia.org/wiki/Moulins_(Allier)">46° 33′ 55″ nord, 3° 20′ 00″ est</geo>
-               </location>
-            </place>
-            <place xml:id="SaintFlour">
-               <placeName>
-                  <name xml:lang="oci">Saint Flor</name>
-                  <name xml:lang="fr">Saint-Flour</name>
-               </placeName>
-               <desc>Cantal</desc>
-               <location>
-                  <geo>45° 02′ 04″ nord, 3° 05′ 37″ est</geo>
-               </location>
-            </place>
-            <place xml:id="Auvergne">
-               <placeName>
-                  <name xml:lang="fr">Auvergne</name>
-               </placeName>
-               <desc>duché d'</desc>
-            </place>
-            <place xml:id="Gevaudan">
-               <placeName>
-                  <name xml:lang="oci">Janalda</name>
-                  <name xml:lang="fr">Gévaudan</name>
-               </placeName>
-               <desc>pays de</desc>
-            </place>
-            <place xml:id="Languedoc">
-               <placeName>
-                  <name xml:lang="oci">pays de lengua d'oc</name>
-                  <name xml:lang="fr">Languedoc</name>
-               </placeName>
-               <desc>pays de</desc>
-            </place>
-            <place xml:id="Velay">
-               <placeName>
-                  <name xml:lang="oci">Veleyt</name>
-                  <name xml:lang="fr">Velay</name>
-               </placeName>
-               <desc>pays du</desc>
-            </place>
-            <place xml:id="BourgogneD">
-               <placeName>
-                  <name xml:lang="frm">Bourgoingne</name>
-                  <name xml:lang="fr">Bourgogne</name>
-               </placeName>
-               <desc>duché de</desc>
-            </place>
-            <place xml:id="Charolais">
-               <placeName>
-                  <name xml:lang="frm">Charrolois</name>
-                  <name xml:lang="fr">Charolais</name>
-               </placeName>
-               <desc>comté de</desc>
-            </place>
-            <place xml:id="Bourbonnais">
-               <placeName>
-                  <name xml:lang="frm">Bourbonnois</name>
-                  <name xml:id="fr">Bourbonnais</name>
-               </placeName>
-               <desc>duché de</desc>
-            </place>
-            <place xml:id="Beaujolais">
-               <placeName>
-                  <name xml:lang="frm">Beauljeulois</name>
-                  <name xml:lang="fr">Beaujolais</name>
-               </placeName>
-               <desc>seigneurie de</desc>
-            </place>
-            <place xml:id="ChateauChinon">
-               <placeName>
-                  <name xml:lang="frm">Chastel Chignon</name>
-                  <name xml:lang="fr">Château-Chinon</name>
-               </placeName>
-               <desc>seigneurie de</desc>
-            </place>
-            <place xml:id="Tutbury">
-               <placeName>
-                  <name xml:lang="frm">chastel de Tutebery</name>
-                  <name xml:lang="fr">Tutbury</name>
-               </placeName>
-               <desc>château de, Angleterre, Staffordshire</desc>
-            </place>
-            <place xml:id="Angleterre">
-               <placeName>
-                  <name xml:lang="fr">Angleterre</name>
-               </placeName>
-               <desc>royaume d'</desc>
-            </place>
-            <place xml:id="Rome">
-               <placeName>
-                  <name xml:lang="fr">Rome</name>
-               </placeName>
-               <desc>Italie</desc>
-            </place>
-            <place xml:id="BourgogneC">
-               <placeName>
-                  <name xml:lang="frm">Bourgoigne</name>
-                  <name xml:lang="fr">Bourgogne</name>
-               </placeName>
-               <desc>comté de</desc>
-            </place>
-            <place xml:id="Autun">
-               <placeName type="production_place">
-                  <name xml:lang="frm">Ostun</name>
-                  <name xml:lang="fr">Autun</name>
-               </placeName>
-               <desc>Saône-et-Loire</desc>
-               <location>
-                  <geo>46° 57′ 06″ nord, 4° 17′ 58″ est</geo>
-               </location>
-            </place>
-            <place xml:id="Dijon">
-               <placeName>
-                  <name xml:lang="fr">Dijon</name>
-               </placeName>
-               <desc>Côte-d'Or</desc>
-               <location>
-                  <geo>47° 19′ 18″ nord, 5° 02′ 29″ est</geo>
-               </location>
-            </place>
-            <place xml:id="ChateauBelin">
-               <placeName>
-                  <name xml:lang="frm">Chasteaulbelin</name>
-                  <name xml:lang="fr">Chasteaulbelin</name>
-               </placeName>
-               <desc>com. Salins-les-Bains, Jura</desc>
-               <note>Ajd. le fort Belin.</note>
-            </place>
-            <place xml:id="Souvigny">
-               <placeName type="production_place">
-                  <name xml:lang="frm">Sovigny</name>
-                  <name xml:lang="fr">Souvigny</name>
-               </placeName>
-               <desc>Allier</desc>
-               <location>
-                  <geo>46° 32′ 08″ nord, 3° 11′ 34″ est</geo>
-               </location>
-            </place>
-            <place xml:id="Chaussiere">
-               <placeName>
-                  <name xml:lang="frm">La Chauciere</name>
-                  <name xml:lang="fr">La Chaussiere</name>
-               </placeName>
-               <desc>com. Vieure, Allier</desc>
-               <location>
-                  <geo>46° 30′ 49″ N, 2° 53′ 18″ E</geo>
-               </location>
-            </place>
-            <place xml:id="Clermont">
-               <placeName>
-                  <name xml:lang="frm">Clermont en Beauvoisin</name>
-                  <name xml:lang="fr">Clermont-en-Beauvaisis</name>
-               </placeName>
-               <desc>comté de</desc>
-            </place>
-            <place xml:id="Montpensier">
-               <placeName>
-                  <name xml:lang="frm">Montpencier</name>
-                  <name xml:lang="fr">Montpensier</name>
-               </placeName>
-               <desc>comté de</desc>
-            </place>
-            <place xml:id="FranceR">
-               <placeName>
-                  <name xml:lang="fr">France</name>
-               </placeName>
-               <desc>royaume de</desc>
-            </place>
-            <place xml:id="Riom">
-               <placeName type="production_place">
-                  <name xml:lang="frm">Rion</name>
-                  <name xml:lang="fr">Riom</name>
-               </placeName>
-               <desc>Puy-de-Dôme</desc>
-               <location>
-                  <geo>45° 53′ 40″ nord, 3° 06′ 48″ est</geo>
-               </location>
-            </place>
-            <place xml:id="Guyenne">
-               <placeName>
-                  <name xml:lang="frm">Guienne</name>
-                  <name xml:lang="fr">Guyenne</name>
-               </placeName>
-               <desc>duché de</desc>
-            </place>
-            <place xml:id="Montbrison">
-               <placeName type="production_place">
-                  <name xml:lang="frm">Montbrison</name>
-                  <name xml:lang="fr">Montbrison</name>
-               </placeName>
-               <desc>Loire</desc>
-               <location>
-                  <geo>45° 36′ 30″ nord, 4° 03′ 57″ est</geo>
-               </location>
-            </place>
-            <place xml:id="Lyon">
-               <placeName>
-                  <name xml:lang="fr">Lyon</name>
-               </placeName>
-               <desc>Rhône</desc>
-               <location>
-                  <geo>45° 45′ 35″ nord, 4° 50′ 32″ est</geo>
-               </location>
-            </place>
-            <place xml:id="StBonnetpresRiom">
-               <placeName>
-                  <name xml:lang="frm">Saint Bonnet delas Champs</name>
-                  <name xml:lang="fr">Saint-Bonnet-près-Riom</name>
-               </placeName>
-               <desc>Puy-de-Dôme</desc>
-               <location>
-                  <geo>45° 55′ 50″ nord, 3° 06′ 50″ est</geo>
-               </location>
-            </place>
-            <place xml:id="Gannat">
-               <placeName type="production_place">
-                  <name xml:lang="fr">Gannat</name>
-               </placeName>
-               <desc>Allier</desc>
-               <location>
-                  <geo>46° 06′ 02″ nord, 3° 11′ 57″ est</geo>
-               </location>
-            </place>
-            <place xml:id="Lyonnais">
-               <placeName>
-                  <name xml:lang="frm">Lionnoiz</name>
-                  <name xml:lang="fr">Lyonnais</name>
-               </placeName>
-               <desc>pays de</desc>
-            </place>
-            <place xml:id="Maconnais">
-               <placeName>
-                  <name xml:lang="frm">Masconnoiz</name>
-                  <name xml:lang="fr">Mâconnais</name> 
-               </placeName>
-               <desc>pays de</desc>
-            </place>
-            <place xml:id="Charite">
-               <placeName>
-                  <name xml:lang="frm">La Charité sur Loire</name>
-                  <name xml:lang="fr">La Charité-sur-Loire</name>
-               </placeName>
-               <desc>Nièvre</desc>
-               <location>
-                  <geo>47° 10′ 40″ nord, 3° 01′ 11″ est</geo>
-               </location>
-            </place>
-            <place xml:id="Villefranche">
-               <placeName>
-                  <name xml:lang="frm">Villefranche en Beaujeulois</name>
-                  <name xml:lang="fr">Villefranche-sur-Saône</name>
-               </placeName>
-               <desc>Rhône</desc>
-               <location>
-                  <geo>45° 59′ 25″ nord, 4° 43′ 13″ est</geo>
-               </location>
-            </place>
-            <place xml:id="Chinon">
-               <placeName type="production_place">
-                  <name xml:lang="fr">Chinon</name>
-               </placeName>
-               <desc>Indre-et-Loire</desc>
-               <location>
-                  <geo>47° 10′ 04″ nord, 0° 14′ 37″ est</geo>
-               </location>
-            </place>
-            <place xml:id="Allier_riv">
-               <placeName>
-                  <name xml:lang="frm">Alier</name>
-                  <name xml:lang="fr">Allier</name>
-               </placeName>
-               <desc>rivière</desc>
-            </place>
-            <place xml:id="Vichy">
-               <placeName>
-                  <name xml:lang="fr">Vichy</name>
-               </placeName>
-               <desc>Allier</desc>
-               <location>
-                  <geo>46° 07′ 28″ nord, 3° 25′ 42″ est</geo>
-               </location>
-            </place>
-            <place xml:id="BourbonArch">
-               <placeName>
-                  <name xml:lang="frm">Bourbon</name>
-                  <name xml:lang="fr">Bourbon-l'Archambault</name>
-               </placeName>
-               <desc>Allier</desc>
-               <location>
-                  <geo>46° 35′ 03″ nord, 3° 03′ 26″ est</geo>
-               </location>
-            </place>
-            <place xml:id="Montlucon">
-               <placeName type="production_place">
-                  <name xml:lang="fr">Montluçon</name>
-               </placeName>
-               <desc>Allier</desc>
-               <location>
-                  <geo>46° 20′ 27″ nord, 2° 36′ 12″ est</geo>
-               </location>
-            </place>
-            <place xml:id="Beaujeu">
-               <placeName>
-                  <name xml:lang="fr">Beaujeu</name>
-               </placeName>
-               <desc>Allier</desc>
-               <location>
-                  <geo>46° 09′ 18″ nord, 4° 35′ 20″ est</geo>
-               </location>
-            </place>
-            <place xml:id="Herisson">
-               <placeName type="production_place">
-                  <name xml:lang="frm">Heriçon</name>
-                  <name xml:lang="fr">Hérisson</name>
-               </placeName>
-               <desc>Allier</desc>
-               <location>
-                  <geo>46° 30′ 34″ nord, 2° 42′ 44″ est</geo>
-               </location>
-            </place>
-            <place xml:id="StPourcain">
-               <placeName>
-                  <name xml:lang="frm">Saint Poursain</name>
-                  <name xml:lang="fr">Saint-Pourçain-sur-Sioule</name>
-               </placeName>
-               <desc>Allier</desc>
-               <location>
-                  <geo> 46° 18′ 30″ nord, 3° 17′ 24″ est</geo>
-               </location>
-            </place>
-            <place xml:id="Vinzelles">
-               <placeName>
-                  <name xml:lang="frm">Vinzella</name>
-                  <name xml:lang="fr">Vinzelles (La)</name>
-               </placeName>
-               <desc>Puy-de-Dôme</desc>
-               <location>
-                  <geo source="https://fr.wikipedia.org/wiki/Vinzelles_(Puy-de-D%C3%B4me)">45° 55′ 36″ nord, 3° 23′ 54″ est</geo>
-               </location>
-            </place>
-            <place xml:id="Calvinet">
-               <placeName>
-                  <name xml:lang="fr">Calvinet</name>
-               </placeName>
-               <desc>Cantal</desc>
-               <location>
-                  <geo source="https://fr.wikipedia.org/wiki/Calvinet">44° 43′ 07″ nord, 2° 21′ 30″ est</geo>
-               </location>
-            </place>
-            <place xml:id="Villemur">
-               <placeName>
-                  <name xml:lang="fr">Villemur</name>
-               </placeName>
-               <desc>vicomté et seigneurie de, Hautes-Pyrénées</desc>
-            </place>
-            <place xml:id="Combrailles">
-               <placeName>
-                  <name xml:lang="fr">Combrailles</name>
-               </placeName>
-               <desc>Les, pays de</desc>
-            </place>
-            <place xml:id="BlancsFosses">
-               <placeName>
-                  <name xml:lang="frm">Blans Foussés</name>
-                  <name xml:lang="fr">Blancs-Fossés</name>
-               </placeName>
-               <desc>terre et forteresse de) (com. Couleuvre, Allier</desc>
-            </place>
-            <place xml:id="Chazeuil">
-               <placeName>
-                  <name xml:lang="frm">Chaseul</name>
-                  <name xml:lang="fr">Chazeuil</name>
-               </placeName>
-               <desc>com. Varennes-sur-Allier, Allier</desc>
-               <location>
-                  <geo source="https://fr.wikipedia.org/wiki/Chazeuil_(Allier)">46° 19′ 47″ nord, 3° 23′ 14″ est</geo>
-               </location>
-            </place>
-            <place xml:id="Issoire">
-               <placeName>
-                  <name xml:lang="fr">Issoire</name>
-               </placeName>
-               <desc>Puy-de-Dôme</desc>
-               <location>
-                  <geo source="https://fr.wikipedia.org/wiki/Issoire">45° 32′ 42″ nord, 3° 14′ 59″ est</geo>
-               </location>
-            </place>
-            <place xml:id="Chantelle">
-               <placeName type="production_place">
-                  <name xml:lang="fr">Chantelle</name>
-               </placeName>
-               <desc>Allier</desc>
-               <location>
-                  <geo>46° 14′ 20″ nord, 3° 09′ 14″ est</geo>
-               </location>
-            </place>
-            <place xml:id="Trevoux">
-               <placeName>
-                  <name xml:lang="fr">Trévoux</name>
-               </placeName>
-               <desc>Ain</desc>
-               <location>
-                  <geo>45° 56′ 28″ nord, 4° 46′ 30″ est</geo>
-               </location>
-            </place>
-            <place xml:id="Donzois">
-               <placeName>
-                  <name xml:lang="fr">Donzois</name>
-               </placeName>
-               <desc>pays de</desc>
-            </place>
-            <place xml:id="Forez">
-               <placeName>
-                  <name xml:lang="fr">Forez</name>
-               </placeName>
-               <desc>comté de</desc>
-            </place>
-            <place xml:id="BourgenBresse">
-               <placeName>
-                  <name xml:lang="frm">Boure en Bresse</name>
-                  <name xml:lang="fr">Bourg-en-Bresse</name>
-               </placeName>
-               <desc>Ain</desc>
-               <location>
-                  <geo source="https://fr.wikipedia.org/wiki/Bourg-en-Bresse">46° 12′ 20″ nord, 5° 13′ 44″ est</geo>
-               </location>
-            </place>
-            <place xml:id="Macon">
-               <placeName>
-                  <name xml:lang="frm">Mascon</name>
-                  <name xml:lang="fr">Mâcon</name>
-               </placeName>
-               <desc>Saône-et-Loire</desc>
-               <location>
-                  <geo source="https://fr.wikipedia.org/wiki/M%C3%A2con">46° 18′ 22″ nord, 4° 49′ 53″ est</geo>
-               </location>
-            </place>
-            <place xml:id="Bresse">
-               <placeName>
-                  <name xml:lang="fr">Bresse</name>
-               </placeName>
-               <desc>pays de</desc>
-            </place>
-            <place xml:id="SuryleB">
-               <placeName>
-                  <name xml:lang="fr">Sury-le-Bois</name>
-               </placeName>
-               <desc>com. Valeille, Loire</desc>
-               <location>
-                  <geo source="https://fr.wikipedia.org/wiki/Valeille">45° 42′ 30″ nord, 4° 18′ 27″ est</geo>
-               </location>
-            </place>
-            <place xml:id="Nivernais">
-               <placeName>
-                  <name xml:lang="frm">Nivernois</name>
-                  <name xml:lang="fr">Nivernais</name>
-               </placeName>
-               <desc>pays de</desc>
-            </place>
-            <place xml:id="Cluny">
-               <placeName>
-                  <name xml:lang="frm">Clugny</name>
-                  <name xml:lang="fr">Cluny</name>
-               </placeName>
-               <desc>Saône-et-Loire</desc>
-            </place>
-            <place xml:id="Marcigny">
-               <placeName>
-                  <name xml:lang="frm">Marcegny les Nonnains</name>
-                  <name xml:lang="frm">Marsegny</name>
-                  <name xml:lang="fr">Marcigny-les-Nonnais</name>
-               </placeName>
-               <desc>Saône-et-Loire</desc>
-               <location>
-                  <geo source="https://fr.wikipedia.org/wiki/Marcigny">46° 16′ 32″ nord, 4° 02′ 32″ est</geo>
-               </location>
-            </place>
-            <place xml:id="Tournus">
-               <placeName>
-                  <name xml:lang="frm">Tournuz</name>
-                  <name xml:lang="fr">Tournus</name>
-               </placeName>
-               <desc>Saône-et-Loire</desc>
-               <location>
-                  <geo source="https://fr.wikipedia.org/wiki/Tournus">46° 33′ 50″ nord, 4° 54′ 33″ est</geo>
-               </location>
-            </place>
-            <place xml:id="StGengoux">
-               <placeName>
-                  <name xml:lang="frm">Saint Jengoul</name>
-                  <name xml:lang="fr">Saint-Gengoux-le-National</name>
-               </placeName>
-               <desc>Saône-et-Loire</desc>
-               <location>
-                  <geo source="https://fr.wikipedia.org/wiki/Saint-Gengoux-le-National">46° 36′ 53″ nord, 4° 39′ 49″ est</geo>
-               </location>
-            </place>
-            <place xml:id="StMarieduB">
-               <placeName>
-                  <name xml:lang="frm">Saincte Marie du Bois</name>
-                  <name xml:lang="fr">Bois-Sainte-Marie</name>
-               </placeName>
-               <desc>Saône-et-Loire</desc>
-               <location>
-                  <geo source="https://fr.wikipedia.org/wiki/Bois-Sainte-Marie">46° 19′ 48″ nord, 4° 21′ 21″ est</geo>
-               </location>
-            </place>
-            <place xml:id="ChalonsurSaone">
-               <placeName>
-                  <name xml:lang="frm">Chalon</name>
-                  <name xml:lang="fr">Chalon-sur-Saône</name>
-               </placeName>
-               <desc>Saône-et-Loire</desc>
-               <location>
-                  <geo source="https://fr.wikipedia.org/wiki/Chalon-sur-Sa%C3%B4ne">46° 46′ 50″ nord, 4° 51′ 10″ est</geo>
-               </location>
-            </place>
-            <place xml:id="Sancerre">
-               <placeName>
-                  <name xml:lang="fr">Sancerre</name>
-               </placeName>
-               <desc>comté de</desc>
-            </place>
-            <place xml:id="Cusset">
-               <placeName>
-                  <name xml:lang="frm">Cussé</name>
-                  <name xml:lang="fr">Cusset</name>
-               </placeName>
-               <desc>Allier</desc>
-               <location>
-                  <geo source="https://fr.wikipedia.org/wiki/Cusset">46° 08′ 07″ nord, 3° 27′ 26″ est</geo>
-               </location>
-            </place>
-            <place xml:id="Charlieu">
-               <placeName>
-                  <name xml:lang="fr">Charlieu</name>
-               </placeName>
-               <desc>Loire</desc>
-               <location>
-                  <geo source="https://fr.wikipedia.org/wiki/Charlieu">46° 09′ 36″ nord, 4° 10′ 21″ est</geo>
-               </location>
-            </place>
-            <place xml:id="Chateauneuf">
-               <placeName>
-                  <name xml:lang="frm">Chastelneuf</name>
-                  <name xml:lang="fr">Châteauneuf</name>
-               </placeName>
-               <desc>Loire</desc>
-               <location>
-                  <geo source="https://fr.wikipedia.org/wiki/Ch%C3%A2teauneuf_(Loire)">45° 31′ 22″ nord, 4° 37′ 32″ est</geo>
-               </location>
-            </place>
-            <place xml:id="Ambierle">
-               <placeName>
-                  <name xml:lang="fr">Ambierle</name>
-               </placeName>
-               <desc>Loire</desc>
-               <location>
-                  <geo source="https://fr.wikipedia.org/wiki/Ambierle">46° 06′ 19″ nord, 3° 53′ 47″ est</geo>
-               </location>
-            </place>
-            <place xml:id="Esbinelle">
-               <placeName>
-                  <name xml:lang="fr">Esbruelle ou Esbinelle</name>
-               </placeName>
-               <desc>non-identifié</desc>
-            </place>
-            <place xml:id="NeversC">
-               <placeName>
-                  <name xml:lang="fr">Nevers</name>
-               </placeName>
-               <desc>comté de</desc>
-            </place>
-            <place xml:id="RethelC">
-               <placeName>
-                  <name xml:lang="fr">Rethel</name>
-               </placeName>
-               <desc>comté de</desc>
-            </place>
-            <place xml:id="StPierreleMoutier">
-               <placeName>
-                  <name xml:lang="frm">Saint Pierre le Moustier</name>
-                  <name xml:lang="fr">Saint-Pierre-le-Moûtier</name>
-               </placeName>
-               <desc>Nièvre</desc>
-               <location>
-                  <geo source="https://fr.wikipedia.org/wiki/Saint-Pierre-le-Mo%C3%BBtier">46° 47′ 30″ nord, 3° 07′ 08″ est</geo>
-               </location>
-            </place>
-            <place xml:id="Sancoins">
-               <placeName>
-                  <name xml:lang="frm">Cenquoins</name>
-                  <name xml:lang="fr">Sancoins</name>
-               </placeName>
-               <desc>Cher</desc>
-               <location>
-                  <geo source="https://fr.wikipedia.org/wiki/Sancoins">46° 49′ 58″ nord, 2° 55′ 11″ est</geo>
-               </location>
-            </place>
-            <place xml:id="Cosne">
-               <placeName>
-                  <name xml:lang="frm">Cosne</name>
-                  <name xml:lang="fr">Cosne-Cours-sur-Loire</name>
-               </placeName>
-               <desc>Nièvre</desc>
-               <location>
-                  <geo source="https://fr.wikipedia.org/wiki/Cosne-Cours-sur-Loire">47° 24′ 44″ nord, 2° 55′ 39″ est</geo>
-               </location>
-            </place>
-            <place xml:id="Rosemont">
-               <placeName>
-                  <name xml:lang="fr">Rosemont</name>
-               </placeName>
-               <desc>com. Luthenay-Uxeloup, Nièvre</desc>
-               <location>
-                  <geo source="https://fr.wikipedia.org/wiki/Luthenay-Uxeloup">46° 51′ 05″ nord, 3° 15′ 51″ est</geo>
-               </location>
-            </place>
-         </settingDesc>
-         <particDesc>
-            <listPerson type="rois">
-               <person xml:id="JeanII">
-                  <persName>
-                     <forename>Jean II</forename>
-                     <nameLink>de</nameLink>
-                     <surname>France</surname>
-                  </persName>
-                  <note>Roi de France (22 août 1350 – 8 avril 1364).</note>
-               </person>
-               <person xml:id="ChVI">
-                  <persName>
-                     <forename>Charles VI</forename>
-                     <nameLink>de</nameLink>
-                     <surname>France</surname>
-                  </persName>
-                  <note>Roi de France (16 septembre 1380 – 21 octobre 1422).</note>
-               </person>
-               <person xml:id="ChVII">
-                  <persName>
-                     <forename>Charles VII</forename>
-                     <nameLink>de</nameLink>
-                     <surname>France</surname>
-                  </persName>
-                  <note>Roi de France (21 octobre 1422 – 22 juillet 1461).</note>
-               </person>
-               <person xml:id="HenriV">
-                  <persName>
-                     <forename>Henri V</forename>
-                     <nameLink>d'</nameLink>
-                     <surname>Angleterre</surname>
-                  </persName>
-                  <note>Roi d'Angleterre (20 mars 1413 – 31 août 1422).</note>
-               </person>
-               <person xml:id="HenriVI">
-                  <persName>
-                     <forename>Henri VI</forename>
-                     <nameLink>d'</nameLink>
-                     <surname>Angleterre</surname>
-                  </persName>
-                  <note>Roi d'Angleterre (31 août 1422 – 4 mars 1461).</note>
-               </person>
-            </listPerson>
-            <listPerson type="hommes_du_roi">
-               <person xml:id="ChartresR">
-                  <persName>
-                     <forename>Regnault</forename>
-                     <nameLink>de</nameLink>
-                     <surname>Chartres</surname>
-                  </persName>
-                  <note>Archevêque-duc de Reims (1414-1444), chancelier de Charles VII de France (1424, 1428-1444).</note>
-               </person>
-               <person xml:id="PoitiersCh">
-                  <persName>
-                     <forename>Charles</forename>
-                     <nameLink>de</nameLink>
-                     <surname>Poitiers</surname>
-                  </persName>
-                  <note>Évêque de Langres</note>
-               </person>
-               <person xml:id="SeaumeJ">
-                  <persName>
-                     <forename>Jean</forename>
-                     <surname>Seaume</surname>
-                  </persName>
-                  <note>Receveur general de toutes finances et trésorier des guerres en Languedoc et en Guyenne.</note>
-               </person>
-               <person xml:id="CourtetE">
-                  <persName>
-                     <forename>Estienne</forename>
-                     <surname>Courtet</surname>
-                  </persName>
-                  <note>Receveur pour le bailliage des Montagnes d'Auvergne de l'aide des trois états du pays d'Auvergne pour le ravitaillement d'Orléans et la guerre contre l'Angleterre</note>
-               </person>
-               <person xml:id="NoelG">
-                  <persName>
-                     <forename>Gaillard</forename>
-                     <surname>Noël</surname>
-                  </persName>
-                  <note>Receveur de l'aide du pays d'Auvergne (années 1420).</note>
-               </person>
-               <person xml:id="TremoilleG">
-                  <persName>
-                     <forename>Georges</forename>
-                     <nameLink>de la</nameLink>
-                     <surname>Trémoille</surname>
-                  </persName>
-                  <note>Seigneur de Sully.</note>
-               </person>
-               <person xml:id="RichemontA">
-                  <persName>
-                     <forename>Arthur</forename>
-                     <nameLink>de</nameLink>
-                     <surname>Richemont</surname>
-                  </persName>
-                  <note>Frère du duc Jean V de Bretagne, connétable de France (1425-1458), duc de Bretagne (1457-1458).</note>
-               </person>
-               <person xml:id="CAlbert">
-                  <persName>
-                     <forename>Charles II</forename>
-                     <nameLink>d'</nameLink>
-                     <surname>Albret</surname>
-                  </persName>
-                  <note>Sire d'Albret (1415-1471).</note>
-               </person>
-            </listPerson>
-            <listPerson type="Bourbon">
-               <person xml:id="LouisII">
-                  <persName>
-                     <forename>Louis II</forename>
-                     <nameLink>de</nameLink>
-                     <surname>Bourbon</surname>
-                  </persName>
-                  <note>Duc de Bourbon (1356-1410).</note>
-               </person>
-               <person xml:id="JeanI">
-                  <persName>
-                     <forename>Jean Ier</forename>
-                     <nameLink>de</nameLink>
-                     <surname>Bourbon</surname>
-                  </persName>
-                  <note>Duc de Bourbon (1410-1434).</note>
-               </person>
-               <person xml:id="MarieBerry">
-                  <persName>
-                     <forename>Marie</forename>
-                     <nameLink>de</nameLink>
-                     <surname>Berry</surname>
-                  </persName>
-                  <note>Duchesse de Bourbon (1410-1434).</note>
-               </person>
-               <person xml:id="Agnes">
-                  <persName>
-                     <forename>Agnès</forename>
-                     <nameLink>de</nameLink>
-                     <surname>Bourgogne</surname>
-                  </persName>
-                  <note>Duchesse de Bourbon (1434-1456).</note>
-               </person>
-               <person xml:id="Louis_Montpensier">
-                  <persName>
-                     <forename>Louis</forename>
-                     <nameLink>de</nameLink>
-                     <surname>Bourbon</surname>
-                  </persName>
-                  <note>Fils de Jean Ier et Marie de Berry, comte de Montpensier.</note>
-               </person>
-            </listPerson>
-            <listPerson type="hotel_ChI">
-               <person xml:id="Apinac">
-                  <persName>
-                     <forename>Louis</forename>
-                     <surname>Mareschal</surname>
-                  </persName>
-                  <note>Seigneur de Saint-Priest et d'Apinac, chambellan (cité de 1435 à 1449).</note>
-               </person>
-               <person xml:id="BarresL">
-                  <persName>
-                     <forename>Louis</forename>
-                     <nameLink>des</nameLink>
-                     <surname>Barres</surname>
-                  </persName>
-                  <note>Chevalier, chambellan (cité en 1442).</note>
-               </person>
-               <person xml:id="BoutheonB">
-                  <persName>
-                     <forename>Bertrand III</forename>
-                     <nameLink>de</nameLink>
-                     <surname>Bouthéon</surname>
-                  </persName>
-                  <note>Maître de l'Hôtel (cité en 1437 et 1442).</note>
-               </person>
-               <person xml:id="ParentR">
-                  <persName>
-                     <forename>Robert</forename>
-                     <surname>Parent</surname>
-                  </persName>
-                  <note>Maître de la chambre aux deniers (cité en 1441).</note>
-               </person>
-               <person xml:id="SurelJ">
-                  <persName>
-                     <forename>Jean</forename>
-                     <surname>Surel</surname>
-                  </persName>
-                  <note>Écuyer d'écurie.</note>
-               </person>
-               <person xml:id="MontmuratJ">
-                  <persName>
-                     <forename>Janicot</forename>
-                     <nameLink>de</nameLink>
-                     <surname>Montmurat</surname>
-                  </persName>
-                  <note>Écuyer d'écurie (cité en 1429 et 1431).</note>
-               </person>
-               <person xml:id="VillarsJ">
-                  <persName>
-                     <forename>Jean</forename>
-                     <nameLink>de</nameLink>
-                     <surname>Villars</surname>
-                     <addName>Barrilhet</addName>
-                  </persName>
-                  <note>Écuyer d'écurie (cité en 1430).</note>
-               </person>
-               <person xml:id="TeillayeP">
-                  <persName>
-                     <forename>Pierre</forename>
-                     <nameLink>de la</nameLink>
-                     <surname>Teillaye</surname>
-                  </persName>
-                  <note>Écuyer panetier (années 1420).</note>
-               </person>
-            </listPerson>
-            <listPerson type="Bourbonnais">
-               <person xml:id="DauphinR">
-                  <persName>
-                     <forename>Robert</forename>
-                     <surname>Dauphin</surname>
-                  </persName>
-                  <note>Évêque de Chartres.</note>
-               </person>
-               <person xml:id="FayetteG">
-                  <persName>
-                     <forename>Gilbert</forename>
-                     <nameLink>de</nameLink>
-                     <surname>La Fayette</surname>
-                  </persName>
-                  <note>Maréchal de France.</note>
-               </person>
-               <person xml:id="NourryE">
-                  <persName>
-                     <forename>Étienne</forename>
-                     <nameLink>de</nameLink>
-                     <surname>Nourry</surname>
-                  </persName>
-                  <note/>
-               </person>
-               <person xml:id="NourryJ">
-                  <persName>
-                     <forename>Jean</forename>
-                     <nameLink>de</nameLink>
-                     <surname>Nourry</surname>
-                  </persName>
-                  <note>Archevêque de Vienne.</note>
-               </person>
-               <person xml:id="PesteilG">
-                  <persName>
-                     <forename>Guy</forename>
-                     <nameLink>de</nameLink>
-                     <surname>Pestels</surname>
-                  </persName>
-                  <note>Chevalier, bailli des Montagnes d'Auvergne.</note>
-               </person>
-               <person xml:id="ChaugyJ">
-                  <persName>
-                     <forename>Jean</forename>
-                     <nameLink>de</nameLink>
-                     <surname>Chaugy</surname>
-                  </persName>
-                  <note>Chevalier, seigneur de Chaugy et de Chenay.</note>
-               </person>
-               <person xml:id="ChatillonJ">
-                  <persName>
-                     <forename>Jacques</forename>
-                     <nameLink>de</nameLink>
-                     <surname>Châtillon</surname>
-                  </persName>
-                  <note>Seigneur de Dampierre et de Revel.</note>
-               </person>
-               <person xml:id="MontmorinP">
-                  <persName>
-                     <forename>Pierre</forename>
-                     <nameLink>de</nameLink>
-                     <surname>Montmorin</surname>
-                  </persName>
-                  <note/>
-               </person>
-               <person xml:id="ChateaumorandJ">
-                  <persName>
-                     <forename>Jacques</forename>
-                     <nameLink>de</nameLink>
-                     <surname>Châteaumorand</surname>
-                  </persName>
-                  <note>Seigneur de Châteaumorand et de la Voute.</note>
-               </person>
-               <person xml:id="LoupB">
-                  <persName>
-                     <forename>Blain</forename>
-                     <surname>Loup</surname>
-                  </persName>
-                  <note>Seigneur de Beauvoir, sénéchal de Bourbonnais.</note>
-               </person>
-               <person xml:id="CarmoneP">
-                  <persName>
-                     <forename>Pierre</forename>
-                     <nameLink>de</nameLink>
-                     <surname>Carmone</surname>
-                  </persName>
-                  <note>Maître, lieutenant du sénéchal (cité de 1427 à 1453), conseiller du duc.</note>
-               </person>
-               <person xml:id="ChalenconL">
-                  <persName>
-                     <forename>Louis</forename>
-                     <nameLink>de</nameLink>
-                     <surname>Chalençon</surname>
-                  </persName>
-                  <note>Seigneur de Beaumont.</note>
-               </person>
-               <person xml:id="AstreD">
-                  <persName>
-                     <forename>Draguignet</forename>
-                     <nameLink>de l'</nameLink>
-                     <surname>Astre</surname>
-                  </persName>
-                  <note>Seigneur de l'Astre ou Lastre.</note>
-               </person>
-               <person xml:id="ChazeuilAnt">
-                  <persName>
-                     <forename>Antoine</forename>
-                     <nameLink>de</nameLink>
-                     <surname>L’Espinasse</surname>
-                  </persName>
-                  <note>Seigneur de Chazeuil.</note>
-               </person>
-               <person xml:id="RocqueR">
-                  <persName>
-                     <forename>Roger</forename>
-                     <surname>Roque</surname>
-                  </persName>
-                  <note>Maître. Avocat fiscal (1442) puis procureur général du Bourbonnais (1453-1454).</note>
-               </person>
-               <person xml:id="ChantereleP">
-                  <persName>
-                     <forename>Pierre</forename>
-                     <nameLink>de</nameLink>
-                     <surname>Chanterele</surname>
-                  </persName>
-                  <note>Maître</note>
-               </person>
-               <person xml:id="LaVisteJ">
-                  <persName>
-                     <forename>Jean</forename>
-                     <surname>Le Vist</surname>
-                  </persName>
-                  <note>Maître.</note>
-               </person>
-               <person xml:id="CordierM">
-                  <persName>
-                     <forename>Michel</forename>
-                     <surname>Cordier</surname>
-                  </persName>
-                  <note/>
-               </person>
-               <person xml:id="LacortG">
-                  <persName>
-                     <forename>Gilet</forename>
-                     <nameLink>de</nameLink>
-                     <surname>Lacort</surname>
-                  </persName>
-                  <note>Messager du duc (1421)</note>
-               </person>
-               <person xml:id="CabrierE">
-                  <persName>
-                     <forename>Étienne</forename>
-                     <surname>Cabrier</surname>
-                  </persName>
-                  <note>Messager du duc (1421)</note>
-               </person>
-            </listPerson>
-            <listPerson type="Auvergne">
-               <person xml:id="LangeacJ">
-                  <persName>
-                     <forename>Jean</forename>
-                     <nameLink>de</nameLink>
-                     <surname>Langeac</surname>
-                  </persName>
-                  <note>Sénéchal d'Auvergne (1418-1453)</note>
-               </person>
-               <person xml:id="BonnefontC">
-                  <persName>
-                     <forename>Chatard</forename>
-                     <nameLink>de</nameLink>
-                     <surname>Bonnefont</surname>
-                  </persName>
-                  <note>Lieutenant du sénéchal d’Auvergne (1423-1431).</note>
-               </person>
-               <person xml:id="EscureS">
-                  <persName>
-                     <forename>Simon</forename>
-                     <surname>Escure</surname>
-                  </persName>
-                  <note>Garde de la prévôté de Riom.</note>
-               </person>
-            </listPerson>
-            <listPerson type="Forez">
-               <person xml:id="VertA">
-                  <persName>
-                     <forename>Amé</forename>
-                     <surname>Vert</surname>
-                  </persName>
-                  <note>Seigneur de Chenereilles, bailli du comté de Forez (1414-1455).</note>
-               </person>
-               <person xml:id="PelletierJ">
-                  <persName>
-                     <forename>Jean</forename>
-                     <surname>Pelletier</surname>
-                  </persName>
-                  <note>Juge ordinaire du comté de Forez (1430-1434).</note>
-               </person>
-            </listPerson>
-            <listPerson type="Beaujolais">
-               <person xml:id="EspinasseJ">
-                  <persName>
-                     <forename>Jean</forename>
-                     <nameLink>de</nameLink>
-                     <surname>L’Espinasse</surname>
-                  </persName>
-                  <note>Bailli de Beaujolais (cité en 1431).</note>
-               </person>
-               <person xml:id="EspinassePh">
-                  <persName>
-                     <forename>Philibert</forename>
-                     <nameLink>de</nameLink>
-                     <surname>L’Espinasse</surname>
-                     <addName>Cormorant</addName>
-                  </persName>
-                  <note>Chevalier, seigneur de L’Espinasse, bailli de Beujolais (cité en 1431), conseiller du duc.</note>
-               </person>
-               <person xml:id="DubreuilJ">
-                  <persName>
-                     <forename>Jean</forename>
-                     <nameLink>du</nameLink>
-                     <surname>Breuil</surname>
-                  </persName>
-                  <note>Auditeur des comtes de la Chambre de Villefranche (cité en 1431).</note>
-               </person>
-            </listPerson>
-            <listPerson type="Ch_Moulins">
-               <person xml:id="ClepierO">
-                  <persName>
-                     <forename>Oudart</forename>
-                     <surname>Cleppier</surname>
-                  </persName>
-                  <note>Président de la Chambre (1426-1433), conseiller du duc.</note>
-               </person>
-               <person xml:id="CholletG">
-                  <persName>
-                     <forename>Geoffroy</forename>
-                     <surname>Chollet</surname>
-                  </persName>
-                  <note>Président de la Chambre (cité de 1438 à 1445), prieur de Souvigny (1424-1454).</note>
-               </person>
-               <person xml:id="DenisC">
-                  <persName>
-                     <forename>Colas</forename>
-                     <surname>Denis</surname>
-                  </persName>
-                  <note>Maître des comptes (1407-1427), garde des sceaux aux contrats du Bourbonnais (1420-1438).</note>
-               </person>
-            </listPerson>
-            <listPerson type="chanceliers_Ch">
-               <person xml:id="ToulonP">
-                  <persName>
-                     <forename>Pierre</forename>
-                     <nameLink>de</nameLink>
-                     <surname>Toulon</surname>
-                  </persName>
-                  <note>Chancelier de Jean Ier et de Charles Ier (1427-1440).</note>
-               </person>
-            </listPerson>
-            <listPerson type="secretaires_Bourbon">
-               <person xml:id="Gort_sign">
-                  <persName>
-                     <forename>Étienne</forename>
-                     <surname>Gort</surname>
-                  </persName>
-                  <note>Signe de 1425 à 1440.</note>
-               </person>
-               <person xml:id="DB_sign">
-                  <persName>
-                     <forename>Étienne</forename>
-                     <surname>De Bar</surname>
-                  </persName>
-                  <note>Signe de 1426 à 1450.</note>
-               </person>
-               <person xml:id="Cadier_sign">
-                  <persName>
-                     <forename>Guillaume</forename>
-                     <surname>Cadier</surname>
-                  </persName>
-                  <note>Signe de 1431 à 1454.</note>
-               </person>
-               <person xml:id="Trichon_sign">
-                  <persName>
-                     <forename>Jean</forename>
-                     <surname>Trichon</surname>
-                  </persName>
-                  <note>Signe de 1429 à 1439.</note>
-               </person>
-               <person xml:id="CousinM">
-                  <persName>
-                     <forename>Mahier</forename>
-                     <surname>Cousin</surname>
-                  </persName>
-                  <note>Mentionné en 1430 et 1431 ; également maître des étangs de Bourbonnais et Combraille.</note>
-               </person>
-               <person xml:id="LAndraut_sign">
-                  <persName>
-                     <forename>Laurent</forename>
-                     <surname>Andraut</surname>
-                  </persName>
-                  <note>Signe en 1436.</note>
-               </person>
-               <person xml:id="Gourriet_sign">
-                  <persName>
-                     <forename>Lorrin</forename>
-                     <surname>Gourriet</surname>
-                  </persName>
-                  <note>Signe pour la duchesse en 1425.</note>
-               </person>
-               <person xml:id="Marghas_sign">
-                  <persName>
-                     <forename>Philippe</forename>
-                     <surname>Marghas</surname>
-                  </persName>
-                  <note>Signe pour la duchesse en 1427.</note>
-               </person>
-            </listPerson>            
-            <listPerson type="princes">
-               <person xml:id="ArmagnacJ">
-                  <persName>
-                     <forename>Jean IV</forename>
-                     <nameLink>d'</nameLink>
-                     <surname>Armagnac</surname>
-                  </persName>
-                  <note>Comte d'Armagnac (1418-1450).</note>
-               </person>
-               <person xml:id="ArmagnacB">
-                  <persName>
-                     <forename>Bernard VIII</forename>
-                     <nameLink>d'</nameLink>
-                     <surname>Armagnac</surname>
-                  </persName>
-                  <note>Comte de Pardiac (1418-1462).</note>
-               </person>
-               <person xml:id="BerryJ">
-                  <persName>
-                     <forename>Jean</forename>
-                     <nameLink>de</nameLink>
-                     <surname>Berry</surname>
-                  </persName>
-                  <note>Duc de Berry (1360-1416).</note>
-               </person>
-               <person xml:id="JSP">
-                  <persName>
-                     <forename>Jean sans Peur</forename>
-                     <nameLink>de</nameLink>
-                     <surname>Bourgogne</surname>
-                  </persName>
-                  <note>Duc de Bourgogne (1404-1419).</note>
-               </person>
-               <person xml:id="PhBon">
-                  <persName>
-                     <forename>Philippe le Bon</forename>
-                     <nameLink>de</nameLink>
-                     <surname>Bourgogne</surname>
-                  </persName>
-                  <note>Duc de Bourgogne (1419-1467).</note>
-               </person>
-               <person xml:id="BretagneJ">
-                  <persName>
-                     <forename>Jean V</forename>
-                     <nameLink>de</nameLink>
-                     <surname>Bretagne</surname>
-                  </persName>
-                  <note>Duc de Bretagne (1399-1442).</note>
-               </person>
-               <person xml:id="FoixJ">
-                  <persName>
-                     <forename>Jean Ier</forename>
-                     <nameLink>de</nameLink>
-                     <surname>Foix</surname>
-                  </persName>
-                  <note>Comte de Foix (1413-1436).</note>
-               </person>
-               <person xml:id="SavoieAVIII">
-                  <persName>
-                     <forename>Amédée VIII</forename>
-                     <nameLink>de</nameLink>
-                     <surname>Savoie</surname>
-                  </persName>
-                  <note>Duc de Savoie (1416-1440).</note>
-               </person>
-            </listPerson>
-            <listPerson type="bourguignons">
-               <person xml:id="RolinN">
-                  <persName>
-                     <forename>Nicolas</forename>
-                     <surname>Rolin</surname>
-                  </persName>
-                  <note>Seigneur d'Authumes, chancelier de Philippe le Bon.</note>
-               </person>
-               <person xml:id="ToulongeonA">
-                  <persName>
-                     <forename>Antoine</forename>
-                     <nameLink>de</nameLink>
-                     <surname>Toulongeon</surname>
-                  </persName>
-                  <note>Chevalier, seigneur de Buxy, maréchal de Bourgogne.</note>
-               </person>
-               <person xml:id="FraignotJ">
-                  <persName>
-                     <forename>Jean</forename>
-                     <surname>Fraignot</surname>
-                  </persName>
-                  <note>Receveur général du duché de Bourgogne.</note>
-               </person>
-               <person xml:id="RegnaultM">
-                  <persName>
-                     <forename>Mahier</forename>
-                     <surname>Regnault</surname>
-                  </persName>
-                  <note>Conseiller ducal et receveur général de toutes les finances des duché et comté de Bourgogne.</note>
-               </person>
-               <person xml:id="BoisH">
-                  <persName>
-                     <forename>Hugues</forename>
-                     <nameLink>du</nameLink>
-                     <surname>Bois</surname>
-                  </persName>
-                  <note>Chevalier, conseiller du duc, bailli du comté de Charolais.</note>
-               </person>
-               <person xml:id="LuyrieuL">
-                  <persName>
-                     <forename>Lancelot</forename>
-                     <nameLink>de</nameLink>
-                     <surname>Luyrieu ou Lureuil</surname>
-                  </persName>
-                  <note>Écuyer, seigneur de Luyrieu, bailli de Mâcon, conseiller et chambellan du duc.</note>
-               </person>
-               <person xml:id="Breneal">
-                  <persName>
-                     <forename>Jean</forename>
-                     <surname>Breneal</surname>
-                  </persName>
-                  <note>Maître, secrétaire.</note>
-               </person>
-               <person xml:id="NeversCh">
-                  <persName>
-                     <forename>Charles</forename>
-                     <nameLink>de</nameLink>
-                     <surname>Bourgogne</surname>
-                  </persName>
-                  <note>Comte de Nevers et de Rethel (1415-1464).</note>
-               </person>
-               <person xml:id="NeversJ">
-                  <persName>
-                     <forename>Jean</forename>
-                     <nameLink>de</nameLink>
-                     <surname>Bourgogne</surname>
-                  </persName>
-                  <note>Frère du comte de Nevers et de Rethel.</note>
-               </person>
-               <person xml:id="VienneG">
-                  <persName>
-                     <forename>Guillaume</forename>
-                     <nameLink>de</nameLink>
-                     <surname>Vienne</surname>
-                  </persName>
-                  <note>Seigneur de Sainte-Croix et de Saint-Georges</note>
-               </person>
-               <person xml:id="PoutaillyG">
-                  <persName>
-                     <forename>Guy III</forename>
-                     <nameLink>de</nameLink>
-                     <surname>Pontailler</surname>
-                  </persName>
-                  <note>Chevalier, seigneur de Talmay.</note>
-               </person>
-               <person xml:id="MontaguJ">
-                  <persName>
-                     <forename>Jean</forename>
-                     <nameLink>de</nameLink>
-                     <surname>Montagu</surname>
-                  </persName>
-                  <note>Chevalier, seigneur de Conches.</note>
-               </person>
-               <person xml:id="AndrietPh">
-                  <persName>
-                     <forename>Philibert</forename>
-                     <surname>Andriet ou Andrenet</surname>
-                  </persName>
-                  <note>Chevalier, seigneur de Coursan, conseiller du duc.</note>
-               </person>
-               <person xml:id="LaGuicheG">
-                  <persName>
-                     <forename>Gérard</forename>
-                     <surname>La Guiche</surname>
-                  </persName>
-                  <note>Chevalier, seigneur de La Guiche, conseiller du duc.</note>
-               </person>
-               <person xml:id="CourtiamblesJ">
-                  <persName>
-                     <forename>Jacques</forename>
-                     <surname>Pot</surname>
-                  </persName>
-                  <note>Seigneur de Courtiambles.</note>
-               </person>
-               <person xml:id="PotR">
-                  <persName>
-                     <forename>Régnier</forename>
-                     <surname>Pot</surname>
-                  </persName>
-                  <note>Seigneur de La Prugne.</note>
-               </person>
-               <person xml:id="RoboisJ">
-                  <persName>
-                     <forename>Jean</forename>
-                     <nameLink>de</nameLink>
-                     <surname>Robois</surname>
-                  </persName>
-                  <note>Seigneur de Robois et de Gazelle.</note>
-               </person>
-               <person xml:id="JaucourtG">
-                  <persName>
-                     <forename>Guy</forename>
-                     <nameLink>de</nameLink>
-                     <surname>Jaucourt</surname>
-                  </persName>
-                  <note>Écuyer, conseiller et chambellan du duc.</note>
-               </person>
-               <person xml:id="BourgoisG">
-                  <persName>
-                     <forename>Guiot</forename>
-                     <surname>Bourgois</surname>
-                  </persName>
-                  <note>Écuyer.</note>
-               </person>
-               <person xml:id="GressartP">
-                  <persName>
-                     <forename>Perrinet</forename>
-                     <surname>Gressart</surname>
-                  </persName>
-                  <note>Écuyer pannetier du duc, capitaine de La Charité-sur-Loire.</note>
-               </person>
-               <person xml:id="RocheteC">
-                  <persName>
-                     <forename>Claude</forename>
-                     <nameLink>du, et de la Rochette</nameLink>
-                     <surname>Seyssel</surname>
-                  </persName>
-                  <note>Maître, conseiller du duc.</note>
-               </person>
-               <person xml:id="ClunyH">
-                  <persName>
-                     <forename>Henri</forename>
-                     <nameLink>de</nameLink>
-                     <surname>Cluny</surname>
-                  </persName>
-                  <note>Maître, conseiller du duc.</note>
-               </person>
-               <person xml:id="BastierN">
-                  <persName>
-                     <forename>Nicolas</forename>
-                     <surname>Bastier</surname>
-                  </persName>
-                  <note>Maître, conseiller du duc.</note>
-               </person>
-               <person xml:id="RupesG">
-                  <persName>
-                     <forename>Gauthier</forename>
-                     <nameLink>de</nameLink>
-                     <surname>Rupes</surname>
-                  </persName>
-                  <note/>
-               </person>
-               <person xml:id="ChalonTonnerre">
-                  <persName>
-                     <forename>Louis II</forename>
-                     <nameLink>de</nameLink>
-                     <surname>Chalon</surname>
-                  </persName>
-                  <note>Comte de Tonnerre</note>
-               </person>
-            </listPerson>
-            <listPerson type="savoyards">
-               <person xml:id="ForestG">
-                  <persName>
-                     <forename>Guillaume</forename>
-                     <nameLink>de</nameLink>
-                     <surname>La Forest</surname>
-                  </persName>
-                  <note>Chevalier, seigneur de La Forest, conseiller et chambellan du duc.</note>
-               </person>
-               <person xml:id="SepsC">
-                  <persName>
-                     <forename>Claude</forename>
-                     <nameLink>du</nameLink>
-                     <surname>Seps</surname>
-                  </persName>
-                  <note>Écuyer, seigneur de Ravoire, président de la Chambre des comptes de Savoie, conseiller du duc.</note>
-               </person>
-               <person xml:id="ChampdueO">
-                  <persName>
-                     <forename>Oddo</forename>
-                     <surname>Champdue</surname>
-                  </persName>
-                  <note>Seigneur de Champdue, bailli de Bresse, conseiller du duc.</note>
-               </person>
-               <person xml:id="LovoulJ">
-                  <persName>
-                     <forename>Jacques</forename>
-                     <surname>Lovoul ou Loriot</surname>
-                  </persName>
-                  <note>Maître, docteur en lois et décrets, juge du pays de Bresse, conseiller du duc.</note>
-               </person>
-               <person xml:id="PaludF">
-                  <persName>
-                     <forename>François</forename>
-                     <nameLink>de</nameLink>
-                     <surname>La Palud</surname>
-                  </persName>
-                  <note>Seigneur de Varembon.</note>
-               </person>
-            </listPerson>
-            <listPerson type="autres">
-               <person xml:id="VillemurJ">
-                  <persName>
-                     <forename>Jacques</forename>
-                     <nameLink>de</nameLink>
-                     <surname>Villemur</surname>
-                  </persName>
-                  <note>Vicomte de Villemur.</note>
-               </person>    
-               <person xml:id="AiguesG">
-                  <persName>
-                     <forename>Guillaume</forename>
-                     <nameLink>des</nameLink>
-                     <surname>Aigues</surname>
-                  </persName>
-                  <note>Chevalier.</note>
-               </person>
-               <person xml:id="HostenoisL">
-                  <persName>
-                     <forename>Louis</forename>
-                     <nameLink>d'</nameLink>
-                     <surname>Hostenois</surname>
-                  </persName>
-                  <note>Chevalier.</note>
-               </person>
-               <person xml:id="AigleJ">
-                  <persName>
-                     <forename>Jean</forename>
-                     <nameLink>de</nameLink>
-                     <surname>Châtillon</surname>
-                  </persName>
-                  <note>Dit Jean de Blois, seigneur de l'Aigle.</note>
-               </person>
-               <person xml:id="GuyH">
-                  <persName>
-                     <forename>Hugues</forename>
-                     <surname>Guy</surname>
-                  </persName>
-                  <note>Bourgeois de Riom.</note>
-               </person>
-               <person xml:id="SolierP">
-                  <persName>
-                     <forename>Pierre</forename>
-                     <surname>Solier</surname>
-                  </persName>
-                  <note>Habitant de Riom.</note>
-               </person>
-               <person xml:id="FeureP">
-                  <persName>
-                     <forename>Pierre</forename>
-                     <surname>Feure</surname>
-                  </persName>
-                  <note>Maître, licencié en lois, habitant de Riom.</note>
-               </person>
-               <person xml:id="DauvatL">
-                  <persName>
-                     <forename>Louis</forename>
-                     <surname>Dauvat</surname>
-                  </persName>
-                  <note>Bourgeois de Riom.</note>
-               </person>
-               <person xml:id="CoppierD">
-                  <persName>
-                     <forename>Durand</forename>
-                     <surname>Coppier</surname>
-                  </persName>
-                  <note>Laboureur de Riom.</note>
-               </person>
-               <person xml:id="ChazeuilA">
-                  <persName>
-                     <forename>Annette</forename>
-                     <nameLink>de</nameLink>
-                     <surname>La Pierre</surname>
-                  </persName>
-                  <note>Dame de Chazeuil.</note>
-               </person>
-               <person xml:id="BeceyD">
-                  <persName>
-                     <forename>Denis</forename>
-                     <surname>Becey</surname>
-                  </persName>
-                  <note>Tabellion ou notaire.</note>
-               </person>
-               <person xml:id="ChavalB">
-                  <persName>
-                     <forename>Benoît</forename>
-                     <surname>Chaval</surname>
-                  </persName>
-                  <note>Tabellion ou notaire.</note>
-               </person>
-               <person xml:id="ClunyAbbe">
-                  <persName>
-                     <forename>Odon II</forename>
-                     <nameLink>de la</nameLink>
-                     <surname>Perrière</surname>
-                  </persName>
-                  <note>Abbé de Cluny (1423-1456).</note>
-               </person>
-            </listPerson>
-         </particDesc>
-      </profileDesc>
    </teiHeader>
    <text>
-      <front/>
+      <body>
+         <listPerson type="rois">
+            <person xml:id="JeanII">
+               <persName>
+                  <forename>Jean II</forename>
+                  <nameLink>de</nameLink>
+                  <surname>France</surname>
+               </persName>
+               <note>Roi de France (22 août 1350 – 8 avril 1364).</note>
+            </person>
+            <person xml:id="ChVI">
+               <persName>
+                  <forename>Charles VI</forename>
+                  <nameLink>de</nameLink>
+                  <surname>France</surname>
+               </persName>
+               <note>Roi de France (16 septembre 1380 – 21 octobre 1422).</note>
+            </person>
+            <person xml:id="ChVII">
+               <persName>
+                  <forename>Charles VII</forename>
+                  <nameLink>de</nameLink>
+                  <surname>France</surname>
+               </persName>
+               <note>Roi de France (21 octobre 1422 – 22 juillet 1461).</note>
+            </person>
+            <person xml:id="HenriV">
+               <persName>
+                  <forename>Henri V</forename>
+                  <nameLink>d'</nameLink>
+                  <surname>Angleterre</surname>
+               </persName>
+               <note>Roi d'Angleterre (20 mars 1413 – 31 août 1422).</note>
+            </person>
+            <person xml:id="HenriVI">
+               <persName>
+                  <forename>Henri VI</forename>
+                  <nameLink>d'</nameLink>
+                  <surname>Angleterre</surname>
+               </persName>
+               <note>Roi d'Angleterre (31 août 1422 – 4 mars 1461).</note>
+            </person>
+         </listPerson>
+         <listPerson type="hommes_du_roi">
+            <person xml:id="ChartresR">
+               <persName>
+                  <forename>Regnault</forename>
+                  <nameLink>de</nameLink>
+                  <surname>Chartres</surname>
+               </persName>
+               <note>Archevêque-duc de Reims (1414-1444), chancelier de Charles VII de France (1424, 1428-1444).</note>
+            </person>
+            <person xml:id="PoitiersCh">
+               <persName>
+                  <forename>Charles</forename>
+                  <nameLink>de</nameLink>
+                  <surname>Poitiers</surname>
+               </persName>
+               <note>Évêque de Langres</note>
+            </person>
+            <person xml:id="SeaumeJ">
+               <persName>
+                  <forename>Jean</forename>
+                  <surname>Seaume</surname>
+               </persName>
+               <note>Receveur general de toutes finances et trésorier des guerres en Languedoc et en Guyenne.</note>
+            </person>
+            <person xml:id="CourtetE">
+               <persName>
+                  <forename>Estienne</forename>
+                  <surname>Courtet</surname>
+               </persName>
+               <note>Receveur pour le bailliage des Montagnes d'Auvergne de l'aide des trois états du pays d'Auvergne pour le ravitaillement d'Orléans et la guerre contre l'Angleterre</note>
+            </person>
+            <person xml:id="NoelG">
+               <persName>
+                  <forename>Gaillard</forename>
+                  <surname>Noël</surname>
+               </persName>
+               <note>Receveur de l'aide du pays d'Auvergne (années 1420).</note>
+            </person>
+            <person xml:id="TremoilleG">
+               <persName>
+                  <forename>Georges</forename>
+                  <nameLink>de la</nameLink>
+                  <surname>Trémoille</surname>
+               </persName>
+               <note>Seigneur de Sully.</note>
+            </person>
+            <person xml:id="RichemontA">
+               <persName>
+                  <forename>Arthur</forename>
+                  <nameLink>de</nameLink>
+                  <surname>Richemont</surname>
+               </persName>
+               <note>Frère du duc Jean V de Bretagne, connétable de France (1425-1458), duc de Bretagne (1457-1458).</note>
+            </person>
+            <person xml:id="CAlbert">
+               <persName>
+                  <forename>Charles II</forename>
+                  <nameLink>d'</nameLink>
+                  <surname>Albret</surname>
+               </persName>
+               <note>Sire d'Albret (1415-1471).</note>
+            </person>
+         </listPerson>
+         <listPerson type="Bourbon">
+            <person xml:id="LouisII">
+               <persName>
+                  <forename>Louis II</forename>
+                  <nameLink>de</nameLink>
+                  <surname>Bourbon</surname>
+               </persName>
+               <note>Duc de Bourbon (1356-1410).</note>
+            </person>
+            <person xml:id="JeanI">
+               <persName>
+                  <forename>Jean Ier</forename>
+                  <nameLink>de</nameLink>
+                  <surname>Bourbon</surname>
+               </persName>
+               <note>Duc de Bourbon (1410-1434).</note>
+            </person>
+            <person xml:id="MarieBerry">
+               <persName>
+                  <forename>Marie</forename>
+                  <nameLink>de</nameLink>
+                  <surname>Berry</surname>
+               </persName>
+               <note>Duchesse de Bourbon (1410-1434).</note>
+            </person>
+            <person xml:id="Agnes">
+               <persName>
+                  <forename>Agnès</forename>
+                  <nameLink>de</nameLink>
+                  <surname>Bourgogne</surname>
+               </persName>
+               <note>Duchesse de Bourbon (1434-1456).</note>
+            </person>
+            <person xml:id="Louis_Montpensier">
+               <persName>
+                  <forename>Louis</forename>
+                  <nameLink>de</nameLink>
+                  <surname>Bourbon</surname>
+               </persName>
+               <note>Fils de Jean Ier et Marie de Berry, comte de Montpensier.</note>
+            </person>
+         </listPerson>
+         <listPerson type="hotel_ChI">
+            <person xml:id="Apinac">
+               <persName>
+                  <forename>Louis</forename>
+                  <surname>Mareschal</surname>
+               </persName>
+               <note>Seigneur de Saint-Priest et d'Apinac, chambellan (cité de 1435 à 1449).</note>
+            </person>
+            <person xml:id="BarresL">
+               <persName>
+                  <forename>Louis</forename>
+                  <nameLink>des</nameLink>
+                  <surname>Barres</surname>
+               </persName>
+               <note>Chevalier, chambellan (cité en 1442).</note>
+            </person>
+            <person xml:id="BoutheonB">
+               <persName>
+                  <forename>Bertrand III</forename>
+                  <nameLink>de</nameLink>
+                  <surname>Bouthéon</surname>
+               </persName>
+               <note>Maître de l'Hôtel (cité en 1437 et 1442).</note>
+            </person>
+            <person xml:id="ParentR">
+               <persName>
+                  <forename>Robert</forename>
+                  <surname>Parent</surname>
+               </persName>
+               <note>Maître de la chambre aux deniers (cité en 1441).</note>
+            </person>
+            <person xml:id="SurelJ">
+               <persName>
+                  <forename>Jean</forename>
+                  <surname>Surel</surname>
+               </persName>
+               <note>Écuyer d'écurie.</note>
+            </person>
+            <person xml:id="MontmuratJ">
+               <persName>
+                  <forename>Janicot</forename>
+                  <nameLink>de</nameLink>
+                  <surname>Montmurat</surname>
+               </persName>
+               <note>Écuyer d'écurie (cité en 1429 et 1431).</note>
+            </person>
+            <person xml:id="VillarsJ">
+               <persName>
+                  <forename>Jean</forename>
+                  <nameLink>de</nameLink>
+                  <surname>Villars</surname>
+                  <addName>Barrilhet</addName>
+               </persName>
+               <note>Écuyer d'écurie (cité en 1430).</note>
+            </person>
+            <person xml:id="TeillayeP">
+               <persName>
+                  <forename>Pierre</forename>
+                  <nameLink>de la</nameLink>
+                  <surname>Teillaye</surname>
+               </persName>
+               <note>Écuyer panetier (années 1420).</note>
+            </person>
+         </listPerson>
+         <listPerson type="Bourbonnais">
+            <person xml:id="DauphinR">
+               <persName>
+                  <forename>Robert</forename>
+                  <surname>Dauphin</surname>
+               </persName>
+               <note>Évêque de Chartres.</note>
+            </person>
+            <person xml:id="FayetteG">
+               <persName>
+                  <forename>Gilbert</forename>
+                  <nameLink>de</nameLink>
+                  <surname>La Fayette</surname>
+               </persName>
+               <note>Maréchal de France.</note>
+            </person>
+            <person xml:id="NourryE">
+               <persName>
+                  <forename>Étienne</forename>
+                  <nameLink>de</nameLink>
+                  <surname>Nourry</surname>
+               </persName>
+               <note/>
+            </person>
+            <person xml:id="NourryJ">
+               <persName>
+                  <forename>Jean</forename>
+                  <nameLink>de</nameLink>
+                  <surname>Nourry</surname>
+               </persName>
+               <note>Archevêque de Vienne.</note>
+            </person>
+            <person xml:id="PesteilG">
+               <persName>
+                  <forename>Guy</forename>
+                  <nameLink>de</nameLink>
+                  <surname>Pestels</surname>
+               </persName>
+               <note>Chevalier, bailli des Montagnes d'Auvergne.</note>
+            </person>
+            <person xml:id="ChaugyJ">
+               <persName>
+                  <forename>Jean</forename>
+                  <nameLink>de</nameLink>
+                  <surname>Chaugy</surname>
+               </persName>
+               <note>Chevalier, seigneur de Chaugy et de Chenay.</note>
+            </person>
+            <person xml:id="ChatillonJ">
+               <persName>
+                  <forename>Jacques</forename>
+                  <nameLink>de</nameLink>
+                  <surname>Châtillon</surname>
+               </persName>
+               <note>Seigneur de Dampierre et de Revel.</note>
+            </person>
+            <person xml:id="MontmorinP">
+               <persName>
+                  <forename>Pierre</forename>
+                  <nameLink>de</nameLink>
+                  <surname>Montmorin</surname>
+               </persName>
+               <note/>
+            </person>
+            <person xml:id="ChateaumorandJ">
+               <persName>
+                  <forename>Jacques</forename>
+                  <nameLink>de</nameLink>
+                  <surname>Châteaumorand</surname>
+               </persName>
+               <note>Seigneur de Châteaumorand et de la Voute.</note>
+            </person>
+            <person xml:id="LoupB">
+               <persName>
+                  <forename>Blain</forename>
+                  <surname>Loup</surname>
+               </persName>
+               <note>Seigneur de Beauvoir, sénéchal de Bourbonnais.</note>
+            </person>
+            <person xml:id="CarmoneP">
+               <persName>
+                  <forename>Pierre</forename>
+                  <nameLink>de</nameLink>
+                  <surname>Carmone</surname>
+               </persName>
+               <note>Maître, lieutenant du sénéchal (cité de 1427 à 1453), conseiller du duc.</note>
+            </person>
+            <person xml:id="ChalenconL">
+               <persName>
+                  <forename>Louis</forename>
+                  <nameLink>de</nameLink>
+                  <surname>Chalençon</surname>
+               </persName>
+               <note>Seigneur de Beaumont.</note>
+            </person>
+            <person xml:id="AstreD">
+               <persName>
+                  <forename>Draguignet</forename>
+                  <nameLink>de l'</nameLink>
+                  <surname>Astre</surname>
+               </persName>
+               <note>Seigneur de l'Astre ou Lastre.</note>
+            </person>
+            <person xml:id="ChazeuilAnt">
+               <persName>
+                  <forename>Antoine</forename>
+                  <nameLink>de</nameLink>
+                  <surname>L’Espinasse</surname>
+               </persName>
+               <note>Seigneur de Chazeuil.</note>
+            </person>
+            <person xml:id="RocqueR">
+               <persName>
+                  <forename>Roger</forename>
+                  <surname>Roque</surname>
+               </persName>
+               <note>Maître. Avocat fiscal (1442) puis procureur général du Bourbonnais (1453-1454).</note>
+            </person>
+            <person xml:id="ChantereleP">
+               <persName>
+                  <forename>Pierre</forename>
+                  <nameLink>de</nameLink>
+                  <surname>Chanterele</surname>
+               </persName>
+               <note>Maître</note>
+            </person>
+            <person xml:id="LaVisteJ">
+               <persName>
+                  <forename>Jean</forename>
+                  <surname>Le Vist</surname>
+               </persName>
+               <note>Maître.</note>
+            </person>
+            <person xml:id="CordierM">
+               <persName>
+                  <forename>Michel</forename>
+                  <surname>Cordier</surname>
+               </persName>
+               <note/>
+            </person>
+            <person xml:id="LacortG">
+               <persName>
+                  <forename>Gilet</forename>
+                  <nameLink>de</nameLink>
+                  <surname>Lacort</surname>
+               </persName>
+               <note>Messager du duc (1421)</note>
+            </person>
+            <person xml:id="CabrierE">
+               <persName>
+                  <forename>Étienne</forename>
+                  <surname>Cabrier</surname>
+               </persName>
+               <note>Messager du duc (1421)</note>
+            </person>
+         </listPerson>
+         <listPerson type="Auvergne">
+            <person xml:id="LangeacJ">
+               <persName>
+                  <forename>Jean</forename>
+                  <nameLink>de</nameLink>
+                  <surname>Langeac</surname>
+               </persName>
+               <note>Sénéchal d'Auvergne (1418-1453)</note>
+            </person>
+            <person xml:id="BonnefontC">
+               <persName>
+                  <forename>Chatard</forename>
+                  <nameLink>de</nameLink>
+                  <surname>Bonnefont</surname>
+               </persName>
+               <note>Lieutenant du sénéchal d’Auvergne (1423-1431).</note>
+            </person>
+            <person xml:id="EscureS">
+               <persName>
+                  <forename>Simon</forename>
+                  <surname>Escure</surname>
+               </persName>
+               <note>Garde de la prévôté de Riom.</note>
+            </person>
+         </listPerson>
+         <listPerson type="Forez">
+            <person xml:id="VertA">
+               <persName>
+                  <forename>Amé</forename>
+                  <surname>Vert</surname>
+               </persName>
+               <note>Seigneur de Chenereilles, bailli du comté de Forez (1414-1455).</note>
+            </person>
+            <person xml:id="PelletierJ">
+               <persName>
+                  <forename>Jean</forename>
+                  <surname>Pelletier</surname>
+               </persName>
+               <note>Juge ordinaire du comté de Forez (1430-1434).</note>
+            </person>
+         </listPerson>
+         <listPerson type="Beaujolais">
+            <person xml:id="EspinasseJ">
+               <persName>
+                  <forename>Jean</forename>
+                  <nameLink>de</nameLink>
+                  <surname>L’Espinasse</surname>
+               </persName>
+               <note>Bailli de Beaujolais (cité en 1431).</note>
+            </person>
+            <person xml:id="EspinassePh">
+               <persName>
+                  <forename>Philibert</forename>
+                  <nameLink>de</nameLink>
+                  <surname>L’Espinasse</surname>
+                  <addName>Cormorant</addName>
+               </persName>
+               <note>Chevalier, seigneur de L’Espinasse, bailli de Beujolais (cité en 1431), conseiller du duc.</note>
+            </person>
+            <person xml:id="DubreuilJ">
+               <persName>
+                  <forename>Jean</forename>
+                  <nameLink>du</nameLink>
+                  <surname>Breuil</surname>
+               </persName>
+               <note>Auditeur des comtes de la Chambre de Villefranche (cité en 1431).</note>
+            </person>
+         </listPerson>
+         <listPerson type="Ch_Moulins">
+            <person xml:id="ClepierO">
+               <persName>
+                  <forename>Oudart</forename>
+                  <surname>Cleppier</surname>
+               </persName>
+               <note>Président de la Chambre (1426-1433), conseiller du duc.</note>
+            </person>
+            <person xml:id="CholletG">
+               <persName>
+                  <forename>Geoffroy</forename>
+                  <surname>Chollet</surname>
+               </persName>
+               <note>Président de la Chambre (cité de 1438 à 1445), prieur de Souvigny (1424-1454).</note>
+            </person>
+            <person xml:id="DenisC">
+               <persName>
+                  <forename>Colas</forename>
+                  <surname>Denis</surname>
+               </persName>
+               <note>Maître des comptes (1407-1427), garde des sceaux aux contrats du Bourbonnais (1420-1438).</note>
+            </person>
+         </listPerson>
+         <listPerson type="chanceliers_Ch">
+            <person xml:id="ToulonP">
+               <persName>
+                  <forename>Pierre</forename>
+                  <nameLink>de</nameLink>
+                  <surname>Toulon</surname>
+               </persName>
+               <note>Chancelier de Jean Ier et de Charles Ier (1427-1440).</note>
+            </person>
+         </listPerson>
+         <listPerson type="secretaires_Bourbon">
+            <person xml:id="Gort_sign">
+               <persName>
+                  <forename>Étienne</forename>
+                  <surname>Gort</surname>
+               </persName>
+               <note>Signe de 1425 à 1440.</note>
+            </person>
+            <person xml:id="DB_sign">
+               <persName>
+                  <forename>Étienne</forename>
+                  <surname>De Bar</surname>
+               </persName>
+               <note>Signe de 1426 à 1450.</note>
+            </person>
+            <person xml:id="Cadier_sign">
+               <persName>
+                  <forename>Guillaume</forename>
+                  <surname>Cadier</surname>
+               </persName>
+               <note>Signe de 1431 à 1454.</note>
+            </person>
+            <person xml:id="Trichon_sign">
+               <persName>
+                  <forename>Jean</forename>
+                  <surname>Trichon</surname>
+               </persName>
+               <note>Signe de 1429 à 1439.</note>
+            </person>
+            <person xml:id="CousinM">
+               <persName>
+                  <forename>Mahier</forename>
+                  <surname>Cousin</surname>
+               </persName>
+               <note>Mentionné en 1430 et 1431 ; également maître des étangs de Bourbonnais et Combraille.</note>
+            </person>
+            <person xml:id="LAndraut_sign">
+               <persName>
+                  <forename>Laurent</forename>
+                  <surname>Andraut</surname>
+               </persName>
+               <note>Signe en 1436.</note>
+            </person>
+            <person xml:id="Gourriet_sign">
+               <persName>
+                  <forename>Lorrin</forename>
+                  <surname>Gourriet</surname>
+               </persName>
+               <note>Signe pour la duchesse en 1425.</note>
+            </person>
+            <person xml:id="Marghas_sign">
+               <persName>
+                  <forename>Philippe</forename>
+                  <surname>Marghas</surname>
+               </persName>
+               <note>Signe pour la duchesse en 1427.</note>
+            </person>
+         </listPerson>            
+         <listPerson type="princes">
+            <person xml:id="ArmagnacJ">
+               <persName>
+                  <forename>Jean IV</forename>
+                  <nameLink>d'</nameLink>
+                  <surname>Armagnac</surname>
+               </persName>
+               <note>Comte d'Armagnac (1418-1450).</note>
+            </person>
+            <person xml:id="ArmagnacB">
+               <persName>
+                  <forename>Bernard VIII</forename>
+                  <nameLink>d'</nameLink>
+                  <surname>Armagnac</surname>
+               </persName>
+               <note>Comte de Pardiac (1418-1462).</note>
+            </person>
+            <person xml:id="BerryJ">
+               <persName>
+                  <forename>Jean</forename>
+                  <nameLink>de</nameLink>
+                  <surname>Berry</surname>
+               </persName>
+               <note>Duc de Berry (1360-1416).</note>
+            </person>
+            <person xml:id="JSP">
+               <persName>
+                  <forename>Jean sans Peur</forename>
+                  <nameLink>de</nameLink>
+                  <surname>Bourgogne</surname>
+               </persName>
+               <note>Duc de Bourgogne (1404-1419).</note>
+            </person>
+            <person xml:id="PhBon">
+               <persName>
+                  <forename>Philippe le Bon</forename>
+                  <nameLink>de</nameLink>
+                  <surname>Bourgogne</surname>
+               </persName>
+               <note>Duc de Bourgogne (1419-1467).</note>
+            </person>
+            <person xml:id="BretagneJ">
+               <persName>
+                  <forename>Jean V</forename>
+                  <nameLink>de</nameLink>
+                  <surname>Bretagne</surname>
+               </persName>
+               <note>Duc de Bretagne (1399-1442).</note>
+            </person>
+            <person xml:id="FoixJ">
+               <persName>
+                  <forename>Jean Ier</forename>
+                  <nameLink>de</nameLink>
+                  <surname>Foix</surname>
+               </persName>
+               <note>Comte de Foix (1413-1436).</note>
+            </person>
+            <person xml:id="SavoieAVIII">
+               <persName>
+                  <forename>Amédée VIII</forename>
+                  <nameLink>de</nameLink>
+                  <surname>Savoie</surname>
+               </persName>
+               <note>Duc de Savoie (1416-1440).</note>
+            </person>
+         </listPerson>
+         <listPerson type="bourguignons">
+            <person xml:id="RolinN">
+               <persName>
+                  <forename>Nicolas</forename>
+                  <surname>Rolin</surname>
+               </persName>
+               <note>Seigneur d'Authumes, chancelier de Philippe le Bon.</note>
+            </person>
+            <person xml:id="ToulongeonA">
+               <persName>
+                  <forename>Antoine</forename>
+                  <nameLink>de</nameLink>
+                  <surname>Toulongeon</surname>
+               </persName>
+               <note>Chevalier, seigneur de Buxy, maréchal de Bourgogne.</note>
+            </person>
+            <person xml:id="FraignotJ">
+               <persName>
+                  <forename>Jean</forename>
+                  <surname>Fraignot</surname>
+               </persName>
+               <note>Receveur général du duché de Bourgogne.</note>
+            </person>
+            <person xml:id="RegnaultM">
+               <persName>
+                  <forename>Mahier</forename>
+                  <surname>Regnault</surname>
+               </persName>
+               <note>Conseiller ducal et receveur général de toutes les finances des duché et comté de Bourgogne.</note>
+            </person>
+            <person xml:id="BoisH">
+               <persName>
+                  <forename>Hugues</forename>
+                  <nameLink>du</nameLink>
+                  <surname>Bois</surname>
+               </persName>
+               <note>Chevalier, conseiller du duc, bailli du comté de Charolais.</note>
+            </person>
+            <person xml:id="LuyrieuL">
+               <persName>
+                  <forename>Lancelot</forename>
+                  <nameLink>de</nameLink>
+                  <surname>Luyrieu ou Lureuil</surname>
+               </persName>
+               <note>Écuyer, seigneur de Luyrieu, bailli de Mâcon, conseiller et chambellan du duc.</note>
+            </person>
+            <person xml:id="Breneal">
+               <persName>
+                  <forename>Jean</forename>
+                  <surname>Breneal</surname>
+               </persName>
+               <note>Maître, secrétaire.</note>
+            </person>
+            <person xml:id="NeversCh">
+               <persName>
+                  <forename>Charles</forename>
+                  <nameLink>de</nameLink>
+                  <surname>Bourgogne</surname>
+               </persName>
+               <note>Comte de Nevers et de Rethel (1415-1464).</note>
+            </person>
+            <person xml:id="NeversJ">
+               <persName>
+                  <forename>Jean</forename>
+                  <nameLink>de</nameLink>
+                  <surname>Bourgogne</surname>
+               </persName>
+               <note>Frère du comte de Nevers et de Rethel.</note>
+            </person>
+            <person xml:id="VienneG">
+               <persName>
+                  <forename>Guillaume</forename>
+                  <nameLink>de</nameLink>
+                  <surname>Vienne</surname>
+               </persName>
+               <note>Seigneur de Sainte-Croix et de Saint-Georges</note>
+            </person>
+            <person xml:id="PoutaillyG">
+               <persName>
+                  <forename>Guy III</forename>
+                  <nameLink>de</nameLink>
+                  <surname>Pontailler</surname>
+               </persName>
+               <note>Chevalier, seigneur de Talmay.</note>
+            </person>
+            <person xml:id="MontaguJ">
+               <persName>
+                  <forename>Jean</forename>
+                  <nameLink>de</nameLink>
+                  <surname>Montagu</surname>
+               </persName>
+               <note>Chevalier, seigneur de Conches.</note>
+            </person>
+            <person xml:id="AndrietPh">
+               <persName>
+                  <forename>Philibert</forename>
+                  <surname>Andriet ou Andrenet</surname>
+               </persName>
+               <note>Chevalier, seigneur de Coursan, conseiller du duc.</note>
+            </person>
+            <person xml:id="LaGuicheG">
+               <persName>
+                  <forename>Gérard</forename>
+                  <surname>La Guiche</surname>
+               </persName>
+               <note>Chevalier, seigneur de La Guiche, conseiller du duc.</note>
+            </person>
+            <person xml:id="CourtiamblesJ">
+               <persName>
+                  <forename>Jacques</forename>
+                  <surname>Pot</surname>
+               </persName>
+               <note>Seigneur de Courtiambles.</note>
+            </person>
+            <person xml:id="PotR">
+               <persName>
+                  <forename>Régnier</forename>
+                  <surname>Pot</surname>
+               </persName>
+               <note>Seigneur de La Prugne.</note>
+            </person>
+            <person xml:id="RoboisJ">
+               <persName>
+                  <forename>Jean</forename>
+                  <nameLink>de</nameLink>
+                  <surname>Robois</surname>
+               </persName>
+               <note>Seigneur de Robois et de Gazelle.</note>
+            </person>
+            <person xml:id="JaucourtG">
+               <persName>
+                  <forename>Guy</forename>
+                  <nameLink>de</nameLink>
+                  <surname>Jaucourt</surname>
+               </persName>
+               <note>Écuyer, conseiller et chambellan du duc.</note>
+            </person>
+            <person xml:id="BourgoisG">
+               <persName>
+                  <forename>Guiot</forename>
+                  <surname>Bourgois</surname>
+               </persName>
+               <note>Écuyer.</note>
+            </person>
+            <person xml:id="GressartP">
+               <persName>
+                  <forename>Perrinet</forename>
+                  <surname>Gressart</surname>
+               </persName>
+               <note>Écuyer pannetier du duc, capitaine de La Charité-sur-Loire.</note>
+            </person>
+            <person xml:id="RocheteC">
+               <persName>
+                  <forename>Claude</forename>
+                  <nameLink>du, et de la Rochette</nameLink>
+                  <surname>Seyssel</surname>
+               </persName>
+               <note>Maître, conseiller du duc.</note>
+            </person>
+            <person xml:id="ClunyH">
+               <persName>
+                  <forename>Henri</forename>
+                  <nameLink>de</nameLink>
+                  <surname>Cluny</surname>
+               </persName>
+               <note>Maître, conseiller du duc.</note>
+            </person>
+            <person xml:id="BastierN">
+               <persName>
+                  <forename>Nicolas</forename>
+                  <surname>Bastier</surname>
+               </persName>
+               <note>Maître, conseiller du duc.</note>
+            </person>
+            <person xml:id="RupesG">
+               <persName>
+                  <forename>Gauthier</forename>
+                  <nameLink>de</nameLink>
+                  <surname>Rupes</surname>
+               </persName>
+               <note/>
+            </person>
+            <person xml:id="ChalonTonnerre">
+               <persName>
+                  <forename>Louis II</forename>
+                  <nameLink>de</nameLink>
+                  <surname>Chalon</surname>
+               </persName>
+               <note>Comte de Tonnerre</note>
+            </person>
+         </listPerson>
+         <listPerson type="savoyards">
+            <person xml:id="ForestG">
+               <persName>
+                  <forename>Guillaume</forename>
+                  <nameLink>de</nameLink>
+                  <surname>La Forest</surname>
+               </persName>
+               <note>Chevalier, seigneur de La Forest, conseiller et chambellan du duc.</note>
+            </person>
+            <person xml:id="SepsC">
+               <persName>
+                  <forename>Claude</forename>
+                  <nameLink>du</nameLink>
+                  <surname>Seps</surname>
+               </persName>
+               <note>Écuyer, seigneur de Ravoire, président de la Chambre des comptes de Savoie, conseiller du duc.</note>
+            </person>
+            <person xml:id="ChampdueO">
+               <persName>
+                  <forename>Oddo</forename>
+                  <surname>Champdue</surname>
+               </persName>
+               <note>Seigneur de Champdue, bailli de Bresse, conseiller du duc.</note>
+            </person>
+            <person xml:id="LovoulJ">
+               <persName>
+                  <forename>Jacques</forename>
+                  <surname>Lovoul ou Loriot</surname>
+               </persName>
+               <note>Maître, docteur en lois et décrets, juge du pays de Bresse, conseiller du duc.</note>
+            </person>
+            <person xml:id="PaludF">
+               <persName>
+                  <forename>François</forename>
+                  <nameLink>de</nameLink>
+                  <surname>La Palud</surname>
+               </persName>
+               <note>Seigneur de Varembon.</note>
+            </person>
+         </listPerson>
+         <listPerson type="autres">
+            <person xml:id="VillemurJ">
+               <persName>
+                  <forename>Jacques</forename>
+                  <nameLink>de</nameLink>
+                  <surname>Villemur</surname>
+               </persName>
+               <note>Vicomte de Villemur.</note>
+            </person>    
+            <person xml:id="AiguesG">
+               <persName>
+                  <forename>Guillaume</forename>
+                  <nameLink>des</nameLink>
+                  <surname>Aigues</surname>
+               </persName>
+               <note>Chevalier.</note>
+            </person>
+            <person xml:id="HostenoisL">
+               <persName>
+                  <forename>Louis</forename>
+                  <nameLink>d'</nameLink>
+                  <surname>Hostenois</surname>
+               </persName>
+               <note>Chevalier.</note>
+            </person>
+            <person xml:id="AigleJ">
+               <persName>
+                  <forename>Jean</forename>
+                  <nameLink>de</nameLink>
+                  <surname>Châtillon</surname>
+               </persName>
+               <note>Dit Jean de Blois, seigneur de l'Aigle.</note>
+            </person>
+            <person xml:id="GuyH">
+               <persName>
+                  <forename>Hugues</forename>
+                  <surname>Guy</surname>
+               </persName>
+               <note>Bourgeois de Riom.</note>
+            </person>
+            <person xml:id="SolierP">
+               <persName>
+                  <forename>Pierre</forename>
+                  <surname>Solier</surname>
+               </persName>
+               <note>Habitant de Riom.</note>
+            </person>
+            <person xml:id="FeureP">
+               <persName>
+                  <forename>Pierre</forename>
+                  <surname>Feure</surname>
+               </persName>
+               <note>Maître, licencié en lois, habitant de Riom.</note>
+            </person>
+            <person xml:id="DauvatL">
+               <persName>
+                  <forename>Louis</forename>
+                  <surname>Dauvat</surname>
+               </persName>
+               <note>Bourgeois de Riom.</note>
+            </person>
+            <person xml:id="CoppierD">
+               <persName>
+                  <forename>Durand</forename>
+                  <surname>Coppier</surname>
+               </persName>
+               <note>Laboureur de Riom.</note>
+            </person>
+            <person xml:id="ChazeuilA">
+               <persName>
+                  <forename>Annette</forename>
+                  <nameLink>de</nameLink>
+                  <surname>La Pierre</surname>
+               </persName>
+               <note>Dame de Chazeuil.</note>
+            </person>
+            <person xml:id="BeceyD">
+               <persName>
+                  <forename>Denis</forename>
+                  <surname>Becey</surname>
+               </persName>
+               <note>Tabellion ou notaire.</note>
+            </person>
+            <person xml:id="ChavalB">
+               <persName>
+                  <forename>Benoît</forename>
+                  <surname>Chaval</surname>
+               </persName>
+               <note>Tabellion ou notaire.</note>
+            </person>
+            <person xml:id="ClunyAbbe">
+               <persName>
+                  <forename>Odon II</forename>
+                  <nameLink>de la</nameLink>
+                  <surname>Perrière</surname>
+               </persName>
+               <note>Abbé de Cluny (1423-1456).</note>
+            </person>
+         </listPerson>
+      </body>
    </text>
 </TEI>
