@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!--<?xml-model href="out/ODD_actes_charles_bourbon.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>-->
 <!DOCTYPE doc [
 <!ENTITY indexnominum SYSTEM "nominum.xml">
 <!ENTITY indexlocorum SYSTEM "locorum.xml">
@@ -66,9 +67,7 @@
          <langUsage>
             <language ident="frm">Moyen français</language>
          </langUsage>
-         <settingDesc>
             &indexlocorum;
-         </settingDesc>
          <particDesc>
             &indexnominum;
          </particDesc>
@@ -1778,6 +1777,83 @@
                </div>
                <div type="sign">
                   <p><persName ref="#DB_sign">De Bar</persName>.</p>
+               </div>
+            </body>
+         </text>
+         <text type="Copie" subtype="Lettres_closes" xml:id="Ch-33" n="33">c
+            <front>
+               <docDate>
+                  <date when="1432-03-12">[1432 (n. st.)], 12 mars<note type="n1"><p>Le vidimus s’achève ainsi : « Faictez et donnees soubz notre seel et le seign manuel de Piarre du Says, clert et noctere royal, et greffier de votre court de Fourez, le XIX<hi rend="sup">e</hi> jour du moy de mars, l’an mil IIIIC et trente ung. / Ainsi a esté fait comme dessus est contenu, en la presence de monseigneur le balli et gens du conseyl en Fourez, et de moy, / P. du Says. ».</p></note></date>
+                  <placeName ref="#Moulins">Moulins</placeName>
+               </docDate>
+               <argument>
+                  <p>Charles de Clermont informe Amé Vert, bailli de Forez, qu’il a donné à Simon de Rochevol, prieur de Saint-Fortunat de Charlieu, la jouissance de ses possessions à Charlieu, contre sa promesse de lui rester loyal pendant cinq années, et qu'Anthoyne de Tholoigne est nommé capitaine de la forteresse de Charlieu</p>
+               </argument>
+               <argument>
+                  <p>Charles, comte de Clermont, informe Amé Vert, bailli de Forez, qu’il a donné à Simon de Rochevol, prieur de Saint-Fortunat de Charlieu<note type="n1"><p>
+                     <biblStruct>
+                        <monogr>
+                           <author>
+                              <persName>
+                                 <forename>J.-B.</forename>
+                                 <surname>De Vaivre</surname>
+                              </persName>
+                           </author>
+                           <title level="a">Constructions adventices du XVe siècle aux prieurés de Charlieu et de Perrecy</title>
+                           <title level="j">Bulletin Monumental</title>
+                           <imprint>
+                              <biblScope unit="issue" n="141/4"/>
+                              <date when="1983"/>
+                              <biblScope unit="page" from="375" to="403"/>
+                           </imprint>
+                        </monogr>
+                     </biblStruct>
+                     (en particulier p. 375 et 377).</p>)</note>, la jouissance de son prieuré, de sa forteresse et de toutes ses possessions à Charlieu, contre sa promesse de lui rester loyal pendant cinq années, et y a nommé capitaine Anthoyne de Tholoigne, sire d’Albigue, écuyer, qui s’est porté caution, avec Jean de Chenevoux, capitaine de Néronde, et Guillaume de Venoy, écuyer, pour ledit prieur ; Amé Vert est chargé de recevoir et d’enregistrer les serments de Jean de Chevenoux et Guillaume de Venoy.</p>
+               </argument>
+               <div type="tradition">
+                  <listWit>
+                     <witness n="A">A. Original perdu, jadis accompagné d’une cédule de Simon de Rochevol (d’après B).</witness>
+                     <witness n="B">B. Vidimus sur parchemin dans la réponse d’Amé Vert, datée du 19 mars suivant, signé. 395 x 125-140 mm. <orgName type = "main">Archives nationales</orgName>, P 1360<hi rend="sup">3</hi>, cote 833. </witness>
+                  </listWit>
+               </div>
+            </front>
+            <body>
+               <div type="acte">
+                  <p>Le conte de Clermont. <persName ref="#VertA">Notre amé et feal</persName>, vuilhés savoir que nous avons delivré a nostre amé religieux frere <persName ref="RonchevolS">Symond de Ronchevol</persName>, prier de Charlieu, sa place et forteresse de <placeName ref="#Charlieu">Cherlieu</placeName> et tout son prieuré et beneffice dudit lieu, parmy ce que il nous a fait le serement, promesse et obligacion contenus en une cedule dont nous vous envoiyons la coppie cy dedans enclose, et avons institué cappitaine de ladite forteresse et prieuré nostre amé escuyer <persName ref="#TholoigusA">Anthoyne de Tholoigus</persName>, sire d’<placeName ref="#Alvigne">Alvigne</placeName>, lequel nous a fait serement de tenir ladicte plasse en nostre nom, la nous randre toutes les foys que l’en requerrons et non a autre, et a ce s’est obligez et tous ses biens et c’est constitué plege pour ledit prieur a tenir et fere tenir par ledit prieur toutes les choses contenues en ladite cedule, et aussi nous a promis ledit prieur de nous bailher deux autres gentilz homes du païs de par dela a pleges et cauctions de tenir lesdites choses, c’est assavoir <persName ref="#ChenevouxJ">Jehan de Chenevoux</persName>, cappitaine de <placeName ref="#Neronde">Neronde</placeName>, et <persName ref="#VeinoyG">Guillaume de Veinoy</persName>, escuyers, et vous avons commis a recevoir leurs seremans, promesses et obligacions. Si vous mandons et prions tres acertes que vous recevés en nostre nom desdiz Chenevoux et du Veinoy leur seremens, promesses, obligacions sur tous leur biens, que ledit prieur tiendra et complira lesdites choses reteneuz en ladite cedule, et a ce constituent plaiges, et ladite plegerie fectes enregistrer, et de ce que fet aurés nous certiffiés. Et nostre seigneur vous gart. Escript a Molins, le XII<hi rend="sup">e</hi> jour de mars. Charles. <persName ref="#DB_sign">De Bar</persName>.</p>
+               </div>
+            </body>
+         </text>
+         <text type="Copie" subtype="Lettres_closes" xml:id="Ch-34" n="34">
+            <front>
+               <docDate>
+                  <date when="1432-03-12">1432, 28 juin</date>
+                  <placeName ref="#Moulins">Montmarault</placeName>
+               </docDate>
+               <argument>
+                  <p>Charles, comte de Clermont, ayant délégation de pouvoir, cède à Jacques de Châtillon, seigneur de Dampierre et de Revel, la moitié du château d’Ecole durant la vie de sa femme Jeanne, qui possède l’autre moitié en douaire</p>
+               </argument>
+               <argument>
+                  <p>Charles, comte de Clermont, ayant délégation de pouvoir, cède à Jacques de Châtillon, seigneur de Dampierre et de Revel, la moitié du château d’Ecole durant la vie de sa femme Jeanne, qui possède l’autre moitié en douaire.</p>
+               </argument>
+               <div type="tradition">
+                  <listWit>
+                     <witness n="A">A. Original perdu, jadis scellé « du seel de mondit seigneur le conte a double queue et cire rouge » (d’après B.).</witness>
+                     <witness n="B">B. Vidimus sur parchemin par Pierre de la Chiese, conseiller du roi et garde du sceau royal de la cour des exemptions d’Auvergne, daté du 6 juillet suivant, signé. 385 x 300 mm., dont repli 25 mm. <orgName type = "main">Archives nationales</orgName>, P 1374<hi rend="sup">3</hi>, cote 2393. </witness>
+                     <witness n="analyse">
+                        <bibl>
+                           <title>Titres de Bourbon</title>
+                           <biblScope unit="volume" n="II"/>
+                           <biblScope unit="page" n="249"/>
+                           <biblScope unit="entry" n="5416"/>
+                        </bibl>
+                     </witness>
+                  </listWit>
+               </div>
+            </front>
+            <body>
+               <div type="acte">
+                  <p>« Charles de Bourbon, conte de Clermont, ainsné fils de mon tres redoubté seigneur et pere, monseigneur le duc de Bourbonnois et d’Auvergne, ayant le gouvernement de ses païs, terres et seignouries en son absence, a tous ceulx qui ces presentes lettres verront, salut. Comme nous eussions baillé et delivré a nostre tres chiere et amee cousine la <persName ref="#RevelJ">dame de Ravel</persName>, femme de nostre tres chier et amé cousin messire <persName ref="ChatillonJ">Jaques de Chastillon</persName>, seigneur de <placeName ref="#Dampierre">Dampiere</placeName> et dudit <placeName ref="#Ravel">Ravel</placeName>, par avant femme de feu messire <persName ref="#AubuchourtF">Francois d’Aubuchourt</persName>, jadiz son premier mary, la moitié de toute la justice, terre et revenue des chastel, chastellnie et appartenances d’<placeName ref="#Ecole">Escole</placeName>, pour en joïr sa vie durant par maniere de douaire, et l’autre moitié soit demouree en la main de mondit seigneur et pere et de nous, et pour ce ledit chastel ayons baillé par maniere de prest a nostredit cousin seigneur de Dampierre, comme apparait par ses lettres estans en la chambre des comptes a <placeName ref="#Moulins">Molins</placeName>, et emprés ce et nagueres ledit seigneur de Dampiere nostre cousin nous ait humblement supplié et requis que lui vuillons donner et delivrer l’autre moitié dudit chastel, terre et chastellnie d’Escole pour ne joïr durant la vie de nostredite cousine seulement, savoir faisons que nous, inclinans a la supplicacion et requeste de notredit cousin pour la singuliere amour que avons a lui, et en consideracion des bons et agreables services qu’il nous a faiz le temps passé et esperons que encores face, audit seigneur de Dampierre nostre cousin avons donné et par ces presentes donnons ladite autre moitié d’iceulx chastel, terre, juridicion et chastellnie et appartenances d’Escole, pour en joïr paisiblement durant le cours de la vie de nostredite cousine sa femme seulement, ensemble et avec l’autre moitié d’iceulx chastel, terres, justice et ses appartenances que nostredite cousine tient en douaire, et tout ce sans prejudice des droiz que nous avons et nosdiz cousin et cousine pevent avoir esdiz chastel, chastellnie et terre d’Escole, se aucuns en ont. Si donnons en mandement par ces presentes a noz amez et feaulx gens des comptes de mondit seigneur et pere et de nous a Molins, que a nostredit cousin de Dampiere baillent et delivrent reaulment et de fait ladite moitié d’icelle terre, justice et chastellnie d’Escole et de ses appartenances, et d’icelle moitié le facent, laissent et seuffrent doresenavant joïr et user paisiblement durant la vie de nostredite cousine, en prenant d’eulx les lettres de recognoissance telles qu’il est acoustumé de bailler par gens qui tiennent terres a vie, sans les molester ou empescher, ne souffrir estre molester ou empescher en aucune maniere au contraire. En tesmoing de ce, nous avons fait mectre nostre seel a ces presentes, sauf en autres choses le droit de mondit seigneur et pere et nostre, et l’autruy en toutes. Donné a Montmaraut, le vinthuityesme jour de juing, l’an de grace mil quatre cens trente et deux. »</p>
+                  <p>Et estoient escriptes et signees dessoubz en marge : « Par monseigneur le conte, le <persName ref="#FayetteG">seigneur de la Fayete</persName>, mareschal de France, <persName ref="#ToulonP">vous</persName>, le <persName ref="#ChauvignyJ">seigneur de Blot</persName>, maistre <persName name="#DB_cptes">Estienne de Bar</persName> et autres presens, <persName ref="#Gort_sign">E. Gort</persName> ».</p>
                </div>
             </body>
          </text>
