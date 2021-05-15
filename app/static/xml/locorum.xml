@@ -1,0 +1,663 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI>
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Index des noms</title>
+            <respStmt>
+               <resp>Transcription, édition et encodage réalisés par</resp>
+               <name>Jean-Damien Généro</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <distributor>École nationale des chartes</distributor>
+            <date>2020</date>
+            <availability status="restricted">
+               <p>Recherche en cours, la réutilisation de ces données (analyses, transcription, notes, tradition, index, etc.) n'est pas autorisée sans accord de l'auteur.</p>
+            </availability>
+            <distributor>École nationale des chartes, Master &#171; Technologies numériques appliquées à l'histoire &#187;.</distributor>
+         </publicationStmt>
+         <sourceDesc/>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <place xml:id="Albi">
+               <placeName>
+                  <name xml:lang="oci">Albi</name>
+                  <name xml:lang="fr">Albi</name>
+               </placeName>
+               <desc>Tarn</desc>
+               <location>
+                  <geo source="https://fr.wikipedia.org/wiki/Albi">43° 55′ 44″ nord, 2° 08′ 47″ est</geo>
+               </location>
+            </place>
+            <place xml:id="Moulins">
+               <placeName type="production_place">
+                  <name xml:lang="frm">Molins</name>
+                  <name xml:lang="fr">Moulins</name>
+               </placeName>
+               <desc>Allier</desc>
+               <location>
+                  <geo source="https://fr.wikipedia.org/wiki/Moulins_(Allier)">46° 33′ 55″ nord, 3° 20′ 00″ est</geo>
+               </location>
+            </place>
+            <place xml:id="SaintFlour">
+               <placeName>
+                  <name xml:lang="oci">Saint Flor</name>
+                  <name xml:lang="fr">Saint-Flour</name>
+               </placeName>
+               <desc>Cantal</desc>
+               <location>
+                  <geo>45° 02′ 04″ nord, 3° 05′ 37″ est</geo>
+               </location>
+            </place>
+            <place xml:id="Auvergne">
+               <placeName>
+                  <name xml:lang="fr">Auvergne</name>
+               </placeName>
+               <desc>duché d'</desc>
+            </place>
+            <place xml:id="Gevaudan">
+               <placeName>
+                  <name xml:lang="oci">Janalda</name>
+                  <name xml:lang="fr">Gévaudan</name>
+               </placeName>
+               <desc>pays de</desc>
+            </place>
+            <place xml:id="Languedoc">
+               <placeName>
+                  <name xml:lang="oci">pays de lengua d'oc</name>
+                  <name xml:lang="fr">Languedoc</name>
+               </placeName>
+               <desc>pays de</desc>
+            </place>
+            <place xml:id="Velay">
+               <placeName>
+                  <name xml:lang="oci">Veleyt</name>
+                  <name xml:lang="fr">Velay</name>
+               </placeName>
+               <desc>pays du</desc>
+            </place>
+            <place xml:id="BourgogneD">
+               <placeName>
+                  <name xml:lang="frm">Bourgoingne</name>
+                  <name xml:lang="fr">Bourgogne</name>
+               </placeName>
+               <desc>duché de</desc>
+            </place>
+            <place xml:id="Charolais">
+               <placeName>
+                  <name xml:lang="frm">Charrolois</name>
+                  <name xml:lang="fr">Charolais</name>
+               </placeName>
+               <desc>comté de</desc>
+            </place>
+            <place xml:id="Bourbonnais">
+               <placeName>
+                  <name xml:lang="frm">Bourbonnois</name>
+                  <name xml:id="fr">Bourbonnais</name>
+               </placeName>
+               <desc>duché de</desc>
+            </place>
+            <place xml:id="Beaujolais">
+               <placeName>
+                  <name xml:lang="frm">Beauljeulois</name>
+                  <name xml:lang="fr">Beaujolais</name>
+               </placeName>
+               <desc>seigneurie de</desc>
+            </place>
+            <place xml:id="ChateauChinon">
+               <placeName>
+                  <name xml:lang="frm">Chastel Chignon</name>
+                  <name xml:lang="fr">Château-Chinon</name>
+               </placeName>
+               <desc>seigneurie de</desc>
+            </place>
+            <place xml:id="Tutbury">
+               <placeName>
+                  <name xml:lang="frm">chastel de Tutebery</name>
+                  <name xml:lang="fr">Tutbury</name>
+               </placeName>
+               <desc>château de, Angleterre, Staffordshire</desc>
+            </place>
+            <place xml:id="Angleterre">
+               <placeName>
+                  <name xml:lang="fr">Angleterre</name>
+               </placeName>
+               <desc>royaume d'</desc>
+            </place>
+            <place xml:id="Rome">
+               <placeName>
+                  <name xml:lang="fr">Rome</name>
+               </placeName>
+               <desc>Italie</desc>
+            </place>
+            <place xml:id="BourgogneC">
+               <placeName>
+                  <name xml:lang="frm">Bourgoigne</name>
+                  <name xml:lang="fr">Bourgogne</name>
+               </placeName>
+               <desc>comté de</desc>
+            </place>
+            <place xml:id="Autun">
+               <placeName type="production_place">
+                  <name xml:lang="frm">Ostun</name>
+                  <name xml:lang="fr">Autun</name>
+               </placeName>
+               <desc>Saône-et-Loire</desc>
+               <location>
+                  <geo>46° 57′ 06″ nord, 4° 17′ 58″ est</geo>
+               </location>
+            </place>
+            <place xml:id="Dijon">
+               <placeName>
+                  <name xml:lang="fr">Dijon</name>
+               </placeName>
+               <desc>Côte-d'Or</desc>
+               <location>
+                  <geo>47° 19′ 18″ nord, 5° 02′ 29″ est</geo>
+               </location>
+            </place>
+            <place xml:id="ChateauBelin">
+               <placeName>
+                  <name xml:lang="frm">Chasteaulbelin</name>
+                  <name xml:lang="fr">Chasteaulbelin</name>
+               </placeName>
+               <desc>com. Salins-les-Bains, Jura</desc>
+               <note>Ajd. le fort Belin.</note>
+            </place>
+            <place xml:id="Souvigny">
+               <placeName type="production_place">
+                  <name xml:lang="frm">Sovigny</name>
+                  <name xml:lang="fr">Souvigny</name>
+               </placeName>
+               <desc>Allier</desc>
+               <location>
+                  <geo>46° 32′ 08″ nord, 3° 11′ 34″ est</geo>
+               </location>
+            </place>
+            <place xml:id="Chaussiere">
+               <placeName>
+                  <name xml:lang="frm">La Chauciere</name>
+                  <name xml:lang="fr">La Chaussiere</name>
+               </placeName>
+               <desc>com. Vieure, Allier</desc>
+               <location>
+                  <geo>46° 30′ 49″ N, 2° 53′ 18″ E</geo>
+               </location>
+            </place>
+            <place xml:id="Clermont">
+               <placeName>
+                  <name xml:lang="frm">Clermont en Beauvoisin</name>
+                  <name xml:lang="fr">Clermont-en-Beauvaisis</name>
+               </placeName>
+               <desc>comté de</desc>
+            </place>
+            <place xml:id="Montpensier">
+               <placeName>
+                  <name xml:lang="frm">Montpencier</name>
+                  <name xml:lang="fr">Montpensier</name>
+               </placeName>
+               <desc>comté de</desc>
+            </place>
+            <place xml:id="FranceR">
+               <placeName>
+                  <name xml:lang="fr">France</name>
+               </placeName>
+               <desc>royaume de</desc>
+            </place>
+            <place xml:id="Riom">
+               <placeName type="production_place">
+                  <name xml:lang="frm">Rion</name>
+                  <name xml:lang="fr">Riom</name>
+               </placeName>
+               <desc>Puy-de-Dôme</desc>
+               <location>
+                  <geo>45° 53′ 40″ nord, 3° 06′ 48″ est</geo>
+               </location>
+            </place>
+            <place xml:id="Guyenne">
+               <placeName>
+                  <name xml:lang="frm">Guienne</name>
+                  <name xml:lang="fr">Guyenne</name>
+               </placeName>
+               <desc>duché de</desc>
+            </place>
+            <place xml:id="Montbrison">
+               <placeName type="production_place">
+                  <name xml:lang="frm">Montbrison</name>
+                  <name xml:lang="fr">Montbrison</name>
+               </placeName>
+               <desc>Loire</desc>
+               <location>
+                  <geo>45° 36′ 30″ nord, 4° 03′ 57″ est</geo>
+               </location>
+            </place>
+            <place xml:id="Lyon">
+               <placeName>
+                  <name xml:lang="fr">Lyon</name>
+               </placeName>
+               <desc>Rhône</desc>
+               <location>
+                  <geo>45° 45′ 35″ nord, 4° 50′ 32″ est</geo>
+               </location>
+            </place>
+            <place xml:id="StBonnetpresRiom">
+               <placeName>
+                  <name xml:lang="frm">Saint Bonnet delas Champs</name>
+                  <name xml:lang="fr">Saint-Bonnet-près-Riom</name>
+               </placeName>
+               <desc>Puy-de-Dôme</desc>
+               <location>
+                  <geo>45° 55′ 50″ nord, 3° 06′ 50″ est</geo>
+               </location>
+            </place>
+            <place xml:id="Gannat">
+               <placeName type="production_place">
+                  <name xml:lang="fr">Gannat</name>
+               </placeName>
+               <desc>Allier</desc>
+               <location>
+                  <geo>46° 06′ 02″ nord, 3° 11′ 57″ est</geo>
+               </location>
+            </place>
+            <place xml:id="Lyonnais">
+               <placeName>
+                  <name xml:lang="frm">Lionnoiz</name>
+                  <name xml:lang="fr">Lyonnais</name>
+               </placeName>
+               <desc>pays de</desc>
+            </place>
+            <place xml:id="Maconnais">
+               <placeName>
+                  <name xml:lang="frm">Masconnoiz</name>
+                  <name xml:lang="fr">Mâconnais</name> 
+               </placeName>
+               <desc>pays de</desc>
+            </place>
+            <place xml:id="Charite">
+               <placeName>
+                  <name xml:lang="frm">La Charité sur Loire</name>
+                  <name xml:lang="fr">La Charité-sur-Loire</name>
+               </placeName>
+               <desc>Nièvre</desc>
+               <location>
+                  <geo>47° 10′ 40″ nord, 3° 01′ 11″ est</geo>
+               </location>
+            </place>
+            <place xml:id="Villefranche">
+               <placeName>
+                  <name xml:lang="frm">Villefranche en Beaujeulois</name>
+                  <name xml:lang="fr">Villefranche-sur-Saône</name>
+               </placeName>
+               <desc>Rhône</desc>
+               <location>
+                  <geo>45° 59′ 25″ nord, 4° 43′ 13″ est</geo>
+               </location>
+            </place>
+            <place xml:id="Chinon">
+               <placeName type="production_place">
+                  <name xml:lang="fr">Chinon</name>
+               </placeName>
+               <desc>Indre-et-Loire</desc>
+               <location>
+                  <geo>47° 10′ 04″ nord, 0° 14′ 37″ est</geo>
+               </location>
+            </place>
+            <place xml:id="Allier_riv">
+               <placeName>
+                  <name xml:lang="frm">Alier</name>
+                  <name xml:lang="fr">Allier</name>
+               </placeName>
+               <desc>rivière</desc>
+            </place>
+            <place xml:id="Vichy">
+               <placeName>
+                  <name xml:lang="fr">Vichy</name>
+               </placeName>
+               <desc>Allier</desc>
+               <location>
+                  <geo>46° 07′ 28″ nord, 3° 25′ 42″ est</geo>
+               </location>
+            </place>
+            <place xml:id="BourbonArch">
+               <placeName>
+                  <name xml:lang="frm">Bourbon</name>
+                  <name xml:lang="fr">Bourbon-l'Archambault</name>
+               </placeName>
+               <desc>Allier</desc>
+               <location>
+                  <geo>46° 35′ 03″ nord, 3° 03′ 26″ est</geo>
+               </location>
+            </place>
+            <place xml:id="Montlucon">
+               <placeName type="production_place">
+                  <name xml:lang="fr">Montluçon</name>
+               </placeName>
+               <desc>Allier</desc>
+               <location>
+                  <geo>46° 20′ 27″ nord, 2° 36′ 12″ est</geo>
+               </location>
+            </place>
+            <place xml:id="Beaujeu">
+               <placeName>
+                  <name xml:lang="fr">Beaujeu</name>
+               </placeName>
+               <desc>Allier</desc>
+               <location>
+                  <geo>46° 09′ 18″ nord, 4° 35′ 20″ est</geo>
+               </location>
+            </place>
+            <place xml:id="Herisson">
+               <placeName type="production_place">
+                  <name xml:lang="frm">Heriçon</name>
+                  <name xml:lang="fr">Hérisson</name>
+               </placeName>
+               <desc>Allier</desc>
+               <location>
+                  <geo>46° 30′ 34″ nord, 2° 42′ 44″ est</geo>
+               </location>
+            </place>
+            <place xml:id="StPourcain">
+               <placeName>
+                  <name xml:lang="frm">Saint Poursain</name>
+                  <name xml:lang="fr">Saint-Pourçain-sur-Sioule</name>
+               </placeName>
+               <desc>Allier</desc>
+               <location>
+                  <geo> 46° 18′ 30″ nord, 3° 17′ 24″ est</geo>
+               </location>
+            </place>
+            <place xml:id="Vinzelles">
+               <placeName>
+                  <name xml:lang="frm">Vinzella</name>
+                  <name xml:lang="fr">Vinzelles (La)</name>
+               </placeName>
+               <desc>Puy-de-Dôme</desc>
+               <location>
+                  <geo source="https://fr.wikipedia.org/wiki/Vinzelles_(Puy-de-D%C3%B4me)">45° 55′ 36″ nord, 3° 23′ 54″ est</geo>
+               </location>
+            </place>
+            <place xml:id="Calvinet">
+               <placeName>
+                  <name xml:lang="fr">Calvinet</name>
+               </placeName>
+               <desc>Cantal</desc>
+               <location>
+                  <geo source="https://fr.wikipedia.org/wiki/Calvinet">44° 43′ 07″ nord, 2° 21′ 30″ est</geo>
+               </location>
+            </place>
+            <place xml:id="Villemur">
+               <placeName>
+                  <name xml:lang="fr">Villemur</name>
+               </placeName>
+               <desc>vicomté et seigneurie de, Hautes-Pyrénées</desc>
+            </place>
+            <place xml:id="Combrailles">
+               <placeName>
+                  <name xml:lang="fr">Combrailles</name>
+               </placeName>
+               <desc>Les, pays de</desc>
+            </place>
+            <place xml:id="BlancsFosses">
+               <placeName>
+                  <name xml:lang="frm">Blans Foussés</name>
+                  <name xml:lang="fr">Blancs-Fossés</name>
+               </placeName>
+               <desc>terre et forteresse de) (com. Couleuvre, Allier</desc>
+            </place>
+            <place xml:id="Chazeuil">
+               <placeName>
+                  <name xml:lang="frm">Chaseul</name>
+                  <name xml:lang="fr">Chazeuil</name>
+               </placeName>
+               <desc>com. Varennes-sur-Allier, Allier</desc>
+               <location>
+                  <geo source="https://fr.wikipedia.org/wiki/Chazeuil_(Allier)">46° 19′ 47″ nord, 3° 23′ 14″ est</geo>
+               </location>
+            </place>
+            <place xml:id="Issoire">
+               <placeName>
+                  <name xml:lang="fr">Issoire</name>
+               </placeName>
+               <desc>Puy-de-Dôme</desc>
+               <location>
+                  <geo source="https://fr.wikipedia.org/wiki/Issoire">45° 32′ 42″ nord, 3° 14′ 59″ est</geo>
+               </location>
+            </place>
+            <place xml:id="Chantelle">
+               <placeName type="production_place">
+                  <name xml:lang="fr">Chantelle</name>
+               </placeName>
+               <desc>Allier</desc>
+               <location>
+                  <geo>46° 14′ 20″ nord, 3° 09′ 14″ est</geo>
+               </location>
+            </place>
+            <place xml:id="Trevoux">
+               <placeName>
+                  <name xml:lang="fr">Trévoux</name>
+               </placeName>
+               <desc>Ain</desc>
+               <location>
+                  <geo>45° 56′ 28″ nord, 4° 46′ 30″ est</geo>
+               </location>
+            </place>
+            <place xml:id="Donzois">
+               <placeName>
+                  <name xml:lang="fr">Donzois</name>
+               </placeName>
+               <desc>pays de</desc>
+            </place>
+            <place xml:id="Forez">
+               <placeName>
+                  <name xml:lang="fr">Forez</name>
+               </placeName>
+               <desc>comté de</desc>
+            </place>
+            <place xml:id="BourgenBresse">
+               <placeName>
+                  <name xml:lang="frm">Boure en Bresse</name>
+                  <name xml:lang="fr">Bourg-en-Bresse</name>
+               </placeName>
+               <desc>Ain</desc>
+               <location>
+                  <geo source="https://fr.wikipedia.org/wiki/Bourg-en-Bresse">46° 12′ 20″ nord, 5° 13′ 44″ est</geo>
+               </location>
+            </place>
+            <place xml:id="Macon">
+               <placeName>
+                  <name xml:lang="frm">Mascon</name>
+                  <name xml:lang="fr">Mâcon</name>
+               </placeName>
+               <desc>Saône-et-Loire</desc>
+               <location>
+                  <geo source="https://fr.wikipedia.org/wiki/M%C3%A2con">46° 18′ 22″ nord, 4° 49′ 53″ est</geo>
+               </location>
+            </place>
+            <place xml:id="Bresse">
+               <placeName>
+                  <name xml:lang="fr">Bresse</name>
+               </placeName>
+               <desc>pays de</desc>
+            </place>
+            <place xml:id="SuryleB">
+               <placeName>
+                  <name xml:lang="fr">Sury-le-Bois</name>
+               </placeName>
+               <desc>com. Valeille, Loire</desc>
+               <location>
+                  <geo source="https://fr.wikipedia.org/wiki/Valeille">45° 42′ 30″ nord, 4° 18′ 27″ est</geo>
+               </location>
+            </place>
+            <place xml:id="Nivernais">
+               <placeName>
+                  <name xml:lang="frm">Nivernois</name>
+                  <name xml:lang="fr">Nivernais</name>
+               </placeName>
+               <desc>pays de</desc>
+            </place>
+            <place xml:id="Cluny">
+               <placeName>
+                  <name xml:lang="frm">Clugny</name>
+                  <name xml:lang="fr">Cluny</name>
+               </placeName>
+               <desc>Saône-et-Loire</desc>
+            </place>
+            <place xml:id="Marcigny">
+               <placeName>
+                  <name xml:lang="frm">Marcegny les Nonnains</name>
+                  <name xml:lang="frm">Marsegny</name>
+                  <name xml:lang="fr">Marcigny-les-Nonnais</name>
+               </placeName>
+               <desc>Saône-et-Loire</desc>
+               <location>
+                  <geo source="https://fr.wikipedia.org/wiki/Marcigny">46° 16′ 32″ nord, 4° 02′ 32″ est</geo>
+               </location>
+            </place>
+            <place xml:id="Tournus">
+               <placeName>
+                  <name xml:lang="frm">Tournuz</name>
+                  <name xml:lang="fr">Tournus</name>
+               </placeName>
+               <desc>Saône-et-Loire</desc>
+               <location>
+                  <geo source="https://fr.wikipedia.org/wiki/Tournus">46° 33′ 50″ nord, 4° 54′ 33″ est</geo>
+               </location>
+            </place>
+            <place xml:id="StGengoux">
+               <placeName>
+                  <name xml:lang="frm">Saint Jengoul</name>
+                  <name xml:lang="fr">Saint-Gengoux-le-National</name>
+               </placeName>
+               <desc>Saône-et-Loire</desc>
+               <location>
+                  <geo source="https://fr.wikipedia.org/wiki/Saint-Gengoux-le-National">46° 36′ 53″ nord, 4° 39′ 49″ est</geo>
+               </location>
+            </place>
+            <place xml:id="StMarieduB">
+               <placeName>
+                  <name xml:lang="frm">Saincte Marie du Bois</name>
+                  <name xml:lang="fr">Bois-Sainte-Marie</name>
+               </placeName>
+               <desc>Saône-et-Loire</desc>
+               <location>
+                  <geo source="https://fr.wikipedia.org/wiki/Bois-Sainte-Marie">46° 19′ 48″ nord, 4° 21′ 21″ est</geo>
+               </location>
+            </place>
+            <place xml:id="ChalonsurSaone">
+               <placeName>
+                  <name xml:lang="frm">Chalon</name>
+                  <name xml:lang="fr">Chalon-sur-Saône</name>
+               </placeName>
+               <desc>Saône-et-Loire</desc>
+               <location>
+                  <geo source="https://fr.wikipedia.org/wiki/Chalon-sur-Sa%C3%B4ne">46° 46′ 50″ nord, 4° 51′ 10″ est</geo>
+               </location>
+            </place>
+            <place xml:id="Sancerre">
+               <placeName>
+                  <name xml:lang="fr">Sancerre</name>
+               </placeName>
+               <desc>comté de</desc>
+            </place>
+            <place xml:id="Cusset">
+               <placeName>
+                  <name xml:lang="frm">Cussé</name>
+                  <name xml:lang="fr">Cusset</name>
+               </placeName>
+               <desc>Allier</desc>
+               <location>
+                  <geo source="https://fr.wikipedia.org/wiki/Cusset">46° 08′ 07″ nord, 3° 27′ 26″ est</geo>
+               </location>
+            </place>
+            <place xml:id="Charlieu">
+               <placeName>
+                  <name xml:lang="fr">Charlieu</name>
+               </placeName>
+               <desc>Loire</desc>
+               <location>
+                  <geo source="https://fr.wikipedia.org/wiki/Charlieu">46° 09′ 36″ nord, 4° 10′ 21″ est</geo>
+               </location>
+            </place>
+            <place xml:id="Chateauneuf">
+               <placeName>
+                  <name xml:lang="frm">Chastelneuf</name>
+                  <name xml:lang="fr">Châteauneuf</name>
+               </placeName>
+               <desc>Loire</desc>
+               <location>
+                  <geo source="https://fr.wikipedia.org/wiki/Ch%C3%A2teauneuf_(Loire)">45° 31′ 22″ nord, 4° 37′ 32″ est</geo>
+               </location>
+            </place>
+            <place xml:id="Ambierle">
+               <placeName>
+                  <name xml:lang="fr">Ambierle</name>
+               </placeName>
+               <desc>Loire</desc>
+               <location>
+                  <geo source="https://fr.wikipedia.org/wiki/Ambierle">46° 06′ 19″ nord, 3° 53′ 47″ est</geo>
+               </location>
+            </place>
+            <place xml:id="Esbinelle">
+               <placeName>
+                  <name xml:lang="fr">Esbruelle ou Esbinelle</name>
+               </placeName>
+               <desc>non-identifié</desc>
+            </place>
+            <place xml:id="NeversC">
+               <placeName>
+                  <name xml:lang="fr">Nevers</name>
+               </placeName>
+               <desc>comté de</desc>
+            </place>
+            <place xml:id="RethelC">
+               <placeName>
+                  <name xml:lang="fr">Rethel</name>
+               </placeName>
+               <desc>comté de</desc>
+            </place>
+            <place xml:id="StPierreleMoutier">
+               <placeName>
+                  <name xml:lang="frm">Saint Pierre le Moustier</name>
+                  <name xml:lang="fr">Saint-Pierre-le-Moûtier</name>
+               </placeName>
+               <desc>Nièvre</desc>
+               <location>
+                  <geo source="https://fr.wikipedia.org/wiki/Saint-Pierre-le-Mo%C3%BBtier">46° 47′ 30″ nord, 3° 07′ 08″ est</geo>
+               </location>
+            </place>
+            <place xml:id="Sancoins">
+               <placeName>
+                  <name xml:lang="frm">Cenquoins</name>
+                  <name xml:lang="fr">Sancoins</name>
+               </placeName>
+               <desc>Cher</desc>
+               <location>
+                  <geo source="https://fr.wikipedia.org/wiki/Sancoins">46° 49′ 58″ nord, 2° 55′ 11″ est</geo>
+               </location>
+            </place>
+            <place xml:id="Cosne">
+               <placeName>
+                  <name xml:lang="frm">Cosne</name>
+                  <name xml:lang="fr">Cosne-Cours-sur-Loire</name>
+               </placeName>
+               <desc>Nièvre</desc>
+               <location>
+                  <geo source="https://fr.wikipedia.org/wiki/Cosne-Cours-sur-Loire">47° 24′ 44″ nord, 2° 55′ 39″ est</geo>
+               </location>
+            </place>
+            <place xml:id="Rosemont">
+               <placeName>
+                  <name xml:lang="fr">Rosemont</name>
+               </placeName>
+               <desc>com. Luthenay-Uxeloup, Nièvre</desc>
+               <location>
+                  <geo source="https://fr.wikipedia.org/wiki/Luthenay-Uxeloup">46° 51′ 05″ nord, 3° 15′ 51″ est</geo>
+               </location>
+            </place>
+      </body>
+   </text>
+</TEI>
