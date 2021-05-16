@@ -35,15 +35,15 @@
                         <xsl:value-of select="ancestor::place/@xml:id"/>
                     </xsl:variable>
                     <xsl:text> : </xsl:text>
-                    <xsl:for-each select="ancestor::TEI//text//placeName[translate(@ref, '#','')=$Placeid]">
+                    <xsl:for-each select="ancestor::TEI//div//placeName[translate(@ref, '#','')=$Placeid]">
                         <!-- pour chaque occurence du nom (<placeName> dans le <body> dont @ref sans le '#' est équivalent à $Placeid) -->
                         <xsl:element name="a">
                             <!-- est affichée le numéro de l'acte cocnerné (@n de <text>) -->
                             <!-- le numéro est un lien vers l'acte -->
                             <xsl:attribute name="href">
-                                <xsl:text>/actes/</xsl:text><xsl:value-of select="ancestor::text/@n"/>
+                                <xsl:text>/actes/</xsl:text><xsl:value-of select="ancestor::div/@n"/>
                             </xsl:attribute>
-                            <xsl:value-of select="ancestor::text/@n"/>
+                            <xsl:value-of select="ancestor::div/@n"/>
                         </xsl:element>
                         <!-- occurence suivie par une virgule si elle n'est pas la dernière, par un point si elle l'est -->
                         <xsl:if test="position()!= last()">, </xsl:if>
