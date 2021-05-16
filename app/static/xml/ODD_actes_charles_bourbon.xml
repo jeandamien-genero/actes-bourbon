@@ -869,6 +869,7 @@
                         <valItem ident="Minute"/>
                         <valItem ident="Original"/>
                         <valItem ident="Vidimus"/>
+                        <valItem ident="front"/>
                      </valList>
                   </attDef>
                </attList>

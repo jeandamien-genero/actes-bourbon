@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<!--<?xml-model href="out/ODD_actes_charles_bourbon.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>-->
+<?xml-model href="out/ODD_actes_charles_bourbon.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <!DOCTYPE doc [
 <!ENTITY indexnominum SYSTEM "nominum.xml">
 <!ENTITY indexlocorum SYSTEM "locorum.xml">
 ]>
-<TEI>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -144,7 +144,7 @@
    </facsimile>
    <text>
       <front/>
-      <group>
+      <body>
          <div type="Deperditum" subtype="Lettres_closes" xml:id="Ch-1" n="1">
             <div type="front">
                <docDate>
@@ -1600,10 +1600,12 @@
                   </listWit>
                </div>
             </div>
+            <div>
             <head><hi rend="smallcaps">Deperditum</hi></head>
             <div type="acte">
                <p>Le jour de Pâques, le 12 avril 1431, ils [<persName ref="#MarieBerry">Marie de Berry</persName> et Charles de Clermont] donnèrent leurs lettres patentes conjointement, par lesquelles ils nommèrent leurs amé et féaux chevaliers et conseillers <persName ref="#ToulonP">Pierre de Thollon</persName>, chancelier de Bourbonnois, messire <persName ref="#EspinasseJ">Jean de l’Espinasse</persName>, bailli de Beaujolois, messire <persName ref="#VertA">Amé Vert</persName>, bailli de Forez, seigneur de Chenevraille<note type="na"><p>Érreur de lecture d’Aubret. Comprendre <hi rend="i">Chenerraille</hi>, aujourd'hui <hi rend="i">Chenereilles</hi> en Haute-Loire.</p></note>, messire <persName ref="#PelletierJ">Jean Pelletier</persName>, juge de Forez, maître <persName ref="#DubreuilJ">Jean Dubreuil</persName>, auditeur des comptes en Beaujolois, et <persName ref="#ParentR">Robert Parent</persName>, auxquels à trois ou quatre d’iceulx ils donnèrent pouvoir de transiger avec les ambassadeurs du <persName ref="#SavoieAVIII">duc de Savoie</persName> des délits, excès, meurtres, sacrilèges, <placeName ref="#Trevoux">pillages</placeName> et autres maux faits par le <persName ref="#PaludF">sieur de Varambon</persName> et ses adhérents.</p>
             </div>
+         </div>
          </div>
          <div type="Vidimus" subtype="Lettres_patentes" xml:id="Ch-31" n="31">
             <div type="front">
@@ -1786,9 +1788,9 @@
             </div>
             <div type="acte">
                <p>« Charles de Bourbon, conte de Clermont, ainsné fils de mon tres redoubté seigneur et pere, monseigneur le duc de Bourbonnois et d’Auvergne, ayant le gouvernement de ses païs, terres et seignouries en son absence, a tous ceulx qui ces presentes lettres verront, salut. Comme nous eussions baillé et delivré a nostre tres chiere et amee cousine la <persName ref="#RevelJ">dame de Ravel</persName>, femme de nostre tres chier et amé cousin messire <persName ref="ChatillonJ">Jaques de Chastillon</persName>, seigneur de <placeName ref="#Dampierre">Dampiere</placeName> et dudit <placeName ref="#Ravel">Ravel</placeName>, par avant femme de feu messire <persName ref="#AubuchourtF">Francois d’Aubuchourt</persName>, jadiz son premier mary, la moitié de toute la justice, terre et revenue des chastel, chastellnie et appartenances d’<placeName ref="#Ecole">Escole</placeName>, pour en joïr sa vie durant par maniere de douaire, et l’autre moitié soit demouree en la main de mondit seigneur et pere et de nous, et pour ce ledit chastel ayons baillé par maniere de prest a nostredit cousin seigneur de Dampierre, comme apparait par ses lettres estans en la chambre des comptes a <placeName ref="#Moulins">Molins</placeName>, et emprés ce et nagueres ledit seigneur de Dampiere nostre cousin nous ait humblement supplié et requis que lui vuillons donner et delivrer l’autre moitié dudit chastel, terre et chastellnie d’Escole pour ne joïr durant la vie de nostredite cousine seulement, savoir faisons que nous, inclinans a la supplicacion et requeste de notredit cousin pour la singuliere amour que avons a lui, et en consideracion des bons et agreables services qu’il nous a faiz le temps passé et esperons que encores face, audit seigneur de Dampierre nostre cousin avons donné et par ces presentes donnons ladite autre moitié d’iceulx chastel, terre, juridicion et chastellnie et appartenances d’Escole, pour en joïr paisiblement durant le cours de la vie de nostredite cousine sa femme seulement, ensemble et avec l’autre moitié d’iceulx chastel, terres, justice et ses appartenances que nostredite cousine tient en douaire, et tout ce sans prejudice des droiz que nous avons et nosdiz cousin et cousine pevent avoir esdiz chastel, chastellnie et terre d’Escole, se aucuns en ont. Si donnons en mandement par ces presentes a noz amez et feaulx gens des comptes de mondit seigneur et pere et de nous a Molins, que a nostredit cousin de Dampiere baillent et delivrent reaulment et de fait ladite moitié d’icelle terre, justice et chastellnie d’Escole et de ses appartenances, et d’icelle moitié le facent, laissent et seuffrent doresenavant joïr et user paisiblement durant la vie de nostredite cousine, en prenant d’eulx les lettres de recognoissance telles qu’il est acoustumé de bailler par gens qui tiennent terres a vie, sans les molester ou empescher, ne souffrir estre molester ou empescher en aucune maniere au contraire. En tesmoing de ce, nous avons fait mectre nostre seel a ces presentes, sauf en autres choses le droit de mondit seigneur et pere et nostre, et l’autruy en toutes. Donné a Montmaraut, le vinthuityesme jour de juing, l’an de grace mil quatre cens trente et deux. »</p>
-               <p>Et estoient escriptes et signees dessoubz en marge : « Par monseigneur le conte, le <persName ref="#FayetteG">seigneur de la Fayete</persName>, mareschal de France, <persName ref="#ToulonP">vous</persName>, le <persName ref="#ChauvignyJ">seigneur de Blot</persName>, maistre <persName name="#DB_cptes">Estienne de Bar</persName> et autres presens, <persName ref="#Gort_sign">E. Gort</persName> ».</p>
+               <p>Et estoient escriptes et signees dessoubz en marge : « Par monseigneur le conte, le <persName ref="#FayetteG">seigneur de la Fayete</persName>, mareschal de France, <persName ref="#ToulonP">vous</persName>, le <persName ref="#ChauvignyJ">seigneur de Blot</persName>, maistre <persName ref="#DB_cptes">Estienne de Bar</persName> et autres presens, <persName ref="#Gort_sign">E. Gort</persName> ».</p>
             </div>
          </div>
-      </group>
+      </body>
    </text>
 </TEI>
