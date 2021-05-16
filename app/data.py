@@ -40,7 +40,7 @@ def database_init(xml_file):
     number = 0
     db.drop_all()
     db.create_all()
-    for item in xml_file.xpath("//group/div"):
+    for item in xml_file.xpath("//body/div"):
         number += 1
         item_institution = xml_file.xpath("//div[@n=" + str(number) + "]//orgName/text()")
         list_institution.append(item_institution[0])
