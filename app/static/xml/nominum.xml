@@ -331,6 +331,43 @@
          </persName>
          <note>Seigneur de Chazeuil.</note>
       </person>
+      <person xml:id="AmplepuisE">
+         <persName>
+            <forename>Édouard</forename>
+            <nameLink>de</nameLink>
+            <surname>Beaujeu</surname>
+         </persName>
+         <note>Seigneur d'Amplepuis et de Linières.</note>
+      </person>
+      <person xml:id="Rollat">
+         <persName>
+            <forename></forename>
+            <surname>Rollat</surname>
+         </persName>
+         <note>Seigneur de (non-identifié).</note>
+      </person>
+      <person xml:id="Cresant">
+         <persName>
+            <forename></forename>
+            <surname>Cresant ou Crozant</surname>
+         </persName>
+         <note>Seigneur de (non-identifié).</note>
+      </person>
+      <person xml:id="JuifsA">
+         <persName>
+            <forename>Antoine</forename>
+            <nameLink>de</nameLink>
+            <surname>Juifs</surname>
+         </persName>
+         <note>Écuyer</note>
+      </person>
+      <person xml:id="NoussetPh">
+         <persName>
+            <forename>Philibert</forename>
+            <surname>Nousset</surname>
+         </persName>
+         <note>Écuyer</note>
+      </person>
       <person xml:id="RocqueR">
          <persName>
             <forename>Roger</forename>
@@ -359,6 +396,14 @@
             <surname>Cordier</surname>
          </persName>
          <note/>
+      </person>
+      <person xml:id="ToussyP">
+         <persName>
+            <forename>Pierre</forename>
+            <nameLink>de</nameLink>
+            <surname>Toussy</surname>
+         </persName>
+         <note>Maître.</note>
       </person>
       <person xml:id="LacortG">
          <persName>
@@ -463,7 +508,7 @@
             <surname>L’Espinasse</surname>
             <addName>Cormorant</addName>
          </persName>
-         <note>Chevalier, seigneur de L’Espinasse, bailli de Beujolais (cité en 1431), conseiller du duc.</note>
+         <note>Chevalier, seigneur de L’Espinasse, bailli de Beaujolais (cité en 1431), conseiller du duc.</note>
       </person>
       <person xml:id="DubreuilJ">
          <persName>
@@ -681,7 +726,7 @@
          <persName>
             <forename>Lancelot</forename>
             <nameLink>de</nameLink>
-            <surname>Luyrieu ou Lureuil</surname>
+            <surname>Luyrieu, Lureuil ou Layreu</surname>
          </persName>
          <note>Écuyer, seigneur de Luyrieu, bailli de Mâcon, conseiller et chambellan du duc.</note>
       </person>
@@ -737,7 +782,7 @@
             <forename>Philibert</forename>
             <surname>Andriet ou Andrenet</surname>
          </persName>
-         <note>Chevalier, seigneur de Coursan, conseiller du duc.</note>
+         <note>Chevalier, seigneur de Coursan, conseiller et chambellan du duc.</note>
       </person>
       <person xml:id="LaGuicheG">
          <persName>
@@ -813,6 +858,13 @@
          </persName>
          <note>Maître, conseiller du duc.</note>
       </person>
+      <person xml:id="PerierJ">
+         <persName>
+            <forename>Jean</forename>
+            <surname>Perier</surname>
+         </persName>
+         <note>Maître, conseiller du duc.</note>
+      </person>
       <person xml:id="RupesG">
          <persName>
             <forename>Gauthier</forename>
@@ -828,6 +880,47 @@
             <surname>Chalon</surname>
          </persName>
          <note>Comte de Tonnerre</note>
+      </person>
+      <person xml:id="SalignyL">
+         <persName>
+            <forename>Lourdin</forename>
+            <nameLink>de</nameLink>
+            <surname>Saligny</surname>
+         </persName>
+         <note>Seigneur de Saligny, chambellan du duc</note>
+      </person>
+      <person xml:id="SaintamourH">
+         <persName>
+            <forename>Humbert</forename>
+            <nameLink>de</nameLink>
+            <surname>Saint-Amour</surname>
+         </persName>
+         <note>Seigneur de Vinzelles, chambellan du duc</note>
+      </person>
+      <person xml:id="ChantemerleL">
+         <persName>
+            <forename>Louis</forename>
+            <nameLink>de</nameLink>
+            <surname>Chantemerle</surname>
+         </persName>
+         <note>Seigneur de La Clayette, chambellan du duc</note>
+      </person>
+      <person xml:id="BalmeJ">
+         <persName>
+            <forename>Jacques</forename>
+            <nameLink>de</nameLink>
+            <surname>La Balme (ou La Baulme)</surname>
+         </persName>
+         <note>Écuyer.</note>
+      </person>
+      <person xml:id="AragonaisF">
+         <persName>
+            <forename>François</forename>
+            <nameLink>de</nameLink>
+            <surname>Surienne</surname>
+            <addName>l'Aragonais</addName>
+         </persName>
+         <note>Routier.</note>
       </person>
    </listPerson>
    <listPerson type="savoyards">
@@ -982,6 +1075,13 @@
             <surname>Aubuchourt</surname>
          </persName>
          <note>Seigneur de Montcresson-lez-Montargis.</note>
+      </person>
+      <person xml:id="RodrigoLyon">
+         <persName>
+            <forename>Rodrigo</forename>
+            <surname></surname>
+         </persName>
+         <note>Bailli de Lyon en 1433 (?).</note>
       </person>
    </listPerson>
 </listPerson>

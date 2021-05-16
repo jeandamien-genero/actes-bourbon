@@ -684,4 +684,53 @@
          <geo source="https://fr.wikipedia.org/wiki/Le_Mayet-d%27%C3%89cole">46° 10′ 12″ nord, 3° 14′ 31″ est</geo>
       </location>
    </place>
+   <place xml:id="RocheSolutre">
+      <placeName>
+         <name xml:lang="fr">Roche de Solutré</name>
+      </placeName>
+      <desc>forteresse de la, com. Solutré-Pouilly, Saône-et-Loire</desc>
+      <location>
+         <geo source="https://fr.wikipedia.org/wiki/Roche_de_Solutr%C3%A9">46° 17′ 55″ nord, 4° 43′ 05″</geo>
+      </location>
+   </place>
+   <place xml:id="NoyersViennois">
+      <placeName>
+         <name xml:lang="frm">Noyers en Viennois</name>
+         <name xml:lang="fr">Noyers-sur-Serein</name>
+      </placeName>
+      <desc>château de, com. Noyers, Yonne</desc>
+      <location>
+         <geo source="https://fr.wikipedia.org/wiki/Ch%C3%A2teau_de_Noyers-sur-Serein">47° 42′ 04″ nord, 3° 59′ 51″ est</geo>
+      </location>
+   </place>
+   <place xml:id="Montcenis">
+      <placeName>
+         <name xml:lang="frm">Monceniz</name>
+         <name xml:lang="fr">Montcenis</name>
+      </placeName>
+      <desc>Saône-et-Loire</desc>
+      <location>
+         <geo source="https://fr.wikipedia.org/wiki/Ch%C3%A2teau_de_Noyers-sur-Serein">47° 42′ 04″ nord, 3° 59′ 51″ est</geo>
+      </location>
+   </place>
+   <place xml:id="SaintCosme">
+      <placeName>
+         <name xml:lang="frm">Saint Coms</name>
+         <name xml:lang="fr">Saint-Cosme</name>
+      </placeName>
+      <desc>com. Chalon-sur-Saône, Saône-et-Loire</desc>
+      <location>
+         <geo source="https://fr.wikipedia.org/wiki/Chalon-sur-Sa%C3%B4ne">46° 46′ 50″ nord, 4° 51′ 10″ est</geo>
+      </location>
+   </place>
+   <place xml:id="MoulinsEngilbert">
+      <placeName>
+         <name xml:lang="frm">Molins les Engibers</name>
+         <name xml:lang="fr">Moulins-Engilbert</name>
+      </placeName>
+      <desc>Nièvre</desc>
+      <location>
+         <geo source="https://fr.wikipedia.org/wiki/Moulins-Engilbert">46° 59′ 14″ nord, 3° 48′ 38″ est</geo>
+      </location>
+   </place>
 </settingDesc>
