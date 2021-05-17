@@ -287,6 +287,12 @@ def mentions_legales():
 	"""
 	return render_template('pages/mentionslegales.html')
 
+@app.route("/politique-de-confidentialite")
+def confidentialite():
+	"""Route permettant d'afficher la page de la politique de confidentialité en retournant une template via l'objet Flask
+		render_template(), où est défini le chemin vers le document html où le retour de la fonction sera affiché.
+	"""
+	return render_template('pages/confidentialite.html')
 
 @app.errorhandler(404)
 def page_not_found(error):
