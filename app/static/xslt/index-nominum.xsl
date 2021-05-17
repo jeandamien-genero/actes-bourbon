@@ -47,12 +47,12 @@
                     <xsl:for-each select="ancestor::TEI//body//persName[translate(@ref, '#','')=$idPerson]">
                         <!-- pour chaque occurence du nom (<persName> dans le <body> dont @ref sans le '#' est équivalent à $idPerson) -->
                         <xsl:element name="a">
-                            <!-- est affichée le numéro de l'acte cocnerné (@n de <text>) -->
+                            <!-- est affichée le numéro de l'acte cocnerné (@n de <div>) -->
                             <!-- le numéro est un lien vers l'acte -->
                             <xsl:attribute name="href">
-                                <xsl:text>/actes/</xsl:text><xsl:value-of select="ancestor::text/@n"/>
+                                <xsl:text>/actes/</xsl:text><xsl:value-of select="ancestor::div/@n"/>
                             </xsl:attribute>
-                            <xsl:value-of select="ancestor::text/@n"/>
+                            <xsl:value-of select="ancestor::div/@n"/>
                         </xsl:element>
                         <!-- occurence suivie par une virgule si elle n'est pas la dernière, par un point si elle l'est -->
                         <xsl:if test="position()!= last()">, </xsl:if>

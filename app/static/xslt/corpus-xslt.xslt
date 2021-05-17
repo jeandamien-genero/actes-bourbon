@@ -6,16 +6,16 @@
     <!-- STRUCTURATION GLOBALE -->
     <xsl:template match="/" >
         <!-- bloc du paratexte et du texte -->
-        <xsl:apply-templates select="//text/group/text[@n=$numero]"/>
+        <xsl:apply-templates select="//text/body/div[@n=$numero]"/>
         <!-- bloc des notes -->
         <div>
             <!-- notes paléographiques -->
             <div class="note-global">
-                <xsl:apply-templates select="//text/group/text[@n=$numero]//note[@type='na']/p"/>
+                <xsl:apply-templates select="//text/body/div[@n=$numero]//note[@type='na']/p"/>
             </div>
             <!-- notes critiques -->
             <div class="note-global">
-                <xsl:apply-templates select="//text/group/text[@n=$numero]//note[@type='n1']/p"/>
+                <xsl:apply-templates select="//text/body/div[@n=$numero]//note[@type='n1']/p"/>
             </div>
         </div>
     </xsl:template>
@@ -361,10 +361,10 @@
                 <!-- @href pour lier l'appel à l'id de la note en fonction de son numéro -->
                 <xsl:attribute name="href">
                     <xsl:text>#</xsl:text>
-                    <xsl:number count="//text/group/text[@n=$numero]//note[@type='n1']" level="any" format="1"/>
+                    <xsl:number count="//text/body/div[@n=$numero]//note[@type='n1']" level="any" format="1"/>
                 </xsl:attribute>
                 <!-- numéro de la note -->
-                <xsl:number count="//text/group/text[@n=$numero]//note[@type='n1']" level="any" format="1"/>
+                <xsl:number count="//text/body/div[@n=$numero]//note[@type='n1']" level="any" format="1"/>
             </xsl:element>
         </xsl:element>
     </xsl:template>
@@ -375,10 +375,10 @@
                 <!-- @href pour lier l'appel à l'id de la note en fonction de son numéro -->
                 <xsl:attribute name="href">
                     <xsl:text>#</xsl:text>
-                    <xsl:number count="//text/group/text[@n=$numero]//note[@type='na']" level="any" format="a"/>
+                    <xsl:number count="//text/body/div[@n=$numero]//note[@type='na']" level="any" format="a"/>
                 </xsl:attribute>
                 <!-- numéro de la note -->
-                <xsl:number count="//text/group/text[@n=$numero]//note[@type='na']" level="any" format="a"/>
+                <xsl:number count="//text/body/div[@n=$numero]//note[@type='na']" level="any" format="a"/>
             </xsl:element>
         </xsl:element>
     </xsl:template>
@@ -438,10 +438,10 @@
         <xsl:element name="p">
             <!-- @id, cible du @href de l'appel de note dans le texte -->
             <xsl:attribute name="id">
-                <xsl:number count="//text/group/text[@n=$numero]//note[@type='n1']" level="any" format="1"/>
+                <xsl:number count="//text/body/div[@n=$numero]//note[@type='n1']" level="any" format="1"/>
             </xsl:attribute>
             <!-- numéro de la note -->
-            <xsl:number count="//text/group/text[@n=$numero]//note[@type='n1']" level="any" format="1"/>
+            <xsl:number count="//text/body/div[@n=$numero]//note[@type='n1']" level="any" format="1"/>
             <xsl:text>. </xsl:text>
             <!-- texte de la note -->
             <xsl:apply-templates/>
@@ -452,10 +452,10 @@
         <xsl:element name="p">
             <xsl:attribute name="id">
                 <!-- @id, cible du @href de l'appel de note dans le texte -->
-                <xsl:number count="//text/group/text[@n=$numero]//note[@type='na']" level="any" format="a"/>
+                <xsl:number count="//text/body/div[@n=$numero]//note[@type='na']" level="any" format="a"/>
             </xsl:attribute>
             <!-- numéro de la note -->
-            <xsl:number count="//text/group/text[@n=$numero]//note[@type='na']" level="any" format="a"/>
+            <xsl:number count="//text/body/div[@n=$numero]//note[@type='na']" level="any" format="a"/>
             <xsl:text>. </xsl:text>
             <!-- texte de la note -->
             <xsl:apply-templates/>

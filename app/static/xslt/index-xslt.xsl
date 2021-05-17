@@ -42,9 +42,9 @@
                                 <xsl:for-each select="ancestor::TEI//body//persName[translate(@ref, '#','')=$idPerson]">
                                     <xsl:element name="a">
                                         <xsl:attribute name="href">
-                                            <xsl:text>/actes/</xsl:text><xsl:value-of select="ancestor::text/@n"/>
+                                            <xsl:text>/actes/</xsl:text><xsl:value-of select="ancestor::div/@n"/>
                                         </xsl:attribute>
-                                        <xsl:value-of select="ancestor::text/@n"/>
+                                        <xsl:value-of select="ancestor::div/@n"/>
                                     </xsl:element>
                                     <xsl:if test="position()!= last()">, </xsl:if>
                                     <xsl:if test="position() = last()"></xsl:if>
@@ -100,9 +100,9 @@
                                 <xsl:for-each select="ancestor::TEI//body//persName[translate(@ref, '#','')=$idPerson]">
                                     <xsl:element name="a">
                                         <xsl:attribute name="href">
-                                            <xsl:text>/actes/</xsl:text><xsl:value-of select="ancestor::text/@n"/>
+                                            <xsl:text>/actes/</xsl:text><xsl:value-of select="ancestor::div/@n"/>
                                         </xsl:attribute>
-                                        <xsl:value-of select="ancestor::text/@n"/>
+                                        <xsl:value-of select="ancestor::div/@n"/>
                                     </xsl:element>
                                     <xsl:if test="position()!= last()">, </xsl:if>
                                     <xsl:if test="position() = last()"></xsl:if>
@@ -157,9 +157,9 @@
                             <xsl:for-each select="ancestor::TEI//body//persName[translate(@ref, '#','')=$idPerson]">
                                 <xsl:element name="a">
                                     <xsl:attribute name="href">
-                                        <xsl:text>/actes/</xsl:text><xsl:value-of select="ancestor::text/@n"/>
+                                        <xsl:text>/actes/</xsl:text><xsl:value-of select="ancestor::div/@n"/>
                                     </xsl:attribute>
-                                    <xsl:value-of select="ancestor::text/@n"/>
+                                    <xsl:value-of select="ancestor::div/@n"/>
                                 </xsl:element>
                                 <xsl:if test="position()!= last()">, </xsl:if>
                                 <xsl:if test="position() = last()"></xsl:if>
@@ -399,9 +399,9 @@
                             <xsl:for-each select="ancestor::TEI//body//persName[translate(@ref, '#','')=$idPerson]">
                                 <xsl:element name="a">
                                     <xsl:attribute name="href">
-                                        <xsl:text>/actes/</xsl:text><xsl:value-of select="ancestor::text/@n"/>
+                                        <xsl:text>/actes/</xsl:text><xsl:value-of select="ancestor::div/@n"/>
                                     </xsl:attribute>
-                                    <xsl:value-of select="ancestor::text/@n"/>
+                                    <xsl:value-of select="ancestor::div/@n"/>
                                 </xsl:element>
                                 <xsl:if test="position()!= last()">, </xsl:if>
                                 <xsl:if test="position() = last()"></xsl:if>
@@ -453,9 +453,9 @@
                             <xsl:for-each select="ancestor::TEI//body//persName[translate(@ref, '#','')=$idPerson]">
                                 <xsl:element name="a">
                                     <xsl:attribute name="href">
-                                        <xsl:text>/actes/</xsl:text><xsl:value-of select="ancestor::text/@n"/>
+                                        <xsl:text>/actes/</xsl:text><xsl:value-of select="ancestor::div/@n"/>
                                     </xsl:attribute>
-                                    <xsl:value-of select="ancestor::text/@n"/>
+                                    <xsl:value-of select="ancestor::div/@n"/>
                                 </xsl:element>
                                 <xsl:if test="position()!= last()">, </xsl:if>
                                 <xsl:if test="position() = last()"></xsl:if>
@@ -492,9 +492,9 @@
                     <xsl:for-each select="ancestor::TEI//body//persName[translate(@ref, '#','')=$idPerson]">
                         <xsl:element name="a">
                             <xsl:attribute name="href">
-                                <xsl:text>/actes/</xsl:text><xsl:value-of select="ancestor::text/@n"/>
+                                <xsl:text>/actes/</xsl:text><xsl:value-of select="ancestor::div/@n"/>
                             </xsl:attribute>
-                            <xsl:value-of select="ancestor::text/@n"/>
+                            <xsl:value-of select="ancestor::div/@n"/>
                         </xsl:element>
                         <xsl:if test="position()!= last()">, </xsl:if>
                         <xsl:if test="position() = last()"></xsl:if>
@@ -528,9 +528,9 @@
                     <xsl:for-each select="ancestor::TEI//body//persName[translate(@ref, '#','')=$idPerson]">
                         <xsl:element name="a">
                             <xsl:attribute name="href">
-                                <xsl:text>/actes/</xsl:text><xsl:value-of select="ancestor::text/@n"/>
+                                <xsl:text>/actes/</xsl:text><xsl:value-of select="ancestor::div/@n"/>
                             </xsl:attribute>
-                            <xsl:value-of select="ancestor::text/@n"/>
+                            <xsl:value-of select="ancestor::div/@n"/>
                         </xsl:element>
                         <xsl:if test="position()!= last()">, </xsl:if>
                         <xsl:if test="position() = last()"></xsl:if>
@@ -564,9 +564,9 @@
                     <xsl:for-each select="ancestor::TEI//body//persName[translate(@ref, '#','')=$idPerson]">
                         <xsl:element name="a">
                             <xsl:attribute name="href">
-                                <xsl:text>/actes/</xsl:text><xsl:value-of select="ancestor::text/@n"/>
+                                <xsl:text>/actes/</xsl:text><xsl:value-of select="ancestor::div/@n"/>
                             </xsl:attribute>
-                            <xsl:value-of select="ancestor::text/@n"/>
+                            <xsl:value-of select="ancestor::div/@n"/>
                         </xsl:element>
                         <xsl:if test="position()!= last()">, </xsl:if>
                         <xsl:if test="position() = last()"></xsl:if>
@@ -600,9 +600,9 @@
                     <xsl:for-each select="ancestor::TEI//body//persName[translate(@ref, '#','')=$idPerson]">
                         <xsl:element name="a">
                             <xsl:attribute name="href">
-                                <xsl:text>/actes/</xsl:text><xsl:value-of select="ancestor::text/@n"/>
+                                <xsl:text>/actes/</xsl:text><xsl:value-of select="ancestor::div/@n"/>
                             </xsl:attribute>
-                            <xsl:value-of select="ancestor::text/@n"/>
+                            <xsl:value-of select="ancestor::div/@n"/>
                         </xsl:element>
                         <xsl:if test="position()!= last()">, </xsl:if>
                         <xsl:if test="position() = last()"></xsl:if>
@@ -648,9 +648,9 @@
                     <xsl:for-each select="ancestor::TEI//body//persName[translate(@ref, '#','')=$idPerson]">
                         <xsl:element name="a">
                             <xsl:attribute name="href">
-                                <xsl:text>/actes/</xsl:text><xsl:value-of select="ancestor::text/@n"/>
+                                <xsl:text>/actes/</xsl:text><xsl:value-of select="ancestor::div/@n"/>
                             </xsl:attribute>
-                            <xsl:value-of select="ancestor::text/@n"/>
+                            <xsl:value-of select="ancestor::div/@n"/>
                         </xsl:element>
                         <xsl:if test="position()!= last()">, </xsl:if>
                         <xsl:if test="position() = last()"></xsl:if>
@@ -684,9 +684,9 @@
                     <xsl:for-each select="ancestor::TEI//body//persName[translate(@ref, '#','')=$idPerson]">
                         <xsl:element name="a">
                             <xsl:attribute name="href">
-                                <xsl:text>/actes/</xsl:text><xsl:value-of select="ancestor::text/@n"/>
+                                <xsl:text>/actes/</xsl:text><xsl:value-of select="ancestor::div/@n"/>
                             </xsl:attribute>
-                            <xsl:value-of select="ancestor::text/@n"/>
+                            <xsl:value-of select="ancestor::div/@n"/>
                         </xsl:element>
                         <xsl:if test="position()!= last()">, </xsl:if>
                         <xsl:if test="position() = last()"></xsl:if>
@@ -720,9 +720,9 @@
                     <xsl:for-each select="ancestor::TEI//body//persName[translate(@ref, '#','')=$idPerson]">
                         <xsl:element name="a">
                             <xsl:attribute name="href">
-                                <xsl:text>/actes/</xsl:text><xsl:value-of select="ancestor::text/@n"/>
+                                <xsl:text>/actes/</xsl:text><xsl:value-of select="ancestor::div/@n"/>
                             </xsl:attribute>
-                            <xsl:value-of select="ancestor::text/@n"/>
+                            <xsl:value-of select="ancestor::div/@n"/>
                         </xsl:element>
                         <xsl:if test="position()!= last()">, </xsl:if>
                         <xsl:if test="position() = last()"></xsl:if>
@@ -756,9 +756,9 @@
                     <xsl:for-each select="ancestor::TEI//body//persName[translate(@ref, '#','')=$idPerson]">
                         <xsl:element name="a">
                             <xsl:attribute name="href">
-                                <xsl:text>/actes/</xsl:text><xsl:value-of select="ancestor::text/@n"/>
+                                <xsl:text>/actes/</xsl:text><xsl:value-of select="ancestor::div/@n"/>
                             </xsl:attribute>
-                            <xsl:value-of select="ancestor::text/@n"/>
+                            <xsl:value-of select="ancestor::div/@n"/>
                         </xsl:element>
                         <xsl:if test="position()!= last()">, </xsl:if>
                         <xsl:if test="position() = last()"></xsl:if>
@@ -792,9 +792,9 @@
                     <xsl:for-each select="ancestor::TEI//body//persName[translate(@ref, '#','')=$idPerson]">
                         <xsl:element name="a">
                             <xsl:attribute name="href">
-                                <xsl:text>/actes/</xsl:text><xsl:value-of select="ancestor::text/@n"/>
+                                <xsl:text>/actes/</xsl:text><xsl:value-of select="ancestor::div/@n"/>
                             </xsl:attribute>
-                            <xsl:value-of select="ancestor::text/@n"/>
+                            <xsl:value-of select="ancestor::div/@n"/>
                         </xsl:element>
                         <xsl:if test="position()!= last()">, </xsl:if>
                         <xsl:if test="position() = last()"></xsl:if>

@@ -810,7 +810,7 @@
                   <attDef ident="subtype" mode="delete"/>
                </attList>
             </elementSpec>
-            <elementSpec ident="text" mode="change">
+            <!--<elementSpec ident="text" mode="change">
                <attList>
                   <attDef ident="corresp" mode="delete"/>
                   <attDef ident="source" mode="delete"/>
@@ -824,7 +824,7 @@
                      </valList>
                   </attDef>
                </attList>
-            </elementSpec>
+            </elementSpec>-->
             <elementSpec ident="body" mode="change">
                <attList>
                   <attDef ident="corresp" mode="delete"/>
@@ -864,6 +864,12 @@
                         <valItem ident="acte"/>
                         <valItem ident="sign"/>
                         <valItem ident="tradition"/>
+                        <valItem ident="Copie"/>
+                        <valItem ident="Deperditum"/>
+                        <valItem ident="Minute"/>
+                        <valItem ident="Original"/>
+                        <valItem ident="Vidimus"/>
+                        <valItem ident="front"/>
                      </valList>
                   </attDef>
                </attList>
