@@ -152,7 +152,7 @@ def acte(acte_id):
 	:param acte_id: l'id d'un acte.
 	:type acte_id: int
 	"""
-	xslt_doc = etree.parse("../Actes_Charles_Ier/app/static/xslt/corpus-xslt.xslt")
+	xslt_doc = etree.parse("../actes-bourbon/app/static/xslt/corpus-xslt.xslt")
 	xslt_transformer = etree.XSLT(xslt_doc)
 	output_doc = xslt_transformer(source_doc, numero=str(acte_id))
 	return render_template("pages/acte.html", contenu_acte=output_doc, id=acte_id)
