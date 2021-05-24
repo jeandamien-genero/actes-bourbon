@@ -733,4 +733,34 @@
          <geo source="https://fr.wikipedia.org/wiki/Moulins-Engilbert">46° 59′ 14″ nord, 3° 48′ 38″ est</geo>
       </location>
    </place>
+   <place xml:id="ChatillonChalaronne">
+      <placeName>
+         <name xml:lang="frm">Chasteillion en Dombes</name>
+         <name xml:lang="fr">Châtillon-sur-Chalaronne</name>
+      </placeName>
+      <desc>Ain</desc>
+      <location>
+         <geo source="https://fr.wikipedia.org/wiki/Ch%C3%A2tillon-sur-Chalaronne">46° 07′ 18″ nord, 4° 57′ 21″ est</geo>
+      </location>
+   </place>
+   <place xml:id="PontdeVeyle">
+      <placeName>
+         <name xml:lang="frm">Pont de Voyle</name>
+         <name xml:lang="fr">Pont-de-Veyle</name>
+      </placeName>
+      <desc>Ain</desc>
+      <location>
+         <geo source="https://fr.wikipedia.org/wiki/Pont-de-Veyle">46° 15′ 49″ nord, 4° 53′ 19″</geo>
+      </location>
+   </place>
+   <place xml:id="StTriviersurMoignans">
+      <placeName>
+         <name xml:lang="frm">Saint-Trivier-en-Dombes</name>
+         <name xml:lang="fr">Saint-Trivier-sur-Moignans</name>
+      </placeName>
+      <desc>Ain</desc>
+      <location>
+         <geo source="https://fr.wikipedia.org/wiki/Saint-Trivier-sur-Moignans"> 46° 04′ 24″ nord, 4° 53′ 51″</geo>
+      </location>
+   </place>
 </settingDesc>

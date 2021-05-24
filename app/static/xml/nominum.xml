@@ -940,19 +940,52 @@
          </persName>
          <note>Écuyer, seigneur de Ravoire, président de la Chambre des comptes de Savoie, conseiller du duc.</note>
       </person>
+      <person xml:id="SaixC">
+         <persName>
+            <forename>Claude</forename>
+            <nameLink>du</nameLink>
+            <surname>Saix</surname>
+         </persName>
+         <note>Chevalier, seigneur de Rivoire.</note>
+      </person>
+      <person xml:id="ChaucleeO">
+         <persName>
+            <forename>Oddet</forename>
+            <nameLink>de</nameLink>
+            <surname>Chauclee</surname>
+         </persName>
+         <note>Seigneur de Chauclee (?).</note>
+      </person>
+      <person xml:id="ChateauvieuxA">
+         <persName>
+            <forename>Amé</forename>
+            <nameLink>de</nameLink>
+            <surname>Chateauvieux</surname>
+         </persName>
+         <note>Seigneur de Chateauvieux (ou Chastelviez).</note>
+      </person>
+      <person xml:id="FayolleJ">
+         <persName>
+            <forename>Jean</forename>
+            <nameLink>de</nameLink>
+            <surname>Genast</surname>
+         </persName>
+         <note>Seigneur de la Fayolle.</note>
+      </person>
+      <person xml:id="CheilA">
+         <persName>
+            <forename>Antoine</forename>
+            <nameLink>du</nameLink>
+            <surname>Chiel</surname>
+         </persName>
+         <note>Seigneur de Beaulieu.</note>
+      </person>
       <person xml:id="ChampdueO">
          <persName>
             <forename>Oddo</forename>
             <surname>Champdue</surname>
          </persName>
          <note>Seigneur de Champdue, bailli de Bresse, conseiller du duc.</note>
-      </person>
-      <person xml:id="LovoulJ">
-         <persName>
-            <forename>Jacques</forename>
-            <surname>Lovoul ou Loriot</surname>
-         </persName>
-         <note>Maître, docteur en lois et décrets, juge du pays de Bresse, conseiller du duc.</note>
       </person>
       <person xml:id="PaludF">
          <persName>
@@ -961,6 +994,21 @@
             <surname>La Palud</surname>
          </persName>
          <note>Seigneur de Varembon.</note>
+      </person>
+      <person xml:id="LovoulJ">
+         <persName>
+            <forename>Jacques</forename>
+            <surname>Lovoul ou Loriot</surname>
+         </persName>
+         <note>Maître, docteur en lois et décrets, juge du pays de Bresse, conseiller du duc.</note>
+      </person>
+      <person xml:id="FezM">
+         <persName>
+            <forename>Michel</forename>
+            <nameLink>de</nameLink>
+            <surname>Fez</surname>
+         </persName>
+         <note>Non-identifié.</note>
       </person>
    </listPerson>
    <listPerson type="autres">
@@ -1082,6 +1130,44 @@
             <surname></surname>
          </persName>
          <note>Bailli de Lyon en 1433 (?).</note>
+      </person>
+      <person xml:id="TalaruA">
+         <persName>
+            <forename>Amédée</forename>
+            <nameLink>de</nameLink>
+            <surname>Talaru</surname>
+         </persName>
+         <note>Archevêque et comte de Lyon en 1433.</note>
+      </person>
+      <person xml:id="MauvoisinJ">
+         <persName>
+            <forename>Jacques</forename>
+            <nameLink>de</nameLink>
+            <surname>Mauvoisin</surname>
+         </persName>
+         <note>Abbé d'Ambronay en 1433.</note>
+      </person>
+      <person xml:id="GrolleH">
+         <persName>
+            <forename>Humbert</forename>
+            <nameLink>de</nameLink>
+            <surname>Grolée</surname>
+         </persName>
+         <note>Seigneur d'Helins, bailli de Mâcon et sénéchal de Lyon en 1433.</note>
+      </person>
+      <person xml:id="BeceyDenis">
+         <persName>
+            <forename>Denis</forename>
+            <surname>Becey</surname>
+         </persName>
+         <note>Notaire public et citoyen de Lyon en 1433.</note>
+      </person>
+      <person xml:id="ChavalBenoit">
+         <persName>
+            <forename>Benoît</forename>
+            <surname>Chaval</surname>
+         </persName>
+         <note>Notaire public et citoyen de Lyon en 1433.</note>
       </person>
    </listPerson>
 </listPerson>
