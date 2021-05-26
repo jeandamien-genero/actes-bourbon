@@ -299,6 +299,21 @@
          </persName>
          <note>Seigneur de Beauvoir, sénéchal de Bourbonnais.</note>
       </person>
+      <person xml:id="ChabannesJ">
+         <persName>
+            <forename>Jacques</forename>
+            <nameLink>de</nameLink>
+            <surname>Chabannes</surname>
+         </persName>
+         <note>Chevalier, maréchal et sénéchal de Bourbonnais en 1433.</note>
+      </person>
+      <person xml:id="ConstantG">
+         <persName>
+            <forename>Guiot</forename>
+            <surname>Constant</surname>
+         </persName>
+         <note>Trésorier général de Bourbonnais en 1433.</note>
+      </person>
       <person xml:id="CarmoneP">
          <persName>
             <forename>Pierre</forename>
@@ -375,6 +390,13 @@
          </persName>
          <note>Maître. Avocat fiscal (1442) puis procureur général du Bourbonnais (1453-1454).</note>
       </person>
+      <person xml:id="DozJ">
+         <persName>
+            <forename>Jean</forename>
+            <surname>Doz</surname>
+         </persName>
+         <note>Docteur en lois.</note>
+      </person>
       <person xml:id="ChantereleP">
          <persName>
             <forename>Pierre</forename>
@@ -404,6 +426,14 @@
             <surname>Toussy</surname>
          </persName>
          <note>Maître.</note>
+      </person>
+      <person xml:id="BourgM">
+         <persName>
+            <forename>Méraud</forename>
+            <nameLink>de</nameLink>
+            <surname>Bourg</surname>
+         </persName>
+         <note>Non identifié. Procureur du duc en 1433.</note>
       </person>
       <person xml:id="LacortG">
          <persName>
@@ -509,6 +539,14 @@
             <addName>Cormorant</addName>
          </persName>
          <note>Chevalier, seigneur de L’Espinasse, bailli de Beaujolais (cité en 1431), conseiller du duc.</note>
+      </person>
+      <person xml:id="RanciePh">
+         <persName>
+            <forename>Philippe</forename>
+            <nameLink>du</nameLink>
+            <surname>Rancié</surname>
+         </persName>
+         <note>Trésorier de Beaujolais (cité en 1433).</note>
       </person>
       <person xml:id="DubreuilJ">
          <persName>
@@ -940,46 +978,6 @@
          </persName>
          <note>Écuyer, seigneur de Ravoire, président de la Chambre des comptes de Savoie, conseiller du duc.</note>
       </person>
-      <person xml:id="SaixC">
-         <persName>
-            <forename>Claude</forename>
-            <nameLink>du</nameLink>
-            <surname>Saix</surname>
-         </persName>
-         <note>Chevalier, seigneur de Rivoire.</note>
-      </person>
-      <person xml:id="ChaucleeO">
-         <persName>
-            <forename>Oddet</forename>
-            <nameLink>de</nameLink>
-            <surname>Chauclee</surname>
-         </persName>
-         <note>Seigneur de Chauclee (?).</note>
-      </person>
-      <person xml:id="ChateauvieuxA">
-         <persName>
-            <forename>Amé</forename>
-            <nameLink>de</nameLink>
-            <surname>Chateauvieux</surname>
-         </persName>
-         <note>Seigneur de Chateauvieux (ou Chastelviez).</note>
-      </person>
-      <person xml:id="FayolleJ">
-         <persName>
-            <forename>Jean</forename>
-            <nameLink>de</nameLink>
-            <surname>Genast</surname>
-         </persName>
-         <note>Seigneur de la Fayolle.</note>
-      </person>
-      <person xml:id="CheilA">
-         <persName>
-            <forename>Antoine</forename>
-            <nameLink>du</nameLink>
-            <surname>Chiel</surname>
-         </persName>
-         <note>Seigneur de Beaulieu.</note>
-      </person>
       <person xml:id="ChampdueO">
          <persName>
             <forename>Oddo</forename>
@@ -1001,14 +999,6 @@
             <surname>Lovoul ou Loriot</surname>
          </persName>
          <note>Maître, docteur en lois et décrets, juge du pays de Bresse, conseiller du duc.</note>
-      </person>
-      <person xml:id="FezM">
-         <persName>
-            <forename>Michel</forename>
-            <nameLink>de</nameLink>
-            <surname>Fez</surname>
-         </persName>
-         <note>Non-identifié.</note>
       </person>
    </listPerson>
    <listPerson type="autres">
@@ -1168,6 +1158,122 @@
             <surname>Chaval</surname>
          </persName>
          <note>Notaire public et citoyen de Lyon en 1433.</note>
+      </person>
+   </listPerson>
+   <listPerson type="dombes">
+      <person xml:id="SaixC">
+         <persName>
+            <forename>Claude</forename>
+            <nameLink>du</nameLink>
+            <surname>Saix</surname>
+         </persName>
+         <note>Chevalier, seigneur de Rivoire. Syndic et procueur de Bourg-en-Bresse à la journée de Châtillon-sur-Chalaronne en 1433.</note>
+      </person>
+      <person xml:id="ChaucleeO">
+         <persName>
+            <forename>Oddet</forename>
+            <nameLink>de</nameLink>
+            <surname>Chauclee</surname>
+         </persName>
+         <note>Seigneur de Chauclee (?). Syndic et procueur de Bourg-en-Bresse à la journée de Châtillon-sur-Chalaronne en 1433.</note>
+      </person>
+      <person xml:id="ChateauvieuxA">
+         <persName>
+            <forename>Amé</forename>
+            <nameLink>de</nameLink>
+            <surname>Chateauvieux</surname>
+         </persName>
+         <note>Seigneur de Chateauvieux (ou Chastelviez). Syndic et procueur de Bourg-en-Bresse à la journée de Châtillon-sur-Chalaronne en 1433.</note>
+      </person>
+      <person xml:id="ChielA">
+         <persName>
+            <forename>Antoine</forename>
+            <nameLink>du</nameLink>
+            <surname>Chiel</surname>
+         </persName>
+         <note>Seigneur de Beaulieu. Syndic et procueur de Bourg-en-Bresse à la journée de Châtillon-sur-Chalaronne en 1433.</note>
+      </person>
+      <person xml:id="FayolleJ">
+         <persName>
+            <forename>Jean</forename>
+            <nameLink>de</nameLink>
+            <surname>Genast</surname>
+         </persName>
+         <note>Seigneur de la Fayolle. Syndic et procueur de Bourg-en-Bresse à la journée de Châtillon-sur-Chalaronne en 1433.</note>
+      </person>
+      <person xml:id="FezM">
+         <persName>
+            <forename>Michel</forename>
+            <nameLink>de</nameLink>
+            <surname>Fez</surname>
+         </persName>
+         <note>Syndic et procueur de Bourg-en-Bresse à la journée de Châtillon-sur-Chalaronne en 1433.</note>
+      </person>
+      <person xml:id="GeliceP">
+         <persName>
+            <forename>Pierre</forename>
+            <nameLink>de</nameLink>
+            <surname>La Gelice</surname>
+         </persName>
+         <note>Seigneur de La Gelice. Syndic et procueur de Bourg-en-Bresse à la journée de Châtillon-sur-Chalaronne en 1433.</note>
+      </person>
+      <person xml:id="ChatillonA">
+         <persName>
+            <forename>Antoine</forename>
+            <nameLink>de</nameLink>
+            <surname>Châtillon</surname>
+         </persName>
+         <note>Ou Chasteillion. Syndic et procueur de Bourg-en-Bresse à la journée de Châtillon-sur-Chalaronne en 1433.</note>
+      </person>
+      <person xml:id="ColonG">
+         <persName>
+            <forename>Guiot</forename>
+            <surname>Colon</surname>
+         </persName>
+         <note>Syndic et procueur de Bourg-en-Bresse à la journée de Châtillon-sur-Chalaronne en 1433.</note>
+      </person>
+      <person xml:id="BuidreT">
+         <persName>
+            <forename>Tevenet</forename>
+            <surname>Buidre</surname>
+         </persName>
+         <note>Syndic et procueur de Bourg-en-Bresse à la journée de Châtillon-sur-Chalaronne en 1433.</note>
+      </person>
+      <person xml:id="GangreA">
+         <persName>
+            <forename>Amé</forename>
+            <surname>Gangre</surname>
+         </persName>
+         <note>Ou Aymé. Syndic et procueur de Bourg-en-Bresse à la journée de Châtillon-sur-Chalaronne en 1433.</note>
+      </person>
+      <person xml:id="GuillioudT">
+         <persName>
+            <forename>Thomas</forename>
+            <surname>Guillioud</surname>
+         </persName>
+         <note>Syndic et procueur de Bourg-en-Bresse à la journée de Châtillon-sur-Chalaronne en 1433.</note>
+      </person>
+      <person xml:id="ChastellionP">
+         <persName>
+            <forename>Pierre</forename>
+            <surname>Chastellion</surname>
+         </persName>
+         <note>Procureur de Châtillon-sur-Chalaronne à la journée de Châtillon-sur-Chalaronne en 1433.</note>
+      </person>
+      <person xml:id="PetitPasP">
+         <persName>
+            <forename>Pierre</forename>
+            <surname>Petit Pas</surname>
+         </persName>
+         <note>Procureur de Châtillon-sur-Chalaronne à la journée de Châtillon-sur-Chalaronne en 1433.</note>
+      </person>
+      <person xml:id="CroysB">
+         <persName>
+            <forename>Bertrand</forename>
+            <nameLink>de</nameLink>
+            <surname>La Croys</surname>
+         </persName>
+         <note>Procureur de Pont-de-Veyle à la journée de Châtillon-sur-Chalaronne en 1433.</note>
       </person>
    </listPerson>
 </listPerson>
