@@ -1,3 +1,7 @@
+[![License: CC BY-NC-ND 4.0](https://img.shields.io/badge/License-CC%20BY--NC--ND%204.0-lightgrey.svg)](http://creativecommons.org/licenses/by-nc-nd/4.0/)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity)
+[![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
+
 # :scroll: Actes de Charles I<sup>er</sup> de Bourbon
 
 "**Actes de Charles I<sup>er</sup>**" est une application Web visant à présenter un échantillon des actes de Charles I<sup>er</sup> de Bourbon et d’Agnès de Bourgogne, duc et et duchesse de Bourbon de 1434 à 1456. Elle s'appuie sur un mémoire de Master recherche dirigé par Olivier Mattéoni et présenté à l'École d'histoire de l'Université Paris I Panthéon-Sorbonne en juin 2018, dont le sujet était l'étude de la chancellerie de Charles I<sup>er</sup> au prisme de ses actes. 
