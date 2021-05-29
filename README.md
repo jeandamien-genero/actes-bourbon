@@ -4,7 +4,7 @@
 
 Les actes présentés sont représentatifs de l'ensemble du corpus de par leurs états (originaux, *vidimus*, copies, *deperdita*) et leurs types (chartes, lettres patentes, mandements, lettres closes).
 
-Cette application est développée par Jean-Damien Généro dans le cadre des enseignements du Master « Technologies numériques appliquées à l'histoire » de l'École nationale des chartes (```XML-TEI```, ```XSL```, ```HTML```, ```CSS```, ```Python```, ```SQL```).
+Cette application est développée par Jean-Damien Généro, ingénieur d'études du CNRS affecté au Centre de recherche historiques (UMR 8558/ CNRS-EHESS). Une première version avait été développée en 2020 dans le cadre du Master « Technologies numériques appliquées à l'histoire » de l'École nationale des chartes (➡️ [voir le repository](https://github.com/Chartes-TNAH/Actes_Charles_Ier)).
 
 ---
 
@@ -18,6 +18,16 @@ Cette application est développée par Jean-Damien Généro dans le cadre des en
   
   * Des pages de présentation, de bibliographie et de biographie afin de contextualiser le projet.
   
+---
+
+## :balance_scale: Licence
+
+© 2020-2021 Jean-Damien Généro.
+
+L'ensemble des données est placé sous les termes de la licence Creative Common Attribution - Pas d'Utilisation Commerciale - Pas de Modification 4.0 International (*Attribution-NonCommercial-NoDerivatives 4.0 International* : **CC BY-NC-ND 4.0**).
+
+➡️ [Consulter la licence](https://github.com/jeandamien-genero/actes-bourbon/blob/master/LICENCE.md).
+
 ---
 
 ## :gear: Installation
@@ -64,6 +74,6 @@ Cette application est développée par Jean-Damien Généro dans le cadre des en
 
 ## :recycle: Contact
 
-Pour toute question ou remarque : :email: [jean-damien.genero@chartes.psl.eu](mailto:jean-damien.genero@chartes.psl.eu).
+Pour toute question ou remarque : :email: [jean-damien.genero@ehess.fr](mailto:jean-damien.genero@ehess.fr).
 
 ---
