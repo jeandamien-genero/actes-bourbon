@@ -760,7 +760,107 @@
       </placeName>
       <desc>Ain</desc>
       <location>
-         <geo source="https://fr.wikipedia.org/wiki/Saint-Trivier-sur-Moignans"> 46° 04′ 24″ nord, 4° 53′ 51″</geo>
+         <geo source="https://fr.wikipedia.org/wiki/Saint-Trivier-sur-Moignans">46° 04′ 24″ nord, 4° 53′ 51″</geo>
+      </location>
+   </place>
+   <place xml:id="Billy">
+      <placeName>
+         <name xml:lang="frm">Billi</name>
+         <name xml:lang="fr">Billy</name>
+      </placeName>
+      <desc>Allier</desc>
+      <location>
+         <geo source="https://fr.wikipedia.org/wiki/Billy_(Allier)">46° 14′ 14″ nord, 3° 25′ 48″ est</geo>
+      </location>
+   </place>
+   <place xml:id="Varennes">
+      <placeName>
+         <name xml:lang="frm">Varennes</name>
+         <name xml:lang="fr">Varennes-sur-Allier</name>
+      </placeName>
+      <desc>Allier</desc>
+      <location>
+         <geo source="https://fr.wikipedia.org/wiki/Varennes-sur-Allier">46° 18′ 50″ nord, 3° 24′ 08″ est</geo>
+      </location>
+   </place>
+   <place xml:id="Savere">
+      <placeName>
+         <name xml:lang="frm">Savere le Blairie</name>
+         <name xml:lang="fr">Savere le Blairie</name>
+      </placeName>
+      <desc>Allier (non-identifié)</desc>
+      <location>
+         <geo source="#"/>
+      </location>
+   </place>
+   <place xml:id="Chavroches">
+      <placeName>
+         <name xml:lang="frm">Chaveroche</name>
+         <name xml:lang="fr">Chavroches</name>
+      </placeName>
+      <desc>Allier</desc>
+      <location>
+         <geo source="https://fr.wikipedia.org/wiki/Chavroches">46° 21′ 19″ nord, 3° 35′ 17</geo>
+      </location>
+   </place>
+   <place xml:id="Saligny">
+      <placeName>
+         <name xml:lang="frm">Solegny</name>
+         <name xml:lang="fr">Saligny-sur-Roudon</name>
+      </placeName>
+      <desc>Allier</desc>
+      <location>
+         <geo source="https://fr.wikipedia.org/wiki/Saligny-sur-Roudon">46° 28′ 08″ nord, 3° 45′ 02″</geo>
+      </location>
+   </place>
+   <place xml:id="Chaugy">
+      <placeName>
+         <name xml:lang="frm">Chaugi</name>
+         <name xml:lang="fr">Chaugy</name>
+      </placeName>
+      <desc>Com. Bessay-sur-Allier, Allier</desc>
+      <location>
+         <geo source="https://fr.wikipedia.org/wiki/Ch%C3%A2teau_de_Chaugy">46° 26′ 34″ N, 3° 22′ 43″ E</geo>
+      </location>
+   </place>
+   <place xml:id="Perreux">
+      <placeName>
+         <name xml:lang="frm">Perreux</name>
+         <name xml:lang="fr">Perreux</name>
+      </placeName>
+      <desc>Loire</desc>
+      <location>
+         <geo source="https://fr.wikipedia.org/wiki/Perreux_(Loire)">46° 02′ 20″ nord, 4° 07′ 23″</geo>
+      </location>
+   </place>
+   <place xml:id="Lay">
+      <placeName>
+         <name xml:lang="frm">Lai</name>
+         <name xml:lang="fr">Lay</name>
+      </placeName>
+      <desc>Loire</desc>
+      <location>
+         <geo source="https://fr.wikipedia.org/wiki/Lay_(Loire)">45° 57′ 23″ nord, 4° 13′ 08″</geo>
+      </location>
+   </place>
+   <place xml:id="Montagu">
+      <placeName>
+         <name xml:lang="frm">Montagu</name>
+         <name xml:lang="fr">Montaigu-le-Blin</name>
+      </placeName>
+      <desc>Allier</desc>
+      <location>
+         <geo source="https://fr.wikipedia.org/wiki/Montaigu-le-Blin">46° 17′ 43″ nord, 3° 30′ 43″</geo>
+      </location>
+   </place>
+   <place xml:id="Thiers">
+      <placeName>
+         <name xml:lang="frm">Thiare</name>
+         <name xml:lang="fr">Thiers</name>
+      </placeName>
+      <desc>Puy-de-Dôme</desc>
+      <location>
+         <geo source="https://fr.wikipedia.org/wiki/Thiers">45° 51′ 26″ nord, 3° 32′ 54″ est</geo>
       </location>
    </place>
 </settingDesc>

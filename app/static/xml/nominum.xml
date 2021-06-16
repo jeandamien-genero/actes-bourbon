@@ -107,13 +107,44 @@
       </person>
    </listPerson>
    <listPerson type="Bourbon">
-      <person xml:id="LouisII">
+      <person xml:id="PierreI">
          <persName>
-            <forename>Louis II</forename>
+            <forename>Pierre Ier</forename>
             <nameLink>de</nameLink>
             <surname>Bourbon</surname>
          </persName>
-         <note>Duc de Bourbon (1356-1410).</note>
+         <note>Duc de Bourbon (1341-1356).</note>
+      </person>
+      <person xml:id="IsabelleValois">
+         <persName>
+            <forename>Isabelle</forename>
+            <nameLink>de</nameLink>
+            <surname>Valois</surname>
+         </persName>
+         <note>Duchesse de Bourbon (1341-1383).</note>
+      </person>
+      <person xml:id="MarieBourbon">
+         <persName>
+            <forename>Marie</forename>
+            <nameLink>de</nameLink>
+            <surname>Bourbon</surname>
+         </persName>
+         <note>Impératrice de Constantinople (1347-1364).</note>
+      </person>
+      <person xml:id="HLusignan">
+         <persName>
+            <forename>Hugues</forename>
+            <nameLink>de</nameLink>
+            <surname>Lusignan</surname>
+         </persName>
+         <note>Fils de Marie de Bourbon, prince de la Morée (1355-1385).</note>
+      </person>
+      <person xml:id="AnneDauphine">
+         <persName>
+            <forename>Anne</forename>
+            <surname>Dauphine</surname>
+         </persName>
+         <note>Duchesse de Bourbon et comtesse de Forez (1371-1417).</note>
       </person>
       <person xml:id="JeanI">
          <persName>
@@ -1274,6 +1305,30 @@
             <surname>La Croys</surname>
          </persName>
          <note>Procureur de Pont-de-Veyle à la journée de Châtillon-sur-Chalaronne en 1433.</note>
+      </person>
+   </listPerson>
+   <listPerson type="hbtsbourbonnais">
+      <person xml:id="VialuG">
+         <persName>
+            <forename>Guillaume</forename>
+            <surname>Vialu</surname>
+         </persName>
+         <note>Propriétaire du pré d'Arsin en la châtellenie de Billy en 1410.</note>
+      </person>
+      <person xml:id="FersierG">
+         <persName>
+            <forename>Guillaume</forename>
+            <surname>Fersier</surname>
+         </persName>
+         <note/>
+      </person>
+      <person xml:id="PechinJ">
+         <persName>
+            <forename>Jacques</forename>
+            <nameLink>de</nameLink>
+            <surname>Pechin</surname>
+         </persName>
+         <note/>
       </person>
    </listPerson>
 </listPerson>
