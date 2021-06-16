@@ -182,6 +182,8 @@
                         <valItem ident="rois"/>
                         <valItem ident="savoyards"/>
                         <valItem ident="secretaires_Bourbon"/>
+                        <valItem ident="dombes"/>
+                        <valItem ident="hbtsbourbonnais"></valItem>
                      </valList>
                   </attDef>
                   <attDef ident="subtype" mode="delete"/>
