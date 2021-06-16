@@ -315,6 +315,14 @@
          </persName>
          <note/>
       </person>
+      <person xml:id="RochefortS">
+         <persName>
+            <forename>?</forename>
+            <nameLink>de</nameLink>
+            <surname>Rochefort</surname>
+         </persName>
+         <note>Conseiller de Louis II, cité en 1410.</note>
+      </person>
       <person xml:id="ChateaumorandJ">
          <persName>
             <forename>Jacques</forename>
@@ -466,20 +474,36 @@
          </persName>
          <note>Non identifié. Procureur du duc en 1433.</note>
       </person>
+      <person xml:id="FeirsH">
+         <persName>
+            <forename>Hugues</forename>
+            <nameLink>de</nameLink>
+            <surname>Feirs</surname>
+         </persName>
+         <note>Non identifié. Fait prisonnier lors de la prise de Vitry en juillet 1433.</note>
+      </person>
       <person xml:id="LacortG">
          <persName>
             <forename>Gilet</forename>
             <nameLink>de</nameLink>
             <surname>Lacort</surname>
          </persName>
-         <note>Messager du duc (1421)</note>
+         <note>Messager du comte (1421)</note>
       </person>
       <person xml:id="CabrierE">
          <persName>
             <forename>Étienne</forename>
             <surname>Cabrier</surname>
          </persName>
-         <note>Messager du duc (1421)</note>
+         <note>Messager du comte (1421)</note>
+      </person>
+      <person xml:id="RevelG">
+         <persName>
+            <forename>Guillaume</forename>
+            <surname>Revel</surname>
+            <addName>Auvergne</addName>
+         </persName>
+         <note>Héraut et messager du duc (1433).</note>
       </person>
    </listPerson>
    <listPerson type="Auvergne">

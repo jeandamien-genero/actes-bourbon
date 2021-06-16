@@ -788,7 +788,7 @@
          <name xml:lang="frm">Savere le Blairie</name>
          <name xml:lang="fr">Savere le Blairie</name>
       </placeName>
-      <desc>Allier (non-identifié)</desc>
+      <desc>Allier, non-identifié</desc>
       <location>
          <geo source="#"/>
       </location>
@@ -818,7 +818,7 @@
          <name xml:lang="frm">Chaugi</name>
          <name xml:lang="fr">Chaugy</name>
       </placeName>
-      <desc>Com. Bessay-sur-Allier, Allier</desc>
+      <desc>com. Bessay-sur-Allier, Allier</desc>
       <location>
          <geo source="https://fr.wikipedia.org/wiki/Ch%C3%A2teau_de_Chaugy">46° 26′ 34″ N, 3° 22′ 43″ E</geo>
       </location>
@@ -861,6 +861,25 @@
       <desc>Puy-de-Dôme</desc>
       <location>
          <geo source="https://fr.wikipedia.org/wiki/Thiers">45° 51′ 26″ nord, 3° 32′ 54″ est</geo>
+      </location>
+   </place>
+   <place xml:id="Fechal">
+      <placeName>
+         <name xml:lang="frm">Fechal</name>
+         <name xml:lang="fr">Féchal</name>
+      </placeName>
+      <desc>com. Apchat, Puy-de-Dôme</desc>
+      <location>
+         <geo source="https://fr.wikipedia.org/wiki/Apchat"> 45° 23′ 25″ nord, 3° 08′ 48″</geo>
+      </location>
+   </place>
+   <place xml:id="Vitry">
+      <placeName>
+         <name xml:lang="fr">Vitry</name>
+      </placeName>
+      <desc>Saône-et-Loire (trois com. de ce nom)</desc>
+      <location>
+         <geo/>
       </location>
    </place>
 </settingDesc>
