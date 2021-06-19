@@ -30,7 +30,7 @@ def main():
 	geolocate_column = io['Area_Name'].apply(geolocator.geocode)
 	io['latitude'] = geolocate_column.apply(get_latitude)
 	io['longitude'] = geolocate_column.apply(get_longitude)
-	io.to_csv('geocoding-output.csv')
+	io.to_csv('./static/csv/geocoding-output.csv')
 
 
 if __name__ == '__main__':
