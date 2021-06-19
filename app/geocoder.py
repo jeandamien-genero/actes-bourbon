@@ -9,9 +9,14 @@
     update : 
 """
 
-import geopy
+import geopy, sys
 import pandas
 from geopy.geocoders import Nominatim, GoogleV3
+
+
+inputfile=str(sys.argv[1])
+namecolumn=str(sys.argv[2])
+# python geocoder.py ./static/csv/census-historic-population-borough.csv Area_Name
 
 
 def main():
@@ -26,8 +31,8 @@ def main():
 	  return x.longitude
 
 
-	geolocator = Nominatim(user_agent="You")
-	geolocate_column = io['Area_Name'].apply(geolocator.geocode)
+	geolocator = Nominatim(user_agent="You", timeout=5)
+	geolocate_column = io[namecolumn].apply(geolocator.geocode)
 	io['latitude'] = geolocate_column.apply(get_latitude)
 	io['longitude'] = geolocate_column.apply(get_longitude)
 	io.to_csv('./static/csv/geocoding-output.csv')
