@@ -12,3 +12,15 @@
 import geopy
 import pandas
 from geopy.geocoders import Nominatim, GoogleV3
+
+
+def main():
+	io = pandas.read_csv('static/csv/census-historic-population-borough.csv', index_col=None, header=0, sep=",")
+
+
+def get_latitude(x):
+  return x.latitude
+
+
+def get_longitude(x):
+  return x.longitude
