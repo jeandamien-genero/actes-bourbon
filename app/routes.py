@@ -5,7 +5,8 @@
 """
     Définition des routes de l'application
     author : Jean-Damien Généro
-    date : 31 mai 2020
+    date : 2020-05-31
+    update : 2021-06-19
 """
 
 
