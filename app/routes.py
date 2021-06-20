@@ -297,10 +297,11 @@ def confidentialite():
 
 @app.route("/map")
 def map():
-	"""Route permettant d'afficher la page de la politique de confidentialité en retournant une template via l'objet Flask
-		render_template(), où est défini le chemin vers le document html où le retour de la fonction sera affiché.
 	"""
-	return render_template('pages/map.html')
+	"""
+	xslt_index_lieux_transformer = etree.XSLT(xslt_index_lieux_doc)
+	output_index_lieux_doc = xslt_index_lieux_transformer(source_doc)
+	return render_template("pages/map.html", contenu_index_lieux=output_index_lieux_doc)
 
 @app.errorhandler(404)
 def page_not_found(error):
