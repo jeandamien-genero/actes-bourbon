@@ -1,0 +1,1003 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<settingDesc>
+   <place xml:id="Albi" type="place">
+      <placeName>
+         <name xml:lang="oci">Albi</name>
+         <name xml:lang="fr">Albi</name>
+         <region type="departement">Tarn</region>
+         <country>France</country>
+      </placeName>
+      <location>
+         <geo source="https://fr.wikipedia.org/wiki/Albi">43° 55′ 44″ nord, 2° 08′ 47″ est</geo>
+      </location>
+   </place>
+   <place xml:id="Moulins" type="place">
+      <placeName type="production_place">
+         <name xml:lang="frm">Molins</name>
+         <name xml:lang="fr">Moulins</name>
+         <region type="departement">Allier</region>
+         <country>France</country>
+      </placeName>
+      <location>
+         <geo source="https://fr.wikipedia.org/wiki/Moulins_(Allier)">46° 33′ 55″ nord, 3° 20′ 00″ est</geo>
+      </location>
+   </place>
+   <place xml:id="SaintFlour" type="place">
+      <placeName>
+         <name xml:lang="oci">Saint Flor</name>
+         <name xml:lang="fr">Saint-Flour</name>
+         <region type="departement">Cantal</region>
+         <country>France</country>
+      </placeName>
+      <location>
+         <geo>45° 02′ 04″ nord, 3° 05′ 37″ est</geo>
+      </location>
+   </place>
+   <place xml:id="Auvergne" type="territory">
+      <placeName>
+         <name xml:lang="fr">Auvergne</name>
+         <country>France</country>
+      </placeName>
+      <desc>duché d'</desc>
+   </place>
+   <place xml:id="Gevaudan" type="territory">
+      <placeName>
+         <name xml:lang="oci">Janalda</name>
+         <name xml:lang="fr">Gévaudan</name>
+         <country>France</country>
+      </placeName>
+      <desc>pays de</desc>
+   </place>
+   <place xml:id="Languedoc" type="territory">
+      <placeName>
+         <name xml:lang="oci">pays de lengua d'oc</name>
+         <name xml:lang="fr">Languedoc</name>
+         <country>France</country>
+      </placeName>
+      <desc>pays de</desc>
+   </place>
+   <place xml:id="Velay" type="territory">
+      <placeName>
+         <name xml:lang="oci">Veleyt</name>
+         <name xml:lang="fr">Velay</name>
+         <country>France</country>
+      </placeName>
+      <desc>pays du</desc>
+   </place>
+   <place xml:id="BourgogneD" type="territory">
+      <placeName>
+         <name xml:lang="frm">Bourgoingne</name>
+         <name xml:lang="fr">Bourgogne</name>
+         <country>France</country>
+      </placeName>
+      <desc>duché de</desc>
+   </place>
+   <place xml:id="Charolais" type="territory">
+      <placeName>
+         <name xml:lang="frm">Charrolois</name>
+         <name xml:lang="fr">Charolais</name>
+         <country>France</country>
+      </placeName>
+      <desc>comté de</desc>
+   </place>
+   <place xml:id="Bourbonnais" type="territory">
+      <placeName>
+         <name xml:lang="frm">Bourbonnois</name>
+         <name xml:id="fr">Bourbonnais</name>
+         <country>France</country>
+      </placeName>
+      <desc>duché de</desc>
+   </place>
+   <place xml:id="Beaujolais" type="territory">
+      <placeName>
+         <name xml:lang="frm">Beauljeulois</name>
+         <name xml:lang="fr">Beaujolais</name>
+         <country>France</country>
+      </placeName>
+      <desc>seigneurie de</desc>
+   </place>
+   <place xml:id="ChateauChinon" type="territory">
+      <placeName>
+         <name xml:lang="frm">Chastel Chignon</name>
+         <name xml:lang="fr">Château-Chinon</name>
+         <country>France</country>
+      </placeName>
+      <desc>seigneurie de</desc>
+   </place>
+   <place xml:id="Tutbury" type="place">
+      <placeName>
+         <name xml:lang="frm">chastel de Tutebery</name>
+         <name xml:lang="fr">Tutbury</name>
+         <country>England</country>
+         <region type="departement">Staffordshire</region>
+      </placeName>
+      <desc>château de, Angleterre, Staffordshire</desc>
+   </place>
+   <place xml:id="Angleterre" type="territory">
+      <placeName>
+         <name xml:lang="fr">Angleterre</name>
+         <country>France</country>
+      </placeName>
+      <desc>royaume d'</desc>
+   </place>
+   <place xml:id="Rome" type="place">
+      <placeName>
+         <name xml:lang="fr">Rome</name>
+         <region type="departement">Lazio</region>
+         <country>Italie</country>
+      </placeName>
+   </place>
+   <place xml:id="BourgogneC" type="territory">
+      <placeName>
+         <name xml:lang="frm">Bourgoigne</name>
+         <name xml:lang="fr">Bourgogne</name>
+         <country>France</country>
+      </placeName>
+      <desc>comté de</desc>
+   </place>
+   <place xml:id="Autun" type="place">
+      <placeName type="production_place">
+         <name xml:lang="frm">Ostun</name>
+         <name xml:lang="fr">Autun</name>
+         <region type="departement">Saône-et-Loire</region>
+         <country>France</country>
+      </placeName>
+      <location>
+         <geo>46° 57′ 06″ nord, 4° 17′ 58″ est</geo>
+      </location>
+   </place>
+   <place xml:id="Dijon" type="place">
+      <placeName>
+         <name xml:lang="fr">Dijon</name>
+         <country>France</country>
+         <region type="departement">Côte-d'Or</region>
+      </placeName>
+      <location>
+         <geo>47° 19′ 18″ nord, 5° 02′ 29″ est</geo>
+      </location>
+   </place>
+   <place xml:id="ChateauBelin" type="incity">
+      <placeName>
+         <name xml:lang="frm">Chasteaulbelin</name>
+         <name xml:lang="fr">Chasteaulbelin</name>
+         <settlement type="city">Salins-les-Bains</settlement>
+         <region type="departement">Jura</region>
+         <country>France</country>
+      </placeName>
+      <note>Ajd. le fort Belin.</note>
+   </place>
+   <place xml:id="Souvigny" type="place">
+      <placeName type="production_place">
+         <name xml:lang="frm">Sovigny</name>
+         <name xml:lang="fr">Souvigny</name>
+         <region type="departement">Allier</region>
+         <country>France</country>
+      </placeName>
+      <location>
+         <geo>46° 32′ 08″ nord, 3° 11′ 34″ est</geo>
+      </location>
+   </place>
+   <place xml:id="Chaussiere" type="incity">
+      <placeName>
+         <name xml:lang="frm">La Chauciere</name>
+         <name xml:lang="fr">La Chaussiere</name>
+         <settlement type="city">Vieure</settlement>
+         <region type="departement">Allier</region>
+         <country>France</country>
+      </placeName>
+      <location>
+         <geo>46° 30′ 49″ N, 2° 53′ 18″ E</geo>
+      </location>
+   </place>
+   <place xml:id="Clermont" type="territory">
+      <placeName>
+         <name xml:lang="frm">Clermont en Beauvoisin</name>
+         <name xml:lang="fr">Clermont-en-Beauvaisis</name>
+         <country>France</country>
+      </placeName>
+      <desc>comté de</desc>
+   </place>
+   <place xml:id="Montpensier" type="territory">
+      <placeName>
+         <name xml:lang="frm">Montpencier</name>
+         <name xml:lang="fr">Montpensier</name>
+         <country>France</country>
+      </placeName>
+      <desc>comté de</desc>
+   </place>
+   <place xml:id="FranceR" type="territory">
+      <placeName>
+         <name xml:lang="fr">France</name>
+         <country>France</country>
+      </placeName>
+      <desc>royaume de</desc>
+   </place>
+   <place xml:id="Riom" type="place">
+      <placeName type="production_place">
+         <name xml:lang="frm">Rion</name>
+         <name xml:lang="fr">Riom</name>
+         <region type="departement">Puy-de-Dôme</region>
+         <country>France</country>
+      </placeName>
+      <location>
+         <geo>45° 53′ 40″ nord, 3° 06′ 48″ est</geo>
+      </location>
+   </place>
+   <place xml:id="Guyenne" type="territory">
+      <placeName>
+         <name xml:lang="frm">Guienne</name>
+         <name xml:lang="fr">Guyenne</name>
+         <country>France</country>
+      </placeName>
+      <desc>duché de</desc>
+   </place>
+   <place xml:id="Montbrison" type="place">
+      <placeName type="production_place">
+         <name xml:lang="frm">Montbrison</name>
+         <name xml:lang="fr">Montbrison</name>
+         <region type="departement">Loire</region>
+         <country>France</country>
+      </placeName>
+      <location>
+         <geo>45° 36′ 30″ nord, 4° 03′ 57″ est</geo>
+      </location>
+   </place>
+   <place xml:id="Lyon" type="place">
+      <placeName>
+         <name xml:lang="fr">Lyon</name>
+         <region type="departement">Rhône</region>A
+         <country>France</country>
+      </placeName>
+      <location>
+         <geo>45° 45′ 35″ nord, 4° 50′ 32″ est</geo>
+      </location>
+   </place>
+   <place xml:id="StBonnetpresRiom" type="place">
+      <placeName>
+         <name xml:lang="frm">Saint Bonnet delas Champs</name>
+         <name xml:lang="fr">Saint-Bonnet-près-Riom</name>
+         <region type="departement">Puy-de-Dôme</region>
+         <country>France</country>
+      </placeName>
+      <location>
+         <geo>45° 55′ 50″ nord, 3° 06′ 50″ est</geo>
+      </location>
+   </place>
+   <place xml:id="Gannat" type="place">
+      <placeName type="production_place">
+         <name xml:lang="fr">Gannat</name>
+         <region type="departement">Allier</region>
+         <country>France</country>
+      </placeName>
+      <location>
+         <geo>46° 06′ 02″ nord, 3° 11′ 57″ est</geo>
+      </location>
+   </place>
+   <place xml:id="Lyonnais" type="territory">
+      <placeName>
+         <name xml:lang="frm">Lionnoiz</name>
+         <name xml:lang="fr">Lyonnais</name>
+         <country>France</country>
+      </placeName>
+      <desc>pays de</desc>
+   </place>
+   <place xml:id="Maconnais" type="territory">
+      <placeName>
+         <name xml:lang="frm">Masconnoiz</name>
+         <name xml:lang="fr">Mâconnais</name> 
+         <country>France</country>
+      </placeName>
+      <desc>pays de</desc>
+   </place>
+   <place xml:id="Charite" type="place">
+      <placeName>
+         <name xml:lang="frm">La Charité sur Loire</name>
+         <name xml:lang="fr">La Charité-sur-Loire</name>
+         <region type="departement">Nièvre</region>
+         <country>France</country>
+      </placeName>
+      <location>
+         <geo>47° 10′ 40″ nord, 3° 01′ 11″ est</geo>
+      </location>
+   </place>
+   <place xml:id="Villefranche" type="place">
+      <placeName>
+         <name xml:lang="frm">Villefranche en Beaujeulois</name>
+         <name xml:lang="fr">Villefranche-sur-Saône</name>
+         <region type="departement">Rhône</region>
+         <country>France</country>
+      </placeName>
+      <location>
+         <geo>45° 59′ 25″ nord, 4° 43′ 13″ est</geo>
+      </location>
+   </place>
+   <place xml:id="Chinon" type="place">
+      <placeName type="production_place">
+         <name xml:lang="fr">Chinon</name>
+         <region type="departement">Indre-et-Loire</region>
+         <country>France</country>
+      </placeName>
+      <location>
+         <geo>47° 10′ 04″ nord, 0° 14′ 37″ est</geo>
+      </location>
+   </place>
+   <place xml:id="Allier_riv">
+      <placeName>
+         <name xml:lang="frm">Alier</name>
+         <name xml:lang="fr">Allier</name>
+         <region type="departement">rivière</region>
+         <country>France</country>
+      </placeName>
+   </place>
+   <place xml:id="Vichy" type="place">
+      <placeName>
+         <name xml:lang="fr">Vichy</name>
+         <region type="departement">Allier</region>
+         <country>France</country>
+      </placeName>
+      <location>
+         <geo>46° 07′ 28″ nord, 3° 25′ 42″ est</geo>
+      </location>
+   </place>
+   <place xml:id="BourbonArch" type="place">
+      <placeName>
+         <name xml:lang="frm">Bourbon</name>
+         <name xml:lang="fr">Bourbon-l'Archambault</name>
+         <region type="departement">Allier</region>
+         <country>France</country>
+      </placeName>
+      <location>
+         <geo>46° 35′ 03″ nord, 3° 03′ 26″ est</geo>
+      </location>
+   </place>
+   <place xml:id="Montlucon" type="place">
+      <placeName type="production_place">
+         <name xml:lang="fr">Montluçon</name>
+         <region type="departement">Allier</region>
+         <country>France</country>
+      </placeName>
+      <location>
+         <geo>46° 20′ 27″ nord, 2° 36′ 12″ est</geo>
+      </location>
+   </place>
+   <place xml:id="Beaujeu" type="place">
+      <placeName>
+         <name xml:lang="fr">Beaujeu</name>
+         <region type="departement">Allier</region>
+         <country>France</country>
+      </placeName>
+      <location>
+         <geo>46° 09′ 18″ nord, 4° 35′ 20″ est</geo>
+      </location>
+   </place>
+   <place xml:id="Herisson" type="place">
+      <placeName type="production_place">
+         <name xml:lang="frm">Heriçon</name>
+         <name xml:lang="fr">Hérisson</name>
+         <region type="departement">Allier</region>
+         <country>France</country>
+      </placeName>
+      <location>
+         <geo>46° 30′ 34″ nord, 2° 42′ 44″ est</geo>
+      </location>
+   </place>
+   <place xml:id="StPourcain" type="place">
+      <placeName>
+         <name xml:lang="frm">Saint Poursain</name>
+         <name xml:lang="fr">Saint-Pourçain-sur-Sioule</name>
+         <region type="departement">Allier</region>
+         <country>France</country>
+      </placeName>
+      <location>
+         <geo> 46° 18′ 30″ nord, 3° 17′ 24″ est</geo>
+      </location>
+   </place>
+   <place xml:id="Vinzelles" type="place">
+      <placeName>
+         <name xml:lang="frm">Vinzella</name>
+         <name xml:lang="fr">Vinzelles (La)</name>
+         <region type="departement">Puy-de-Dôme</region>
+         <country>France</country>
+      </placeName>
+      <location>
+         <geo source="https://fr.wikipedia.org/wiki/Vinzelles_(Puy-de-D%C3%B4me)">45° 55′ 36″ nord, 3° 23′ 54″ est</geo>
+      </location>
+   </place>
+   <place xml:id="Calvinet" type="place">
+      <placeName>
+         <name xml:lang="fr">Calvinet</name>
+         <region type="departement">Cantal</region>
+         <country>France</country>
+      </placeName>
+      <location>
+         <geo source="https://fr.wikipedia.org/wiki/Calvinet">44° 43′ 07″ nord, 2° 21′ 30″ est</geo>
+      </location>
+   </place>
+   <place xml:id="Villemur" type="territory">
+      <placeName>
+         <name xml:lang="fr">Villemur</name>
+         <country>France</country>
+      </placeName>
+      <desc>vicomté et seigneurie de, Hautes-Pyrénées</desc>
+   </place>
+   <place xml:id="Combrailles" type="territory">
+      <placeName>
+         <name xml:lang="fr">Combrailles</name>
+         <country>France</country>
+      </placeName>
+      <desc>Les, pays de</desc>
+   </place>
+   <place xml:id="BlancsFosses" type="incity">
+      <placeName>
+         <name xml:lang="frm">Blans Foussés</name>
+         <name xml:lang="fr">Blancs-Fossés</name>
+         <settlement type="city">Couleuvre</settlement>
+         <region type="departement">Allier</region>
+         <country>France</country>
+      </placeName>
+      <desc>terre et forteresse de</desc>
+   </place>
+   <place xml:id="Chazeuil" type="incity">
+      <placeName>
+         <name xml:lang="frm">Chaseul</name>
+         <name xml:lang="fr">Chazeuil</name>
+         <settlement type="city">Varennes-sur-Allier</settlement>
+         <region type="departement">Allier</region>
+         <country>France</country>
+      </placeName>
+      <location>
+         <geo source="https://fr.wikipedia.org/wiki/Chazeuil_(Allier)">46° 19′ 47″ nord, 3° 23′ 14″ est</geo>
+      </location>
+   </place>
+   <place xml:id="Issoire" type="place">
+      <placeName>
+         <name xml:lang="fr">Issoire</name>
+         <region type="departement">Puy-de-Dôme</region>
+         <country>France</country>
+      </placeName>
+      <location>
+         <geo source="https://fr.wikipedia.org/wiki/Issoire">45° 32′ 42″ nord, 3° 14′ 59″ est</geo>
+      </location>
+   </place>
+   <place xml:id="Chantelle" type="place">
+      <placeName type="production_place">
+         <name xml:lang="fr">Chantelle</name>
+         <region type="departement">Allier</region>
+         <country>France</country>
+      </placeName>
+      <location>
+         <geo>46° 14′ 20″ nord, 3° 09′ 14″ est</geo>
+      </location>
+   </place>
+   <place xml:id="Trevoux" type="place">
+      <placeName>
+         <name xml:lang="fr">Trévoux</name>
+         <region type="departement">Ain</region>
+         <country>France</country>
+      </placeName>
+      <location>
+         <geo>45° 56′ 28″ nord, 4° 46′ 30″ est</geo>
+      </location>
+   </place>
+   <place xml:id="Donzois" type="territory">
+      <placeName>
+         <name xml:lang="fr">Donzois</name>
+         <country>France</country>
+      </placeName>
+      <desc>pays de</desc>
+   </place>
+   <place xml:id="Forez" type="territory">
+      <placeName>
+         <name xml:lang="fr">Forez</name>
+         <country>France</country>
+      </placeName>
+      <desc>comté de</desc>
+   </place>
+   <place xml:id="BourgenBresse" type="place">
+      <placeName>
+         <name xml:lang="frm">Boure en Bresse</name>
+         <name xml:lang="fr">Bourg-en-Bresse</name>
+         <region type="departement">Ain</region>
+         <country>France</country>
+      </placeName>
+      <location>
+         <geo source="https://fr.wikipedia.org/wiki/Bourg-en-Bresse">46° 12′ 20″ nord, 5° 13′ 44″ est</geo>
+      </location>
+   </place>
+   <place xml:id="Macon" type="place">
+      <placeName>
+         <name xml:lang="frm">Mascon</name>
+         <name xml:lang="fr">Mâcon</name>
+         <region type="departement">Saône-et-Loire</region>
+         <country>France</country>
+      </placeName>
+      <location>
+         <geo source="https://fr.wikipedia.org/wiki/M%C3%A2con">46° 18′ 22″ nord, 4° 49′ 53″ est</geo>
+      </location>
+   </place>
+   <place xml:id="Bresse" type="territory">
+      <placeName>
+         <name xml:lang="fr">Bresse</name>
+         <country>France</country>
+      </placeName>
+      <desc>pays de</desc>
+   </place>
+   <place xml:id="SuryleB" type="incity">
+      <placeName>
+         <name xml:lang="fr">Sury-le-Bois</name>
+         <country>France</country>
+         <settlement type="city">Valeille</settlement>
+         <region type="departement">Loire</region>
+      </placeName>
+      <location>
+         <geo source="https://fr.wikipedia.org/wiki/Valeille">45° 42′ 30″ nord, 4° 18′ 27″ est</geo>
+      </location>
+   </place>
+   <place xml:id="Nivernais" type="territory">
+      <placeName>
+         <name xml:lang="frm">Nivernois</name>
+         <name xml:lang="fr">Nivernais</name>
+         <country>France</country>
+      </placeName>
+      <desc>pays de</desc>
+   </place>
+   <place xml:id="Cluny" type="place">
+      <placeName>
+         <name xml:lang="frm">Clugny</name>
+         <name xml:lang="fr">Cluny</name>
+         <region type="departement">Saône-et-Loire</region>
+         <country>France</country>
+      </placeName>
+   </place>
+   <place xml:id="Marcigny" type="place">
+      <placeName>
+         <name xml:lang="frm">Marcegny les Nonnains</name>
+         <name xml:lang="frm">Marsegny</name>
+         <name xml:lang="fr">Marcigny</name>
+         <region type="departement">Saône-et-Loire</region>
+         <country>France</country>
+      </placeName>
+      <location>
+         <geo source="https://fr.wikipedia.org/wiki/Marcigny">46° 16′ 32″ nord, 4° 02′ 32″ est</geo>
+      </location>
+   </place>
+   <place xml:id="Tournus" type="place">
+      <placeName>
+         <name xml:lang="frm">Tournuz</name>
+         <name xml:lang="fr">Tournus</name>
+         <region type="departement">Saône-et-Loire</region>
+         <country>France</country>
+      </placeName>
+      <location>
+         <geo source="https://fr.wikipedia.org/wiki/Tournus">46° 33′ 50″ nord, 4° 54′ 33″ est</geo>
+      </location>
+   </place>
+   <place xml:id="StGengoux" type="place">
+      <placeName>
+         <name xml:lang="frm">Saint Jengoul</name>
+         <name xml:lang="fr">Saint-Gengoux-le-National</name>
+         <region type="departement">Saône-et-Loire</region>
+         <country>France</country>
+      </placeName>
+      <location>
+         <geo source="https://fr.wikipedia.org/wiki/Saint-Gengoux-le-National">46° 36′ 53″ nord, 4° 39′ 49″ est</geo>
+      </location>
+   </place>
+   <place xml:id="StMarieduB" type="place">
+      <placeName>
+         <name xml:lang="frm">Saincte Marie du Bois</name>
+         <name xml:lang="fr">Bois-Sainte-Marie</name>
+         <region type="departement">Saône-et-Loire</region>
+         <country>France</country>
+      </placeName>
+      <location>
+         <geo source="https://fr.wikipedia.org/wiki/Bois-Sainte-Marie">46° 19′ 48″ nord, 4° 21′ 21″ est</geo>
+      </location>
+   </place>
+   <place xml:id="ChalonsurSaone" type="place">
+      <placeName>
+         <name xml:lang="frm">Chalon</name>
+         <name xml:lang="fr">Chalon-sur-Saône</name>
+         <region type="departement">Saône-et-Loire</region>
+         <country>France</country>
+      </placeName>
+      <location>
+         <geo source="https://fr.wikipedia.org/wiki/Chalon-sur-Sa%C3%B4ne">46° 46′ 50″ nord, 4° 51′ 10″ est</geo>
+      </location>
+   </place>
+   <place xml:id="Sancerre" type="territory">
+      <placeName>
+         <name xml:lang="fr">Sancerre</name>
+         <country>France</country>
+      </placeName>
+      <desc>comté de</desc>
+   </place>
+   <place xml:id="Cusset" type="place">
+      <placeName>
+         <name xml:lang="frm">Cussé</name>
+         <name xml:lang="fr">Cusset</name>
+         <region type="departement">Allier</region>
+         <country>France</country>
+      </placeName>
+      <location>
+         <geo source="https://fr.wikipedia.org/wiki/Cusset">46° 08′ 07″ nord, 3° 27′ 26″ est</geo>
+      </location>
+   </place>
+   <place xml:id="Charlieu" type="place">
+      <placeName>
+         <name xml:lang="frm">Cherlieu</name>
+         <name xml:lang="fr">Charlieu</name>
+         <region type="departement">Loire</region>
+         <country>France</country>
+      </placeName>
+      <location>
+         <geo source="https://fr.wikipedia.org/wiki/Charlieu">46° 09′ 36″ nord, 4° 10′ 21″ est</geo>
+      </location>
+   </place>
+   <place xml:id="Chateauneuf" type="place">
+      <placeName>
+         <name xml:lang="frm">Chastelneuf</name>
+         <name xml:lang="fr">Châteauneuf</name>
+         <region type="departement">Loire</region>
+         <country>France</country>
+      </placeName>
+      <location>
+         <geo source="https://fr.wikipedia.org/wiki/Ch%C3%A2teauneuf_(Loire)">45° 31′ 22″ nord, 4° 37′ 32″ est</geo>
+      </location>
+   </place>
+   <place xml:id="Ambierle" type="place">
+      <placeName>
+         <name xml:lang="fr">Ambierle</name>
+         <region type="departement">Loire</region>
+         <country>France</country>
+      </placeName>
+      <location>
+         <geo source="https://fr.wikipedia.org/wiki/Ambierle">46° 06′ 19″ nord, 3° 53′ 47″ est</geo>
+      </location>
+   </place>
+   <place xml:id="Esbinelle" type="unknow">
+      <placeName>
+         <name xml:lang="fr">Esbruelle ou Esbinelle</name>
+         <region type="departement">non-identifié</region>
+         <country>France</country>
+      </placeName>
+   </place>
+   <place xml:id="NeversC" type="territory">
+      <placeName>
+         <name xml:lang="fr">Nevers</name>
+         <country>France</country>
+      </placeName>
+      <desc>comté de</desc>
+   </place>
+   <place xml:id="RethelC" type="territory">
+      <placeName>
+         <name xml:lang="fr">Rethel</name>
+         <country>France</country>
+      </placeName>
+      <desc>comté de</desc>
+   </place>
+   <place xml:id="StPierreleMoutier" type="place">
+      <placeName>
+         <name xml:lang="frm">Saint Pierre le Moustier</name>
+         <name xml:lang="fr">Saint-Pierre-le-Moûtier</name>
+         <region type="departement">Nièvre</region>
+         <country>France</country>
+      </placeName>
+      <location>
+         <geo source="https://fr.wikipedia.org/wiki/Saint-Pierre-le-Mo%C3%BBtier">46° 47′ 30″ nord, 3° 07′ 08″ est</geo>
+      </location>
+   </place>
+   <place xml:id="Sancoins" type="place">
+      <placeName>
+         <name xml:lang="frm">Cenquoins</name>
+         <name xml:lang="fr">Sancoins</name>
+         <region type="departement">Cher</region>
+         <country>France</country>
+      </placeName>
+      <location>
+         <geo source="https://fr.wikipedia.org/wiki/Sancoins">46° 49′ 58″ nord, 2° 55′ 11″ est</geo>
+      </location>
+   </place>
+   <place xml:id="Cosne" type="place">
+      <placeName>
+         <name xml:lang="frm">Cosne</name>
+         <name xml:lang="fr">Cosne-Cours-sur-Loire</name>
+         <region type="departement">Nièvre</region>
+         <country>France</country>
+      </placeName>
+      <location>
+         <geo source="https://fr.wikipedia.org/wiki/Cosne-Cours-sur-Loire">47° 24′ 44″ nord, 2° 55′ 39″ est</geo>
+      </location>
+   </place>
+   <place xml:id="Rosemont" type="incity">
+      <placeName>
+         <name xml:lang="fr">Rosemont</name>
+         <country>France</country>
+         <settlement type="city">Luthenay-Uxeloup</settlement>
+         <region type="departement">Nièvre</region>
+      </placeName>
+      <location>
+         <geo source="https://fr.wikipedia.org/wiki/Luthenay-Uxeloup">46° 51′ 05″ nord, 3° 15′ 51″ est</geo>
+      </location>
+   </place>
+   <place xml:id="Alvigne" type="unknow">
+      <placeName>
+         <name xml:lang="frm">Alvigne</name>
+         <name xml:lang="fr">Alvigne</name>
+         <region type="departement">non-identifié</region>
+         <country>France</country>
+      </placeName>
+      <location>
+         <geo/>
+      </location>
+   </place>
+   <place xml:id="Neronde" type="place">
+      <placeName>
+         <name xml:lang="frm">Neronde</name>
+         <name xml:lang="fr">Néronde</name>
+         <region type="departement">Loire</region>
+         <country>France</country>
+      </placeName>
+      <location>
+         <geo source="https://fr.wikipedia.org/wiki/N%C3%A9ronde">45° 50′ 21″ nord, 4° 14′ 15″ est</geo>
+      </location>
+   </place>
+   <place xml:id="Dampierre" type="place">
+      <placeName>
+         <name xml:lang="fr">Dampierre</name>
+         <region type="departement">Aube</region>
+         <country>France</country>
+      </placeName>
+      <location>
+         <geo source="https://fr.wikipedia.org/wiki/Dampierre_(Aube)">48° 33′ 05″ nord, 4° 22′ 07″ est</geo>
+      </location>
+   </place>
+   <place xml:id="Ravel" type="place">
+      <placeName>
+         <name xml:lang="fr">Ravel</name>
+         <region type="departement">Puy-de-Dôme</region>
+         <country>France</country>
+      </placeName>
+      <location>
+         <geo source="https://fr.wikipedia.org/wiki/Ravel_(Puy-de-D%C3%B4me)">45° 46′ 45″ nord, 3° 23′ 47″ est</geo>
+      </location>
+   </place>
+   <place xml:id="Ecole" type="incity">
+      <placeName>
+         <name xml:lang="fr">École</name>
+         <country>France</country>
+         <settlement type="city">Le Mayet d’École</settlement>
+         <region type="departement">Allier</region>
+      </placeName>
+      <desc>château d'</desc>
+      <location>
+         <geo source="https://fr.wikipedia.org/wiki/Le_Mayet-d%27%C3%89cole">46° 10′ 12″ nord, 3° 14′ 31″ est</geo>
+      </location>
+   </place>
+   <place xml:id="RocheSolutre" type="incity">
+      <placeName>
+         <name xml:lang="fr">Roche de Solutré</name>
+         <country>France</country>
+         <settlement type="city">Solutré-Pouilly</settlement>
+         <region type="departement">Saône-et-Loire</region>
+      </placeName>
+      <desc>forteresse de la</desc>
+      <location>
+         <geo source="https://fr.wikipedia.org/wiki/Roche_de_Solutr%C3%A9">46° 17′ 55″ nord, 4° 43′ 05″</geo>
+      </location>
+   </place>
+   <place xml:id="NoyersViennois" type="incity">
+      <placeName>
+         <name xml:lang="frm">Noyers en Viennois</name>
+         <name xml:lang="fr">Noyers-sur-Serein</name>
+         <settlement type="city">Noyers</settlement>
+         <region type="departement">Yonne</region>
+         <country>France</country>
+      </placeName>
+      <desc>château de</desc>
+      <location>
+         <geo source="https://fr.wikipedia.org/wiki/Ch%C3%A2teau_de_Noyers-sur-Serein">47° 42′ 04″ nord, 3° 59′ 51″ est</geo>
+      </location>
+   </place>
+   <place xml:id="Montcenis" type="place">
+      <placeName>
+         <name xml:lang="frm">Monceniz</name>
+         <name xml:lang="fr">Montcenis</name>
+         <region type="departement">Saône-et-Loire</region>
+         <country>France</country>
+      </placeName>
+      <location>
+         <geo source="https://fr.wikipedia.org/wiki/Ch%C3%A2teau_de_Noyers-sur-Serein">47° 42′ 04″ nord, 3° 59′ 51″ est</geo>
+      </location>
+   </place>
+   <place xml:id="SaintCosme" type="incity">
+      <placeName>
+         <name xml:lang="frm">Saint Coms</name>
+         <name xml:lang="fr">Saint-Cosme</name>
+         <settlement type="city">Chalon-sur-Saône</settlement>
+         <region type="departement">Saône-et-Loire</region>
+         <country>France</country>
+      </placeName>
+      <location>
+         <geo source="https://fr.wikipedia.org/wiki/Chalon-sur-Sa%C3%B4ne">46° 46′ 50″ nord, 4° 51′ 10″ est</geo>
+      </location>
+   </place>
+   <place xml:id="MoulinsEngilbert" type="place">
+      <placeName>
+         <name xml:lang="frm">Molins les Engibers</name>
+P         <name xml:lang="fr">Moulins-Engilbert</name>
+         <region type="departement">Nièvre</region>
+         <country>France</country>
+      </placeName>
+      <location>
+         <geo source="https://fr.wikipedia.org/wiki/Moulins-Engilbert">46° 59′ 14″ nord, 3° 48′ 38″ est</geo>
+      </location>
+   </place>
+   <place xml:id="ChatillonChalaronne" type="place">
+      <placeName>
+         <name xml:lang="frm">Chasteillion en Dombes</name>
+         <name xml:lang="fr">Châtillon-sur-Chalaronne</name>
+         <region type="departement">Ain</region>
+         <country>France</country>
+      </placeName>
+      <location>
+         <geo source="https://fr.wikipedia.org/wiki/Ch%C3%A2tillon-sur-Chalaronne">46° 07′ 18″ nord, 4° 57′ 21″ est</geo>
+      </location>
+   </place>
+   <place xml:id="PontdeVeyle" type="place">
+      <placeName>
+         <name xml:lang="frm">Pont de Voyle</name>
+         <name xml:lang="fr">Pont-de-Veyle</name>
+         <region type="departement">Ain</region>
+         <country>France</country>
+      </placeName>
+      <location>
+         <geo source="https://fr.wikipedia.org/wiki/Pont-de-Veyle">46° 15′ 49″ nord, 4° 53′ 19″</geo>
+      </location>
+   </place>
+   <place xml:id="StTriviersurMoignans" type="place">
+      <placeName>
+         <name xml:lang="frm">Saint-Trivier-en-Dombes</name>
+         <name xml:lang="fr">Saint-Trivier-sur-Moignans</name>
+         <region type="departement">Ain</region>
+         <country>France</country>
+      </placeName>
+      <location>
+         <geo source="https://fr.wikipedia.org/wiki/Saint-Trivier-sur-Moignans">46° 04′ 24″ nord, 4° 53′ 51″</geo>
+      </location>
+   </place>
+   <place xml:id="Billy" type="place">
+      <placeName>
+         <name xml:lang="frm">Billi</name>
+         <name xml:lang="fr">Billy</name>
+         <region type="departement">Allier</region>
+         <country>France</country>
+      </placeName>
+      <location>
+         <geo source="https://fr.wikipedia.org/wiki/Billy_(Allier)">46° 14′ 14″ nord, 3° 25′ 48″ est</geo>
+      </location>
+   </place>
+   <place xml:id="Varennes" type="place">
+      <placeName>
+         <name xml:lang="frm">Varennes</name>
+         <name xml:lang="fr">Varennes-sur-Allier</name>
+         <region type="departement">Allier</region>
+         <country>France</country>
+      </placeName>
+      <location>
+         <geo source="https://fr.wikipedia.org/wiki/Varennes-sur-Allier">46° 18′ 50″ nord, 3° 24′ 08″ est</geo>
+      </location>
+   </place>
+   <place xml:id="Savere" type="unknow">
+      <placeName>
+         <name xml:lang="frm">Savere le Blairie</name>
+         <name xml:lang="fr">Savere le Blairie</name>
+         <country>France</country>
+      </placeName>
+      <desc>Allier, non-identifié</desc>
+      <location>
+         <geo source="#"/>
+      </location>
+   </place>
+   <place xml:id="Chavroches" type="place">
+      <placeName>
+         <name xml:lang="frm">Chaveroche</name>
+         <name xml:lang="fr">Chavroches</name>
+         <region type="departement">Allier</region>
+         <country>France</country>
+      </placeName>
+      <location>
+         <geo source="https://fr.wikipedia.org/wiki/Chavroches">46° 21′ 19″ nord, 3° 35′ 17</geo>
+      </location>
+   </place>
+   <place xml:id="Saligny" type="place">
+      <placeName>
+         <name xml:lang="frm">Solegny</name>
+         <name xml:lang="fr">Saligny-sur-Roudon</name>
+         <region type="departement">Allier</region>
+         <country>France</country>
+      </placeName>
+      <location>
+         <geo source="https://fr.wikipedia.org/wiki/Saligny-sur-Roudon">46° 28′ 08″ nord, 3° 45′ 02″</geo>
+      </location>
+   </place>
+   <place xml:id="Chaugy" type="incity">
+      <placeName>
+         <name xml:lang="frm">Chaugi</name>
+         <name xml:lang="fr">Chaugy</name>
+         <settlement type="city">Bessay-sur-Allier</settlement>
+         <region type="departement">Allier</region>
+         <country>France</country>
+      </placeName>
+      <location>
+         <geo source="https://fr.wikipedia.org/wiki/Ch%C3%A2teau_de_Chaugy">46° 26′ 34″ N, 3° 22′ 43″ E</geo>
+      </location>
+   </place>
+   <place xml:id="Perreux" type="place">
+      <placeName>
+         <name xml:lang="frm">Perreux</name>
+         <name xml:lang="fr">Perreux</name>
+         <region type="departement">Loire</region>
+         <country>France</country>
+      </placeName>
+      <location>
+         <geo source="https://fr.wikipedia.org/wiki/Perreux_(Loire)">46° 02′ 20″ nord, 4° 07′ 23″</geo>
+      </location>
+   </place>
+   <place xml:id="Lay" type="place">
+      <placeName>
+         <name xml:lang="frm">Lai</name>
+         <name xml:lang="fr">Lay</name>
+         <region type="departement">Loire</region>
+         <country>France</country>
+      </placeName>
+      <location>
+         <geo source="https://fr.wikipedia.org/wiki/Lay_(Loire)">45° 57′ 23″ nord, 4° 13′ 08″</geo>
+      </location>
+   </place>
+   <place xml:id="Montagu" type="place">
+      <placeName>
+         <name xml:lang="frm">Montagu</name>
+         <name xml:lang="fr">Montaigu-le-Blin</name>
+         <region type="departement">Allier</region>
+         <country>France</country>
+      </placeName>
+      <location>
+         <geo source="https://fr.wikipedia.org/wiki/Montaigu-le-Blin">46° 17′ 43″ nord, 3° 30′ 43″</geo>
+      </location>
+   </place>
+   <place xml:id="Thiers" type="place">
+      <placeName>
+         <name xml:lang="frm">Thiare</name>
+         <name xml:lang="fr">Thiers</name>
+         <region type="departement">Puy-de-Dôme</region>
+         <country>France</country>
+      </placeName>
+      <location>
+         <geo source="https://fr.wikipedia.org/wiki/Thiers">45° 51′ 26″ nord, 3° 32′ 54″ est</geo>
+      </location>
+   </place>
+   <place xml:id="Fechal" type="incity">
+      <placeName>
+         <name xml:lang="frm">Fechal</name>
+         <name xml:lang="fr">Féchal</name>
+         <settlement type="city">Apchat</settlement>
+         <region type="departement">Puy-de-Dôme</region>
+         <country>France</country>
+      </placeName>
+      <location>
+         <geo source="https://fr.wikipedia.org/wiki/Apchat"> 45° 23′ 25″ nord, 3° 08′ 48″</geo>
+      </location>
+   </place>
+   <place xml:id="Vitry" type="unknow">
+      <placeName>
+         <name xml:lang="fr">Vitry</name>
+         <country>France</country>
+      </placeName>
+      <desc>Saône-et-Loire (trois com. de ce nom)</desc>
+      <location>
+         <geo/>
+      </location>
+   </place>
+</settingDesc>
