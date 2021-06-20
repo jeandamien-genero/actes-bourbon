@@ -1,0 +1,71 @@
+,PlaceName,Settlement,Region,Country,helper,latitude,longitude
+0,Albi,Albi,Tarn,France,Albi Tarn France,43.9277552,2.147899
+1,Moulins,Moulins,Allier,France,Moulins Allier France,46.5660526,3.3331703
+2,Saint-Flour,Saint-Flour,Cantal,France,Saint-Flour Cantal France,45.0334949,3.0931009
+3,Tutbury,Tutbury,Staffordshire,England,Tutbury Staffordshire England,52.8571884,-1.6846857
+4,Rome,Rome,Lazio,Italie,Rome Lazio Italie,41.8933203,12.4829321
+5,Autun,Autun,Saône-et-Loire,France,Autun Saône-et-Loire France,46.9510313,4.2989478
+6,Dijon,Dijon,Côte-d'Or,France,Dijon Côte-d'Or France,47.3215806,5.0414701
+7,Souvigny,Souvigny,Allier,France,Souvigny Allier France,46.5345119,3.1947101
+8,Riom,Riom,Puy-de-Dôme,France,Riom Puy-de-Dôme France,45.893068,3.1136667
+9,Montbrison,Montbrison,Loire,France,Montbrison Loire France,45.6072875,4.0627318
+10,Lyon,Lyon,Rhône,France,Lyon Rhône France,45.7578137,4.8320114
+11,Saint-Bonnet-près-Riom,Saint-Bonnet-près-Riom,Puy-de-Dôme,France,Saint-Bonnet-près-Riom Puy-de-Dôme France,45.9306,3.1139
+12,Gannat,Gannat,Allier,France,Gannat Allier France,46.0996068,3.1995251
+13,La Charité-sur-Loire,La Charité-sur-Loire,Nièvre,France,La Charité-sur-Loire Nièvre France,47.1793255,3.0185784
+14,Villefranche-sur-Saône,Villefranche-sur-Saône,Rhône,France,Villefranche-sur-Saône Rhône France,45.9864749,4.726611
+15,Chinon,Chinon,Indre-et-Loire,France,Chinon Indre-et-Loire France,47.1667182,0.2402095
+16,Vichy,Vichy,Allier,France,Vichy Allier France,46.1239268,3.4203712
+17,Bourbon-l'Archambault,Bourbon-l'Archambault,Allier,France,Bourbon-l'Archambault Allier France,46.5857669,3.05804
+18,Montluçon,Montluçon,Allier,France,Montluçon Allier France,46.3399276,2.6067229
+19,Beaujeu,Beaujeu,Allier,France,Beaujeu Allier France,46.56717035,3.3300616836759867
+20,Hérisson,Hérisson,Allier,France,Hérisson Allier France,46.5082,2.71241
+21,Saint-Pourçain-sur-Sioule,Saint-Pourçain-sur-Sioule,Allier,France,Saint-Pourçain-sur-Sioule Allier France,46.3074423,3.2899107
+22,Vinzelles (La),Vinzelles (La),Puy-de-Dôme,France,Vinzelles (La) Puy-de-Dôme France,45.9258481,3.3969277
+23,Calvinet,Calvinet,Cantal,France,Calvinet Cantal France,44.7203485,2.3624573672377416
+24,Issoire,Issoire,Puy-de-Dôme,France,Issoire Puy-de-Dôme France,45.5432973,3.2502213
+25,Chantelle,Chantelle,Allier,France,Chantelle Allier France,46.2385636,3.1517793
+26,Trévoux,Trévoux,Ain,France,Trévoux Ain France,45.9410123,4.7733198
+27,Bourg-en-Bresse,Bourg-en-Bresse,Ain,France,Bourg-en-Bresse Ain France,46.2051192,5.2250324
+28,Mâcon,Mâcon,Saône-et-Loire,France,Mâcon Saône-et-Loire France,46.3036683,4.8322266
+29,Cluny,Cluny,Saône-et-Loire,France,Cluny Saône-et-Loire France,46.4339138,4.6575708
+30,Marcigny,Marcigny,Saône-et-Loire,France,Marcigny Saône-et-Loire France,46.2747868,4.0398531
+31,Tournus,Tournus,Saône-et-Loire,France,Tournus Saône-et-Loire France,46.5617373,4.9122425
+32,Saint-Gengoux-le-National,Saint-Gengoux-le-National,Saône-et-Loire,France,Saint-Gengoux-le-National Saône-et-Loire France,46.6135488,4.6625792
+33,Bois-Sainte-Marie,Bois-Sainte-Marie,Saône-et-Loire,France,Bois-Sainte-Marie Saône-et-Loire France,46.3297594,4.3547812
+34,Chalon-sur-Saône,Chalon-sur-Saône,Saône-et-Loire,France,Chalon-sur-Saône Saône-et-Loire France,46.7888997,4.8529605
+35,Cusset,Cusset,Allier,France,Cusset Allier France,46.1324239,3.4602736
+36,Charlieu,Charlieu,Loire,France,Charlieu Loire France,46.1588067,4.1714892
+37,Châteauneuf,Châteauneuf,Loire,France,Châteauneuf Loire France,46.2127984,4.2545324
+38,Ambierle,Ambierle,Loire,France,Ambierle Loire France,46.1037566,3.8962376
+39,Saint-Pierre-le-Moûtier,Saint-Pierre-le-Moûtier,Nièvre,France,Saint-Pierre-le-Moûtier Nièvre France,46.7905584,3.1180359
+40,Sancoins,Sancoins,Cher,France,Sancoins Cher France,46.8308788,2.9201075
+41,Cosne-Cours-sur-Loire,Cosne-Cours-sur-Loire,Nièvre,France,Cosne-Cours-sur-Loire Nièvre France,47.4115613,2.9273937
+42,Néronde,Néronde,Loire,France,Néronde Loire France,45.8387332,4.2365301
+43,Dampierre,Dampierre,Aube,France,Dampierre Aube France,48.5503915,4.367179
+44,Ravel,Ravel,Puy-de-Dôme,France,Ravel Puy-de-Dôme France,45.7779084,3.3963733
+45,Montcenis,Montcenis,Saône-et-Loire,France,Montcenis Saône-et-Loire France,46.7904888,4.3884346
+46,Moulins-Engilbert,Moulins-Engilbert,Nièvre,France,Moulins-Engilbert Nièvre France,46.9872094,3.8114127
+47,Châtillon-sur-Chalaronne,Châtillon-sur-Chalaronne,Ain,France,Châtillon-sur-Chalaronne Ain France,46.1191397,4.9580413
+48,Pont-de-Veyle,Pont-de-Veyle,Ain,France,Pont-de-Veyle Ain France,46.2635,4.88836
+49,Saint-Trivier-sur-Moignans,Saint-Trivier-sur-Moignans,Ain,France,Saint-Trivier-sur-Moignans Ain France,46.071982,4.8979906
+50,Billy,Billy,Allier,France,Billy Allier France,46.2362521,3.4300974
+51,Varennes-sur-Allier,Varennes-sur-Allier,Allier,France,Varennes-sur-Allier Allier France,46.3127469,3.4033756
+52,Chavroches,Chavroches,Allier,France,Chavroches Allier France,46.3543978,3.5867202
+53,Saligny-sur-Roudon,Saligny-sur-Roudon,Allier,France,Saligny-sur-Roudon Allier France,46.4688035,3.7524304
+54,Perreux,Perreux,Loire,France,Perreux Loire France,46.0392182,4.126032
+55,Lay,Lay,Loire,France,Lay Loire France,45.9562725,4.2189216
+56,Montaigu-le-Blin,Montaigu-le-Blin,Allier,France,Montaigu-le-Blin Allier France,46.2944188,3.5110484
+57,Thiers,Thiers,Puy-de-Dôme,France,Thiers Puy-de-Dôme France,45.855795,3.5489707
+58,Chasteaulbelin,Salins-les-Bains,Jura,France,Salins-les-Bains Jura France,46.9404794,5.8786339
+59,La Chaussiere,Vieure,Allier,France,Vieure Allier France,46.5014402,2.8755012
+60,Blancs-Fossés,Couleuvre,Allier,France,Couleuvre Allier France,46.6727,2.90838
+61,Chazeuil,Varennes-sur-Allier,Allier,France,Varennes-sur-Allier Allier France,46.3127469,3.4033756
+62,Sury-le-Bois,Valeille,Loire,France,Valeille Loire France,45.7079,4.30432
+63,Rosemont,Luthenay-Uxeloup,Nièvre,France,Luthenay-Uxeloup Nièvre France,46.8505023,3.2602027
+64,École,Le Mayet d’École,Allier,France,Le Mayet d’École Allier France,46.1684483,3.2410883
+65,Roche de Solutré,Solutré-Pouilly,Saône-et-Loire,France,Solutré-Pouilly Saône-et-Loire France,46.2968704,4.7246736
+66,Noyers-sur-Serein,Noyers,Yonne,France,Noyers Yonne France,47.6957055,3.9955476
+67,Saint-Cosme,Chalon-sur-Saône,Saône-et-Loire,France,Chalon-sur-Saône Saône-et-Loire France,46.7888997,4.8529605
+68,Chaugy,Bessay-sur-Allier,Allier,France,Bessay-sur-Allier Allier France,46.442066,3.3631418
+69,Féchal,Apchat,Puy-de-Dôme,France,Apchat Puy-de-Dôme France,45.3887558,3.1451084
