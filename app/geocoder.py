@@ -26,7 +26,7 @@ from lxml import etree
 # --- 35.68276405334473 seconds ---
 # --- 34.803929805755615 seconds ---
 # --- 34.649669885635376 seconds ---
-# python geo-map.py ./static/csvlocorum.csv ./static/xml/locorum2.xml
+# python geocoder.py ./static/csv/csvlocorum.csv ./static/xml/locorum2.xml
 
 csvfile=str(sys.argv[1])
 xmlfile=str(sys.argv[2])
