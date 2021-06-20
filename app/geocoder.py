@@ -26,7 +26,7 @@ from lxml import etree
 # --- 35.68276405334473 seconds ---
 # --- 34.803929805755615 seconds ---
 # --- 34.649669885635376 seconds ---
-# python geo-map.py ./bourboncity.csv ./locorum2.xml
+# python geo-map.py ./static/csvlocorum.csv ./static/xml/locorum2.xml
 
 csvfile=str(sys.argv[1])
 xmlfile=str(sys.argv[2])
@@ -122,7 +122,7 @@ def getting_coordinates() -> None:
 	geolocate_column = io['helper'].apply(geolocator.geocode)
 	io['latitude'] = geolocate_column.apply(get_latitude)
 	io['longitude'] = geolocate_column.apply(get_longitude)
-	io.to_csv("./output.csv")
+	io.to_csv("./static/csv/locorum_output.csv")
 	print("--- %s seconds ---" % (time.time() - start_time))
 
 
