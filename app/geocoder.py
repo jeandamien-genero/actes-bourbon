@@ -9,6 +9,7 @@
     https://programminghistorian.org/en/lessons/mapping-with-python-leaflet#making-geojson
     https://stackoverflow.com/questions/63231855/violation-user-agent-nominatim-python-gis
     https://discourse.psychopy.org/t/nameerror-name-io-is-not-defined/19567
+    python geocoder.py ./static/csv/csvlocorum.csv ./static/xml/locorum2.xml
 """
 
 
@@ -19,14 +20,6 @@ import time
 from geopy.geocoders import Nominatim
 from lxml import etree
 
-
-# --- 1684.781737089157 seconds ---
-# --- 29.02382183074951 seconds ---
-# --- 34.88129997253418 seconds ---
-# --- 35.68276405334473 seconds ---
-# --- 34.803929805755615 seconds ---
-# --- 34.649669885635376 seconds ---
-# python geocoder.py ./static/csv/csvlocorum.csv ./static/xml/locorum2.xml
 
 csvfile=str(sys.argv[1])
 xmlfile=str(sys.argv[2])
