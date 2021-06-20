@@ -6,10 +6,10 @@
     author : Jean-Damien Généro
     date : 2021-06-19
     update : 2021-06-20
+    Made wit the help of Programming Historian : 
     https://programminghistorian.org/en/lessons/mapping-with-python-leaflet#making-geojson
-    https://stackoverflow.com/questions/63231855/violation-user-agent-nominatim-python-gis
-    https://discourse.psychopy.org/t/nameerror-name-io-is-not-defined/19567
-    python geocoder.py ./static/csv/csvlocorum.csv ./static/xml/locorum2.xml
+    And : http://geojson.io/
+    Command : python geocoder.py ./static/csv/csvlocorum.csv ./static/xml/locorum2.xml
 """
 
 
