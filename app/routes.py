@@ -299,9 +299,10 @@ def confidentialite():
 def map():
 	"""
 	"""
-	xslt_index_lieux_transformer = etree.XSLT(xslt_index_lieux_doc)
-	output_index_lieux_doc = xslt_index_lieux_transformer(source_doc)
-	return render_template("pages/map.html", contenu_index_lieux=output_index_lieux_doc)
+	# xslt_index_lieux_transformer = etree.XSLT(xslt_index_lieux_doc)
+	# output_index_lieux_doc = xslt_index_lieux_transformer(source_doc)
+	# return render_template("pages/map.html", contenu_index_lieux=output_index_lieux_doc)
+	return render_template("pages/map.html")
 
 @app.errorhandler(404)
 def page_not_found(error):
