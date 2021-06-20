@@ -7,6 +7,9 @@
     author : Jean-Damien Généro
     date : 2021-06-19
     update : 
+    https://programminghistorian.org/en/lessons/mapping-with-python-leaflet#making-geojson
+    https://stackoverflow.com/questions/63231855/violation-user-agent-nominatim-python-gis
+    https://discourse.psychopy.org/t/nameerror-name-io-is-not-defined/19567
 """
 
 import geopy, sys
