@@ -1,35 +1,35 @@
 {% extends "conteneur.html" %}
 {% block corps %}
 <div class="contact-global">
-    <div>
-		<h1 class="h1_global">Cartes des lieux</h1>
-	</div>
-	<script>
-      	// Initialize the platform object:
-      	var platform = new H.service.Platform({
-        'apikey': 'YOUR API KEY'
-      	});  
-	
-	const lat = 22.719568;
-	const long = 75.857727;
+  <div>
+    <h1 class="h1_global">Index général des noms de lieu</h1>
+  </div>
+    <div id="my-map"></div>
+<script>
+window.onload = function () {
+    var basemap = L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
+    attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> | &copy; 2021 Jean-Damien Genero'
+  });
 
-	// Obtain the default map types from the platform object
-      	var maptypes = platform.createDefaultLayers();
+    $.getJSON("../../static/json/bourbon.geojson", function(data) {
 
-      	// Instantiate (and display) a map object:
-      	var map = new H.Map(
-        document.getElementById('mapContainer'),
-        maptypes.vector.normal.map,
-        {
-         zoom: 10,
-         center: { lat: lat, lng: long }  
-        });
-		
-	var marker = new H.map.Marker({ lat: lat, lng: long });
-		
-	// Add the marker to the map:
-	map.addObject(marker);
-		
+    var geojson = L.geoJson(data, {
+      onEachFeature: function (feature, layer) {
+        // layer.bindPopup(feature.properties.Area_Name);
+        layer.bindPopup('<center><p><b>' + feature.properties.PlaceName + '</b></p></center>' + '<p><b> Lieu :</b> ' + feature.properties.Settlement  + '<p><b> Departement :</b> ' + feature.properties.Region + '</p>' + '<p><b> Pays :</b> ' + feature.properties.Country + '</p>' + '<p><b> Latitude :</b> ' + feature.geometry.coordinates[0] + '</p>' + '<p><b> Longitude :</b> ' + feature.geometry.coordinates[1] + '</p>');
+        //EDIT HERE
+      }
+    });
+
+    var map = L.map('my-map')
+    .fitBounds(geojson.getBounds());
+//    .setView([0.0,-10.0], 2);
+
+    basemap.addTo(map);
+    geojson.addTo(map);
+  });
+
+};
 </script>
 </div>
 
