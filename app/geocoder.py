@@ -7,7 +7,7 @@
     date : 2021-06-19
     update : 2021-06-20
     Made wit the help of Programming Historian : 
-    https://programminghistorian.org/en/lessons/mapping-with-python-leaflet#making-geojson
+    https://programminghistorian.org/en/lessons/mapping-with-python-leaflet
     And : http://geojson.io/
     Command : python geocoder.py ./static/csv/csvlocorum.csv ./static/xml/locorum2.xml
 """
