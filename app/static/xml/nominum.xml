@@ -353,6 +353,13 @@
          </persName>
          <note>Trésorier général de Bourbonnais en 1433</note>
       </person>
+      <person xml:id="LeTailleurG">
+         <persName>
+            <forename>Giles</forename>
+            <surname>Le Tailleur</surname>
+         </persName>
+         <note>Est dit « nagaires receveur general… » le 2 mai 1440, l'est à nouveau en 1446-1447 ; argentier du duc de 1433 à 1447</note>
+      </person>
       <person xml:id="CarmoneP">
          <persName>
             <forename>Pierre</forename>

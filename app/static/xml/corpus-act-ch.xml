@@ -2053,6 +2053,53 @@
                <div type="sign"><p><persName ref="#DB_sign">De Bar</persName></p></div>
             </div>
          </div>
+         <div type="Deperditum" subtype="mandement" xml:id="Ch-40" n="40">
+            <div type="front">
+               <docDate>
+                  <date when="1433-10-07">1433, 7 octobre</date>
+                  <placeName>NS</placeName>
+               </docDate>
+               <argument>
+                  <p>Charles, comte de Clermont, mande à son trésorier général, Guiot Constant, de délivrer à Gilles le Tailleur, argentier du duc, la somme de 712 écus d’or pour qu’il achète divers marchandises et fournitures pour le voyage de la duchesse en Bourgogne</p>
+                  <p><orgName type="main">Deperditum Histoire de Dombes (Aubret)</orgName></p>
+               </argument>
+               <argument>
+                  <p>Charles, comte de Clermont, mande à son trésorier général, Guiot Constant, de délivrer à Gilles le Tailleur, argentier du duc, la somme de 712 écus d’or pour qu’il achète divers marchandises et fournitures pour le voyage de la duchesse en Bourgogne <ref target="#Ch-41">(cf. n° 41)</ref>.
+                  </p>
+               </argument>
+               <div type="tradition">
+                  <listWit>
+                     <witness n="A">A. Original disparu.</witness>
+                     <witness n="mention">Dans l’extrait d’un compte de l’Hôtel pour l’année 1447. <orgName type="main">Archives départementales de l’Allier</orgName>, A 169.</witness>
+                     <witness n="a">
+                        <biblStruct>
+                           <monogr>
+                              <author>
+                                 <persName>
+                                    <forename>Augustin</forename>
+                                    <surname>Vayssière</surname>
+                                 </persName>
+                              </author>
+                              <title level="a">Fragment d’un compte de Gilles le Tailleur, argentier de Charles Ier, duc de Bourbonnais, en 1448. Communication de M. Vayssière</title>
+                              <title level="j">Bulletin archéologique du comité des travaux historiques et scientifiques</title>
+                              <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k203319w/f129.item">[bulletin numérisé]</ref>
+                              <imprint>
+                                 <date when="1891"/>
+                                 <biblScope unit="page" n="62"/>
+                              </imprint>
+                           </monogr>
+                        </biblStruct>
+                     </witness>
+                  </listWit>
+               </div>
+            </div>
+            <div>
+               <head><hi rend="smallcaps">Deperditum</hi></head>
+               <div type="acte">
+                  <p>Audit argentier, auquel en l’an mil IIII<hi rend="sup">C</hi>XXXIII, pour l’alee que entendoit lors faire au <placeName ref="#BourgogneD">païs de Bourgoigne</placeName> <persName ref="#Agnes">madame la duchesse</persName>, fut ordonné par les gens du conseil d’icellui seigneur bailler et delivrer plusieurs draps de soye, de layne, foureures et autres marchandises neccessaires pour icelle allee, et dont des lors furent obtenues les lectres d’icellui seigneur, donnees le VII<hi rend="sup">e</hi> jour d’octobre mil IIII<hi rend="sup">C</hi>XXXIII, par lesquelles est mandé a <persName ref="#ConstantG">Guillot Coustaut</persName>, lors tresorier general, bailler et delivrer audit <persName ref="#LeTailleurG">argentier</persName> XVII<hi rend="sup">C</hi>XII escus d’or et demi vielz pour lesdits draps de soye, de layne, fourreures et autres marchandises declarees au long esdites lectres.</p>
+               </div>
+            </div>
+         </div>
       </body>
    </text>
 </TEI>
