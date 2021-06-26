@@ -38,72 +38,72 @@
       <placeName>
          <name xml:lang="fr">Auvergne</name>
          <country>France</country>
+         <addName>duché d'</addName>
       </placeName>
-      <desc>duché d'</desc>
    </place>
    <place xml:id="Gevaudan" type="territory">
       <placeName>
          <name xml:lang="oci">Janalda</name>
          <name xml:lang="fr">Gévaudan</name>
          <country>France</country>
+         <addName>pays de</addName>
       </placeName>
-      <desc>pays de</desc>
    </place>
    <place xml:id="Languedoc" type="territory">
       <placeName>
          <name xml:lang="oci">pays de lengua d'oc</name>
          <name xml:lang="fr">Languedoc</name>
          <country>France</country>
+         <addName>pays de</addName>
       </placeName>
-      <desc>pays de</desc>
    </place>
    <place xml:id="Velay" type="territory">
       <placeName>
          <name xml:lang="oci">Veleyt</name>
          <name xml:lang="fr">Velay</name>
          <country>France</country>
+         <addName>pays du</addName>
       </placeName>
-      <desc>pays du</desc>
    </place>
    <place xml:id="BourgogneD" type="territory">
       <placeName>
          <name xml:lang="frm">Bourgoingne</name>
          <name xml:lang="fr">Bourgogne</name>
          <country>France</country>
+         <addName>duché de</addName>
       </placeName>
-      <desc>duché de</desc>
    </place>
    <place xml:id="Charolais" type="territory">
       <placeName>
          <name xml:lang="frm">Charrolois</name>
          <name xml:lang="fr">Charolais</name>
          <country>France</country>
+         <addName>comté de</addName>
       </placeName>
-      <desc>comté de</desc>
    </place>
    <place xml:id="Bourbonnais" type="territory">
       <placeName>
          <name xml:lang="frm">Bourbonnois</name>
          <name xml:id="fr">Bourbonnais</name>
          <country>France</country>
+         <addName>duché de</addName>
       </placeName>
-      <desc>duché de</desc>
    </place>
    <place xml:id="Beaujolais" type="territory">
       <placeName>
          <name xml:lang="frm">Beauljeulois</name>
          <name xml:lang="fr">Beaujolais</name>
          <country>France</country>
+         <addName>seigneurie de</addName>
       </placeName>
-      <desc>seigneurie de</desc>
    </place>
    <place xml:id="ChateauChinon" type="territory">
       <placeName>
          <name xml:lang="frm">Chastel Chignon</name>
          <name xml:lang="fr">Château-Chinon</name>
          <country>France</country>
+         <addName>seigneurie de</addName>
       </placeName>
-      <desc>seigneurie de</desc>
    </place>
    <place xml:id="Tutbury" type="place">
       <placeName>
@@ -118,8 +118,8 @@
       <placeName>
          <name xml:lang="fr">Angleterre</name>
          <country>France</country>
+         <addName>royaume d'</addName>
       </placeName>
-      <desc>royaume d'</desc>
    </place>
    <place xml:id="Rome" type="place">
       <placeName>
@@ -133,8 +133,8 @@
          <name xml:lang="frm">Bourgoigne</name>
          <name xml:lang="fr">Bourgogne</name>
          <country>France</country>
+         <addName>comté de</addName>
       </placeName>
-      <desc>comté de</desc>
    </place>
    <place xml:id="Autun" type="place">
       <placeName type="production_place">
@@ -195,23 +195,23 @@
          <name xml:lang="frm">Clermont en Beauvoisin</name>
          <name xml:lang="fr">Clermont-en-Beauvaisis</name>
          <country>France</country>
+         <addName>comté de</addName>
       </placeName>
-      <desc>comté de</desc>
    </place>
    <place xml:id="Montpensier" type="territory">
       <placeName>
          <name xml:lang="frm">Montpencier</name>
          <name xml:lang="fr">Montpensier</name>
          <country>France</country>
+         <addName>comté de</addName>
       </placeName>
-      <desc>comté de</desc>
    </place>
    <place xml:id="FranceR" type="territory">
       <placeName>
          <name xml:lang="fr">France</name>
          <country>France</country>
+         <addName>royaume de</addName>
       </placeName>
-      <desc>royaume de</desc>
    </place>
    <place xml:id="Riom" type="place">
       <placeName type="production_place">
@@ -229,8 +229,8 @@
          <name xml:lang="frm">Guienne</name>
          <name xml:lang="fr">Guyenne</name>
          <country>France</country>
+         <addName>duché de</addName>
       </placeName>
-      <desc>duché de</desc>
    </place>
    <place xml:id="Montbrison" type="place">
       <placeName type="production_place">
@@ -279,16 +279,15 @@
          <name xml:lang="frm">Lionnoiz</name>
          <name xml:lang="fr">Lyonnais</name>
          <country>France</country>
+         <addName>pays de</addName>
       </placeName>
-      <desc>pays de</desc>
    </place>
    <place xml:id="Maconnais" type="territory">
       <placeName>
          <name xml:lang="frm">Masconnoiz</name>
-         <name xml:lang="fr">Mâconnais</name> 
-         <country>France</country>
+         <name xml:lang="fr">Mâconnais</name>         <country>France</country>
+         <addName>pays de</addName>
       </placeName>
-      <desc>pays de</desc>
    </place>
    <place xml:id="Charite" type="place">
       <placeName>
@@ -414,19 +413,20 @@
          <geo source="https://fr.wikipedia.org/wiki/Calvinet">44° 43′ 07″ nord, 2° 21′ 30″ est</geo>
       </location>
    </place>
-   <place xml:id="Villemur" type="territory">
+   <place xml:id="Villemur" type="place">
       <placeName>
          <name xml:lang="fr">Villemur</name>
          <country>France</country>
+         <region type="departement">Hautes-Pyrénées</region>
+         <addName>vicomté et seigneurie de</addName>
       </placeName>
-      <desc>vicomté et seigneurie de, Hautes-Pyrénées</desc>
    </place>
    <place xml:id="Combrailles" type="territory">
       <placeName>
          <name xml:lang="fr">Combrailles</name>
          <country>France</country>
+         <addName>Les, pays de</addName>
       </placeName>
-      <desc>Les, pays de</desc>
    </place>
    <place xml:id="BlancsFosses" type="incity">
       <placeName>
@@ -435,8 +435,8 @@
          <settlement type="city">Couleuvre</settlement>
          <region type="departement">Allier</region>
          <country>France</country>
+         <addName>terre et forteresse de</addName>
       </placeName>
-      <desc>terre et forteresse de</desc>
    </place>
    <place xml:id="Chazeuil" type="incity">
       <placeName>
@@ -484,15 +484,15 @@
       <placeName>
          <name xml:lang="fr">Donzois</name>
          <country>France</country>
+         <addName>pays de</addName>
       </placeName>
-      <desc>pays de</desc>
    </place>
    <place xml:id="Forez" type="territory">
       <placeName>
          <name xml:lang="fr">Forez</name>
          <country>France</country>
+         <addName>comté de</addName>
       </placeName>
-      <desc>comté de</desc>
    </place>
    <place xml:id="BourgenBresse" type="place">
       <placeName>
@@ -520,8 +520,8 @@
       <placeName>
          <name xml:lang="fr">Bresse</name>
          <country>France</country>
+         <addName>pays de</addName>
       </placeName>
-      <desc>pays de</desc>
    </place>
    <place xml:id="SuryleB" type="incity">
       <placeName>
@@ -539,8 +539,8 @@
          <name xml:lang="frm">Nivernois</name>
          <name xml:lang="fr">Nivernais</name>
          <country>France</country>
+         <addName>pays de</addName>
       </placeName>
-      <desc>pays de</desc>
    </place>
    <place xml:id="Cluny" type="place">
       <placeName>
@@ -610,8 +610,8 @@
       <placeName>
          <name xml:lang="fr">Sancerre</name>
          <country>France</country>
+         <addName>comté de</addName>
       </placeName>
-      <desc>comté de</desc>
    </place>
    <place xml:id="Cusset" type="place">
       <placeName>
@@ -667,15 +667,15 @@
       <placeName>
          <name xml:lang="fr">Nevers</name>
          <country>France</country>
+         <addName>comté de</addName>
       </placeName>
-      <desc>comté de</desc>
    </place>
    <place xml:id="RethelC" type="territory">
       <placeName>
          <name xml:lang="fr">Rethel</name>
          <country>France</country>
+         <addName>comté de</addName>
       </placeName>
-      <desc>comté de</desc>
    </place>
    <place xml:id="StPierreleMoutier" type="place">
       <placeName>
@@ -769,8 +769,8 @@
          <country>France</country>
          <settlement type="city">Le Mayet d’École</settlement>
          <region type="departement">Allier</region>
+         <addName>château d'</addName>
       </placeName>
-      <desc>château d'</desc>
       <location>
          <geo source="https://fr.wikipedia.org/wiki/Le_Mayet-d%27%C3%89cole">46° 10′ 12″ nord, 3° 14′ 31″ est</geo>
       </location>
@@ -781,8 +781,8 @@
          <country>France</country>
          <settlement type="city">Solutré-Pouilly</settlement>
          <region type="departement">Saône-et-Loire</region>
+         <addName>forteresse de la</addName>
       </placeName>
-      <desc>forteresse de la</desc>
       <location>
          <geo source="https://fr.wikipedia.org/wiki/Roche_de_Solutr%C3%A9">46° 17′ 55″ nord, 4° 43′ 05″</geo>
       </location>
@@ -794,8 +794,8 @@
          <settlement type="city">Noyers</settlement>
          <region type="departement">Yonne</region>
          <country>France</country>
+         <addName>château de</addName>
       </placeName>
-      <desc>château de</desc>
       <location>
          <geo source="https://fr.wikipedia.org/wiki/Ch%C3%A2teau_de_Noyers-sur-Serein">47° 42′ 04″ nord, 3° 59′ 51″ est</geo>
       </location>
@@ -826,7 +826,7 @@
    <place xml:id="MoulinsEngilbert" type="place">
       <placeName>
          <name xml:lang="frm">Molins les Engibers</name>
-P         <name xml:lang="fr">Moulins-Engilbert</name>
+         P         <name xml:lang="fr">Moulins-Engilbert</name>
          <region type="departement">Nièvre</region>
          <country>France</country>
       </placeName>
@@ -894,8 +894,9 @@ P         <name xml:lang="fr">Moulins-Engilbert</name>
          <name xml:lang="frm">Savere le Blairie</name>
          <name xml:lang="fr">Savere le Blairie</name>
          <country>France</country>
+         <region type="departement">Allier</region>
+         <addName>non-identifié</addName>
       </placeName>
-      <desc>Allier, non-identifié</desc>
       <location>
          <geo source="#"/>
       </location>
@@ -994,8 +995,9 @@ P         <name xml:lang="fr">Moulins-Engilbert</name>
       <placeName>
          <name xml:lang="fr">Vitry</name>
          <country>France</country>
+         <region type="departement">Saône-et-Loire</region>
+         <addName>trois com. de ce nom</addName>
       </placeName>
-      <desc>Saône-et-Loire (trois com. de ce nom)</desc>
       <location>
          <geo/>
       </location>
