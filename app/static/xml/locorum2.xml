@@ -117,7 +117,7 @@
    <place xml:id="Angleterre" type="territory">
       <placeName>
          <name xml:lang="fr">Angleterre</name>
-         <country>France</country>
+         <country/>
          <addName>royaume d'</addName>
       </placeName>
    </place>
