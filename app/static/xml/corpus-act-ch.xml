@@ -3,7 +3,7 @@
 <?xml-model href="out/ODD_actes_charles_bourbon.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <!DOCTYPE doc [
 <!ENTITY indexnominum SYSTEM "nominum.xml">
-<!ENTITY indexlocorum SYSTEM "locorum.xml">
+<!ENTITY indexlocorum SYSTEM "locorum2.xml">
 ]>
 <!-- ([a-zA-Z])’  xmlns="http://www.tei-c.org/ns/1.0" -->
 <TEI>
