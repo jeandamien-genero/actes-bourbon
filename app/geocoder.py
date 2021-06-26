@@ -5,7 +5,7 @@
 """
     author : Jean-Damien Généro
     date : 2021-06-19
-    update : 2021-06-20
+    update : 2021-06-26
     Made wit the help of Programming Historian : 
     https://programminghistorian.org/en/lessons/mapping-with-python-leaflet
     And : http://geojson.io/

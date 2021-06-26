@@ -437,6 +437,24 @@
       "type": "Feature",
       "properties": {
         "": 24,
+        "PlaceName": "Villemur",
+        "Settlement": "Villemur",
+        "Region": "Hautes-Pyrénées",
+        "Country": "France",
+        "helper": "Villemur Hautes-Pyrénées France"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.5517926,
+          43.2552943
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "": 25,
         "PlaceName": "Issoire",
         "Settlement": "Issoire",
         "Region": "Puy-de-Dôme",
@@ -454,7 +472,7 @@
     {
       "type": "Feature",
       "properties": {
-        "": 25,
+        "": 26,
         "PlaceName": "Chantelle",
         "Settlement": "Chantelle",
         "Region": "Allier",
@@ -472,7 +490,7 @@
     {
       "type": "Feature",
       "properties": {
-        "": 26,
+        "": 27,
         "PlaceName": "Trévoux",
         "Settlement": "Trévoux",
         "Region": "Ain",
@@ -490,7 +508,7 @@
     {
       "type": "Feature",
       "properties": {
-        "": 27,
+        "": 28,
         "PlaceName": "Bourg-en-Bresse",
         "Settlement": "Bourg-en-Bresse",
         "Region": "Ain",
@@ -508,7 +526,7 @@
     {
       "type": "Feature",
       "properties": {
-        "": 28,
+        "": 29,
         "PlaceName": "Mâcon",
         "Settlement": "Mâcon",
         "Region": "Saône-et-Loire",
@@ -526,7 +544,7 @@
     {
       "type": "Feature",
       "properties": {
-        "": 29,
+        "": 30,
         "PlaceName": "Cluny",
         "Settlement": "Cluny",
         "Region": "Saône-et-Loire",
@@ -544,7 +562,7 @@
     {
       "type": "Feature",
       "properties": {
-        "": 30,
+        "": 31,
         "PlaceName": "Marcigny",
         "Settlement": "Marcigny",
         "Region": "Saône-et-Loire",
@@ -562,7 +580,7 @@
     {
       "type": "Feature",
       "properties": {
-        "": 31,
+        "": 32,
         "PlaceName": "Tournus",
         "Settlement": "Tournus",
         "Region": "Saône-et-Loire",
@@ -580,7 +598,7 @@
     {
       "type": "Feature",
       "properties": {
-        "": 32,
+        "": 33,
         "PlaceName": "Saint-Gengoux-le-National",
         "Settlement": "Saint-Gengoux-le-National",
         "Region": "Saône-et-Loire",
@@ -598,7 +616,7 @@
     {
       "type": "Feature",
       "properties": {
-        "": 33,
+        "": 34,
         "PlaceName": "Bois-Sainte-Marie",
         "Settlement": "Bois-Sainte-Marie",
         "Region": "Saône-et-Loire",
@@ -616,7 +634,7 @@
     {
       "type": "Feature",
       "properties": {
-        "": 34,
+        "": 35,
         "PlaceName": "Chalon-sur-Saône",
         "Settlement": "Chalon-sur-Saône",
         "Region": "Saône-et-Loire",
@@ -634,7 +652,7 @@
     {
       "type": "Feature",
       "properties": {
-        "": 35,
+        "": 36,
         "PlaceName": "Cusset",
         "Settlement": "Cusset",
         "Region": "Allier",
@@ -652,7 +670,7 @@
     {
       "type": "Feature",
       "properties": {
-        "": 36,
+        "": 37,
         "PlaceName": "Charlieu",
         "Settlement": "Charlieu",
         "Region": "Loire",
@@ -670,7 +688,7 @@
     {
       "type": "Feature",
       "properties": {
-        "": 37,
+        "": 38,
         "PlaceName": "Châteauneuf",
         "Settlement": "Châteauneuf",
         "Region": "Loire",
@@ -688,7 +706,7 @@
     {
       "type": "Feature",
       "properties": {
-        "": 38,
+        "": 39,
         "PlaceName": "Ambierle",
         "Settlement": "Ambierle",
         "Region": "Loire",
@@ -706,7 +724,7 @@
     {
       "type": "Feature",
       "properties": {
-        "": 39,
+        "": 40,
         "PlaceName": "Saint-Pierre-le-Moûtier",
         "Settlement": "Saint-Pierre-le-Moûtier",
         "Region": "Nièvre",
@@ -724,7 +742,7 @@
     {
       "type": "Feature",
       "properties": {
-        "": 40,
+        "": 41,
         "PlaceName": "Sancoins",
         "Settlement": "Sancoins",
         "Region": "Cher",
@@ -742,7 +760,7 @@
     {
       "type": "Feature",
       "properties": {
-        "": 41,
+        "": 42,
         "PlaceName": "Cosne-Cours-sur-Loire",
         "Settlement": "Cosne-Cours-sur-Loire",
         "Region": "Nièvre",
@@ -760,7 +778,7 @@
     {
       "type": "Feature",
       "properties": {
-        "": 42,
+        "": 43,
         "PlaceName": "Néronde",
         "Settlement": "Néronde",
         "Region": "Loire",
@@ -778,7 +796,7 @@
     {
       "type": "Feature",
       "properties": {
-        "": 43,
+        "": 44,
         "PlaceName": "Dampierre",
         "Settlement": "Dampierre",
         "Region": "Aube",
@@ -796,7 +814,7 @@
     {
       "type": "Feature",
       "properties": {
-        "": 44,
+        "": 45,
         "PlaceName": "Ravel",
         "Settlement": "Ravel",
         "Region": "Puy-de-Dôme",
@@ -814,7 +832,7 @@
     {
       "type": "Feature",
       "properties": {
-        "": 45,
+        "": 46,
         "PlaceName": "Montcenis",
         "Settlement": "Montcenis",
         "Region": "Saône-et-Loire",
@@ -832,7 +850,7 @@
     {
       "type": "Feature",
       "properties": {
-        "": 46,
+        "": 47,
         "PlaceName": "Moulins-Engilbert",
         "Settlement": "Moulins-Engilbert",
         "Region": "Nièvre",
@@ -850,7 +868,7 @@
     {
       "type": "Feature",
       "properties": {
-        "": 47,
+        "": 48,
         "PlaceName": "Châtillon-sur-Chalaronne",
         "Settlement": "Châtillon-sur-Chalaronne",
         "Region": "Ain",
@@ -868,7 +886,7 @@
     {
       "type": "Feature",
       "properties": {
-        "": 48,
+        "": 49,
         "PlaceName": "Pont-de-Veyle",
         "Settlement": "Pont-de-Veyle",
         "Region": "Ain",
@@ -886,7 +904,7 @@
     {
       "type": "Feature",
       "properties": {
-        "": 49,
+        "": 50,
         "PlaceName": "Saint-Trivier-sur-Moignans",
         "Settlement": "Saint-Trivier-sur-Moignans",
         "Region": "Ain",
@@ -904,7 +922,7 @@
     {
       "type": "Feature",
       "properties": {
-        "": 50,
+        "": 51,
         "PlaceName": "Billy",
         "Settlement": "Billy",
         "Region": "Allier",
@@ -922,7 +940,7 @@
     {
       "type": "Feature",
       "properties": {
-        "": 51,
+        "": 52,
         "PlaceName": "Varennes-sur-Allier",
         "Settlement": "Varennes-sur-Allier",
         "Region": "Allier",
@@ -940,7 +958,7 @@
     {
       "type": "Feature",
       "properties": {
-        "": 52,
+        "": 53,
         "PlaceName": "Chavroches",
         "Settlement": "Chavroches",
         "Region": "Allier",
@@ -958,7 +976,7 @@
     {
       "type": "Feature",
       "properties": {
-        "": 53,
+        "": 54,
         "PlaceName": "Saligny-sur-Roudon",
         "Settlement": "Saligny-sur-Roudon",
         "Region": "Allier",
@@ -976,7 +994,7 @@
     {
       "type": "Feature",
       "properties": {
-        "": 54,
+        "": 55,
         "PlaceName": "Perreux",
         "Settlement": "Perreux",
         "Region": "Loire",
@@ -994,7 +1012,7 @@
     {
       "type": "Feature",
       "properties": {
-        "": 55,
+        "": 56,
         "PlaceName": "Lay",
         "Settlement": "Lay",
         "Region": "Loire",
@@ -1012,7 +1030,7 @@
     {
       "type": "Feature",
       "properties": {
-        "": 56,
+        "": 57,
         "PlaceName": "Montaigu-le-Blin",
         "Settlement": "Montaigu-le-Blin",
         "Region": "Allier",
@@ -1030,7 +1048,7 @@
     {
       "type": "Feature",
       "properties": {
-        "": 57,
+        "": 58,
         "PlaceName": "Thiers",
         "Settlement": "Thiers",
         "Region": "Puy-de-Dôme",
@@ -1048,7 +1066,7 @@
     {
       "type": "Feature",
       "properties": {
-        "": 58,
+        "": 59,
         "PlaceName": "Chasteaulbelin",
         "Settlement": "Salins-les-Bains",
         "Region": "Jura",
@@ -1066,7 +1084,7 @@
     {
       "type": "Feature",
       "properties": {
-        "": 59,
+        "": 60,
         "PlaceName": "La Chaussiere",
         "Settlement": "Vieure",
         "Region": "Allier",
@@ -1084,7 +1102,7 @@
     {
       "type": "Feature",
       "properties": {
-        "": 60,
+        "": 61,
         "PlaceName": "Blancs-Fossés",
         "Settlement": "Couleuvre",
         "Region": "Allier",
@@ -1102,7 +1120,7 @@
     {
       "type": "Feature",
       "properties": {
-        "": 61,
+        "": 62,
         "PlaceName": "Chazeuil",
         "Settlement": "Varennes-sur-Allier",
         "Region": "Allier",
@@ -1120,7 +1138,7 @@
     {
       "type": "Feature",
       "properties": {
-        "": 62,
+        "": 63,
         "PlaceName": "Sury-le-Bois",
         "Settlement": "Valeille",
         "Region": "Loire",
@@ -1138,7 +1156,7 @@
     {
       "type": "Feature",
       "properties": {
-        "": 63,
+        "": 64,
         "PlaceName": "Rosemont",
         "Settlement": "Luthenay-Uxeloup",
         "Region": "Nièvre",
@@ -1156,7 +1174,7 @@
     {
       "type": "Feature",
       "properties": {
-        "": 64,
+        "": 65,
         "PlaceName": "École",
         "Settlement": "Le Mayet d’École",
         "Region": "Allier",
@@ -1174,7 +1192,7 @@
     {
       "type": "Feature",
       "properties": {
-        "": 65,
+        "": 66,
         "PlaceName": "Roche de Solutré",
         "Settlement": "Solutré-Pouilly",
         "Region": "Saône-et-Loire",
@@ -1192,7 +1210,7 @@
     {
       "type": "Feature",
       "properties": {
-        "": 66,
+        "": 67,
         "PlaceName": "Noyers-sur-Serein",
         "Settlement": "Noyers",
         "Region": "Yonne",
@@ -1210,7 +1228,7 @@
     {
       "type": "Feature",
       "properties": {
-        "": 67,
+        "": 68,
         "PlaceName": "Saint-Cosme",
         "Settlement": "Chalon-sur-Saône",
         "Region": "Saône-et-Loire",
@@ -1228,7 +1246,7 @@
     {
       "type": "Feature",
       "properties": {
-        "": 68,
+        "": 69,
         "PlaceName": "Chaugy",
         "Settlement": "Bessay-sur-Allier",
         "Region": "Allier",
@@ -1246,7 +1264,7 @@
     {
       "type": "Feature",
       "properties": {
-        "": 69,
+        "": 70,
         "PlaceName": "Féchal",
         "Settlement": "Apchat",
         "Region": "Puy-de-Dôme",
