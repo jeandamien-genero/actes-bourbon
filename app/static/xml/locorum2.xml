@@ -111,8 +111,8 @@
          <name xml:lang="fr">Tutbury</name>
          <country>England</country>
          <region type="departement">Staffordshire</region>
+         <addName>château de</addName>
       </placeName>
-      <desc>château de, Angleterre, Staffordshire</desc>
    </place>
    <place xml:id="Angleterre" type="territory">
       <placeName>
