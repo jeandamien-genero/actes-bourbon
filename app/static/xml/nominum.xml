@@ -8,7 +8,7 @@
             <nameLink>de</nameLink>
             <surname>France</surname>
          </persName>
-         <note>Roi de France (22 août 1350 – 8 avril 1364).</note>
+         <note>Roi de France (22 août 1350 – 8 avril 1364)</note>
       </person>
       <person xml:id="ChVI">
          <persName>
@@ -16,7 +16,7 @@
             <nameLink>de</nameLink>
             <surname>France</surname>
          </persName>
-         <note>Roi de France (16 septembre 1380 – 21 octobre 1422).</note>
+         <note>Roi de France (16 septembre 1380 – 21 octobre 1422)</note>
       </person>
       <person xml:id="ChVII">
          <persName>
@@ -24,7 +24,7 @@
             <nameLink>de</nameLink>
             <surname>France</surname>
          </persName>
-         <note>Roi de France (21 octobre 1422 – 22 juillet 1461).</note>
+         <note>Roi de France (21 octobre 1422 – 22 juillet 1461)</note>
       </person>
       <person xml:id="HenriV">
          <persName>
@@ -32,7 +32,7 @@
             <nameLink>d'</nameLink>
             <surname>Angleterre</surname>
          </persName>
-         <note>Roi d'Angleterre (20 mars 1413 – 31 août 1422).</note>
+         <note>Roi d'Angleterre (20 mars 1413 – 31 août 1422)</note>
       </person>
       <person xml:id="HenriVI">
          <persName>
@@ -40,7 +40,7 @@
             <nameLink>d'</nameLink>
             <surname>Angleterre</surname>
          </persName>
-         <note>Roi d'Angleterre (31 août 1422 – 4 mars 1461).</note>
+         <note>Roi d'Angleterre (31 août 1422 – 4 mars 1461)</note>
       </person>
    </listPerson>
    <listPerson type="hommes_du_roi">
@@ -50,7 +50,7 @@
             <nameLink>de</nameLink>
             <surname>Chartres</surname>
          </persName>
-         <note>Archevêque-duc de Reims (1414-1444), chancelier de Charles VII de France (1424, 1428-1444).</note>
+         <note>Archevêque-duc de Reims (1414-1444), chancelier de Charles VII de France (1424, 1428-1444)</note>
       </person>
       <person xml:id="PoitiersCh">
          <persName>
@@ -65,7 +65,7 @@
             <forename>Jean</forename>
             <surname>Seaume</surname>
          </persName>
-         <note>Receveur general de toutes finances et trésorier des guerres en Languedoc et en Guyenne.</note>
+         <note>Receveur general de toutes finances et trésorier des guerres en Languedoc et en Guyenne</note>
       </person>
       <person xml:id="CourtetE">
          <persName>
@@ -79,7 +79,7 @@
             <forename>Gaillard</forename>
             <surname>Noël</surname>
          </persName>
-         <note>Receveur de l'aide du pays d'Auvergne (années 1420).</note>
+         <note>Receveur de l'aide du pays d'Auvergne (années 1420)</note>
       </person>
       <person xml:id="TremoilleG">
          <persName>
@@ -87,7 +87,7 @@
             <nameLink>de la</nameLink>
             <surname>Trémoille</surname>
          </persName>
-         <note>Seigneur de Sully.</note>
+         <note>Seigneur de Sully</note>
       </person>
       <person xml:id="RichemontA">
          <persName>
@@ -95,7 +95,7 @@
             <nameLink>de</nameLink>
             <surname>Richemont</surname>
          </persName>
-         <note>Frère du duc Jean V de Bretagne, connétable de France (1425-1458), duc de Bretagne (1457-1458).</note>
+         <note>Frère du duc Jean V de Bretagne, connétable de France (1425-1458), duc de Bretagne (1457-1458)</note>
       </person>
       <person xml:id="CAlbert">
          <persName>
@@ -103,7 +103,7 @@
             <nameLink>d'</nameLink>
             <surname>Albret</surname>
          </persName>
-         <note>Sire d'Albret (1415-1471).</note>
+         <note>Sire d'Albret (1415-1471)</note>
       </person>
    </listPerson>
    <listPerson type="Bourbon">
@@ -113,7 +113,7 @@
             <nameLink>de</nameLink>
             <surname>Bourbon</surname>
          </persName>
-         <note>Duc de Bourbon (1341-1356).</note>
+         <note>Duc de Bourbon (1341-1356)</note>
       </person>
       <person xml:id="IsabelleValois">
          <persName>
@@ -121,7 +121,7 @@
             <nameLink>de</nameLink>
             <surname>Valois</surname>
          </persName>
-         <note>Duchesse de Bourbon (1341-1383).</note>
+         <note>Duchesse de Bourbon (1341-1383)</note>
       </person>
       <person xml:id="MarieBourbon">
          <persName>
@@ -129,7 +129,7 @@
             <nameLink>de</nameLink>
             <surname>Bourbon</surname>
          </persName>
-         <note>Impératrice de Constantinople (1347-1364).</note>
+         <note>Impératrice de Constantinople (1347-1364)</note>
       </person>
       <person xml:id="HLusignan">
          <persName>
@@ -137,14 +137,14 @@
             <nameLink>de</nameLink>
             <surname>Lusignan</surname>
          </persName>
-         <note>Fils de Marie de Bourbon, prince de la Morée (1355-1385).</note>
+         <note>Fils de Marie de Bourbon, prince de la Morée (1355-1385)</note>
       </person>
       <person xml:id="AnneDauphine">
          <persName>
             <forename>Anne</forename>
             <surname>Dauphine</surname>
          </persName>
-         <note>Duchesse de Bourbon et comtesse de Forez (1371-1417).</note>
+         <note>Duchesse de Bourbon et comtesse de Forez (1371-1417)</note>
       </person>
       <person xml:id="JeanI">
          <persName>
@@ -152,7 +152,7 @@
             <nameLink>de</nameLink>
             <surname>Bourbon</surname>
          </persName>
-         <note>Duc de Bourbon (1410-1434).</note>
+         <note>Duc de Bourbon (1410-1434)</note>
       </person>
       <person xml:id="MarieBerry">
          <persName>
@@ -160,7 +160,7 @@
             <nameLink>de</nameLink>
             <surname>Berry</surname>
          </persName>
-         <note>Duchesse de Bourbon (1410-1434).</note>
+         <note>Duchesse de Bourbon (1410-1434)</note>
       </person>
       <person xml:id="Agnes">
          <persName>
@@ -168,7 +168,7 @@
             <nameLink>de</nameLink>
             <surname>Bourgogne</surname>
          </persName>
-         <note>Duchesse de Bourbon (1434-1456).</note>
+         <note>Duchesse de Bourbon (1434-1456)</note>
       </person>
       <person xml:id="Louis_Montpensier">
          <persName>
@@ -176,7 +176,7 @@
             <nameLink>de</nameLink>
             <surname>Bourbon</surname>
          </persName>
-         <note>Fils de Jean Ier et Marie de Berry, comte de Montpensier.</note>
+         <note>Fils de Jean Ier et Marie de Berry, comte de Montpensier</note>
       </person>
    </listPerson>
    <listPerson type="hotel_ChI">
@@ -185,7 +185,7 @@
             <forename>Louis</forename>
             <surname>Mareschal</surname>
          </persName>
-         <note>Seigneur de Saint-Priest et d'Apinac, chambellan (cité de 1435 à 1449).</note>
+         <note>Seigneur de Saint-Priest et d'Apinac, chambellan (cité de 1435 à 1449)</note>
       </person>
       <person xml:id="BarresL">
          <persName>
@@ -193,7 +193,7 @@
             <nameLink>des</nameLink>
             <surname>Barres</surname>
          </persName>
-         <note>Chevalier, chambellan (cité en 1442).</note>
+         <note>Chevalier, chambellan (cité en 1442)</note>
       </person>
       <person xml:id="BoutheonB">
          <persName>
@@ -201,21 +201,21 @@
             <nameLink>de</nameLink>
             <surname>Bouthéon</surname>
          </persName>
-         <note>Maître de l'Hôtel (cité en 1437 et 1442).</note>
+         <note>Maître de l'Hôtel (cité en 1437 et 1442)</note>
       </person>
       <person xml:id="ParentR">
          <persName>
             <forename>Robert</forename>
             <surname>Parent</surname>
          </persName>
-         <note>Maître de la chambre aux deniers (cité en 1441).</note>
+         <note>Maître de la chambre aux deniers (cité en 1441)</note>
       </person>
       <person xml:id="SurelJ">
          <persName>
             <forename>Jean</forename>
             <surname>Surel</surname>
          </persName>
-         <note>Écuyer d'écurie.</note>
+         <note>Écuyer d'écurie</note>
       </person>
       <person xml:id="MontmuratJ">
          <persName>
@@ -223,7 +223,7 @@
             <nameLink>de</nameLink>
             <surname>Montmurat</surname>
          </persName>
-         <note>Écuyer d'écurie (cité en 1429 et 1431).</note>
+         <note>Écuyer d'écurie (cité en 1429 et 1431)</note>
       </person>
       <person xml:id="VillarsJ">
          <persName>
@@ -232,7 +232,7 @@
             <surname>Villars</surname>
             <addName>Barrilhet</addName>
          </persName>
-         <note>Écuyer d'écurie (cité en 1430).</note>
+         <note>Écuyer d'écurie (cité en 1430)</note>
       </person>
       <person xml:id="TeillayeP">
          <persName>
@@ -240,7 +240,7 @@
             <nameLink>de la</nameLink>
             <surname>Teillaye</surname>
          </persName>
-         <note>Écuyer panetier (années 1420).</note>
+         <note>Écuyer panetier (années 1420)</note>
       </person>
    </listPerson>
    <listPerson type="Bourbonnais">
@@ -249,7 +249,7 @@
             <forename>Robert</forename>
             <surname>Dauphin</surname>
          </persName>
-         <note>Évêque de Chartres.</note>
+         <note>Évêque de Chartres</note>
       </person>
       <person xml:id="ChauvignyJ">
          <persName>
@@ -257,7 +257,7 @@
             <nameLink>de</nameLink>
             <surname>Chauvigny</surname>
          </persName>
-         <note>Seigneur de Blot.</note>
+         <note>Seigneur de Blot</note>
       </person>
       <person xml:id="FayetteG">
          <persName>
@@ -265,7 +265,7 @@
             <nameLink>de</nameLink>
             <surname>La Fayette</surname>
          </persName>
-         <note>Maréchal de France.</note>
+         <note>Maréchal de France</note>
       </person>
       <person xml:id="NourryE">
          <persName>
@@ -281,7 +281,7 @@
             <nameLink>de</nameLink>
             <surname>Nourry</surname>
          </persName>
-         <note>Archevêque de Vienne.</note>
+         <note>Archevêque de Vienne</note>
       </person>
       <person xml:id="PesteilG">
          <persName>
@@ -289,7 +289,7 @@
             <nameLink>de</nameLink>
             <surname>Pestels</surname>
          </persName>
-         <note>Chevalier, bailli des Montagnes d'Auvergne.</note>
+         <note>Chevalier, bailli des Montagnes d'Auvergne</note>
       </person>
       <person xml:id="ChaugyJ">
          <persName>
@@ -297,7 +297,7 @@
             <nameLink>de</nameLink>
             <surname>Chaugy</surname>
          </persName>
-         <note>Chevalier, seigneur de Chaugy et de Chenay.</note>
+         <note>Chevalier, seigneur de Chaugy et de Chenay</note>
       </person>
       <person xml:id="ChatillonJ">
          <persName>
@@ -305,7 +305,7 @@
             <nameLink>de</nameLink>
             <surname>Châtillon</surname>
          </persName>
-         <note>Seigneur de Dampierre et de Revel.</note>
+         <note>Seigneur de Dampierre et de Revel</note>
       </person>
       <person xml:id="MontmorinP">
          <persName>
@@ -321,7 +321,7 @@
             <nameLink>de</nameLink>
             <surname>Rochefort</surname>
          </persName>
-         <note>Conseiller de Louis II, cité en 1410.</note>
+         <note>Conseiller de Louis II, cité en 1410</note>
       </person>
       <person xml:id="ChateaumorandJ">
          <persName>
@@ -329,14 +329,14 @@
             <nameLink>de</nameLink>
             <surname>Châteaumorand</surname>
          </persName>
-         <note>Seigneur de Châteaumorand et de la Voute.</note>
+         <note>Seigneur de Châteaumorand et de la Voute</note>
       </person>
       <person xml:id="LoupB">
          <persName>
             <forename>Blain</forename>
             <surname>Loup</surname>
          </persName>
-         <note>Seigneur de Beauvoir, sénéchal de Bourbonnais.</note>
+         <note>Seigneur de Beauvoir, sénéchal de Bourbonnais</note>
       </person>
       <person xml:id="ChabannesJ">
          <persName>
@@ -344,14 +344,29 @@
             <nameLink>de</nameLink>
             <surname>Chabannes</surname>
          </persName>
-         <note>Chevalier, maréchal et sénéchal de Bourbonnais en 1433.</note>
+         <note>Chevalier, maréchal et sénéchal de Bourbonnais en 1433</note>
+      </person>
+      <person xml:id="Villandrando">
+         <persName>
+            <forename>Rodrigo</forename>
+            <nameLink>de</nameLink>
+            <surname>Villandrando</surname>
+         </persName>
+         <note>Comte de Ribedieux</note>
       </person>
       <person xml:id="ConstantG">
          <persName>
             <forename>Guiot</forename>
             <surname>Constant</surname>
          </persName>
-         <note>Trésorier général de Bourbonnais en 1433.</note>
+         <note>Trésorier général de Bourbonnais en 1433</note>
+      </person>
+      <person xml:id="LeTailleurG">
+         <persName>
+            <forename>Giles</forename>
+            <surname>Le Tailleur</surname>
+         </persName>
+         <note>Est dit « nagaires receveur general… » le 2 mai 1440, l'est à nouveau en 1446-1447 ; argentier du duc de 1433 à 1447</note>
       </person>
       <person xml:id="CarmoneP">
          <persName>
@@ -359,7 +374,7 @@
             <nameLink>de</nameLink>
             <surname>Carmone</surname>
          </persName>
-         <note>Maître, lieutenant du sénéchal (cité de 1427 à 1453), conseiller du duc.</note>
+         <note>Maître, lieutenant du sénéchal (cité de 1427 à 1453), conseiller du duc</note>
       </person>
       <person xml:id="ChalenconL">
          <persName>
@@ -367,7 +382,7 @@
             <nameLink>de</nameLink>
             <surname>Chalençon</surname>
          </persName>
-         <note>Seigneur de Beaumont.</note>
+         <note>Seigneur de Beaumont</note>
       </person>
       <person xml:id="AstreD">
          <persName>
@@ -375,7 +390,7 @@
             <nameLink>de l'</nameLink>
             <surname>Astre</surname>
          </persName>
-         <note>Seigneur de l'Astre ou Lastre.</note>
+         <note>Seigneur de l'Astre ou Lastre</note>
       </person>
       <person xml:id="ChazeuilAnt">
          <persName>
@@ -383,7 +398,7 @@
             <nameLink>de</nameLink>
             <surname>L’Espinasse</surname>
          </persName>
-         <note>Seigneur de Chazeuil.</note>
+         <note>Seigneur de Chazeuil</note>
       </person>
       <person xml:id="AmplepuisE">
          <persName>
@@ -391,21 +406,21 @@
             <nameLink>de</nameLink>
             <surname>Beaujeu</surname>
          </persName>
-         <note>Seigneur d'Amplepuis et de Linières.</note>
+         <note>Seigneur d'Amplepuis et de Linières</note>
       </person>
       <person xml:id="Rollat">
          <persName>
             <forename></forename>
             <surname>Rollat</surname>
          </persName>
-         <note>Seigneur de (non-identifié).</note>
+         <note>Seigneur de (non-identifié)</note>
       </person>
       <person xml:id="Cresant">
          <persName>
             <forename></forename>
             <surname>Cresant ou Crozant</surname>
          </persName>
-         <note>Seigneur de (non-identifié).</note>
+         <note>Seigneur de (non-identifié)</note>
       </person>
       <person xml:id="JuifsA">
          <persName>
@@ -422,19 +437,26 @@
          </persName>
          <note>Écuyer</note>
       </person>
+      <person xml:id="Gencien">
+         <persName>
+            <forename>Henriet</forename>
+            <surname>Gencien</surname>
+         </persName>
+         <note>Prisonnier en 1434.</note>
+      </person>
       <person xml:id="RocqueR">
          <persName>
             <forename>Roger</forename>
             <surname>Roque</surname>
          </persName>
-         <note>Maître. Avocat fiscal (1442) puis procureur général du Bourbonnais (1453-1454).</note>
+         <note>Maître. Avocat fiscal (1442) puis procureur général du Bourbonnais (1453-1454)</note>
       </person>
       <person xml:id="DozJ">
          <persName>
             <forename>Jean</forename>
             <surname>Doz</surname>
          </persName>
-         <note>Docteur en lois.</note>
+         <note>Docteur en lois</note>
       </person>
       <person xml:id="ChantereleP">
          <persName>
@@ -449,7 +471,7 @@
             <forename>Jean</forename>
             <surname>Le Vist</surname>
          </persName>
-         <note>Maître.</note>
+         <note>Maître</note>
       </person>
       <person xml:id="CordierM">
          <persName>
@@ -464,7 +486,7 @@
             <nameLink>de</nameLink>
             <surname>Toussy</surname>
          </persName>
-         <note>Maître.</note>
+         <note>Maître</note>
       </person>
       <person xml:id="BourgM">
          <persName>
@@ -472,7 +494,7 @@
             <nameLink>de</nameLink>
             <surname>Bourg</surname>
          </persName>
-         <note>Non identifié. Procureur du duc en 1433.</note>
+         <note>Non identifié. Procureur du duc en 1433</note>
       </person>
       <person xml:id="FeirsH">
          <persName>
@@ -480,7 +502,7 @@
             <nameLink>de</nameLink>
             <surname>Feirs</surname>
          </persName>
-         <note>Non identifié. Fait prisonnier lors de la prise de Vitry en juillet 1433.</note>
+         <note>Non identifié. Fait prisonnier lors de la prise de Vitry en juillet 1433</note>
       </person>
       <person xml:id="LacortG">
          <persName>
@@ -503,7 +525,7 @@
             <surname>Revel</surname>
             <addName>Auvergne</addName>
          </persName>
-         <note>Héraut et messager du duc (1433).</note>
+         <note>Héraut et messager du duc (1433)</note>
       </person>
    </listPerson>
    <listPerson type="Auvergne">
@@ -521,14 +543,14 @@
             <nameLink>de</nameLink>
             <surname>Bonnefont</surname>
          </persName>
-         <note>Lieutenant du sénéchal d’Auvergne (1423-1431).</note>
+         <note>Lieutenant du sénéchal d’Auvergne (1423-1431)</note>
       </person>
       <person xml:id="EscureS">
          <persName>
             <forename>Simon</forename>
             <surname>Escure</surname>
          </persName>
-         <note>Garde de la prévôté de Riom.</note>
+         <note>Garde de la prévôté de Riom</note>
       </person>
    </listPerson>
    <listPerson type="Forez">
@@ -537,21 +559,21 @@
             <forename>Amé</forename>
             <surname>Vert</surname>
          </persName>
-         <note>Seigneur de Chenereilles, bailli du comté de Forez (1414-1455).</note>
+         <note>Seigneur de Chenereilles, bailli du comté de Forez (1414-1455)</note>
       </person>
       <person xml:id="PelletierJ">
          <persName>
             <forename>Jean</forename>
             <surname>Pelletier</surname>
          </persName>
-         <note>Juge ordinaire du comté de Forez (1430-1434).</note>
+         <note>Juge ordinaire du comté de Forez (1430-1434)</note>
       </person>
       <person xml:id="RonchevolS">
          <persName>
             <forename>Simon</forename>
             <surname>Ronchevol</surname>
          </persName>
-         <note>Prieur de Charlieu.</note>
+         <note>Prieur de Charlieu</note>
       </person>
       <person xml:id="TholoigusA">
          <persName>
@@ -559,7 +581,7 @@
             <nameLink>de</nameLink>
             <surname>Tholoigus</surname>
          </persName>
-         <note>Écuyer, seigneur d'Alvigne, capitaine de Charlieu (1432).</note>
+         <note>Écuyer, seigneur d'Alvigne, capitaine de Charlieu (1432)</note>
       </person>
       <person xml:id="ChenevouxJ">
          <persName>
@@ -567,7 +589,7 @@
             <nameLink>de</nameLink>
             <surname>Chénevoux</surname>
          </persName>
-         <note>Écuyer, capitaine de Néronde (1432).</note>
+         <note>Écuyer, capitaine de Néronde (1432)</note>
       </person>
       <person xml:id="VeinoyG">
          <persName>
@@ -584,7 +606,7 @@
             <nameLink>de</nameLink>
             <surname>L’Espinasse</surname>
          </persName>
-         <note>Bailli de Beaujolais (cité en 1431).</note>
+         <note>Bailli de Beaujolais (cité en 1431)</note>
       </person>
       <person xml:id="EspinassePh">
          <persName>
@@ -593,7 +615,7 @@
             <surname>L’Espinasse</surname>
             <addName>Cormorant</addName>
          </persName>
-         <note>Chevalier, seigneur de L’Espinasse, bailli de Beaujolais (cité en 1431), conseiller du duc.</note>
+         <note>Chevalier, seigneur de L’Espinasse, bailli de Beaujolais (cité en 1431), conseiller du duc</note>
       </person>
       <person xml:id="RanciePh">
          <persName>
@@ -601,7 +623,7 @@
             <nameLink>du</nameLink>
             <surname>Rancié</surname>
          </persName>
-         <note>Trésorier de Beaujolais (cité en 1433).</note>
+         <note>Trésorier de Beaujolais (cité en 1433)</note>
       </person>
       <person xml:id="DubreuilJ">
          <persName>
@@ -609,7 +631,7 @@
             <nameLink>du</nameLink>
             <surname>Breuil</surname>
          </persName>
-         <note>Auditeur des comtes de la Chambre de Villefranche (cité en 1431).</note>
+         <note>Auditeur des comtes de la Chambre de Villefranche (cité en 1431)</note>
       </person>
    </listPerson>
    <listPerson type="Ch_Moulins">
@@ -618,21 +640,21 @@
             <forename>Oudart</forename>
             <surname>Cleppier</surname>
          </persName>
-         <note>Président de la Chambre (1426-1433), conseiller du duc.</note>
+         <note>Président de la Chambre (1426-1433), conseiller du duc</note>
       </person>
       <person xml:id="CholletG">
          <persName>
             <forename>Geoffroy</forename>
             <surname>Chollet</surname>
          </persName>
-         <note>Président de la Chambre (cité de 1438 à 1445), prieur de Souvigny (1424-1454).</note>
+         <note>Président de la Chambre (cité de 1438 à 1445), prieur de Souvigny (1424-1454)</note>
       </person>
       <person xml:id="DenisC">
          <persName>
             <forename>Colas</forename>
             <surname>Denis</surname>
          </persName>
-         <note>Maître des comptes (1407-1427), garde des sceaux aux contrats du Bourbonnais (1420-1438).</note>
+         <note>Maître des comptes (1407-1427), garde des sceaux aux contrats du Bourbonnais (1420-1438)</note>
       </person>
       
       <person xml:id="DB_cptes">
@@ -640,7 +662,7 @@
             <forename>Étienne</forename>
             <surname>De Bar</surname>
          </persName>
-         <note>Maître des comptes et secrétaires.</note>
+         <note>Maître des comptes et secrétaires</note>
       </person>
    </listPerson>
    <listPerson type="chanceliers_Ch">
@@ -650,7 +672,7 @@
             <nameLink>de</nameLink>
             <surname>Toulon</surname>
          </persName>
-         <note>Chancelier de Jean Ier et de Charles Ier (1427-1440).</note>
+         <note>Chancelier de Jean Ier et de Charles Ier (1427-1440)</note>
       </person>
    </listPerson>
    <listPerson type="secretaires_Bourbon">
@@ -659,56 +681,56 @@
             <forename>Étienne</forename>
             <surname>Gort</surname>
          </persName>
-         <note>Signe de 1425 à 1440.</note>
+         <note>Signe de 1425 à 1440</note>
       </person>
       <person xml:id="DB_sign">
          <persName>
             <forename>Étienne</forename>
             <surname>De Bar</surname>
          </persName>
-         <note>Signe de 1426 à 1450.</note>
+         <note>Signe de 1426 à 1450</note>
       </person>
       <person xml:id="Cadier_sign">
          <persName>
             <forename>Guillaume</forename>
             <surname>Cadier</surname>
          </persName>
-         <note>Signe de 1431 à 1454.</note>
+         <note>Signe de 1431 à 1454</note>
       </person>
       <person xml:id="Trichon_sign">
          <persName>
             <forename>Jean</forename>
             <surname>Trichon</surname>
          </persName>
-         <note>Signe de 1429 à 1439.</note>
+         <note>Signe de 1429 à 1439</note>
       </person>
       <person xml:id="CousinM">
          <persName>
             <forename>Mahier</forename>
             <surname>Cousin</surname>
          </persName>
-         <note>Mentionné en 1430 et 1431 ; également maître des étangs de Bourbonnais et Combraille.</note>
+         <note>Mentionné en 1430 et 1431 ; également maître des étangs de Bourbonnais et Combraille</note>
       </person>
       <person xml:id="LAndraut_sign">
          <persName>
             <forename>Laurent</forename>
             <surname>Andraut</surname>
          </persName>
-         <note>Signe en 1436.</note>
+         <note>Signe en 1436</note>
       </person>
       <person xml:id="Gourriet_sign">
          <persName>
             <forename>Lorrin</forename>
             <surname>Gourriet</surname>
          </persName>
-         <note>Signe pour la duchesse en 1425.</note>
+         <note>Signe pour la duchesse en 1425</note>
       </person>
       <person xml:id="Marghas_sign">
          <persName>
             <forename>Philippe</forename>
             <surname>Marghas</surname>
          </persName>
-         <note>Signe pour la duchesse en 1427.</note>
+         <note>Signe pour la duchesse en 1427</note>
       </person>
    </listPerson>            
    <listPerson type="princes">
@@ -718,7 +740,7 @@
             <nameLink>d'</nameLink>
             <surname>Armagnac</surname>
          </persName>
-         <note>Comte d'Armagnac (1418-1450).</note>
+         <note>Comte d'Armagnac (1418-1450)</note>
       </person>
       <person xml:id="ArmagnacB">
          <persName>
@@ -726,7 +748,7 @@
             <nameLink>d'</nameLink>
             <surname>Armagnac</surname>
          </persName>
-         <note>Comte de Pardiac (1418-1462).</note>
+         <note>Comte de Pardiac (1418-1462)</note>
       </person>
       <person xml:id="BerryJ">
          <persName>
@@ -734,7 +756,7 @@
             <nameLink>de</nameLink>
             <surname>Berry</surname>
          </persName>
-         <note>Duc de Berry (1360-1416).</note>
+         <note>Duc de Berry (1360-1416)</note>
       </person>
       <person xml:id="JSP">
          <persName>
@@ -742,7 +764,7 @@
             <nameLink>de</nameLink>
             <surname>Bourgogne</surname>
          </persName>
-         <note>Duc de Bourgogne (1404-1419).</note>
+         <note>Duc de Bourgogne (1404-1419)</note>
       </person>
       <person xml:id="PhBon">
          <persName>
@@ -750,7 +772,15 @@
             <nameLink>de</nameLink>
             <surname>Bourgogne</surname>
          </persName>
-         <note>Duc de Bourgogne (1419-1467).</note>
+         <note>Duc de Bourgogne (1419-1467)</note>
+      </person>
+      <person xml:id="IsaPortugal">
+         <persName>
+            <forename>Isabelle</forename>
+            <nameLink>de</nameLink>
+            <surname>Portugal</surname>
+         </persName>
+         <note>Duchesse de Bourgogne (1430-1467)</note>
       </person>
       <person xml:id="BretagneJ">
          <persName>
@@ -758,7 +788,7 @@
             <nameLink>de</nameLink>
             <surname>Bretagne</surname>
          </persName>
-         <note>Duc de Bretagne (1399-1442).</note>
+         <note>Duc de Bretagne (1399-1442)</note>
       </person>
       <person xml:id="FoixJ">
          <persName>
@@ -766,7 +796,7 @@
             <nameLink>de</nameLink>
             <surname>Foix</surname>
          </persName>
-         <note>Comte de Foix (1413-1436).</note>
+         <note>Comte de Foix (1413-1436)</note>
       </person>
       <person xml:id="SavoieAVIII">
          <persName>
@@ -774,7 +804,7 @@
             <nameLink>de</nameLink>
             <surname>Savoie</surname>
          </persName>
-         <note>Duc de Savoie (1416-1440).</note>
+         <note>Duc de Savoie (1416-1440)</note>
       </person>
    </listPerson>
    <listPerson type="bourguignons">
@@ -783,7 +813,7 @@
             <forename>Nicolas</forename>
             <surname>Rolin</surname>
          </persName>
-         <note>Seigneur d'Authumes, chancelier de Philippe le Bon.</note>
+         <note>Seigneur d'Authumes, chancelier de Philippe le Bon</note>
       </person>
       <person xml:id="ToulongeonA">
          <persName>
@@ -791,21 +821,21 @@
             <nameLink>de</nameLink>
             <surname>Toulongeon</surname>
          </persName>
-         <note>Chevalier, seigneur de Buxy, maréchal de Bourgogne.</note>
+         <note>Chevalier, seigneur de Buxy, maréchal de Bourgogne</note>
       </person>
       <person xml:id="FraignotJ">
          <persName>
             <forename>Jean</forename>
             <surname>Fraignot</surname>
          </persName>
-         <note>Receveur général du duché de Bourgogne.</note>
+         <note>Receveur général du duché de Bourgogne</note>
       </person>
       <person xml:id="RegnaultM">
          <persName>
             <forename>Mahier</forename>
             <surname>Regnault</surname>
          </persName>
-         <note>Conseiller ducal et receveur général de toutes les finances des duché et comté de Bourgogne.</note>
+         <note>Conseiller ducal et receveur général de toutes les finances des duché et comté de Bourgogne</note>
       </person>
       <person xml:id="BoisH">
          <persName>
@@ -813,7 +843,15 @@
             <nameLink>du</nameLink>
             <surname>Bois</surname>
          </persName>
-         <note>Chevalier, conseiller du duc, bailli du comté de Charolais.</note>
+         <note>Chevalier, conseiller du duc, bailli du comté de Charolais</note>
+      </person>
+      <person xml:id="EspinasseChampal">
+         <persName>
+            <forename>Oudart</forename>
+            <nameLink>de l'</nameLink>
+            <surname>Espinasse</surname>
+         </persName>
+         <note>Seigneur de Champallement, commis au gouvernement des comtés de Nevers et de Rethel en 1433</note>
       </person>
       <person xml:id="LuyrieuL">
          <persName>
@@ -821,14 +859,14 @@
             <nameLink>de</nameLink>
             <surname>Luyrieu, Lureuil ou Layreu</surname>
          </persName>
-         <note>Écuyer, seigneur de Luyrieu, bailli de Mâcon, conseiller et chambellan du duc.</note>
+         <note>Écuyer, seigneur de Luyrieu, bailli de Mâcon, conseiller et chambellan du duc</note>
       </person>
       <person xml:id="Breneal">
          <persName>
             <forename>Jean</forename>
             <surname>Breneal</surname>
          </persName>
-         <note>Maître, secrétaire.</note>
+         <note>Maître, secrétaire</note>
       </person>
       <person xml:id="NeversCh">
          <persName>
@@ -836,7 +874,7 @@
             <nameLink>de</nameLink>
             <surname>Bourgogne</surname>
          </persName>
-         <note>Comte de Nevers et de Rethel (1415-1464).</note>
+         <note>Comte de Nevers et de Rethel (1415-1464)</note>
       </person>
       <person xml:id="NeversJ">
          <persName>
@@ -844,7 +882,7 @@
             <nameLink>de</nameLink>
             <surname>Bourgogne</surname>
          </persName>
-         <note>Frère du comte de Nevers et de Rethel.</note>
+         <note>Frère du comte de Nevers et de Rethel</note>
       </person>
       <person xml:id="VienneG">
          <persName>
@@ -860,7 +898,7 @@
             <nameLink>de</nameLink>
             <surname>Pontailler</surname>
          </persName>
-         <note>Chevalier, seigneur de Talmay.</note>
+         <note>Chevalier, seigneur de Talmay</note>
       </person>
       <person xml:id="MontaguJ">
          <persName>
@@ -868,35 +906,35 @@
             <nameLink>de</nameLink>
             <surname>Montagu</surname>
          </persName>
-         <note>Chevalier, seigneur de Conches.</note>
+         <note>Chevalier, seigneur de Conches</note>
       </person>
       <person xml:id="AndrietPh">
          <persName>
             <forename>Philibert</forename>
             <surname>Andriet ou Andrenet</surname>
          </persName>
-         <note>Chevalier, seigneur de Coursan, conseiller et chambellan du duc.</note>
+         <note>Chevalier, seigneur de Coursan, conseiller et chambellan du duc</note>
       </person>
       <person xml:id="LaGuicheG">
          <persName>
             <forename>Gérard</forename>
             <surname>La Guiche</surname>
          </persName>
-         <note>Chevalier, seigneur de La Guiche, conseiller du duc.</note>
+         <note>Chevalier, seigneur de La Guiche, conseiller du duc</note>
       </person>
       <person xml:id="CourtiamblesJ">
          <persName>
             <forename>Jacques</forename>
             <surname>Pot</surname>
          </persName>
-         <note>Seigneur de Courtiambles.</note>
+         <note>Seigneur de Courtiambles</note>
       </person>
       <person xml:id="PotR">
          <persName>
             <forename>Régnier</forename>
             <surname>Pot</surname>
          </persName>
-         <note>Seigneur de La Prugne.</note>
+         <note>Seigneur de La Prugne</note>
       </person>
       <person xml:id="RoboisJ">
          <persName>
@@ -904,7 +942,7 @@
             <nameLink>de</nameLink>
             <surname>Robois</surname>
          </persName>
-         <note>Seigneur de Robois et de Gazelle.</note>
+         <note>Seigneur de Robois et de Gazelle</note>
       </person>
       <person xml:id="JaucourtG">
          <persName>
@@ -912,21 +950,21 @@
             <nameLink>de</nameLink>
             <surname>Jaucourt</surname>
          </persName>
-         <note>Écuyer, conseiller et chambellan du duc.</note>
+         <note>Écuyer, conseiller et chambellan du duc, commis au gouvernement des comtés de Nevers et de Rethel en 1433.</note>
       </person>
       <person xml:id="BourgoisG">
          <persName>
             <forename>Guiot</forename>
             <surname>Bourgois</surname>
          </persName>
-         <note>Écuyer.</note>
+         <note>Écuyer</note>
       </person>
       <person xml:id="GressartP">
          <persName>
             <forename>Perrinet</forename>
             <surname>Gressart</surname>
          </persName>
-         <note>Écuyer pannetier du duc, capitaine de La Charité-sur-Loire.</note>
+         <note>Écuyer pannetier du duc, capitaine de La Charité-sur-Loire</note>
       </person>
       <person xml:id="RocheteC">
          <persName>
@@ -934,7 +972,7 @@
             <nameLink>du, et de la Rochette</nameLink>
             <surname>Seyssel</surname>
          </persName>
-         <note>Maître, conseiller du duc.</note>
+         <note>Maître, conseiller du duc</note>
       </person>
       <person xml:id="ClunyH">
          <persName>
@@ -942,21 +980,21 @@
             <nameLink>de</nameLink>
             <surname>Cluny</surname>
          </persName>
-         <note>Maître, conseiller du duc.</note>
+         <note>Maître, conseiller du duc</note>
       </person>
       <person xml:id="BastierN">
          <persName>
             <forename>Nicolas</forename>
             <surname>Bastier</surname>
          </persName>
-         <note>Maître, conseiller du duc.</note>
+         <note>Maître, conseiller du duc</note>
       </person>
       <person xml:id="PerierJ">
          <persName>
             <forename>Jean</forename>
             <surname>Perier</surname>
          </persName>
-         <note>Maître, conseiller du duc.</note>
+         <note>Maître, conseiller du duc</note>
       </person>
       <person xml:id="RupesG">
          <persName>
@@ -1004,7 +1042,7 @@
             <nameLink>de</nameLink>
             <surname>La Balme (ou La Baulme)</surname>
          </persName>
-         <note>Écuyer.</note>
+         <note>Écuyer</note>
       </person>
       <person xml:id="AragonaisF">
          <persName>
@@ -1013,7 +1051,13 @@
             <surname>Surienne</surname>
             <addName>l'Aragonais</addName>
          </persName>
-         <note>Routier.</note>
+         <note>Routier</note>
+      </person>
+      <person xml:id="Donzy">
+         <persName>
+            <forename>Donzy</forename>
+         </persName>
+         <note>Porteur des lettres des comtes de Nevers et Rethel en 1433</note>
       </person>
    </listPerson>
    <listPerson type="savoyards">
@@ -1023,7 +1067,7 @@
             <nameLink>de</nameLink>
             <surname>La Forest</surname>
          </persName>
-         <note>Chevalier, seigneur de La Forest, conseiller et chambellan du duc.</note>
+         <note>Chevalier, seigneur de La Forest, conseiller et chambellan du duc</note>
       </person>
       <person xml:id="SepsC">
          <persName>
@@ -1031,14 +1075,14 @@
             <nameLink>du</nameLink>
             <surname>Seps</surname>
          </persName>
-         <note>Écuyer, seigneur de Ravoire, président de la Chambre des comptes de Savoie, conseiller du duc.</note>
+         <note>Écuyer, seigneur de Ravoire, président de la Chambre des comptes de Savoie, conseiller du duc</note>
       </person>
       <person xml:id="ChampdueO">
          <persName>
             <forename>Oddo</forename>
             <surname>Champdue</surname>
          </persName>
-         <note>Seigneur de Champdue, bailli de Bresse, conseiller du duc.</note>
+         <note>Seigneur de Champdue, bailli de Bresse, conseiller du duc</note>
       </person>
       <person xml:id="PaludF">
          <persName>
@@ -1046,14 +1090,14 @@
             <nameLink>de</nameLink>
             <surname>La Palud</surname>
          </persName>
-         <note>Seigneur de Varembon.</note>
+         <note>Seigneur de Varembon</note>
       </person>
       <person xml:id="LovoulJ">
          <persName>
             <forename>Jacques</forename>
             <surname>Lovoul ou Loriot</surname>
          </persName>
-         <note>Maître, docteur en lois et décrets, juge du pays de Bresse, conseiller du duc.</note>
+         <note>Maître, docteur en lois et décrets, juge du pays de Bresse, conseiller du duc</note>
       </person>
    </listPerson>
    <listPerson type="autres">
@@ -1063,7 +1107,7 @@
             <nameLink>de</nameLink>
             <surname>Villemur</surname>
          </persName>
-         <note>Vicomte de Villemur.</note>
+         <note>Vicomte de Villemur</note>
       </person>    
       <person xml:id="AiguesG">
          <persName>
@@ -1071,7 +1115,7 @@
             <nameLink>des</nameLink>
             <surname>Aigues</surname>
          </persName>
-         <note>Chevalier.</note>
+         <note>Chevalier</note>
       </person>
       <person xml:id="HostenoisL">
          <persName>
@@ -1079,7 +1123,7 @@
             <nameLink>d'</nameLink>
             <surname>Hostenois</surname>
          </persName>
-         <note>Chevalier.</note>
+         <note>Chevalier</note>
       </person>
       <person xml:id="AigleJ">
          <persName>
@@ -1087,42 +1131,42 @@
             <nameLink>de</nameLink>
             <surname>Châtillon</surname>
          </persName>
-         <note>Dit Jean de Blois, seigneur de l'Aigle.</note>
+         <note>Dit Jean de Blois, seigneur de l'Aigle</note>
       </person>
       <person xml:id="GuyH">
          <persName>
             <forename>Hugues</forename>
             <surname>Guy</surname>
          </persName>
-         <note>Bourgeois de Riom.</note>
+         <note>Bourgeois de Riom</note>
       </person>
       <person xml:id="SolierP">
          <persName>
             <forename>Pierre</forename>
             <surname>Solier</surname>
          </persName>
-         <note>Habitant de Riom.</note>
+         <note>Habitant de Riom</note>
       </person>
       <person xml:id="FeureP">
          <persName>
             <forename>Pierre</forename>
             <surname>Feure</surname>
          </persName>
-         <note>Maître, licencié en lois, habitant de Riom.</note>
+         <note>Maître, licencié en lois, habitant de Riom</note>
       </person>
       <person xml:id="DauvatL">
          <persName>
             <forename>Louis</forename>
             <surname>Dauvat</surname>
          </persName>
-         <note>Bourgeois de Riom.</note>
+         <note>Bourgeois de Riom</note>
       </person>
       <person xml:id="CoppierD">
          <persName>
             <forename>Durand</forename>
             <surname>Coppier</surname>
          </persName>
-         <note>Laboureur de Riom.</note>
+         <note>Laboureur de Riom</note>
       </person>
       <person xml:id="ChazeuilA">
          <persName>
@@ -1130,21 +1174,21 @@
             <nameLink>de</nameLink>
             <surname>La Pierre</surname>
          </persName>
-         <note>Dame de Chazeuil.</note>
+         <note>Dame de Chazeuil</note>
       </person>
       <person xml:id="BeceyD">
          <persName>
             <forename>Denis</forename>
             <surname>Becey</surname>
          </persName>
-         <note>Tabellion ou notaire.</note>
+         <note>Tabellion ou notaire</note>
       </person>
       <person xml:id="ChavalB">
          <persName>
             <forename>Benoît</forename>
             <surname>Chaval</surname>
          </persName>
-         <note>Tabellion ou notaire.</note>
+         <note>Tabellion ou notaire</note>
       </person>
       <person xml:id="ClunyAbbe">
          <persName>
@@ -1152,14 +1196,14 @@
             <nameLink>de la</nameLink>
             <surname>Perrière</surname>
          </persName>
-         <note>Abbé de Cluny (1423-1456).</note>
+         <note>Abbé de Cluny (1423-1456)</note>
       </person>
       <person xml:id="RevelJ">
          <persName>
             <forename>Jeanne</forename>
             <surname>Flotte</surname>
          </persName>
-         <note>Dame de Dampierre et de Revel.</note>
+         <note>Dame de Dampierre et de Revel</note>
       </person>
       <person xml:id="AubuchourtF">
          <persName>
@@ -1167,14 +1211,14 @@
             <nameLink>d'</nameLink>
             <surname>Aubuchourt</surname>
          </persName>
-         <note>Seigneur de Montcresson-lez-Montargis.</note>
+         <note>Seigneur de Montcresson-lez-Montargis</note>
       </person>
       <person xml:id="RodrigoLyon">
          <persName>
             <forename>Rodrigo</forename>
             <surname></surname>
          </persName>
-         <note>Bailli de Lyon en 1433 (?).</note>
+         <note>Bailli de Lyon en 1433 (?)</note>
       </person>
       <person xml:id="TalaruA">
          <persName>
@@ -1182,7 +1226,7 @@
             <nameLink>de</nameLink>
             <surname>Talaru</surname>
          </persName>
-         <note>Archevêque et comte de Lyon en 1433.</note>
+         <note>Archevêque et comte de Lyon en 1433</note>
       </person>
       <person xml:id="MauvoisinJ">
          <persName>
@@ -1190,7 +1234,7 @@
             <nameLink>de</nameLink>
             <surname>Mauvoisin</surname>
          </persName>
-         <note>Abbé d'Ambronay en 1433.</note>
+         <note>Abbé d'Ambronay en 1433</note>
       </person>
       <person xml:id="GrolleH">
          <persName>
@@ -1198,21 +1242,21 @@
             <nameLink>de</nameLink>
             <surname>Grolée</surname>
          </persName>
-         <note>Seigneur d'Helins, bailli de Mâcon et sénéchal de Lyon en 1433.</note>
+         <note>Seigneur d'Helins, bailli de Mâcon et sénéchal de Lyon en 1433</note>
       </person>
       <person xml:id="BeceyDenis">
          <persName>
             <forename>Denis</forename>
             <surname>Becey</surname>
          </persName>
-         <note>Notaire public et citoyen de Lyon en 1433.</note>
+         <note>Notaire public et citoyen de Lyon en 1433</note>
       </person>
       <person xml:id="ChavalBenoit">
          <persName>
             <forename>Benoît</forename>
             <surname>Chaval</surname>
          </persName>
-         <note>Notaire public et citoyen de Lyon en 1433.</note>
+         <note>Notaire public et citoyen de Lyon en 1433</note>
       </person>
    </listPerson>
    <listPerson type="dombes">
@@ -1222,7 +1266,7 @@
             <nameLink>du</nameLink>
             <surname>Saix</surname>
          </persName>
-         <note>Chevalier, seigneur de Rivoire. Syndic et procueur de Bourg-en-Bresse à la journée de Châtillon-sur-Chalaronne en 1433.</note>
+         <note>Chevalier, seigneur de Rivoire. Syndic et procueur de Bourg-en-Bresse à la journée de Châtillon-sur-Chalaronne en 1433</note>
       </person>
       <person xml:id="ChaucleeO">
          <persName>
@@ -1230,7 +1274,7 @@
             <nameLink>de</nameLink>
             <surname>Chauclee</surname>
          </persName>
-         <note>Seigneur de Chauclee (?). Syndic et procueur de Bourg-en-Bresse à la journée de Châtillon-sur-Chalaronne en 1433.</note>
+         <note>Seigneur de Chauclee (?). Syndic et procueur de Bourg-en-Bresse à la journée de Châtillon-sur-Chalaronne en 1433</note>
       </person>
       <person xml:id="ChateauvieuxA">
          <persName>
@@ -1238,7 +1282,7 @@
             <nameLink>de</nameLink>
             <surname>Chateauvieux</surname>
          </persName>
-         <note>Seigneur de Chateauvieux (ou Chastelviez). Syndic et procueur de Bourg-en-Bresse à la journée de Châtillon-sur-Chalaronne en 1433.</note>
+         <note>Seigneur de Chateauvieux (ou Chastelviez). Syndic et procueur de Bourg-en-Bresse à la journée de Châtillon-sur-Chalaronne en 1433</note>
       </person>
       <person xml:id="ChielA">
          <persName>
@@ -1246,7 +1290,7 @@
             <nameLink>du</nameLink>
             <surname>Chiel</surname>
          </persName>
-         <note>Seigneur de Beaulieu. Syndic et procueur de Bourg-en-Bresse à la journée de Châtillon-sur-Chalaronne en 1433.</note>
+         <note>Seigneur de Beaulieu. Syndic et procueur de Bourg-en-Bresse à la journée de Châtillon-sur-Chalaronne en 1433</note>
       </person>
       <person xml:id="FayolleJ">
          <persName>
@@ -1254,7 +1298,7 @@
             <nameLink>de</nameLink>
             <surname>Genast</surname>
          </persName>
-         <note>Seigneur de la Fayolle. Syndic et procueur de Bourg-en-Bresse à la journée de Châtillon-sur-Chalaronne en 1433.</note>
+         <note>Seigneur de la Fayolle. Syndic et procueur de Bourg-en-Bresse à la journée de Châtillon-sur-Chalaronne en 1433</note>
       </person>
       <person xml:id="FezM">
          <persName>
@@ -1262,7 +1306,7 @@
             <nameLink>de</nameLink>
             <surname>Fez</surname>
          </persName>
-         <note>Syndic et procueur de Bourg-en-Bresse à la journée de Châtillon-sur-Chalaronne en 1433.</note>
+         <note>Syndic et procueur de Bourg-en-Bresse à la journée de Châtillon-sur-Chalaronne en 1433</note>
       </person>
       <person xml:id="GeliceP">
          <persName>
@@ -1270,7 +1314,7 @@
             <nameLink>de</nameLink>
             <surname>La Gelice</surname>
          </persName>
-         <note>Seigneur de La Gelice. Syndic et procueur de Bourg-en-Bresse à la journée de Châtillon-sur-Chalaronne en 1433.</note>
+         <note>Seigneur de La Gelice. Syndic et procueur de Bourg-en-Bresse à la journée de Châtillon-sur-Chalaronne en 1433</note>
       </person>
       <person xml:id="ChatillonA">
          <persName>
@@ -1278,49 +1322,49 @@
             <nameLink>de</nameLink>
             <surname>Châtillon</surname>
          </persName>
-         <note>Ou Chasteillion. Syndic et procueur de Bourg-en-Bresse à la journée de Châtillon-sur-Chalaronne en 1433.</note>
+         <note>Ou Chasteillion. Syndic et procueur de Bourg-en-Bresse à la journée de Châtillon-sur-Chalaronne en 1433</note>
       </person>
       <person xml:id="ColonG">
          <persName>
             <forename>Guiot</forename>
             <surname>Colon</surname>
          </persName>
-         <note>Syndic et procueur de Bourg-en-Bresse à la journée de Châtillon-sur-Chalaronne en 1433.</note>
+         <note>Syndic et procueur de Bourg-en-Bresse à la journée de Châtillon-sur-Chalaronne en 1433</note>
       </person>
       <person xml:id="BuidreT">
          <persName>
             <forename>Tevenet</forename>
             <surname>Buidre</surname>
          </persName>
-         <note>Syndic et procueur de Bourg-en-Bresse à la journée de Châtillon-sur-Chalaronne en 1433.</note>
+         <note>Syndic et procueur de Bourg-en-Bresse à la journée de Châtillon-sur-Chalaronne en 1433</note>
       </person>
       <person xml:id="GangreA">
          <persName>
             <forename>Amé</forename>
             <surname>Gangre</surname>
          </persName>
-         <note>Ou Aymé. Syndic et procueur de Bourg-en-Bresse à la journée de Châtillon-sur-Chalaronne en 1433.</note>
+         <note>Ou Aymé. Syndic et procueur de Bourg-en-Bresse à la journée de Châtillon-sur-Chalaronne en 1433</note>
       </person>
       <person xml:id="GuillioudT">
          <persName>
             <forename>Thomas</forename>
             <surname>Guillioud</surname>
          </persName>
-         <note>Syndic et procueur de Bourg-en-Bresse à la journée de Châtillon-sur-Chalaronne en 1433.</note>
+         <note>Syndic et procueur de Bourg-en-Bresse à la journée de Châtillon-sur-Chalaronne en 1433</note>
       </person>
       <person xml:id="ChastellionP">
          <persName>
             <forename>Pierre</forename>
             <surname>Chastellion</surname>
          </persName>
-         <note>Procureur de Châtillon-sur-Chalaronne à la journée de Châtillon-sur-Chalaronne en 1433.</note>
+         <note>Procureur de Châtillon-sur-Chalaronne à la journée de Châtillon-sur-Chalaronne en 1433</note>
       </person>
       <person xml:id="PetitPasP">
          <persName>
             <forename>Pierre</forename>
             <surname>Petit Pas</surname>
          </persName>
-         <note>Procureur de Châtillon-sur-Chalaronne à la journée de Châtillon-sur-Chalaronne en 1433.</note>
+         <note>Procureur de Châtillon-sur-Chalaronne à la journée de Châtillon-sur-Chalaronne en 1433</note>
       </person>
       <person xml:id="CroysB">
          <persName>
@@ -1328,7 +1372,7 @@
             <nameLink>de</nameLink>
             <surname>La Croys</surname>
          </persName>
-         <note>Procureur de Pont-de-Veyle à la journée de Châtillon-sur-Chalaronne en 1433.</note>
+         <note>Procureur de Pont-de-Veyle à la journée de Châtillon-sur-Chalaronne en 1433</note>
       </person>
    </listPerson>
    <listPerson type="hbtsbourbonnais">
@@ -1337,7 +1381,7 @@
             <forename>Guillaume</forename>
             <surname>Vialu</surname>
          </persName>
-         <note>Propriétaire du pré d'Arsin en la châtellenie de Billy en 1410.</note>
+         <note>Propriétaire du pré d'Arsin en la châtellenie de Billy en 1410</note>
       </person>
       <person xml:id="FersierG">
          <persName>

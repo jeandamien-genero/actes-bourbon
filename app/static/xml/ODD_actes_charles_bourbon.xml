@@ -48,7 +48,7 @@
             <!--Checking module namesdates-->
             <classRef key="model.persNamePart"/>
             <moduleRef key="namesdates"
-                       include="orgName persName surname forename nameLink addName placeName geo listPerson location person place"/>
+               include="orgName persName surname forename nameLink addName placeName country region settlement geo listPerson location person place"/>
             <elementSpec ident="orgName" mode="change">
                <attList>
                   <attDef ident="corresp" mode="delete"/>
@@ -156,6 +156,50 @@
                   <attDef ident="subtype" mode="delete"/>
                </attList>
             </elementSpec>
+            <elementSpec ident="country" mode="change">
+               <attList>
+                  <attDef ident="corresp" mode="delete"/>
+                  <attDef ident="source" mode="delete"/>
+                  <attDef ident="ref" mode="delete"/>
+                  <attDef ident="type" mode="delete"/>
+                  <attDef ident="subtype" mode="delete"/>
+                  <attDef ident="when" mode="delete"/>
+                  <attDef ident="notBefore" mode="delete"/>
+                  <attDef ident="notAfter" mode="delete"/>
+               </attList>
+            </elementSpec>
+            <elementSpec ident="region" mode="change">
+               <attList>
+                  <attDef ident="corresp" mode="delete"/>
+                  <attDef ident="source" mode="delete"/>
+                  <attDef ident="ref" mode="delete"/>
+                  <attDef ident="type" mode="change">
+                     <valList mode="add" type="closed">
+                        <valItem ident="departement"/>
+                     </valList>
+                  </attDef>
+                  <attDef ident="subtype" mode="delete"/>
+                  <attDef ident="when" mode="delete"/>
+                  <attDef ident="notBefore" mode="delete"/>
+                  <attDef ident="notAfter" mode="delete"/>
+               </attList>
+            </elementSpec>
+            <elementSpec ident="settlement" mode="change">
+               <attList>
+                  <attDef ident="corresp" mode="delete"/>
+                  <attDef ident="source" mode="delete"/>
+                  <attDef ident="ref" mode="delete"/>
+                  <attDef ident="type" mode="change">
+                     <valList mode="add" type="closed">
+                        <valItem ident="city"/>
+                     </valList>
+                  </attDef>
+                  <attDef ident="subtype" mode="delete"/>
+                  <attDef ident="when" mode="delete"/>
+                  <attDef ident="notBefore" mode="delete"/>
+                  <attDef ident="notAfter" mode="delete"/>
+               </attList>
+            </elementSpec>
             <elementSpec ident="geo" mode="change">
                <attList>
                   <attDef ident="corresp" mode="delete"/>
@@ -218,7 +262,14 @@
                <attList>
                   <attDef ident="corresp" mode="delete"/>
                   <attDef ident="source" mode="delete"/>
-                  <attDef ident="type" mode="delete"/>
+                  <attDef ident="type" mode="change">
+                     <valList mode="add" type="closed">
+                        <valItem ident="place"/>
+                        <valItem ident="territory"/>
+                        <valItem ident="incity"/>
+                        <valItem ident="unknow"/>
+                     </valList>
+                  </attDef>
                   <attDef ident="subtype" mode="delete"/>
                </attList>
             </elementSpec>
