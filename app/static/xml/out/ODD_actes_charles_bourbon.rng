@@ -5,7 +5,7 @@
          xmlns="http://relaxng.org/ns/structure/1.0"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2021-06-15T20:58:51Z. .
+Schema generated from ODD source 2021-06-26T09:48:12Z. .
 TEI Edition: Version 4.0.0. Last updated on
 	13th February 2020, revision ccd19b0ba
 TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 4.0.0/
@@ -1304,29 +1304,65 @@ Suggested values include: 1] volume; 2] issue; 3] page; 4] line; 5] chapter; 6] 
    <define name="model.placeNamePart">
       <choice>
          <ref name="placeName"/>
+         <ref name="country"/>
+         <ref name="region"/>
+         <ref name="settlement"/>
       </choice>
    </define>
    <define name="model.placeNamePart_alternation">
       <choice>
          <ref name="placeName"/>
+         <ref name="country"/>
+         <ref name="region"/>
+         <ref name="settlement"/>
       </choice>
    </define>
    <define name="model.placeNamePart_sequence">
       <ref name="placeName"/>
+      <ref name="country"/>
+      <ref name="region"/>
+      <ref name="settlement"/>
    </define>
    <define name="model.placeNamePart_sequenceOptional">
       <optional>
          <ref name="placeName"/>
+      </optional>
+      <optional>
+         <ref name="country"/>
+      </optional>
+      <optional>
+         <ref name="region"/>
+      </optional>
+      <optional>
+         <ref name="settlement"/>
       </optional>
    </define>
    <define name="model.placeNamePart_sequenceOptionalRepeatable">
       <zeroOrMore>
          <ref name="placeName"/>
       </zeroOrMore>
+      <zeroOrMore>
+         <ref name="country"/>
+      </zeroOrMore>
+      <zeroOrMore>
+         <ref name="region"/>
+      </zeroOrMore>
+      <zeroOrMore>
+         <ref name="settlement"/>
+      </zeroOrMore>
    </define>
    <define name="model.placeNamePart_sequenceRepeatable">
       <oneOrMore>
          <ref name="placeName"/>
+      </oneOrMore>
+      <oneOrMore>
+         <ref name="country"/>
+      </oneOrMore>
+      <oneOrMore>
+         <ref name="region"/>
+      </oneOrMore>
+      <oneOrMore>
+         <ref name="settlement"/>
       </oneOrMore>
    </define>
    <define name="model.placeStateLike">
@@ -2953,6 +2989,117 @@ Elements]</a:documentation>
          <empty/>
       </element>
    </define>
+   <define name="country">
+      <element name="country">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">contains the name of a geo-political unit, such as a nation, country, colony, or commonwealth, larger than or administratively superior to a region and smaller than a bloc. [13.2.3. Place Names]</a:documentation>
+         <ref name="macro.phraseSeq"/>
+         <ref name="att.global.attribute.xmlid"/>
+         <ref name="att.global.attribute.n"/>
+         <ref name="att.global.attribute.xmllang"/>
+         <ref name="att.global.attribute.xmlbase"/>
+         <ref name="att.global.attribute.xmlspace"/>
+         <ref name="att.global.rendition.attribute.rend"/>
+         <ref name="att.global.rendition.attribute.style"/>
+         <ref name="att.global.rendition.attribute.rendition"/>
+         <ref name="att.global.facs.attribute.facs"/>
+         <ref name="att.global.change.attribute.change"/>
+         <ref name="att.global.responsibility.attribute.cert"/>
+         <ref name="att.global.responsibility.attribute.resp"/>
+         <ref name="att.datable.iso.attribute.when-iso"/>
+         <ref name="att.datable.iso.attribute.notBefore-iso"/>
+         <ref name="att.datable.iso.attribute.notAfter-iso"/>
+         <ref name="att.datable.iso.attribute.from-iso"/>
+         <ref name="att.datable.iso.attribute.to-iso"/>
+         <ref name="att.datable.custom.attribute.when-custom"/>
+         <ref name="att.datable.custom.attribute.notBefore-custom"/>
+         <ref name="att.datable.custom.attribute.notAfter-custom"/>
+         <ref name="att.datable.custom.attribute.from-custom"/>
+         <ref name="att.datable.custom.attribute.to-custom"/>
+         <ref name="att.datable.custom.attribute.datingPoint"/>
+         <ref name="att.datable.custom.attribute.datingMethod"/>
+         <empty/>
+      </element>
+   </define>
+   <define name="region">
+      <element name="region">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">contains the name of an administrative unit such as a state, province, or county, larger than a settlement, but smaller than a country. [13.2.3. Place Names]</a:documentation>
+         <ref name="macro.phraseSeq"/>
+         <ref name="att.global.attribute.xmlid"/>
+         <ref name="att.global.attribute.n"/>
+         <ref name="att.global.attribute.xmllang"/>
+         <ref name="att.global.attribute.xmlbase"/>
+         <ref name="att.global.attribute.xmlspace"/>
+         <ref name="att.global.rendition.attribute.rend"/>
+         <ref name="att.global.rendition.attribute.style"/>
+         <ref name="att.global.rendition.attribute.rendition"/>
+         <ref name="att.global.facs.attribute.facs"/>
+         <ref name="att.global.change.attribute.change"/>
+         <ref name="att.global.responsibility.attribute.cert"/>
+         <ref name="att.global.responsibility.attribute.resp"/>
+         <ref name="att.datable.iso.attribute.when-iso"/>
+         <ref name="att.datable.iso.attribute.notBefore-iso"/>
+         <ref name="att.datable.iso.attribute.notAfter-iso"/>
+         <ref name="att.datable.iso.attribute.from-iso"/>
+         <ref name="att.datable.iso.attribute.to-iso"/>
+         <ref name="att.datable.custom.attribute.when-custom"/>
+         <ref name="att.datable.custom.attribute.notBefore-custom"/>
+         <ref name="att.datable.custom.attribute.notAfter-custom"/>
+         <ref name="att.datable.custom.attribute.from-custom"/>
+         <ref name="att.datable.custom.attribute.to-custom"/>
+         <ref name="att.datable.custom.attribute.datingPoint"/>
+         <ref name="att.datable.custom.attribute.datingMethod"/>
+         <optional>
+            <attribute name="type">
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">characterizes the element in some sense, using any convenient classification scheme or typology.</a:documentation>
+               <choice>
+                  <value>departement</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+               </choice>
+            </attribute>
+         </optional>
+         <empty/>
+      </element>
+   </define>
+   <define name="settlement">
+      <element name="settlement">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">contains the name of a settlement such as a city, town, or village identified as a single geo-political or administrative unit. [13.2.3. Place Names]</a:documentation>
+         <ref name="macro.phraseSeq"/>
+         <ref name="att.global.attribute.xmlid"/>
+         <ref name="att.global.attribute.n"/>
+         <ref name="att.global.attribute.xmllang"/>
+         <ref name="att.global.attribute.xmlbase"/>
+         <ref name="att.global.attribute.xmlspace"/>
+         <ref name="att.global.rendition.attribute.rend"/>
+         <ref name="att.global.rendition.attribute.style"/>
+         <ref name="att.global.rendition.attribute.rendition"/>
+         <ref name="att.global.facs.attribute.facs"/>
+         <ref name="att.global.change.attribute.change"/>
+         <ref name="att.global.responsibility.attribute.cert"/>
+         <ref name="att.global.responsibility.attribute.resp"/>
+         <ref name="att.datable.iso.attribute.when-iso"/>
+         <ref name="att.datable.iso.attribute.notBefore-iso"/>
+         <ref name="att.datable.iso.attribute.notAfter-iso"/>
+         <ref name="att.datable.iso.attribute.from-iso"/>
+         <ref name="att.datable.iso.attribute.to-iso"/>
+         <ref name="att.datable.custom.attribute.when-custom"/>
+         <ref name="att.datable.custom.attribute.notBefore-custom"/>
+         <ref name="att.datable.custom.attribute.notAfter-custom"/>
+         <ref name="att.datable.custom.attribute.from-custom"/>
+         <ref name="att.datable.custom.attribute.to-custom"/>
+         <ref name="att.datable.custom.attribute.datingPoint"/>
+         <ref name="att.datable.custom.attribute.datingMethod"/>
+         <optional>
+            <attribute name="type">
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">characterizes the element in some sense, using any convenient classification scheme or typology.</a:documentation>
+               <choice>
+                  <value>city</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+               </choice>
+            </attribute>
+         </optional>
+         <empty/>
+      </element>
+   </define>
    <define name="geo">
       <element name="geo">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(geographical coordinates) contains any expression of a set of geographic coordinates, representing a point, line, or area on the surface of the earth in some notation. [13.3.4.1. Varieties of Location]</a:documentation>
@@ -3181,6 +3328,21 @@ Elements]</a:documentation>
          <ref name="att.global.responsibility.attribute.resp"/>
          <ref name="att.editLike.attributes"/>
          <ref name="att.sortable.attributes"/>
+         <optional>
+            <attribute name="type">
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">characterizes the element in some sense, using any convenient classification scheme or typology.</a:documentation>
+               <choice>
+                  <value>place</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+                  <value>territory</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+                  <value>incity</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+                  <value>unknow</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+               </choice>
+            </attribute>
+         </optional>
          <empty/>
       </element>
    </define>

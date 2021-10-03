@@ -26,9 +26,36 @@
                         <!-- contenu de l'élément <name xml:lang='fr'> -->
                         <xsl:value-of select="."/>
                     </xsl:element>
-                    <!-- entre parathèse, contenu de l'élément <desc> (le département, le pays, etc) -->
+                    <!-- entre parathèse, contenu de l'élément <desc> (le département, le pays, etc) 
                     <xsl:text> (</xsl:text>
                     <xsl:value-of select="ancestor::place/desc"/>
+                    <xsl:text>)</xsl:text>-->
+                    <!-- j'ouvre une paranthèse pour les éléments de types commune, département, pays -->
+                    <xsl:text> (</xsl:text>
+                    <!-- s'il y a un supplménent (château de, forteresse de) : <addName> -->
+                    <xsl:if test="./ancestor::place/placeName/addName">
+                        <xsl:value-of select="./ancestor::place/placeName/addName"/>
+                        <xsl:text>, </xsl:text>
+                    </xsl:if>
+                    <!-- si le lieu est dans une commune (com de) : <settlement> -->
+                    <xsl:if test="./ancestor::place/placeName/settlement">
+                        <xsl:text>com. </xsl:text>
+                        <xsl:value-of select="./ancestor::place/placeName/settlement"/>
+                        <xsl:text>, </xsl:text>
+                    </xsl:if>
+                    <!-- s'il y a un département : <region> -->
+                    <xsl:if test="./ancestor::place/placeName/region">
+                        <xsl:value-of select="./ancestor::place/placeName/region"/>
+                    </xsl:if>
+                    <!-- pour avoir le pays qu'importe sa valeur :
+                    <xsl:if test="./ancestor::place/placeName/country">
+                        <xsl:value-of select="./ancestor::place/placeName/country"/>
+                    </xsl:if>-->
+                    <!-- s'il y a un pays autre que la France : <country> -->
+                    <xsl:if test="./ancestor::place/placeName/country/text()!='France'">
+                        <xsl:text>, </xsl:text>
+                        <xsl:value-of select="./ancestor::place/placeName/country"/>
+                    </xsl:if>
                     <xsl:text>)</xsl:text>
                     <xsl:variable name="Placeid">
                         <!-- variable $Placeid contenant la valeur de l'@xml:id de <place> dans le <settingDesc> -->
