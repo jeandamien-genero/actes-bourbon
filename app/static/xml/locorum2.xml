@@ -363,7 +363,7 @@
    <place xml:id="Beaujeu" type="place">
       <placeName>
          <name xml:lang="fr">Beaujeu</name>
-         <region type="departement">Allier</region>
+         <region type="departement">Rhône</region>
          <country>France</country>
       </placeName>
       <location>
@@ -988,7 +988,7 @@
          <country>France</country>
       </placeName>
       <location>
-         <geo source="https://fr.wikipedia.org/wiki/Apchat"> 45° 23′ 25″ nord, 3° 08′ 48″</geo>
+         <geo source="https://fr.wikipedia.org/wiki/Apchat">45° 23′ 25″ nord, 3° 08′ 48″</geo>
       </location>
    </place>
    <place xml:id="Vitry" type="unknow">
@@ -1000,6 +1000,52 @@
       </placeName>
       <location>
          <geo/>
+      </location>
+   </place>
+   <place xml:id="LaFerteChauderon" type="incity">
+      <placeName>
+         <name xml:lang="frm">La Ferté-Chauderon</name>
+         <name xml:lang="fr">La Ferté-Chauderon</name>
+         <settlement type="city">Chantenay-Saint-Imbert</settlement>
+         <region type="departement">Nièvre</region>
+         <country>France</country>
+      </placeName>
+      <location>
+         <geo source="https://fr.wikipedia.org/wiki/Chantenay-Saint-Imbert">46° 44′ 01″ nord, 3° 11′ 05″ est</geo>
+      </location>
+   </place>
+   <place xml:id="Montgilbert" type="incity">
+      <placeName>
+         <name xml:lang="frm">Montgilbert</name>
+         <name xml:lang="fr">Château de Montgilbert</name>
+         <settlement type="city">Ferrières-sur-Sichon</settlement>
+         <region type="departement">Allier</region>
+         <country>France</country>
+      </placeName>
+      <location>
+         <geo source="https://fr.wikipedia.org/wiki/Ch%C3%A2teau_de_Montgilbert">46° 02′ 19″ N, 3° 37′ 25″ E</geo>
+      </location>
+   </place>
+   <place xml:id="Vienne" type="place">
+      <placeName>
+         <name xml:lang="frm">Vienne</name>
+         <name xml:lang="fr">Vienne</name>
+         <region type="departement">Isère</region>
+         <country>France</country>
+      </placeName>
+      <location>
+         <geo source="https://fr.wikipedia.org/wiki/Vienne_(Is%C3%A8re)">45° 31′ 31″ nord, 4° 52′ 33″</geo>
+      </location>
+   </place>
+   <place xml:id="Ribedieux" type="place">
+      <placeName>
+         <name xml:lang="frm">Ribedieux</name>
+         <name xml:lang="fr">Ribadeo</name>
+         <region type="departement">Galice</region>
+         <country>Espagne</country>
+      </placeName>
+      <location>
+         <geo source="https://fr.wikipedia.org/wiki/Ribadeo">43° 32′ 14″ N, 7° 02′ 35″ O</geo>
       </location>
    </place>
 </settingDesc>

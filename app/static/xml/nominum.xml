@@ -346,6 +346,14 @@
          </persName>
          <note>Chevalier, maréchal et sénéchal de Bourbonnais en 1433</note>
       </person>
+      <person xml:id="Villandrando">
+         <persName>
+            <forename>Rodrigo</forename>
+            <nameLink>de</nameLink>
+            <surname>Villandrando</surname>
+         </persName>
+         <note>Comte de Ribedieux</note>
+      </person>
       <person xml:id="ConstantG">
          <persName>
             <forename>Guiot</forename>
@@ -428,6 +436,13 @@
             <surname>Nousset</surname>
          </persName>
          <note>Écuyer</note>
+      </person>
+      <person xml:id="Gencien">
+         <persName>
+            <forename>Henriet</forename>
+            <surname>Gencien</surname>
+         </persName>
+         <note>Prisonnier en 1434.</note>
       </person>
       <person xml:id="RocqueR">
          <persName>
@@ -758,6 +773,14 @@
             <surname>Bourgogne</surname>
          </persName>
          <note>Duc de Bourgogne (1419-1467)</note>
+      </person>
+      <person xml:id="IsaPortugal">
+         <persName>
+            <forename>Isabelle</forename>
+            <nameLink>de</nameLink>
+            <surname>Portugal</surname>
+         </persName>
+         <note>Duchesse de Bourgogne (1430-1467)</note>
       </person>
       <person xml:id="BretagneJ">
          <persName>

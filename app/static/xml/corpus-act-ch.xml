@@ -1951,14 +1951,14 @@
          <div type="Original" subtype="Lettres_closes" xml:id="Ch-38" n="38">
             <div type="front">
                <docDate>
-                  <date when="1433-07-13">[1433], 13 juillet<note type="n1"><p>La lettre ne comporte pas d’indication de millésime. Elle fait cependant référence aux dispositions de la journée de Moulins-Engibert, dont l’acte du 29 mars 1433 (<hi rend="i">cf.</hi> n° 35) prévoyait la tenue le 15 mai 1433 ; nous la datons de cette même année 1433.</p></note></date>
+                  <date when="1433-07-13">[1433], 13 juillet<note type="n1"><p>La lettre ne comporte pas d'indication de millésime. Elle fait cependant référence aux dispositions de la journée de Moulins-Engibert, dont l'acte du 29 mars 1433 (<hi rend="i">cf.</hi> n° 35) prévoyait la tenue le 15 mai 1433 ; nous la datons de cette même année 1433.</p></note></date>
                   <placeName ref="#Moulins">Moulins</placeName>
                </docDate>
                <argument>
-                  <p>Lettre de Charles, comte de Clermont, faisant réponse à celle de Charles et Jean de Nevers et Rethel du 8 juillet précédant, lui demandant d’abandonner la place de Vitry-sur-Loire. Charles de Clermont répond que la prise de cette place, qui ne s’est pas faite avec son consentement, est l’oeuvre de certains de ses hommes ayant eu à souffrir d’attaques des garnisons de Marcigny, Rosemont et autres ; il accède à la demande de ses neveux, et les prie de délivrer à Philibert de l’Espinace et ses trois cent hommes un sauf-conduit afin qu’ils puissent quitter Vitry-sur-Loire sans dommages. Il les prie en outre de contenir Perrinet Gressart, qui ravage la région, notamment les terres de Louis des Barres, en infraction avec l’abstinence de guerre, et de faire en sorte que les choses volées soient rendues à leurs propriétaires, et que les prisonniers soient délivrés. Le porteur de la lettre est « Auvergne le héraut », c'est-à-dire Guillaume Revel</p>
+                  <p>Lettre de Charles, comte de Clermont, faisant réponse à celle de Charles et Jean de Nevers et Rethel du 8 juillet précédant, lui demandant d'abandonner la place de Vitry-sur-Loire. Charles de Clermont répond que la prise de cette place, qui ne s'est pas faite avec son consentement, est l'oeuvre de certains de ses hommes ayant eu à souffrir d'attaques des garnisons de Marcigny, Rosemont et autres ; il accède à la demande de ses neveux, et les prie de délivrer à Philibert de l'Espinace et ses trois cent hommes un sauf-conduit afin qu'ils puissent quitter Vitry-sur-Loire sans dommages. Il les prie en outre de contenir Perrinet Gressart, qui ravage la région, notamment les terres de Louis des Barres, en infraction avec l'abstinence de guerre, et de faire en sorte que les choses volées soient rendues à leurs propriétaires, et que les prisonniers soient délivrés. Le porteur de la lettre est « Auvergne le héraut », c'est-à-dire Guillaume Revel</p>
                </argument>
                <argument>
-                  <p>Lettre de Charles, comte de Clermont, faisant réponse à celle de Charles et Jean de Nevers et Rethel du 8 juillet précédant, lui demandant d’abandonner la place de Vitry-sur-Loire. Charles de Clermont répond que la prise de cette place, qui ne s’est pas faite avec son consentement, est l’oeuvre de certains de ses hommes ayant eu à souffrir d’attaques des garnisons de Marcigny, Rosemont et autres ; il accède à la demande de ses neveux, et les prie de délivrer à Philibert de l’Espinace et ses trois cent hommes un sauf-conduit afin qu’ils puissent quitter Vitry-sur-Loire sans dommages. Il les prie en outre de contenir Perrinet Gressart, qui ravage la région, notamment les terres de Louis des Barres, en infraction avec l’abstinence de guerre, et de faire en sorte que les choses volées soient rendues à leurs propriétaires, et que les prisonniers soient délivrés. Le porteur de la lettre est « Auvergne le héraut », c'est-à-dire Guillaume Revel<note type="n1"><p>Sur le contexte de cette lettre, voir 
+                  <p>Lettre de Charles, comte de Clermont, faisant réponse à celle de Charles et Jean de Nevers et Rethel du 8 juillet précédant, lui demandant d'abandonner la place de Vitry-sur-Loire. Charles de Clermont répond que la prise de cette place, qui ne s'est pas faite avec son consentement, est l'oeuvre de certains de ses hommes ayant eu à souffrir d'attaques des garnisons de Marcigny, Rosemont et autres ; il accède à la demande de ses neveux, et les prie de délivrer à Philibert de l'Espinace et ses trois cent hommes un sauf-conduit afin qu'ils puissent quitter Vitry-sur-Loire sans dommages. Il les prie en outre de contenir Perrinet Gressart, qui ravage la région, notamment les terres de Louis des Barres, en infraction avec l'abstinence de guerre, et de faire en sorte que les choses volées soient rendues à leurs propriétaires, et que les prisonniers soient délivrés. Le porteur de la lettre est « Auvergne le héraut », c'est-à-dire Guillaume Revel<note type="n1"><p>Sur le contexte de cette lettre, voir 
                      <biblStruct>
                         <monogr>
                            <author>
@@ -1980,7 +1980,7 @@
                </argument>
                <div type="tradition">
                   <listWit>
-                     <witness n="A">A. Original sur papier, signé. 290 x 350 mm. <orgName type="main">Archives départementales de la Côte-d’Or</orgName>, B 11917.</witness>
+                     <witness n="A">A. Original sur papier, signé. 290 x 350 mm. <orgName type="main">Archives départementales de la Côte-d'Or</orgName>, B 11917.</witness>
                      <witness n="a">
                         <biblStruct>
                            <monogr>
@@ -2006,12 +2006,12 @@
             </div>
             <div type="acte">
                <p><hi rend="i">(Au verso)</hi> A mes tres chiers et tres amez neveux les contes de Nevers et de <placeName ref="#RethelC">Rethel</placeName>.</p>
-               <p><hi rend="i">(Au recto)</hi> Tres chiers et tres amez <persName ref="#NeversCh">neveux</persName>, j’ay oy le rapport de mes gens qu’avoye envoyé a la journee de <placeName ref="#MoulinsEngilbert">Molins les Engibers</placeName>, lesquels m’ont aporté lettres de vous escriptes audit lieu le VIII<hi rend="sup">e</hi> jour de ce mois, par lesquelles me priez moult affectueusement que veulle faire widier la place de <placeName ref="#Vitry">Vitry</placeName> qui a esté prinse, puis l’appointement de <placeName ref="#Macon">Mascon</placeName>, attendu que de toutes pars elle est enclavee en vosdiz païs et seignories et ne peut faire aucuns exploiz de guerre fors que sur vosdites seignories et subgez, me requerant moult cordialement que a ceste votre priere ne vous veulle escondire, car toutes choses pourparlers a ladite journee de Molins les Engibers et es autres journees precedans pour parvenir a bonne paix et concorde pourront par ce moyen prandre meilleur conclusion, comme plus applain est contenu en vosdites lettres.</p>
-               <p>En verité, tres chiers et tres amez neveux, ladite place de mon sceu et consentement ne fu onques prise, m’a despleu de ce et des maulx que ceulx estans dedans ont fait en vosdites terres et seignories, vray est que ceulx des garnisons de vous costé, tant de <placeName ref="#Marcigny">Marcigny</placeName> que <placeName ref="#Rosemont">Rosemont</placeName>, <placeName ref="#Cusset">Cussi</placeName> et autres places de par-dela, depuis et contre l’appointement derniement pris audit lieu de Mascon, ont fait et font incessamment chacun jour courses, dommaiges et maulx innumerables es païs et subgez de <persName ref="#JeanI">mon tres redoubté seigneur et pere</persName>, dont plusieurs gentilz hommes, et autres qui par lesdites courses ont esté destruiz et dommaigés, m’ont plusieurs fois requis leur donner congié d’eulx revancher, a quoy j’ay longuement dissimulé et le plus que j’ay peu, finalement leur dix qu’ils se desdommagassent sur ceulx qui leur faisoient lesdiz dommaiges.</p>
-               <p>Soubz coleur de ce, pour eulx revancher, eulx, avec autres qu’ils ont assemblez, ont prise ladite place, dont ma despleu comme dit est, maiz, tres chiers et tres amez neveux, pour obvier aux dommaiges de vosdiz païs, le bien desquelx je vouldroye comme des miens, et pour obtemperer a vosdites presentes, esquelles ne en greigneurs ne vous vouldroye escondire en chosez qui me seroient possibles, j’ay fait et appointé que ladite place de Vitry sera presentement widiee, baillee et delivree es mains de ceulx que y envoyrés de par vous pour la baillee a ceulx qui par avant la tenoient, en baillant saufconduit a <persName ref="#EspinassePh">L’Espinasse</persName>, cappitaine de ladite place, pour lui CCC<hi rend="sup">eme</hi> de personnes, gentils hommes et autres, només ou non només, a cheval ou a pié, pour si brief temps que vous vouldrés, pour widier seurement ladite place, porter et transporter les biens, vivres, chevaulx, harnoiz, trait, artillerie et autres biens qui y sont, et les conduire en seurté par-deca, esperant que semblablement de votre cousté les choses a rebourd fetes soient reparees mieulx que n’ont esté par cy devant.</p>
-               <p>Si pouez, tres chiers et tres amez neveux, envoyer ledit sauf conduit quant vous plaira audit Espinasse, par tel de voz gens que vouldrez, car soyez sehur que ledit Espinasse la delivrera a celluy de vosdiz gens portant ledit sauf-conduit, et si besoing est, je donroy tel saufconduit que vouldrez a vosdiz gens que y envoy[r]és, ainsi que ces choses et autres touchans ceste matiere j’ay plus applain dites a <persName ref="#RevelG">Auvergne</persName>, le heraut porteur de cestes, que j’envoye par devers vous pour les vous dire, vous priant que croire le veullez sur ce, tres chiers et tres amez neveus. Je vous prie aussi que par cedit porteur me certiffiez et restournez de ce que aurez besongné avec <persName ref="#GressartP">Perrenet Gressart</persName>, ainsi que fu appointié a ladite journee que le feriez, car depuis le retour de nosdiz gens, ledit Gressart et ses gens &lt;avec ceulx de Cussi et autres voz places&gt; ont fetes greigneur courses et domaige ou païs de par-deca que encor n’y a esté fete, et mesmement sur la terre du <persName ref="#BarresL">seigneur des Barres</persName>, disant que c’estoit en despit de sadite ambaxade, lesquelles choses, si pourvueu n’y estoit, seroient empeschement et peril de rupture de tout le bien de la besoingne.</p>
+               <p><hi rend="i">(Au recto)</hi> Tres chiers et tres amez <persName ref="#NeversCh">neveux</persName>, j'ay oy le rapport de mes gens qu'avoye envoyé a la journee de <placeName ref="#MoulinsEngilbert">Molins les Engibers</placeName>, lesquels m'ont aporté lettres de vous escriptes audit lieu le VIII<hi rend="sup">e</hi> jour de ce mois, par lesquelles me priez moult affectueusement que veulle faire widier la place de <placeName ref="#Vitry">Vitry</placeName> qui a esté prinse, puis l'appointement de <placeName ref="#Macon">Mascon</placeName>, attendu que de toutes pars elle est enclavee en vosdiz païs et seignories et ne peut faire aucuns exploiz de guerre fors que sur vosdites seignories et subgez, me requerant moult cordialement que a ceste votre priere ne vous veulle escondire, car toutes choses pourparlers a ladite journee de Molins les Engibers et es autres journees precedans pour parvenir a bonne paix et concorde pourront par ce moyen prandre meilleur conclusion, comme plus applain est contenu en vosdites lettres.</p>
+               <p>En verité, tres chiers et tres amez neveux, ladite place de mon sceu et consentement ne fu onques prise, m'a despleu de ce et des maulx que ceulx estans dedans ont fait en vosdites terres et seignories, vray est que ceulx des garnisons de vous costé, tant de <placeName ref="#Marcigny">Marcigny</placeName> que <placeName ref="#Rosemont">Rosemont</placeName>, <placeName ref="#Cusset">Cussi</placeName> et autres places de par-dela, depuis et contre l'appointement derniement pris audit lieu de Mascon, ont fait et font incessamment chacun jour courses, dommaiges et maulx innumerables es païs et subgez de <persName ref="#JeanI">mon tres redoubté seigneur et pere</persName>, dont plusieurs gentilz hommes, et autres qui par lesdites courses ont esté destruiz et dommaigés, m'ont plusieurs fois requis leur donner congié d'eulx revancher, a quoy j'ay longuement dissimulé et le plus que j'ay peu, finalement leur dix qu'ils se desdommagassent sur ceulx qui leur faisoient lesdiz dommaiges.</p>
+               <p>Soubz coleur de ce, pour eulx revancher, eulx, avec autres qu'ils ont assemblez, ont prise ladite place, dont ma despleu comme dit est, maiz, tres chiers et tres amez neveux, pour obvier aux dommaiges de vosdiz païs, le bien desquelx je vouldroye comme des miens, et pour obtemperer a vosdites presentes, esquelles ne en greigneurs ne vous vouldroye escondire en chosez qui me seroient possibles, j'ay fait et appointé que ladite place de Vitry sera presentement widiee, baillee et delivree es mains de ceulx que y envoyrés de par vous pour la baillee a ceulx qui par avant la tenoient, en baillant saufconduit a <persName ref="#EspinassePh">L'Espinasse</persName>, cappitaine de ladite place, pour lui CCC<hi rend="sup">eme</hi> de personnes, gentils hommes et autres, només ou non només, a cheval ou a pié, pour si brief temps que vous vouldrés, pour widier seurement ladite place, porter et transporter les biens, vivres, chevaulx, harnoiz, trait, artillerie et autres biens qui y sont, et les conduire en seurté par-deca, esperant que semblablement de votre cousté les choses a rebourd fetes soient reparees mieulx que n'ont esté par cy devant.</p>
+               <p>Si pouez, tres chiers et tres amez neveux, envoyer ledit sauf conduit quant vous plaira audit Espinasse, par tel de voz gens que vouldrez, car soyez sehur que ledit Espinasse la delivrera a celluy de vosdiz gens portant ledit sauf-conduit, et si besoing est, je donroy tel saufconduit que vouldrez a vosdiz gens que y envoy[r]és, ainsi que ces choses et autres touchans ceste matiere j'ay plus applain dites a <persName ref="#RevelG">Auvergne</persName>, le heraut porteur de cestes, que j'envoye par devers vous pour les vous dire, vous priant que croire le veullez sur ce, tres chiers et tres amez neveus. Je vous prie aussi que par cedit porteur me certiffiez et restournez de ce que aurez besongné avec <persName ref="#GressartP">Perrenet Gressart</persName>, ainsi que fu appointié a ladite journee que le feriez, car depuis le retour de nosdiz gens, ledit Gressart et ses gens &lt;avec ceulx de Cussi et autres voz places&gt; ont fetes greigneur courses et domaige ou païs de par-deca que encor n'y a esté fete, et mesmement sur la terre du <persName ref="#BarresL">seigneur des Barres</persName>, disant que c'estoit en despit de sadite ambaxade, lesquelles choses, si pourvueu n'y estoit, seroient empeschement et peril de rupture de tout le bien de la besoingne.</p>
                <p>Si vous prie que fetez tant que les choses par eulx prises soient reparees et rendues, et que ung gentil homme nommé <persName ref="#FeirsH">Hugues de Feirs</persName> et autres prisonniers et bestail en ladite course, tant sur ladite terre dudit seigneur des Barres que autrement ou <placeName ref="#Bourbonnais">païs de Bourbonnois</placeName>, soient rendues et restituees comme raison est, et que voulez que de mon costé face ce que vees que suy pret de faire.</p>
-               <p>Avec ce vous prie, tres chiers et tres amez neveux, que par ledit Auvergne me veullés rescrire et signiffier ce que saurez au certain de la venue de mon tres chier seigneur et frere le duc de Bourgoingne, laquelle je desire moult, ensemble se choses quelconque voulez que je puisse pour l’acomplir de bon cuer.</p>
+               <p>Avec ce vous prie, tres chiers et tres amez neveux, que par ledit Auvergne me veullés rescrire et signiffier ce que saurez au certain de la venue de mon tres chier seigneur et frere le duc de Bourgoingne, laquelle je desire moult, ensemble se choses quelconque voulez que je puisse pour l'acomplir de bon cuer.</p>
                <p>Tres chiers et tres amez neveux, le Saint Esperit vous ait en sa tres sainte et benoite garde.</p>
                <p>Escript a Molins, le XIII<hi rend="sup">e</hi> jour de juillet.</p>
                <p>Vostre oncle, le comte de Clermont</p>
@@ -2022,31 +2022,31 @@
          <div type="Original" subtype="Lettres_closes" xml:id="Ch-39" n="39">
             <div type="front">
                <docDate>
-                  <date when="1433-07-18">[1433], 18 juillet<note type="n1"><p>Voir la datation de l’<ref target="#Ch-38">acte précédent</ref>.</p></note></date>
+                  <date when="1433-07-18">[1433], 18 juillet<note type="n1"><p>Voir la datation de l'<ref target="#Ch-38">acte précédent</ref>.</p></note></date>
                   <placeName ref="#Moulins">Moulins</placeName>
                </docDate>
                <argument>
-                  <p>Lettre de Charles, comte de Clermont, aux comtes de Nevers et de Rehel, ses neveux, leur faisant savoir que le sauf-conduit donner par leurs gouverneurs, Guy de Jaucourt, seigneur de Villarnoul, et Oudart de l’Espinace, seigneur de Champallement, à Philibert de l’Espinace, qui occupe Vitry avec ses hommes, n’est pas valable. Aussi leur demande-t-il d’en délivrer un nouveau, en leurs noms ou en celui du duc de Bourgogne, ainsi que de faire délivrer les prisonniers de Vitry-sur-Loire.</p>
+                  <p>Lettre de Charles, comte de Clermont, aux comtes de Nevers et de Rehel, ses neveux, leur faisant savoir que le sauf-conduit donner par leurs gouverneurs, Guy de Jaucourt, seigneur de Villarnoul, et Oudart de l'Espinace, seigneur de Champallement, à Philibert de l'Espinace, qui occupe Vitry avec ses hommes, n'est pas valable. Aussi leur demande-t-il d'en délivrer un nouveau, en leurs noms ou en celui du duc de Bourgogne, ainsi que de faire délivrer les prisonniers de Vitry-sur-Loire.</p>
                </argument>
                <argument>
-                  <p>Lettre de Charles, comte de Clermont, aux comtes de Nevers et de Rehel, ses neveux, leur faisant savoir que le sauf-conduit donner par leurs gouverneurs, Guy de Jaucourt, seigneur de Villarnoul, et Oudart de l’Espinace, seigneur de Champallement, à Philibert de l’Espinace, qui occupe Vitry avec ses hommes, n’est pas valable. Aussi leur demande-t-il d’en délivrer un nouveau, en leurs noms ou en celui du duc de Bourgogne, ainsi que de faire délivrer les prisonniers de Vitry-sur-Loire.</p>
+                  <p>Lettre de Charles, comte de Clermont, aux comtes de Nevers et de Rehel, ses neveux, leur faisant savoir que le sauf-conduit donner par leurs gouverneurs, Guy de Jaucourt, seigneur de Villarnoul, et Oudart de l'Espinace, seigneur de Champallement, à Philibert de l'Espinace, qui occupe Vitry avec ses hommes, n'est pas valable. Aussi leur demande-t-il d'en délivrer un nouveau, en leurs noms ou en celui du duc de Bourgogne, ainsi que de faire délivrer les prisonniers de Vitry-sur-Loire.</p>
                </argument>
                <div type="tradition">
                   <listWit>
-                     <witness n="A">A. Original sur papier, signé, endommagé<note type="n1"><p>Plusieurs trous faits par un rongeur se remarquent, notamment un en bas à droite, qui s’étend sur neuf lignes. </p></note>. 290 x 350 mm. <orgName type="main">Archives départementales de la Côte-d’Or</orgName>, B 11917.</witness>
+                     <witness n="A">A. Original sur papier, signé, endommagé<note type="n1"><p>Plusieurs trous faits par un rongeur se remarquent, notamment un en bas à droite, qui s'étend sur neuf lignes. </p></note>. 290 x 350 mm. <orgName type="main">Archives départementales de la Côte-d'Or</orgName>, B 11917.</witness>
                   </listWit>
                </div>
             </div>
             <div type="acte">
                <p><hi rend="i">(Au verso)</hi> A mes tres chiers et tres amez neveux les contes de Nevers et de <placeName ref="#RethelC">Rethel</placeName>.</p>
-               <p><hi rend="i">(Au recto)</hi> Tres chiers et tres amez neveux, j’ay receu voz lettres escriptes a <placeName ref="#NeversC">Nevers</placeName> le XV<hi rend="sup">e</hi> jour de ce mois, responsives es miennes que par avant vous avoye escript par <persName ref="#RevelG">Auvergne le heraut</persName>, par lesquelles et par la crance dudit Auvergne vous avoye fait savoir que, pour obtemperer a voz prieres et requestes, obvier, eschever et faire cesser les maulx et dommaiges que ceulx de la place de <placeName ref="#Vitry">Vitry</placeName> faisoient a voz seigneuries et subgiez, j’estoys content de faire vuider ladite place de Vitry et mectre en voz mains, moyennant ce que envoyessiez saufconduit souffisant a <persName ref="#EspinassePh">l’Espinasse</persName> et a ceulx qui sont dedans, au nombre de trois cens personnes, pour vuidier et transporter seurement leurs personnes et biens hors de ladite place, et que aucunes personnes de ladite place, que aucun de votre parti detiennent, feissiez delivrer.</p>
-               <p>Surquoy avez envoyé pour ledit Espinasse ung saufconduit de <persName ref="#JaucourtG">Guy de Jaucourt, seigneur de Villarnoul</persName>, et <persName ref="#EspinasseChampal">Oudart de l’Espinasse, seigneur de Champaleïent</persName>, commis au gouvernement de voz personnes, terres et chevances, lequel saufconduit a ceulx qui l’ont par deca veu ne semble pis souffisent ne vallable, car il n’appert aucunement du <hi rend="i">(trou)</hi> desdiz de Jaucourt et Oudart, ne qu’ilz aient acoustumé ne puissance de donner saufconduiz, aussi par les abstinences des païs ilz n’y sont de riens ordonnés ne commis a donner aucuns saufconduis, si que lesdiz estans en ladite place ne se veulent ne osent fier a l’asente dudit saufconduit comme non valable ne seur.</p>
-               <p>Et touchant la delivrance desdites personnes de Vitry m’avez escript par vosdites lettres et fait savoir par ledit Auvergne, jasoit ce que ilz ne sont detenus ne compez en vos places ne par voz obeissans, si en ferez vous par leur delivrance la meilleur et plus grant poursuite que pouvez si avant que vouldriez que feisse pour vous a vostre requeste, laquelle chose ne fait et ne souffit pas a leurs compaignons estans en ladite place, lesquelx veulent avoir leurdiz compaignons prisonniers en vuidant ladicte place, ja soit ce qu’ilz soient gens de peu de fait, combien qu’ilz en ont ung gentil homme.</p>
-               <p>Et pour ce, tres chiers et tres amez neveux, affin que les choses que par mesdites <hi rend="i">[lettres]</hi> vous ay escriptes touchant la delivrance de ladite place de Vitry puissent estre prestement mises a <hi rend="i">[execution ?]</hi>, ce que desire et vouldroy pour amour de vous et pour faire cesser les maulx qu’ilz font <hi rend="i">[en ce ?]</hi> païs, je vous prie que le plus brief que faire se pourra veullez envoyer pour ledit Espinasse <hi rend="i">[et troi]</hi>s centyesme de personnes, armés ou non armés, gentilz hommes et autres, saufconduit et <hi rend="i">[de nostre tres chier seigneur]</hi> et frere <persName ref="#PhBon">le duc de Bourgoingne</persName> ou de vous, seellé de votre seel ou des chancellier, mareschal ou gouverneur <hi rend="i">(trou, plusieurs mots manquent)</hi>, veullés aussi faire delivrer lesdites personnes de Vitry qui sont gens de peu de valeur comme dit est <hi rend="i">(trou, plusieurs mots manquent)</hi> s’ilz demouroient empeschés eulx ou leurs compaigons estans oudit Vitry apres leur vuidange <hi rend="i">(trou, plusieurs mots manquent)</hi> <hi rend="i">[c]</hi>ontent fere plus de dommaiges a voz païs et subgiés que ce ne monte, comme ces choses ay dites plus applain a <persName ref="#Donzy">Donzy</persName>, votre poursuivant porteur de cestes, pour les vous dire.</p>
+               <p><hi rend="i">(Au recto)</hi> Tres chiers et tres amez neveux, j'ay receu voz lettres escriptes a <placeName ref="#NeversC">Nevers</placeName> le XV<hi rend="sup">e</hi> jour de ce mois, responsives es miennes que par avant vous avoye escript par <persName ref="#RevelG">Auvergne le heraut</persName>, par lesquelles et par la crance dudit Auvergne vous avoye fait savoir que, pour obtemperer a voz prieres et requestes, obvier, eschever et faire cesser les maulx et dommaiges que ceulx de la place de <placeName ref="#Vitry">Vitry</placeName> faisoient a voz seigneuries et subgiez, j'estoys content de faire vuider ladite place de Vitry et mectre en voz mains, moyennant ce que envoyessiez saufconduit souffisant a <persName ref="#EspinassePh">l'Espinasse</persName> et a ceulx qui sont dedans, au nombre de trois cens personnes, pour vuidier et transporter seurement leurs personnes et biens hors de ladite place, et que aucunes personnes de ladite place, que aucun de votre parti detiennent, feissiez delivrer.</p>
+               <p>Surquoy avez envoyé pour ledit Espinasse ung saufconduit de <persName ref="#JaucourtG">Guy de Jaucourt, seigneur de Villarnoul</persName>, et <persName ref="#EspinasseChampal">Oudart de l'Espinasse, seigneur de Champaleïent</persName>, commis au gouvernement de voz personnes, terres et chevances, lequel saufconduit a ceulx qui l'ont par deca veu ne semble pis souffisent ne vallable, car il n'appert aucunement du <hi rend="i">(trou)</hi> desdiz de Jaucourt et Oudart, ne qu'ilz aient acoustumé ne puissance de donner saufconduiz, aussi par les abstinences des païs ilz n'y sont de riens ordonnés ne commis a donner aucuns saufconduis, si que lesdiz estans en ladite place ne se veulent ne osent fier a l'asente dudit saufconduit comme non valable ne seur.</p>
+               <p>Et touchant la delivrance desdites personnes de Vitry m'avez escript par vosdites lettres et fait savoir par ledit Auvergne, jasoit ce que ilz ne sont detenus ne compez en vos places ne par voz obeissans, si en ferez vous par leur delivrance la meilleur et plus grant poursuite que pouvez si avant que vouldriez que feisse pour vous a vostre requeste, laquelle chose ne fait et ne souffit pas a leurs compaignons estans en ladite place, lesquelx veulent avoir leurdiz compaignons prisonniers en vuidant ladicte place, ja soit ce qu'ilz soient gens de peu de fait, combien qu'ilz en ont ung gentil homme.</p>
+               <p>Et pour ce, tres chiers et tres amez neveux, affin que les choses que par mesdites <hi rend="i">[lettres]</hi> vous ay escriptes touchant la delivrance de ladite place de Vitry puissent estre prestement mises a <hi rend="i">[execution ?]</hi>, ce que desire et vouldroy pour amour de vous et pour faire cesser les maulx qu'ilz font <hi rend="i">[en ce ?]</hi> païs, je vous prie que le plus brief que faire se pourra veullez envoyer pour ledit Espinasse <hi rend="i">[et troi]</hi>s centyesme de personnes, armés ou non armés, gentilz hommes et autres, saufconduit et <hi rend="i">[de nostre tres chier seigneur]</hi> et frere <persName ref="#PhBon">le duc de Bourgoingne</persName> ou de vous, seellé de votre seel ou des chancellier, mareschal ou gouverneur <hi rend="i">(trou, plusieurs mots manquent)</hi>, veullés aussi faire delivrer lesdites personnes de Vitry qui sont gens de peu de valeur comme dit est <hi rend="i">(trou, plusieurs mots manquent)</hi> s'ilz demouroient empeschés eulx ou leurs compaigons estans oudit Vitry apres leur vuidange <hi rend="i">(trou, plusieurs mots manquent)</hi> <hi rend="i">[c]</hi>ontent fere plus de dommaiges a voz païs et subgiés que ce ne monte, comme ces choses ay dites plus applain a <persName ref="#Donzy">Donzy</persName>, votre poursuivant porteur de cestes, pour les vous dire.</p>
                <p>Si vous prie, tres chiers et tres amez neveux, que sur ce croire le veullés.</p>
-               <p>Vous prie aussi que ne veullés avoir aucune <hi rend="i">(trou)</hi> que ces choses que vous rescris ou face pour delayer ou empescher la delivrance de <hi rend="i">[ladite]</hi> place, car en verité j’ay vraye voulenté d’icelle place sur ce delivrer sans friction, comme de fait le f<hi rend="i">[er]</hi>ay ainsi que autresfois vous ay escript, moyennant lesdiz saufconduit et delivrance desdites personnes.</p>
-               <p>Tres chiers et tres amez neveux, sur ces choses vous plaise me rescrire et signiffier voz bons plaisirs, a l’acomplissement desquelx m’employeray de bon cuer.</p>
-               <p>Plaise le benat fils de Dieu qu’il vous doint bonne vie et longue.</p>
+               <p>Vous prie aussi que ne veullés avoir aucune <hi rend="i">(trou)</hi> que ces choses que vous rescris ou face pour delayer ou empescher la delivrance de <hi rend="i">[ladite]</hi> place, car en verité j'ay vraye voulenté d'icelle place sur ce delivrer sans friction, comme de fait le f<hi rend="i">[er]</hi>ay ainsi que autresfois vous ay escript, moyennant lesdiz saufconduit et delivrance desdites personnes.</p>
+               <p>Tres chiers et tres amez neveux, sur ces choses vous plaise me rescrire et signiffier voz bons plaisirs, a l'acomplissement desquelx m'employeray de bon cuer.</p>
+               <p>Plaise le benat fils de Dieu qu'il vous doint bonne vie et longue.</p>
                <p>Escript a Molins, le XVIII<hi rend="sup">e</hi> jour de juillet.</p>
                <p>Vostre oncle, le comte de Clermont</p>
                <div type="sign"><p>Charles</p></div>
@@ -2060,17 +2060,17 @@
                   <placeName>NS</placeName>
                </docDate>
                <argument>
-                  <p>Charles, comte de Clermont, mande à son trésorier général, Guiot Constant, de délivrer à Gilles le Tailleur, argentier du duc, la somme de 712 écus d’or pour qu’il achète divers marchandises et fournitures pour le voyage de la duchesse en Bourgogne</p>
+                  <p>Charles, comte de Clermont, mande à son trésorier général, Guiot Constant, de délivrer à Gilles le Tailleur, argentier du duc, la somme de 712 écus d'or pour qu'il achète divers marchandises et fournitures pour le voyage de la duchesse en Bourgogne</p>
                   <p><orgName type="main">Deperditum Histoire de Dombes (Aubret)</orgName></p>
                </argument>
                <argument>
-                  <p>Charles, comte de Clermont, mande à son trésorier général, Guiot Constant, de délivrer à Gilles le Tailleur, argentier du duc, la somme de 712 écus d’or pour qu’il achète divers marchandises et fournitures pour le voyage de la duchesse en Bourgogne <ref target="#Ch-41">(cf. n° 41)</ref>.
+                  <p>Charles, comte de Clermont, mande à son trésorier général, Guiot Constant, de délivrer à Gilles le Tailleur, argentier du duc, la somme de 712 écus d'or pour qu'il achète divers marchandises et fournitures pour le voyage de la duchesse en Bourgogne <ref target="#Ch-41">(cf. n° 41)</ref>.
                   </p>
                </argument>
                <div type="tradition">
                   <listWit>
                      <witness n="A">A. Original disparu.</witness>
-                     <witness n="mention">Dans l’extrait d’un compte de l’Hôtel pour l’année 1447. <orgName type="main">Archives départementales de l’Allier</orgName>, A 169.</witness>
+                     <witness n="mention">Dans l'extrait d'un compte de l'Hôtel pour l'année 1447. <orgName type="main">Archives départementales de l'Allier</orgName>, A 169.</witness>
                      <witness n="a">
                         <biblStruct>
                            <monogr>
@@ -2080,7 +2080,7 @@
                                     <surname>Vayssière</surname>
                                  </persName>
                               </author>
-                              <title level="a">Fragment d’un compte de Gilles le Tailleur, argentier de Charles Ier, duc de Bourbonnais, en 1448. Communication de M. Vayssière</title>
+                              <title level="a">Fragment d'un compte de Gilles le Tailleur, argentier de Charles Ier, duc de Bourbonnais, en 1448. Communication de M. Vayssière</title>
                               <title level="j">Bulletin archéologique du comité des travaux historiques et scientifiques</title>
                               <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k203319w/f129.item">[bulletin numérisé]</ref>
                               <imprint>
@@ -2096,7 +2096,158 @@
             <div>
                <head><hi rend="smallcaps">Deperditum</hi></head>
                <div type="acte">
-                  <p>Audit argentier, auquel en l’an mil IIII<hi rend="sup">C</hi>XXXIII, pour l’alee que entendoit lors faire au <placeName ref="#BourgogneD">païs de Bourgoigne</placeName> <persName ref="#Agnes">madame la duchesse</persName>, fut ordonné par les gens du conseil d’icellui seigneur bailler et delivrer plusieurs draps de soye, de layne, foureures et autres marchandises neccessaires pour icelle allee, et dont des lors furent obtenues les lectres d’icellui seigneur, donnees le VII<hi rend="sup">e</hi> jour d’octobre mil IIII<hi rend="sup">C</hi>XXXIII, par lesquelles est mandé a <persName ref="#ConstantG">Guillot Coustaut</persName>, lors tresorier general, bailler et delivrer audit <persName ref="#LeTailleurG">argentier</persName> XVII<hi rend="sup">C</hi>XII escus d’or et demi vielz pour lesdits draps de soye, de layne, fourreures et autres marchandises declarees au long esdites lectres.</p>
+                  <p>Audit argentier, auquel en l'an mil IIII<hi rend="sup">C</hi>XXXIII, pour l'alee que entendoit lors faire au <placeName ref="#BourgogneD">païs de Bourgoigne</placeName> <persName ref="#Agnes">madame la duchesse</persName>, fut ordonné par les gens du conseil d'icellui seigneur bailler et delivrer plusieurs draps de soye, de layne, foureures et autres marchandises neccessaires pour icelle allee, et dont des lors furent obtenues les lectres d'icellui seigneur, donnees le VII<hi rend="sup">e</hi> jour d'octobre mil IIII<hi rend="sup">C</hi>XXXIII, par lesquelles est mandé a <persName ref="#ConstantG">Guillot Coustaut</persName>, lors tresorier general, bailler et delivrer audit <persName ref="#LeTailleurG">argentier</persName> XVII<hi rend="sup">C</hi>XII escus d'or et demi vielz pour lesdits draps de soye, de layne, fourreures et autres marchandises declarees au long esdites lectres.</p>
+               </div>
+            </div>
+         </div>
+         <div type="Original" subtype="Lettres_patentes" xml:id="Ch-41" n="41">
+            <div type="front">
+               <docDate>
+                  <date when="1433-10-24">1433, 24 octobre</date>
+                  <placeName>NS</placeName>
+               </docDate>
+               <argument>
+                  <p>Consentement de Charles, comte de Clermont, pour la prolongation des trêves avec Philippe, duc de Bourgogne, du 3 novembre au 1er janvier, afin de permettre à la comtesse Agnès de Bourgogne de rendre visite à son frère</p>
+                  <p><orgName type="main">Archives départementales de la Côte-d'Or</orgName></p>
+               </argument>
+               <argument>
+                  <p>Consentement donné par Charles de Bourbon, comte de Clermont, ayant délégation de pouvoir, à la prolongation des trêves entre ses territoires et ceux de Philippe, duc de Bourgogne, du 3 novembre au 1<hi rend="sup">er</hi> janvier, afin de permettre à Agnès de Bourgogne, comtesse de Clermont, de rendre visite au second<note type="n1"><p>La concomitance de ce voyage avec la naissance de Charles de Charolais a été relevée :
+                     <biblStruct>
+                        <monogr>
+                           <author>
+                              <persName>
+                                 <forename>André</forename>
+                                 <surname>Bossuat</surname>
+                              </persName>
+                           </author>
+                           <title level="m">Perrinet Gressart et François de Surienne, agents de l'Angleterre</title>
+                           <imprint>
+                              <pubPlace>Paris</pubPlace>
+                              <publisher>Droz</publisher>
+                              <date when="1936"/>
+                              <biblScope unit="page" n="150"/>
+                           </imprint>
+                        </monogr>
+                     </biblStruct>
+                     ;
+                     <biblStruct>
+                        <monogr>
+                           <author>
+                              <persName>
+                                 <forename>André</forename>
+                                 <surname>Leguai</surname>
+                              </persName>
+                           </author>
+                           <title level="a">Agnès de Bourgogne, duchesse de Bourbon</title>
+                           <title level="j">Études bourbonnaisse</title>
+                           <imprint>
+                              <biblScope unit="volume" n="276"/>
+                              <date when="1996"/>
+                              <biblScope unit="page" from="405" to="417"/>
+                           </imprint>
+                        </monogr>
+                     </biblStruct>
+                  .</p></note>
+                  </p>
+               </argument>
+               <div type="tradition">
+                  <listWit>
+                     <witness n="A">A. Original sur parchemin, signé, endommagé<note type="n1"><p>Le parchemin est déchiré dans la hauteur, au début de chaque ligne.</p></note>, muni du grand sceau équestre en cire rouge, sur double queue, endommagé<note type="n1"><p>Sceau aujourd'hui fruste, dont il ne subsiste que la partie centrale.</p></note>. 455 x 340 mm., dont repli 60 mm. <orgName type="main">Archives départementales de la Côte-d'Or</orgName>, B 11918, cote 117.</witness>
+                     <witness n="analyse">
+                        <biblStruct>
+                           <monogr>
+                              <author>
+                                 <persName>
+                                    <forename>Joseph H.</forename>
+                                    <surname>Garnier</surname>
+                                 </persName>
+                              </author>
+                              <title level="m">Inventaire-sommaire des Archives départementales antérieures à 1790, Côte d’Or. Archives civiles, série B</title>
+                              <imprint>
+                                 <pubPlace ref="#Riom">Dijon</pubPlace>
+                                 <biblScope unit="volume" n="V"/>
+                                 <date when="1892"/>
+                                 <biblScope unit="page" from="203" to="204"/>
+                              </imprint>
+                           </monogr>
+                        </biblStruct>
+                     </witness>
+                  </listWit>
+               </div>
+            </div>
+            <div>
+               <div type="acte">
+                  <p>Charles de Bourbon, conte de Clermont, aisné filz de mon tres redoubté seigneur monseigneur le duc de Bourbonnois et d’Auvergne, aïant le gouvernement de ses païs et seignouries,</p>
+                  <p>Savoir faisons que comme <persName ref="#Agnes">nostre tres chiere et tres amee compaigne la contesse</persName> ait desir et volenté de aler veoir et visiter <persName ref="#PhBon">nostre tres chier seigneur et frere le duc de Bourgoigne</persName> et <persName ref="#IsaPortugal">nostre tres chiere dame et seur la duchesse</persName>, si comme <hi rend="i">(trou)</hi> elle a fait savoir par ses lectres et ambaxeurs a nostredit seigeur et frere et a nostredite dame et seur, en laquelle <hi rend="i">(trou)</hi> desire que tous ceulx des païs de par deca appartenans a <persName ref="#JeanI">nostredit seigneur et pere</persName> et aussi ceulx des païs de nostredit seigneur et frere ayent bon et joyeulx entretenement de treves et abstinances de guerre, en requerant pour ses causes a nostredit seigneur et frere <hi rend="i">(trou)</hi> prise d’abstinances entre lesdis païs jusques au premier jour de janvier prouchainement venant,</p>
+                  <p>Savoir faisons que nous, en continuant les abstinances autresfois prinses entre nostredit seigneur et frere d’une part et nous d’autre, et sanz prejudice <hi rend="i">(trou)</hi> abstinances et du contenu es lectres sur ce faictes d’une part et d’autre, mais icelles demourans en leur force et vertu pour bien des païs et subgez d’un costé et d’autre, et pour obvier aux grans maulx et inconvenians que amennent <hi rend="i">(trou)</hi> a cause <hi rend="i">(trou)</hi>, avons reprinses et reprenons par ces presentes lesdictes tresves et abstinences de guerre pour nous et les païs et subgez de <placeName ref="#Bourbonnais">Bourbonnoiz</placeName>, <placeName ref="#Forez">Forestz</placeName> et <placeName ref="#Beaujolais">Beaujouloiz</placeName>, avecques nostredit seigneur et frere pour lui et ses païs de <placeName ref="#BourgogneD">Bourgoingne</placeName>, <placeName ref="#Charolais">Charoloiz</placeName> et <placeName ref="#Maconnais">Masconnoiz</placeName>, et les païs de <placeName ref="#Nivernais">Nivernoiz</placeName> et <placeName ref="#Donzois">Donziois</placeName>, a commencier ceste presente reprinse le troiziesme jour du mois de novembre, et durant jusques audit premier jour de janvier prouchainement venant tous incluz, pendant lequel mois nous ferons tenir et observer lesdites abstinences par lesdis païs et subgez de Bourbonnoiz, Forest et Beaujeuloiz, et aussi des places de <placeName ref="#Sancoins">Cenquoins</placeName>, <persName ref="#Charlieu">Charlieu</persName>, <persName ref="#RocheSolutre">la Roche de Solutry</persName> et <persName ref="#NoyersViennois">Nouyers</persName>, et des gens qui y sont, et feront et ferons<note type="na"><p><hi rend="i">Sic</hi>. Comprendre « et [ils, les gens qui se trouvent dans les places suscitées] feront et [nous, Charles] ferons ».</p></note> toute <hi rend="i">(trou)</hi> que ceulx qui sont et seront es places de <placeName ref="#StPierreleMoutier">Saint Pierre le Moustier</placeName>, <placeName ref="#LaFerteChauderon">La <hi rend="i">(trou : Ferté- ?)</hi> Chauderon</placeName> et <placeName ref="#Chateauneuf">Chastelneuf</placeName>, tiendront et garderont pareillement lesdictes abstinances pendant ledit temps sans enfraindre, comme pareillement nous a promis et acourdé nostredit seigneur et frere par ses lectres patentes d’entretenir et faire entretenir icelles abstinances par lui et sesdis païs de Bourgoingne, Charoloiz et Masconnoiz, et les païs de Nivernois et Donziois, et avec ce de faire toute diligence possible que ceulx qui seront en la ville de Marcigny pendant le temps entretiendront lesdictes abstinances, et aussi procurera tant qu’il pourra bonnement par ses lectres et messaiges que aussi feront ceulx qui sont et seront es places de <placeName ref="#Charite">La Charité sur Loire</placeName> et de <placeName ref="#Rosemont">Rosemont</placeName> sans aucunement enfraindre icelles abstinances pendant ledit temps.</p>
+                  <p>En tesmoing de ce, nous avons fait mectre nostre seel a ces presentes, le XXIIII<hi rend="sup">eme</hi> jour du moie d’octobre, l’an mil quatre cens trente et trois. </p>
+               </div>
+               <div type="MHT" subtype="gauche">
+                  <p>Par monseigneur le conte,</p>
+               </div>
+               <div type="sign">
+                  <p><persName ref="#Cadier_sign">Cadier</persName>.</p>
+               </div>
+            </div>
+         </div>       
+         <div type="Copie" subtype="Vidimus" xml:id="Ch-42" n="42">
+            <div type="front">
+               <docDate>
+                  <date when="1434-04-15">1434, 15 avril</date>
+                  <placeName ref="#Vienne">Vienne</placeName>
+               </docDate>
+               <argument>
+                  <p>Charles de Bourbon cède Montgibert à Rodrigo de Villandrando, avec ses droits et revenus, jusqu’à ce qu’il soit remboursé de la somme de six mille écus d’or qu’il avait prêtée au duc, notamment pour la rançon d’Henriet Gencien</p>
+                  <p><orgName type="main">Archives nationales</orgName></p>
+               </argument>
+               <argument>
+                  <p>Charles, duc de Bourbonnois et d’Auvergne, etc., cède à Rodrigo de Villandrando, comte de Ribedieux, la terre et châtellenie de Montgibert, avec ses droits et revenus, jusqu’à ce qu’il soit remboursé de la somme de six mille écus d’or qu’il avait prêtée au duc, dont 5300 écus pour ses dépenses, et 700 pour la rançon d’Henriet Gencien.</p>
+               </argument>
+               <div type="tradition">
+                  <listWit>
+                     <witness n="A">A. Original perdu.</witness>
+                     <witness n="B">B. Inséré dans l’acte sur parchemin par lequel Rodrigo de Villandrando reconnait la cession de la terre de Montgibert, daté du 16 avril suivant. 340 x 280-310 mm <orgName type="main">Archives nationales</orgName>, P 1355<hi rend="sup">2</hi>, cote 139.</witness>
+                     <witness n="a">
+                        <biblStruct>
+                           <monogr>
+                              <author>
+                                 <persName>
+                                    <forename>Jules</forename>
+                                    <surname>Quicherat</surname>
+                                 </persName>
+                              </author>
+                              <title level="m">Rodrigo de Villandrando, l’un des combattants pour l’indépendance française au XV<hi rend="sup">e</hi> siècle</title>
+                              <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k58175871/f276">[ouvrage numérisé]</ref>
+                              <imprint>
+                                 <pubPlace>Paris</pubPlace>
+                                 <publisher>Hachette</publisher>
+                                 <date when="1879"/>
+                                 <biblScope unit="page" from="262" to="263"/>
+                              </imprint>
+                           </monogr>
+                        </biblStruct>
+                     </witness>
+                     <witness n="analyse">
+                        <bibl>
+                           <title>Titres de Bourbon</title>
+                           <biblScope unit="volume" n="II"/>
+                           <biblScope unit="page" from="254" to="255"/>
+                           <biblScope unit="entry" n="5459"/>
+                        </bibl>
+                     </witness>
+                  </listWit>
+               </div>
+            </div>
+            <div>
+               <div type="acte">
+                  <p>Charles, duc de Bourbonnois et d’Auvergne, conte de Clermont et de Fourez et seigneur de Beaujeu, per et chamberier de France, a tous ceulx qui ces presentes lectres verront, salut.</p>
+                  <p>Comme nostre tres chier et feal ami, <persName ref="#Villandrando">Rodrigo de Villandrando</persName>, conte de <placeName ref="#Ribedieux">Ribedieux</placeName>, nous ait presté les parties et sommes d’or qui s’ensuient, c’est assavoir, comptant, pour le fait de nostre despense, la somme de quinze cens escus d’or, et aussi ait baillé par nostre commandement a nostre amé <persName ref="#Gencien">Henriet Gencien</persName>, lors prisonnier, une lettre obligatoire et seellé qui lui a torné a prouffit en acquit de sa rençon la somme de sept cens escus d’or, que lui devons paier, et oultre ce nous ait presentement baillé et presté comptant la somme de trois mille huit cens escuz d’or, lesquelles parties font en tout la somme de six mille escus d’or de bon pois,</p>
+                  <p>Nous, voulans ledit Rodrigo estre asseuré dudit prest et somme de six mille escus d’or, a icellui Rodrigo avons baillé et baillons par ces presentes, pour ledit prest et somme, en engagiere et ypotheque, les chastel, chastellenie, terre et mandement de <placeName ref="#Montgilbert">Montgilbert</placeName>, seant ou païs de <placeName ref="#Bourbonnais">Bourbonnois</placeName>, ensemble les cens, rentes, dismes, porcions et autres droiz et devoirs d’icelle chastellenie et terre, a iceulx chastellenie et terre tenir et en prendre les prouffiz et emolumens jusques il sera parpayé de ladite somme de six mille escuz,</p>
+                  <p>Pourveu que chascun an en acquit d’icelle somme de six mille escuz il prandra les revenues, cens, rentes et autres devoirs d’icelle terre de Montgilbert, pour la somme de cent cinquante escus d’or, et le surplus de la value de ladicte terre ledit Rodrigo prandra pour la garde de ladicte place et forteresse, gaiges d’officiers, tenir les ediffices de la forteresse, grange, molins et autres demaines en estat, et y faire les reparacions necessaires, avecques ce, toutes les foiz que nous vouldrons rendre et paier audit Rodrigo ladicte somme de six mille escus d’or, ou ce qui en restera, desduit ce qu’il aura levé des revenues en l’acquit de ladicte somme et ou pris dessus touchié, ledit Rodrigo sera tenu de nous ou aux nostres delivré franchement et quittement lesdiz chastel, chastellenie, terre et mandement de Montgilbert,</p>
+                  <p>En oultre, durant le temps que ledit Rodrigo tiendra lesdiz chastel, chastellenie et terre, recevra des subgiez et autres qui puet toucher, les droiz anciens, ordinaires et acoustumez sans prendre ne exiger aucune novele desdiz subgiez, et paiera ledit Rodrigo fiez, aumosnes, vicairies et autres charges acoustumees d’estre paiees en et sur ladicte terre, durant le temps de sa tenue, et s’il advenoit que nous voulsissions rendre lesdiz chastel, chastellenie et terre de Montgilbert es descendens et ceulx du lignaige du feu seigneur de Listenoiz, ou a autres y pretendens droit, nous le pourrions recouvrer dudit Rodrigo, et sera tenu de les nous bailler, moyenant ce que nous baillerons une autre place a icellui Rodrigo, et autant de terre comme vault celle dudit Montgilbert, laquelle ledit Rodrigo tiendra par la forme et maniere et soubz les convenances, condicions et pactez que de present lui baillons ledit Montgilbert, ou lui biallerons ladicte somme d’or pour laquelle il la tient en gaige, ou ce qui en restera,</p>
+                  <p>Et les choses dessusdictes, tant au regard dudit Rodrigo comme de ses hoirs et successeurs et qui de lui auront cause, promectons en bonne foy et en parolle de prince, obligeons a ce nous, noz hoirs et biens presens et a venir.</p>
+                  <p>En tesmoing de ce, nous [avons<note type="na"><p>Le scribe a écrit : <hi rend="i">nous fait mectre nostre seel</hi>. Nous corrigeons.</p></note>] fait mectre nostre seel a ces presentes.</p>
+                  <p>Donné a Vienne, le XV<hi rend="sup">e</hi> jour du mois d’avril, apres Pasques, l’an de grace mil quatre cens trente et quatre.</p>
                </div>
             </div>
          </div>
