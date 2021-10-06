@@ -6,7 +6,7 @@
 <!ENTITY indexlocorum SYSTEM "locorum2.xml">
 ]>
 <!-- ([a-zA-Z])’  xmlns="http://www.tei-c.org/ns/1.0" -->
-<TEI>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -150,7 +150,7 @@
             <div type="front">
                <docDate>
                   <date notAfter="1421-01-15">[Avant le 15 janvier 1421 (n. st.)]</date>
-                  <placeName>NS</placeName>
+                  <placeName type="production_place">NS</placeName>
                </docDate>
                <argument>
                   <p>Lettre close de de Charles de Bourbon, lieutenant en Languedoc, de Jean IV, comte d'Armagnac et de Charles d'Albret, à la ville d'Albi</p>
@@ -176,7 +176,7 @@
             <div type="front">
                <docDate>
                   <date notAfter="1421-01-18">[Avant le 18 janvier 1421 (n. st.)]</date>
-                  <placeName>NS</placeName>
+                  <placeName type="production_place">NS</placeName>
                </docDate>
                <argument>
                   <p>Lettre close de Charles de Bourbon, Jean IV, comte d'Armagnac, et Charles d'Albret aux villes d'Auvergne</p>
@@ -221,7 +221,7 @@
             <div type="front">
                <docDate>
                   <date when="1425-02-04">1425 (n. st.), 4 février</date>
-                  <placeName>NS</placeName>
+                  <placeName type="production_place">NS</placeName>
                </docDate>
                <argument>
                   <p>Traité de mariage de Charles de Bourbon et d'Agnès de Bourgogne</p>
@@ -306,7 +306,7 @@
             <div type="front">
                <docDate>
                   <date when="1425-02-07">1425 (n. st.), 7 février</date>
-                  <placeName>Autun</placeName>
+                  <placeName type="production_place">Autun</placeName>
                </docDate>
                <argument>
                   <p>Marie de Berry et Charles de Clermont promettent de respecter les engagements de Jean Ier relatifs au statut des terres apanagées des Bourbon</p>
@@ -359,7 +359,7 @@
             <div type="front">
                <docDate>
                   <date when="1425-08-06">1425, 6 août</date>
-                  <placeName>NS</placeName>
+                  <placeName type="production_place">NS</placeName>
                </docDate>
                <argument>
                   <p>Charles de Clermont et Agnès de Bourgogne ratifient leur traité de mariage</p>
@@ -396,7 +396,7 @@
             <div type="front">
                <docDate>
                   <date when="1425-08-13">13 août 1425</date>
-                  <placeName>Moulins</placeName>
+                  <placeName type="production_place">Moulins</placeName>
                </docDate>
                <argument>
                   <p>Confirmation du statut d'apanage des duchés de Bourbonnais et d'Auvergne et des comtés de Clermont et de Montpensier</p>
@@ -436,7 +436,7 @@
             <div type="front">
                <docDate>
                   <date when="1425-12-08">1425, 8 décembre</date>
-                  <placeName>Riom</placeName>
+                  <placeName type="production_place">Riom</placeName>
                </docDate>
                <argument>
                   <p>Quittance pour la dot d'Agnès de Bourgogne (quatorze mille francs)</p>
@@ -466,7 +466,7 @@
             <div type="front">
                <docDate>
                   <date when="1426-03-13">1426 (n. st.), 13 mars</date>
-                  <placeName>NS</placeName>
+                  <placeName type="production_place">NS</placeName>
                </docDate>
                <argument>
                   <p>Quittance pour deux mille livres accordées par le roi sur les finances de Languedoc</p>
@@ -518,7 +518,7 @@
             <div type="front">
                <docDate>
                   <date notAfter="1426-10-09">[Avant le 9 octobre 1426], 30 août</date>
-                  <placeName ref="#Montbrison">Montbrison</placeName>
+                  <placeName type="production_place" ref="#Montbrison">Montbrison</placeName>
                </docDate>
                <argument>
                   <p>Lettre aux habitants de Lyon sur l'arrivée des conseillers Jean d'Apinac et Pierre de Chantelle</p>
@@ -545,7 +545,7 @@
             <div type="front">
                <docDate>
                   <date when="1426-12-16">1426, 16 décembre</date>
-                  <placeName>NS</placeName>
+                  <placeName type="production_place">NS</placeName>
                </docDate>
                <argument>
                   <p>Reçu pour la dot d'Agnès de Bourgogne (six mille francs)</p>
@@ -580,7 +580,7 @@
             <div type="front">
                <docDate>
                   <date when="1427-05-01">1427, 1er mai</date>
-                  <placeName>Souvigny</placeName>
+                  <placeName type="production_place">Souvigny</placeName>
                </docDate>
                <argument>
                   <p>Commission au lieutenant du sénéchal d'Auvergne et au garde de la prévôté de Riom pour faire réparer un chemin entre Riom et Saint-Bonnet-près-Riom, laissé en si mauvais état que la circulation des marchandises est compromise</p>
@@ -630,7 +630,7 @@
             <div type="front">
                <docDate>
                   <date when="1427-05-14">1427, 14 mai</date>
-                  <placeName>Gannat</placeName>
+                  <placeName type="production_place">Gannat</placeName>
                </docDate>
                <argument>
                   <p>Autorisation d'agrandissement de l'église Notre-Dame-du-Marthuret de Riom</p>
@@ -679,7 +679,7 @@
             <div type="front">
                <docDate>
                   <date when="1427-06-27">1427, 27 juin</date>
-                  <placeName>NS</placeName>
+                  <placeName type="production_place">NS</placeName>
                </docDate>
                <argument>
                   <p>Octroie de subsides aux habitants de Moulins pour financer les réparations de leurs fortifications</p>
@@ -703,7 +703,7 @@
             <div type="front">
                <docDate>
                   <date when="1427-08-04">1427, 4 août</date>
-                  <placeName>NS</placeName>
+                  <placeName type="production_place">NS</placeName>
                </docDate>
                <argument>
                   <p>Alliance entre Charles de Clermont et Arthur de Richemont</p>
@@ -779,7 +779,7 @@
             <div type="front">
                <docDate>
                   <date when="1427-08-24">1427, 24 août</date>
-                  <placeName ref="#Moulins">Moulins</placeName>
+                  <placeName type="production_place" ref="#Moulins">Moulins</placeName>
                </docDate>
                <argument>
                   <p>Reçu pour la dot d'Agnès de Bourgogne (huit cent vint livres)</p>
@@ -816,7 +816,7 @@
             <div type="front">
                <docDate>
                   <date when="1427-08-24">1427, 24 août</date>
-                  <placeName ref="#Moulins">Moulins</placeName>
+                  <placeName type="production_place" ref="#Moulins">Moulins</placeName>
                </docDate>
                <argument>
                   <p>Reçu pour la dot d'Agnès de Bourgogne (deux mille livres)</p>
@@ -853,7 +853,7 @@
             <div type="front">
                <docDate>
                   <date when="1427-08-28">1427, 28 août</date>
-                  <placeName ref="#Moulins">Moulins</placeName>
+                  <placeName type="production_place" ref="#Moulins">Moulins</placeName>
                </docDate>
                <argument>
                   <p>Reconduction par Charles de Clermont, lieutenant du roi, de la concession d'une aide sur les marchandises sortant de Villefranche-sur-Saône pour aider aux réparations des fortifications de la ville</p>
@@ -924,7 +924,7 @@
             <div type="front">
                <docDate>
                   <date notAfter="1428-01-28">[Avant le 20 janvier 1428 (n. st.)]</date>
-                  <placeName>NS</placeName>
+                  <placeName type="production_place">NS</placeName>
                </docDate>
                <argument>
                   <p>Lettre close adressée à la ville d'Albi par Charles de Bourbon, Bernard d'Armagnac et Arthur de Richemont</p>
@@ -948,7 +948,7 @@
             <div type="front">
                <docDate>
                   <date when="1428-01-31">1428 (n. st.), 30 janvier</date>
-                  <placeName ref="#Chinon">Chinon</placeName>
+                  <placeName type="production_place" ref="#Chinon">Chinon</placeName>
                </docDate>
                <argument>
                   <p>Promesse de Charles de Clermont, Bernard d'Armagnac et Arthur de Richemont au sujet des gens d'arme du duc de Bretagne</p>
@@ -1016,7 +1016,7 @@
             <div type="front">
                <docDate>
                   <date when="1428-11-04">1428, 4 novembre</date>
-                  <placeName ref="#Moulins">Moulins</placeName>
+                  <placeName type="production_place" ref="#Moulins">Moulins</placeName>
                </docDate>
                <argument>
                   <p>Permission aux habitants de Moulins de prendre un droit sur le vin pour financer les réparations de la ville</p>
@@ -1072,7 +1072,7 @@
             <div type="front">
                <docDate>
                   <date when="1428-12-12">1428, 12 décembre</date>
-                  <placeName ref="#Souvigny">Souvigny</placeName>
+                  <placeName type="production_place" ref="#Souvigny">Souvigny</placeName>
                </docDate>
                <argument>
                   <p>Testament de Charles de Bourbon, par lequel il choisit comme sépulture l'église des Célestins de Vichy, fait des legs à divers établissements de sa principauté et désigne Jean de Nourry, archevêque de Vienne, Pierre de Toulon, chancelier du Bourbonnais, Pierre de Montmorin et Pierre de Chantelle comme exécuteurs testamentaires</p>
@@ -1174,7 +1174,7 @@
             <div type="front">
                <docDate>
                   <date when="1429-04">1429, avril</date>
-                  <placeName ref="#Riom">Riom</placeName>
+                  <placeName type="production_place" ref="#Riom">Riom</placeName>
                </docDate>
                <argument>
                   <p>Charte d'amortissement de l'hôtel du consulat de Riom, où seront installés une école, un physicien, le consulat, le parlement et les archives de la cité</p>
@@ -1226,7 +1226,7 @@
             <div type="front">
                <docDate>
                   <date when="1429-04-20">1429, 20 avril</date>
-                  <placeName ref="#Riom">Riom</placeName>
+                  <placeName type="production_place" ref="#Riom">Riom</placeName>
                </docDate>
                <argument>
                   <p>Procuration à Pierre de Toulon pour traiter de l'achat de Calvinet et Vinzelles avec le vicomte Jacques de Villemure</p>
@@ -1262,7 +1262,7 @@
             <div type="front">
                <docDate>
                   <date when="1429-05-19">1429, 19 mai</date>
-                  <placeName ref="#Gannat">Gannat</placeName>
+                  <placeName type="production_place" ref="#Gannat">Gannat</placeName>
                </docDate>
                <argument>
                   <p>Mandement à Étienne Courtet, receveur du bailliage des Montagnes de l'aide des états d'Auvergne, de délivrer à Janicot de Montmurat, écuyer d'écurie, cinquante écus d'or, pour ses services au siège d'Orléans</p>
@@ -1318,7 +1318,7 @@
             <div type="front">
                <docDate>
                   <date when="1430-02-01">1430 (n. st.), 1er février</date>
-                  <placeName>NS</placeName>
+                  <placeName type="production_place">NS</placeName>
                </docDate>
                <argument>
                   <p>Procuration à Mahier Cousin, secrétaire du duc et maître des étangs de Combraille, pour recevoir du vicomte de Villemure 2250 livres, dans le cadre du transport de la vicomté de Villemure au comte de Foix</p>
@@ -1351,7 +1351,7 @@
             <div type="front">
                <docDate>
                   <date when="1430-02-15">1430 (n. st.), 15 février</date>
-                  <placeName ref="#Montlucon">Montluçon</placeName>
+                  <placeName type="production_place" ref="#Montlucon">Montluçon</placeName>
                </docDate>
                <argument>
                   <p>Don en viager de la terre de Blancs-Fossés, qui appartenait aux seigneurs de Chazeuil, à Jean de Villars, écuyer d'écurie</p>
@@ -1411,7 +1411,7 @@
                         </monogr>
                      </biblStruct>
                      ).</p></note></date>
-                  <placeName ref="#Montlucon">Montluçon</placeName>
+                  <placeName type="production_place" ref="#Montlucon">Montluçon</placeName>
                </docDate>
                <argument>
                   <p>Convocation des représentants de Riom aux états d'Auvergne, qui se dérouleront le 25 mai suivant à Issoire en présence de Louis de Bourbon, comte de Montpensier</p>
@@ -1460,7 +1460,7 @@
             <div type="front">
                <docDate>
                   <date when="1430-09-05">1430, 5 septembre</date>
-                  <placeName ref="#Herisson">Hérisson</placeName>
+                  <placeName type="production_place" ref="#Herisson">Hérisson</placeName>
                </docDate>
                <argument>
                   <p>Quittance pour la dote d'Agnès de Bourgogne (600 livres)</p>
@@ -1491,7 +1491,7 @@
             <div type="front">
                <docDate>
                   <date notBefore="1425-06-10" notAfter="1433-06-10">[1425-1433], 10 juin</date>
-                  <placeName ref="#Chantelle">Chantelle</placeName>
+                  <placeName type="production_place" ref="#Chantelle">Chantelle</placeName>
                </docDate>
                <argument>
                   <p>Mandement aux habitants de Riom de payer leur part de l'aide du pays d'Auvergne à son receveur, Gaillard Noël, et leur envoie son écuyer panetier, Pierre de la Tellaye</p>
@@ -1559,7 +1559,7 @@
             <div type="front">
                <docDate>
                   <date when="1431-04-12">1431, 12 avril</date>
-                  <placeName>NS</placeName>
+                  <placeName type="production_place">NS</placeName>
                </docDate>
                <argument>
                   <p>Marie de Berry et Charles de Clermont envoient Pierre de Toulon, chancelier, Jean de l'Espinasse, bailli de Beaujolais, Amé Vert et Jean Pelletier, bailli et juge de Forez, Jean Dubreuil, auditeur des comptes à Villefranche, et Robert Parent à la convention avec les officiers du duc de Savoie sur les agissements de François de La Palud, seigneur de Varembon</p>
@@ -1612,7 +1612,7 @@
             <div type="front">
                <docDate>
                   <date when="1431-05-28">1431, 28 mai</date>
-                  <placeName ref="#Montlucon">Montluçon</placeName>
+                  <placeName type="production_place" ref="#Montlucon">Montluçon</placeName>
                </docDate>
                <argument>
                   <p>Promesse de respecter l'accord passé avec le duc de Savoie au sujet de la prise de sa ville de Trévoux par François de La Palud, seigneur de Varembon</p>
@@ -1647,7 +1647,7 @@
             <div type="front">
                <docDate>
                   <date when="1431-10-08">1431, 8 octobre</date>
-                  <placeName ref="#SuryleB">Sury-le-Bois</placeName>
+                  <placeName type="production_place" ref="#SuryleB">Sury-le-Bois</placeName>
                </docDate>
                <argument>
                   <p>Ratification d'une abstinence de guerre avec la Bourgogne, conclue en présence de l'abbé de Cluny et de conseillers du duc de Savoie, concernant les terres du duc de Bourbon, celles du duc de Bourgogne et du comte de Nevers et de Rethel, les enclaves royales qui s'y trouvent, les terres de l'abbé de Cluny et des évêques, doyens et chapitres d'Autun, de Chalon et de Mâcon, les villes de Saint-Pierre-le-Moûtier et Sancoins, et toutes les places occupées par Perrinet Gressart, dont La Charité-sur-Loire et Rosemont</p>
@@ -1723,7 +1723,7 @@
             <div type="front">
                <docDate>
                   <date when="1432-03-12">[1432 (n. st.)], 12 mars<note type="n1"><p>Le vidimus s'achève ainsi : « Faictez et donnees soubz notre seel et le seign manuel de Piarre du Says, clert et noctere royal, et greffier de votre court de Fourez, le XIX<hi rend="sup">e</hi> jour du moy de mars, l'an mil IIIIC et trente ung. / Ainsi a esté fait comme dessus est contenu, en la presence de monseigneur le balli et gens du conseyl en Fourez, et de moy, / P. du Says. ».</p></note></date>
-                  <placeName ref="#Moulins">Moulins</placeName>
+                  <placeName type="production_place" ref="#Moulins">Moulins</placeName>
                </docDate>
                <argument>
                   <p>Lettre à Amé Vert, bailli de Forez, sur la cession de Charlieu à Simon de Rochevol, prieur de Saint-Fortunat, et la nomination d'Anthoyne de Tholoigne en tant que capitaine de cette place</p>
@@ -1764,7 +1764,7 @@
             <div type="front">
                <docDate>
                   <date when="1432-06-28">1432, 28 juin</date>
-                  <placeName ref="#Moulins">Montmarault</placeName>
+                  <placeName type="production_place" ref="#Moulins">Montmarault</placeName>
                </docDate>
                <argument>
                   <p>Cession à Jacques de Châtillon, seigneur de Dampierre et de Revel, la moitié du château d'Ecole durant la vie de sa femme Jeanne, qui possède l'autre moitié en douaire</p>
@@ -1796,7 +1796,7 @@
             <div type="front">
                <docDate>
                   <date when="1433-03-29">1433 (n. st.), 29 mars</date>
-                  <placeName ref="#Villefranche">Villefranche-sur-Saône</placeName>
+                  <placeName type="production_place" ref="#Villefranche">Villefranche-sur-Saône</placeName>
                </docDate>
                <argument>
                   <p>Ratification des décisions de la journée tenue à Mâcon le 28 mars dernier avec la Bourgogne, à la suite de la prise de Marcigny par François l'Aragonais, et de La Roche et Noyers par les écuyers bourbonnais Antoine de Juin et Philibert Nousset.</p>
@@ -1857,7 +1857,7 @@
             <div type="front">
                <docDate>
                   <date when="1433-05-27">1433, 27 mai</date>
-                  <placeName ref="#Moulins">Moulins</placeName>
+                  <placeName type="production_place" ref="#Moulins">Moulins</placeName>
                </docDate>
                <argument>
                   <p>Nomination de six procureurs pour percevoir une somme du duc de Savoie, en réparation de la prise de Trévoux par François de la Palu, seigneur de Varembon</p>
@@ -1908,7 +1908,7 @@
             <div type="front">
                <docDate>
                   <date when="1433-07">1433, juillet</date>
-                  <placeName ref="#Moulins">Moulins</placeName>
+                  <placeName type="production_place" ref="#Moulins">Moulins</placeName>
                </docDate>
                <argument>
                   <p>Charles de Bourbon, comte de Clermont, ayant délégation de pouvoir ratifie et confirme les lettres de la fondation des Célestins de Vichy par Louis II, son grand-père, et permet aux religieux d'user de ce vidimus, établi en deux exemplaires, comme de l'original conservé dans la Chambre des comptes de Moulins, pour faire valoir leur droit en tout temps et devant quiconque</p>
@@ -1952,7 +1952,7 @@
             <div type="front">
                <docDate>
                   <date when="1433-07-13">[1433], 13 juillet<note type="n1"><p>La lettre ne comporte pas d'indication de millésime. Elle fait cependant référence aux dispositions de la journée de Moulins-Engibert, dont l'acte du 29 mars 1433 (<hi rend="i">cf.</hi> n° 35) prévoyait la tenue le 15 mai 1433 ; nous la datons de cette même année 1433.</p></note></date>
-                  <placeName ref="#Moulins">Moulins</placeName>
+                  <placeName type="production_place" ref="#Moulins">Moulins</placeName>
                </docDate>
                <argument>
                   <p>Lettre de Charles, comte de Clermont, faisant réponse à celle de Charles et Jean de Nevers et Rethel du 8 juillet précédant, lui demandant d'abandonner la place de Vitry-sur-Loire. Charles de Clermont répond que la prise de cette place, qui ne s'est pas faite avec son consentement, est l'oeuvre de certains de ses hommes ayant eu à souffrir d'attaques des garnisons de Marcigny, Rosemont et autres ; il accède à la demande de ses neveux, et les prie de délivrer à Philibert de l'Espinace et ses trois cent hommes un sauf-conduit afin qu'ils puissent quitter Vitry-sur-Loire sans dommages. Il les prie en outre de contenir Perrinet Gressart, qui ravage la région, notamment les terres de Louis des Barres, en infraction avec l'abstinence de guerre, et de faire en sorte que les choses volées soient rendues à leurs propriétaires, et que les prisonniers soient délivrés. Le porteur de la lettre est « Auvergne le héraut », c'est-à-dire Guillaume Revel</p>
@@ -2023,7 +2023,7 @@
             <div type="front">
                <docDate>
                   <date when="1433-07-18">[1433], 18 juillet<note type="n1"><p>Voir la datation de l'<ref target="#Ch-38">acte précédent</ref>.</p></note></date>
-                  <placeName ref="#Moulins">Moulins</placeName>
+                  <placeName type="production_place" ref="#Moulins">Moulins</placeName>
                </docDate>
                <argument>
                   <p>Lettre de Charles, comte de Clermont, aux comtes de Nevers et de Rehel, ses neveux, leur faisant savoir que le sauf-conduit donner par leurs gouverneurs, Guy de Jaucourt, seigneur de Villarnoul, et Oudart de l'Espinace, seigneur de Champallement, à Philibert de l'Espinace, qui occupe Vitry avec ses hommes, n'est pas valable. Aussi leur demande-t-il d'en délivrer un nouveau, en leurs noms ou en celui du duc de Bourgogne, ainsi que de faire délivrer les prisonniers de Vitry-sur-Loire.</p>
@@ -2057,7 +2057,7 @@
             <div type="front">
                <docDate>
                   <date when="1433-10-07">1433, 7 octobre</date>
-                  <placeName>NS</placeName>
+                  <placeName type="production_place">NS</placeName>
                </docDate>
                <argument>
                   <p>Charles, comte de Clermont, mande à son trésorier général, Guiot Constant, de délivrer à Gilles le Tailleur, argentier du duc, la somme de 712 écus d'or pour qu'il achète divers marchandises et fournitures pour le voyage de la duchesse en Bourgogne</p>
@@ -2104,7 +2104,7 @@
             <div type="front">
                <docDate>
                   <date when="1433-10-24">1433, 24 octobre</date>
-                  <placeName>NS</placeName>
+                  <placeName type="production_place">NS</placeName>
                </docDate>
                <argument>
                   <p>Consentement de Charles, comte de Clermont, pour la prolongation des trêves avec Philippe, duc de Bourgogne, du 3 novembre au 1er janvier, afin de permettre à la comtesse Agnès de Bourgogne de rendre visite à son frère</p>
@@ -2194,7 +2194,7 @@
             <div type="front">
                <docDate>
                   <date when="1434-04-15">1434, 15 avril</date>
-                  <placeName ref="#Vienne">Vienne</placeName>
+                  <placeName type="production_place" ref="#Vienne">Vienne</placeName>
                </docDate>
                <argument>
                   <p>Charles de Bourbon cède Montgibert à Rodrigo de Villandrando, avec ses droits et revenus, jusqu’à ce qu’il soit remboursé de la somme de six mille écus d’or qu’il avait prêtée au duc, notamment pour la rançon d’Henriet Gencien</p>
