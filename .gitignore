@@ -6,3 +6,4 @@ __pycache__
 app/modeles/__pycache__/
 ancien_code_header.md
 app/static/csv/csvlocorum.csv
+.venv
