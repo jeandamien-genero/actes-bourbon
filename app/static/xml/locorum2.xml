@@ -1048,4 +1048,26 @@
          <geo source="https://fr.wikipedia.org/wiki/Ribadeo">43° 32′ 14″ N, 7° 02′ 35″ O</geo>
       </location>
    </place>
+   <place xml:id="Anse" type="place">
+      <placeName>
+         <name xml:lang="frm">Anse</name>
+         <name xml:lang="fr">Anse</name>
+         <region type="departement">Rhône</region>
+         <country>France</country>
+      </placeName>
+      <location>
+         <geo source="https://fr.wikipedia.org/wiki/Anse_(Rh%C3%B4ne)">45° 56′ 06″ nord, 4° 43′ 05″ est</geo>
+      </location>
+   </place>
+   <place xml:id="Nevers" type="place">
+      <placeName>
+         <name xml:lang="frm">Nevers</name>
+         <name xml:lang="fr">Nevers</name>
+         <region type="departement">Nièvre</region>
+         <country>France</country>
+      </placeName>
+      <location>
+         <geo source="https://fr.wikipedia.org/wiki/Nevers">46° 59′ 34″ nord, 3° 09′ 42″ est</geo>
+      </location>
+   </place>
 </settingDesc>
