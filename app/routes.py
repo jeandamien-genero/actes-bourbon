@@ -304,6 +304,15 @@ def map():
 	# return render_template("pages/map.html", contenu_index_lieux=output_index_lieux_doc)
 	return render_template("pages/map.html")
 
+@app.route("/chrono")
+def chrono():
+	"""
+	"""
+	# xslt_index_lieux_transformer = etree.XSLT(xslt_index_lieux_doc)
+	# output_index_lieux_doc = xslt_index_lieux_transformer(source_doc)
+	# return render_template("pages/map.html", contenu_index_lieux=output_index_lieux_doc)
+	return render_template("pages/chrono-prince.html")
+
 @app.errorhandler(404)
 def page_not_found(error):
 	"""Route permettant d'afficher un objet flask render_template()
