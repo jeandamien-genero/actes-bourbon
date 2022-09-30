@@ -57,59 +57,25 @@
         </div>
 
 
-      
+
         <div class="boly">
     <div class="timeline-princier">
+{% for acte in document %}
   <div class="entry-princier">
     <div class="title-princier">
-      <h3>[ca. 1421, 15 janvier]</h3>
+      <h3>{{acte.date}}</h3>
+      {% if acte.place != 'NS' %}
+      <p>({{acte.state}}, {{acte.place}})</p>
+      {% else %}
+      <p>({{acte.state}})</p>
+      {% endif %}
     </div>
     <div class="pboly">
-      <p>Lettre close de de Charles de Bourbon, lieutenant en Languedoc, de Jean IV, comte d&#39;Armagnac et de Charles d&#39;Albret, à la ville d&#39;Albi.</p>
+      <p><a href="{{url_for('acte', acte_id=acte.id_acts)}}">{{acte.analyse}}.</a></p>
     </div>
   </div>
-  <div class="entry-princier">
-    <div class="title-princier">
-      <h3>[ca. 1421, 18 janvier]</h3>
-    </div>
-    <div class="pboly">
-      <p>Lettre close de Charles de Bourbon, Jean IV, comte d&#39;Armagnac, et Charles d&#39;Albret aux villes d&#39;Auvergne.</p>
-    </div>
+{% endfor %}
   </div>
-  <div class="entry-princier">
-    <div class="title-princier">
-      <h3>1425, 4 février</h3>
-    </div>
-    <div class="pboly">
-      <p>Traité de mariage de Charles de Bourbon et d&#39;Agnès de Bourgogne.</p>
-    </div>
-  </div>
-  <div class="entry-princier">
-    <div class="title-princier">
-      <h3>1425, 7 février</h3>
-    </div>
-    <div class="pboly">
-      <p>Marie de Berry et Charles de Clermont promettent de respecter les engagements de Jean I.</p>
-    </div>
-  </div>
-  <div class="entry-princier">
-    <div class="title-princier">
-      <h3>1425, 6 août</h3>
-    </div>
-    <div class="pboly">
-      <p>Charles de Clermont et Agnès de Bourgogne ratifient leur traité de mariage.</p>
-    </div>
-  </div>
-  <div class="entry-princier">
-    <div class="title-princier">
-      <h3>1425, 13 août</h3>
-    </div>
-    <div class="pboly">
-      <p>Confirmation du statut d&#39;apanage des duchés de Bourbonnais et d&#39;Auvergne et des comtés de Clermont et de Montpensier.</p>
-    </div>
-  </div>
-  </div>
-
 </div>
     </div>
 {% endblock %}
