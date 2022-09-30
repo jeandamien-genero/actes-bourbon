@@ -308,10 +308,8 @@ def map():
 def chrono():
 	"""
 	"""
-	# xslt_index_lieux_transformer = etree.XSLT(xslt_index_lieux_doc)
-	# output_index_lieux_doc = xslt_index_lieux_transformer(source_doc)
-	# return render_template("pages/map.html", contenu_index_lieux=output_index_lieux_doc)
-	return render_template("pages/chrono-prince.html")
+	Actes_total = Acts.query.all()
+	return render_template("pages/chrono-prince.html", document=Actes_total)
 
 @app.errorhandler(404)
 def page_not_found(error):
