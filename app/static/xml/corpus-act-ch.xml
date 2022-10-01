@@ -2145,7 +2145,7 @@
                                     <surname>Garnier</surname>
                                  </persName>
                               </author>
-                              <title level="m">Inventaire-sommaire des Archives départementales antérieures à 1790, Côte d'Or. Archives civiles, série B</title>
+                              <title level="m">Inventaire-sommaire des Archives départementales antérieures à 1790, Côte-d'Or. Archives civiles, série B</title>
                               <imprint>
                                  <pubPlace ref="#Dijon">Dijon</pubPlace>
                                  <biblScope unit="volume" n="V"/>
@@ -2238,7 +2238,7 @@
             <div type="front">
                <docDate>
                   <date when="1434-08">1434, août</date>
-                  <placeName type="production_place" ref="#Villefranche">Villefranche-sur-Saone</placeName>
+                  <placeName type="production_place" ref="#Villefranche">Villefranche-sur-Saône</placeName>
                </docDate>
                <argument>
                   <p>Confirmation des privilèges de Villefranche-sur-Saône par Charles</p>
@@ -2335,7 +2335,7 @@
                </docDate>
                <argument>
                   <p>Promesse de faire prêter l'hommage de certaines terres du Beaujolais par l'un des enfants du duc de Bourbon au duc de Savoie, et qu'une conférence entre les députés des deux ducs se tiendra à Saint-Trivier-sur-Moignans</p>
-                  <p><orgName type="main">Deperditum Histoire de Dombes (Guichemon)</orgName></p>
+                  <p><orgName type="main">Deperditum Histoire de Dombes (Guichenon)</orgName></p>
                </argument>
                <argument>
                   <p>Charles, duc de Bourbonnais et d'Auvergne, pour éteindre la querelle l'opposant à Amédée de Savoie au sujet de l'hommage de certaines terres du Beaujolais, promet que celui-ci sera prêté ou au duc de Savoie ou à son fils aîné par l'un de ses enfants, et qu'une conférence se tiendra à Saint-Trivier-sur-Moignans entre leurs députés<note type="n1"><p>Guichenon place cet acte au 21 novembre « suivant », c'est-à-dire après celui du 15 janvier « 1434 ». Or ce dernier renvoie l'année 1435 en nouveau style.</p></note>.</p>
@@ -2395,7 +2395,7 @@
                </argument>
                <div type="tradition">
                   <listWit>
-                     <witness n="A"><hi rend="bold">A.</hi> Original sur parchemin, signé, scellé du grand sceau équestre sur simple queue, en cire rouge, endommagé<note type="n1"><p>Le dessin et la légende de la partie gauche sont bien conservés, mais la partie droite est détruite.</p></note>. 510 x 300 mm. <orgName type="main">Archives départementales de la Côte d'Or</orgName>, B 281, pièce scellée 110.</witness>
+                     <witness n="A"><hi rend="bold">A.</hi> Original sur parchemin, signé, scellé du grand sceau équestre sur simple queue, en cire rouge, endommagé<note type="n1"><p>Le dessin et la légende de la partie gauche sont bien conservés, mais la partie droite est détruite.</p></note>. 510 x 300 mm. <orgName type="main">Archives départementales de la Côte-d'Or</orgName>, B 281, pièce scellée 110.</witness>
                   </listWit>
                </div>
             </div>
@@ -2430,7 +2430,7 @@
                </argument>
                <div type="tradition">
                   <listWit>
-                     <witness n="A"><hi rend="bold">A.</hi> Original sur parchemin, signé, muni du grand sceau équestre en cire rouge, sur double queue, endommagé<note type="n1"><p>Le dessin est complet, il ne manque qu'une infime partie à droite. La légende est détruite. Ce sceau est particulièrement sale et empoussiéré.</p></note>. 635 x 425 mm., dont repli 70 mm. <orgName type="main">Archives départementales de la Côte d'Or</orgName>, B 11918, cote 121<hi rend="sup">ter</hi>.</witness>
+                     <witness n="A"><hi rend="bold">A.</hi> Original sur parchemin, signé, muni du grand sceau équestre en cire rouge, sur double queue, endommagé<note type="n1"><p>Le dessin est complet, il ne manque qu'une infime partie à droite. La légende est détruite. Ce sceau est particulièrement sale et empoussiéré.</p></note>. 635 x 425 mm., dont repli 70 mm. <orgName type="main">Archives départementales de la Côte-d'Or</orgName>, B 11918, cote 121<hi rend="sup">ter</hi>.</witness>
                   </listWit>
                </div>
             </div>
@@ -2472,9 +2472,9 @@
                </argument>
                <div type="tradition">
                   <listWit>
-                     <witness n="A"><hi rend="bold">A.<hi rend="sup">1</hi></hi> Original sur parchemin, passé par le duc seul, signé et muni du sceau équestre en cire rouge, sur double queue, endommagé<note type="n1"><p>Seule la partie centrale, fruste, subsiste.</p></note>. 610 x 715 mm., dont repli 45 mm. <orgName type="main">Archives départementales de la Côte d'Or</orgName>, B 11918, cote 118.</witness>
+                     <witness n="A"><hi rend="bold">A.<hi rend="sup">1</hi></hi> Original sur parchemin, passé par le duc seul, signé et muni du sceau équestre en cire rouge, sur double queue, endommagé<note type="n1"><p>Seule la partie centrale, fruste, subsiste.</p></note>. 610 x 715 mm., dont repli 45 mm. <orgName type="main">Archives départementales de la Côte-d'Or</orgName>, B 11918, cote 118.</witness>
                      <witness n="A"><hi rend="bold">A.<hi rend="sup">2</hi></hi> Original passé par le duc en tant que lieutenant du roi, en conseil, avec témoins, non retrouvé (cf. note c.).</witness>
-                     <witness n="B"><hi rend="bold">B.</hi> Vidimus sur parchemin, dans l'acte commun de Charles I<hi rend="sup">er</hi> et d'Arthur de Richemont, daté du 6 février 1435, signé Cadier, scellé. Archives départementales de la Côte d'Or, B 11918, cote 121.</witness>
+                     <witness n="B"><hi rend="bold">B.</hi> Vidimus sur parchemin, dans l'acte commun de Charles I<hi rend="sup">er</hi> et d'Arthur de Richemont, daté du 6 février 1435, signé Cadier, scellé. Archives départementales de la Côte-d'Or, B 11918, cote 121.</witness>
                      <witness n="C"><hi rend="bold">C.</hi> <hi rend="i">Idem</hi>, dans l'acte du même jour, signé de Bar, scellé. <hi rend="i">Ibid</hi>., cote 120.</witness>
                      <witness n="D"><hi rend="bold">D.</hi> Autre vidimus sur parchemin, dans l'acte de Charles I<hi rend="sup">er</hi> du même jour, signé de Bar, scellé. <hi rend="i">Ibid</hi>., cote 119..</witness>
                      <witness n="a">
@@ -2693,7 +2693,7 @@
                </argument>
                <div type="tradition">
                   <listWit>
-                     <witness n="A"><hi rend="bold">A.<hi rend="sup">1</hi></hi> Original sur parchemin, signé Cadier, à la suite de l'acte n° 50. 610 x 1020 mm. <orgName type="main">Archives départementales de la Côte d'Or</orgName>, <idno>B11918, cote 121</idno>.</witness>
+                     <witness n="A"><hi rend="bold">A.<hi rend="sup">1</hi></hi> Original sur parchemin, signé Cadier, à la suite de l'acte n° 50. 610 x 1020 mm. <orgName type="main">Archives départementales de la Côte-d'Or</orgName>, <idno>B11918, cote 121</idno>.</witness>
                      <witness n="A"><hi rend="bold">A.<hi rend="sup">2</hi></hi> Original sur parchemin, signé de Bar et scellé des sceaux en cire rouge sur double queue de Charles de Bourbon et Arthur de Richemont, endommagés<note type="n1"><p>Sceau de Charles I<hi rend="sup">er</hi> : sceau équestre dont le dessin est complet et la partie inférieure de la légende détruite. Les reste d'une gousse de parchemin sont visibles. Le sceau d'Arthur de Richemont, très endommagé, est recouvert par une gousse de parchemin.</p></note>, et un troisième sur lacs de soie verte<note type="n1"><p>La charte étant composée de deux peaux de parchemin reliées, le secrétaire, Etienne de Bar, a apposé sa signature à leur jonction, ainsi qu'un sceau (aujourd'hui enfermé dans une gousse de parchemin).</p></note>. 650 x 1100 mm., dont repli 95 mm. <hi rend="i">Idem</hi>, cote 120.</witness>
                   </listWit>
                </div>
@@ -3340,7 +3340,7 @@
                                     <surname>Garnier</surname>
                                  </persName>
                               </author>
-                              <title level="m">Inventaire-sommaire des Archives départementales antérieures à 1790, Côte d'Or. Archives civiles, série B</title>
+                              <title level="m">Inventaire-sommaire des Archives départementales antérieures à 1790, Côte-d'Or. Archives civiles, série B</title>
                               <imprint>
                                  <pubPlace ref="#Dijon">Dijon</pubPlace>
                                  <biblScope unit="volume" n="V"/>
