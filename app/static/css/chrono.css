@@ -12,7 +12,7 @@
 
 .timeline-princier {
   width: 100%;
-  max-width: 800px;
+  /*max-width: 800px;*/
   background: #fff;
   padding: 100px 50px;
   position: relative;
@@ -22,7 +22,7 @@
   content: '';
   position: absolute;
   top: 0px;
-  left: calc(33% + 15px);
+  left: calc(33% + 50px);  /*modifier la position de la barre*/
   bottom: 0px;
   width: 4px;
   background: #ddd;
@@ -42,7 +42,7 @@
   margin-bottom: .5em;
   float: left;
   width: 33%;
-  padding-right: 30px;
+  padding-right: 45px;
   text-align: right;
   position: relative;
 }
@@ -51,20 +51,20 @@
   position: absolute;
   width: 8px;
   height: 8px;
-  border: 4px solid salmon;
+  border: 7px solid salmon; /* modifier la taille des puces */
   background-color: #fff;
   border-radius: 100%;
-  top: 15%;
-  right: -4px;
+  top: 15%; /* modifier la position des puces */
+  right: -42px;
   z-index: 99;
 }
 .entry-princier .title-princier h3 {
   margin: 0;
-  font-size: 120%;
+  font-size: x-large;
 }
 .entry-princier .title-princier p {
   margin: 0;
-  font-size: 85%;
+  font-size: small;
 }
 .entry-princier .boly {
   margin: 0 0 3em;
@@ -87,4 +87,7 @@
 .entry-princier .boly ul li:before {
   content: "–";
   margin-right: .5em;
+}
+.chrono-p {
+  font-size: large;
 }
